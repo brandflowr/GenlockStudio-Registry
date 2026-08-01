@@ -1,0 +1,37 @@
+{
+  "pack_id": "scifi-prompts",
+  "name": "Sci-Fi Atmosphere Prompts",
+  "version": "1.0.0",
+  "snippets": [
+    {
+      "id": "scifi-neon-corridor",
+      "name": "Neon Corridor",
+      "promptModifiers": "neon-lit corridor, colored light strips, reflective floor, cyberpunk, futuristic interior, LED accent lighting"
+    },
+    {
+      "id": "scifi-holographic",
+      "name": "Holographic Display",
+      "promptModifiers": "holographic interface, translucent blue projections, floating data, sci-fi HUD, light emanating from screens, futuristic technology"
+    },
+    {
+      "id": "scifi-zero-gravity",
+      "name": "Zero Gravity",
+      "promptModifiers": "weightlessness, floating objects, hair floating upward, zero gravity, space station interior, disorienting perspective"
+    },
+    {
+      "id": "scifi-dystopian-city",
+      "name": "Dystopian Cityscape",
+      "promptModifiers": "massive brutalist architecture, smog-filled sky, neon advertisements, overcrowded streets, dystopian megacity, blade runner atmosphere"
+    },
+    {
+      "id": "scifi-alien-landscape",
+      "name": "Alien Landscape",
+      "promptModifiers": "alien planet surface, unfamiliar terrain, strange rock formations, multiple moons in sky, otherworldly color palette, extraterrestrial"
+    },
+    {
+      "id": "scifi-cryo-chamber",
+      "name": "Cryo Chamber Awakening",
+      "promptModifiers": "cryogenic pod, cold blue mist, condensation, waking from stasis, clinical white interior, frost on glass, sci-fi medical"
+    }
+  ]
+}

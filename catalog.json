@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "packs": [
+    {
+      "id": "core-cameras",
+      "name": "Core Cinematic Cameras",
+      "type": "camera",
+      "version": "1.0.0",
+      "description": "A flagship compilation of top-tier cinematic camera setups.",
+      "author": "Story Skins",
+      "url": "camera-packs/core-cameras.json",
+      "updated_at": "2026-04-19T17:45:46.031Z"
+    },
+    {
+      "id": "core-lenses",
+      "name": "Core Cinema Lenses",
+      "type": "lens_size",
+      "version": "1.0.0",
+      "description": "A flagship compilation of essential cinema lenses.",
+      "author": "Story Skins",
+      "url": "lens-packs/core-lenses.json",
+      "updated_at": "2026-04-19T17:45:46.032Z"
+    },
+    {
+      "id": "core-frame-size",
+      "name": "Core Frame Sizes",
+      "type": "frame_size",
+      "version": "1.0.0",
+      "description": "Default Frame Sizes elements.",
+      "author": "Story Skins",
+      "url": "frame-size-packs/core-frame-size.json",
+      "updated_at": "2026-04-19T17:45:46.054Z"
+    },
+    {
+      "id": "core-shot-type",
+      "name": "Core Shot Types",
+      "type": "shot_type",
+      "version": "1.0.0",
+      "description": "Default Shot Types elements.",
+      "author": "Story Skins",
+      "url": "shot-type-packs/core-shot-type.json",
+      "updated_at": "2026-04-19T17:45:46.055Z"
+    },
+    {
+      "id": "core-composition",
+      "name": "Core Compositions",
+      "type": "composition",
+      "version": "1.0.0",
+      "description": "Default Compositions elements.",
+      "author": "Story Skins",
+      "url": "composition-packs/core-composition.json",
+      "updated_at": "2026-04-19T17:45:46.055Z"
+    },
+    {
+      "id": "core-color-palette",
+      "name": "Core Color Palettes",
+      "type": "color_palette",
+      "version": "1.0.0",
+      "description": "Default Color Palettes elements.",
+      "author": "Story Skins",
+      "url": "color-palette-packs/core-color-palette.json",
+      "updated_at": "2026-04-19T17:45:46.056Z"
+    },
+    {
+      "id": "core-media-type",
+      "name": "Core Media Types",
+      "type": "media_type",
+      "version": "1.0.0",
+      "description": "Default Media Types elements.",
+      "author": "Story Skins",
+      "url": "media-type-packs/core-media-type.json",
+      "updated_at": "2026-04-19T17:45:46.057Z"
+    },
+    {
+      "id": "core-genre",
+      "name": "Core Genres",
+      "type": "genre",
+      "version": "1.0.0",
+      "description": "Default Genres elements.",
+      "author": "Story Skins",
+      "url": "genre-packs/core-genre.json",
+      "updated_at": "2026-04-19T17:45:46.057Z"
+    },
+    {
+      "id": "core-time-period",
+      "name": "Core Time Periods",
+      "type": "time_period",
+      "version": "1.0.0",
+      "description": "Default Time Periods elements.",
+      "author": "Story Skins",
+      "url": "time-period-packs/core-time-period.json",
+      "updated_at": "2026-04-19T17:45:46.058Z"
+    },
+    {
+      "id": "core-color",
+      "name": "Core Colors",
+      "type": "color",
+      "version": "1.0.0",
+      "description": "Default Colors elements.",
+      "author": "Story Skins",
+      "url": "color-packs/core-color.json",
+      "updated_at": "2026-04-19T17:45:46.059Z"
+    },
+    {
+      "id": "core-aspect-ratio",
+      "name": "Core Aspect Ratios",
+      "type": "aspect_ratio",
+      "version": "1.0.0",
+      "description": "Default Aspect Ratios elements.",
+      "author": "Story Skins",
+      "url": "aspect-ratio-packs/core-aspect-ratio.json",
+      "updated_at": "2026-04-19T17:45:46.060Z"
+    },
+    {
+      "id": "core-optical-format",
+      "name": "Core Optical Formats",
+      "type": "optical_format",
+      "version": "1.0.0",
+      "description": "Default Optical Formats elements.",
+      "author": "Story Skins",
+      "url": "optical-format-packs/core-optical-format.json",
+      "updated_at": "2026-04-19T17:45:46.061Z"
+    },
+    {
+      "id": "core-format",
+      "name": "Core Formats",
+      "type": "format",
+      "version": "1.0.0",
+      "description": "Default Formats elements.",
+      "author": "Story Skins",
+      "url": "format-packs/core-format.json",
+      "updated_at": "2026-04-19T17:45:46.062Z"
+    },
+    {
+      "id": "core-int-ext",
+      "name": "Core Int/Ext",
+      "type": "int_ext",
+      "version": "1.0.0",
+      "description": "Default Int/Ext elements.",
+      "author": "Story Skins",
+      "url": "int-ext-packs/core-int-ext.json",
+      "updated_at": "2026-04-19T17:45:46.063Z"
+    },
+    {
+      "id": "core-time-of-day",
+      "name": "Core Time of Day",
+      "type": "time_of_day",
+      "version": "1.0.0",
+      "description": "Default Time of Day elements.",
+      "author": "Story Skins",
+      "url": "time-of-day-packs/core-time-of-day.json",
+      "updated_at": "2026-04-19T17:45:46.064Z"
+    },
+    {
+      "id": "core-gender",
+      "name": "Core Gender",
+      "type": "gender",
+      "version": "1.0.0",
+      "description": "Default Gender elements.",
+      "author": "Story Skins",
+      "url": "gender-packs/core-gender.json",
+      "updated_at": "2026-04-19T17:45:46.065Z"
+    },
+    {
+      "id": "core-lighting",
+      "name": "Core Lighting",
+      "type": "lighting",
+      "version": "1.0.0",
+      "description": "Default Lighting elements.",
+      "author": "Story Skins",
+      "url": "lighting-packs/core-lighting.json",
+      "updated_at": "2026-04-19T17:45:46.069Z"
+    },
+    {
+      "id": "core-lighting-type",
+      "name": "Core Lighting Types",
+      "type": "lighting_type",
+      "version": "1.0.0",
+      "description": "Default Lighting Types elements.",
+      "author": "Story Skins",
+      "url": "lighting-packs/core-lighting-type.json",
+      "updated_at": "2026-04-19T17:45:46.070Z"
+    },
+    {
+      "id": "core-bones",
+      "name": "Core AI Model BONEs",
+      "type": "bone",
+      "version": "1.0.0",
+      "description": "Default BONE definitions for the most widely-used AI generation models. Includes Flux Dev, Flux Schnell, WAN 2.1, Seedance 2, and Kling v2.",
+      "author": "Spore",
+      "url": "bone-packs/core-bones.json",
+      "updated_at": "2026-05-03T00:00:00.000Z"
+    }
+  ]
+}

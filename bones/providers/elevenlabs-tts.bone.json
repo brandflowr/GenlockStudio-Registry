@@ -1,0 +1,103 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "elevenlabs-tts",
+  "bone_version": "1.0.0",
+  "label": "ElevenLabs TTS",
+  "description": "Premium text-to-speech and voice generation via ElevenLabs.",
+  "target": "audio",
+  "provider": "elevenlabs",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Narration Text"
+    },
+    "voice_id": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Voice ID"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "eleven_multilingual_v2",
+      "options": [
+        "eleven_multilingual_v2",
+        "eleven_turbo_v2",
+        "eleven_turbo_v2_5",
+        "eleven_monolingual_v1"
+      ],
+      "label": "Model"
+    },
+    "stability": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 0.5,
+      "label": "Stability"
+    },
+    "similarity_boost": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 0.75,
+      "label": "Similarity Boost"
+    },
+    "style": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Style Exaggeration"
+    },
+    "speed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 1,
+      "label": "Speed"
+    }
+  },
+  "defaults": {
+    "model": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "speed": 1
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are preparing a text-to-speech request for ElevenLabs.\n\nRules:\n- Pass the narration text cleanly. Only light polishing if the user requests it.\n- Always require a valid voice_id.\n- Keep delivery natural unless a specific emotion or style is requested.\n- This BONE produces audio only.\n- Output only field values."
+  },
+  "output": {
+    "format": "wav",
+    "target": "audio_track",
+    "completion_status": "review"
+  },
+  "requires": [
+    "speech_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "elevenlabs-tts",
+      "execution_route": "api",
+      "output": {
+        "type": "audio",
+        "write_back": [
+          "audioTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

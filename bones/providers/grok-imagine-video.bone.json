@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "grok-imagine-video",
+  "bone_version": "1.0.0",
+  "label": "Grok Imagine Video",
+  "description": "xAI Grok Imagine video generation with strong reference-image conditioning and short-form cinematic output.",
+  "target": "video",
+  "provider": "xai",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Motion Prompt"
+    },
+    "start_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Start / Reference Image"
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 5,
+      "label": "Duration (seconds)"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    }
+  },
+  "defaults": {
+    "duration": 5,
+    "aspect_ratio": "16:9"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a motion prompt for Grok Imagine video.\n\nRules:\n- Describe camera movement and subject action clearly.\n- When a start_image is present, treat it as the first frame and only describe what happens next.\n- Keep the prompt focused and cinematic.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation"
+  ],
+  "routing": {
+    "supported_models": [
+      "grok-imagine-video",
+      "grok_video"
+    ]
+  },
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "grok-imagine-video",
+      "execution_route": "api",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "talking-head",
+  "bone_version": "1.0.0",
+  "label": "Talking Head",
+  "description": "Generate a talking-head avatar video from an image + audio (SadTalker / MuseTalk / Kling Avatar).",
+  "target": "video",
+  "provider": "local",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "image": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Face Image"
+    },
+    "audio": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Driving Audio"
+    },
+    "engine": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "sadtalker",
+      "options": [
+        "sadtalker",
+        "musetalk",
+        "kling-avatar"
+      ],
+      "label": "Engine"
+    },
+    "still_mode": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "default": false,
+      "label": "Still Mode (less head movement)"
+    }
+  },
+  "defaults": {
+    "engine": "sadtalker",
+    "still_mode": false
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE generates a talking-head video from a still image and an audio track. No creative text prompt is required beyond selecting the engine and options."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_processing"
+  ],
+  "routing": {
+    "supported_engines": [
+      "sadtalker",
+      "musetalk",
+      "kling-avatar"
+    ]
+  },
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "talking-head",
+      "execution_route": "local",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

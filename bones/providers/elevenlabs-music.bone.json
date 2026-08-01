@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "elevenlabs-music",
+  "bone_version": "1.0.0",
+  "label": "ElevenLabs Music & SFX",
+  "description": "AI music and sound-effect generation via ElevenLabs.",
+  "target": "audio",
+  "provider": "elevenlabs",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Music / SFX Description"
+    },
+    "type": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "music",
+      "options": [
+        "music",
+        "sfx"
+      ],
+      "label": "Type"
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Duration (seconds)"
+    },
+    "mood": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Mood / Energy"
+    }
+  },
+  "defaults": {
+    "type": "music"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for ElevenLabs music or sound-effect generation.\n\nRules:\n- For music: describe genre, tempo feel, instrumentation, and emotional arc.\n- For SFX: be specific about the sound source, material, and environment.\n- Keep descriptions concrete and concise.\n- Output only field values."
+  },
+  "output": {
+    "format": "wav",
+    "target": "audio_track",
+    "completion_status": "review"
+  },
+  "requires": [
+    "music_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "elevenlabs-music",
+      "execution_route": "api",
+      "output": {
+        "type": "audio",
+        "write_back": [
+          "audioTake",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "api",
+      "label": "ElevenLabs Music API",
+      "endpoint": "https://api.elevenlabs.io/v1/music",
+      "requires": [
+        "ELEVENLABS_API_KEY"
+      ],
+      "args": {
+        "prompt": "{{assembled}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "core-lenses",
+  "name": "Core Cinema Lenses",
+  "type": "lenses",
+  "snippets": [
+    {
+      "id": "arri-signature-primes",
+      "name": "ARRI Signature Primes",
+      "data": {
+        "category": "Clean & Modern",
+        "description": "Large-format perfection. They produce an ultra-smooth, organic look with creamy backgrounds and no harshness.",
+        "promptModifiers": "arri signature prime lenses, creamy bokeh, smooth gradual falloff, large-format cinematic perfection",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "zeiss-supreme-primes",
+      "name": "Zeiss Supreme Primes",
+      "data": {
+        "category": "Clean & Modern",
+        "description": "Clinical and sharp. Known for being lightweight and versatile, providing a very 'clean' and realistic image.",
+        "promptModifiers": "zeiss supreme prime lenses, clinically sharp focus, realistic image, ultra-clean cinematic styling",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "leica-summilux-c",
+      "name": "Leica (Leitz) Summilux-C",
+      "data": {
+        "category": "Clean & Modern",
+        "description": "The 'Naturalist'. These lenses capture stunning skin tones and have a very soft, pleasing transition between focus and blur.",
+        "promptModifiers": "leica summilux-c lenses, stunning skin tones, soft focus transition, organic micro-contrast",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "cooke-s8i",
+      "name": "Cooke S8/i (or S4/i)",
+      "data": {
+        "category": "Vintage & Character",
+        "description": "The 'Cooke Look'. These add a warm, golden hue to the image and make everything look slightly more romantic and painterly.",
+        "promptModifiers": "cooke lenses look, warm golden hue, romantic painterly aesthetics, vintage characteristics",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "panavision-primo-primes",
+      "name": "Panavision Primo Primes",
+      "data": {
+        "category": "Vintage & Character",
+        "description": "The 90s Blockbuster. These have high contrast and iconic blue flares; they feel 'big' and cinematic the moment you see them.",
+        "promptModifiers": "panavision primo primes, 90s blockbuster feel, high contrast, anamorphic-style blue flares",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "kowa-anamorphics",
+      "name": "Kowa Anamorphics",
+      "data": {
+        "category": "Vintage & Character",
+        "description": "The indie favorite. Small, vintage, and full of 'flaws' like oval bokeh and horizontal flares that scream high-end cinema.",
+        "promptModifiers": "kowa anamorphic lenses, vintage anamorphic flaws, oval bokeh, striking horizontal lens flares",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "angenieux-optimo-ultra",
+      "name": "Angenieux Optimo Ultra",
+      "data": {
+        "category": "The Essential Zooms",
+        "description": "The world's best zoom lens. It is so sharp and beautiful that it is often indistinguishable from a prime lens, providing ultimate versatility.",
+        "promptModifiers": "angenieux optimo ultra zoom, prime-level sharpness, incredibly versatile cinematic depth",
+        "colorPalette": []
+      }
+    }
+  ],
+  "elements": []
+}

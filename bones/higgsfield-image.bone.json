@@ -1,0 +1,172 @@
+{
+  "$schema": "https://spore.dev/schemas/bone/v1.0/bone.schema.json",
+  "bone_id": "higgsfield-image",
+  "bone_version": "1.1",
+  "label": "Higgsfield Image Generation",
+  "description": "Higgsfield text-to-image via gpt_image_2 (default), flux_2, flux_kontext, seedream_v4_5, or nano_banana_2. Produces a still image output for a shot.",
+  "provider": "higgsfield",
+  "target": "image",
+  "requires": [
+    "image_generation"
+  ],
+  "prompt_skill": "higgsfield-generate",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "Full image generation prompt. Include subject, style, lighting, and composition."
+    },
+    "negative": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt",
+      "description": "Elements to exclude from the image."
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Model",
+      "options": [
+        "gpt_image_2",
+        "flux_2",
+        "flux_kontext",
+        "seedream_v4_5",
+        "nano_banana_2"
+      ],
+      "default": "gpt_image_2"
+    },
+    "aspect": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Aspect Ratio",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4"
+      ],
+      "default": "16:9"
+    },
+    "quality": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Quality",
+      "options": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "high",
+      "description": "GPT Image 2 quality. Omit when the selected model does not expose this parameter."
+    },
+    "resolution": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Resolution",
+      "options": [
+        "1k",
+        "2k",
+        "4k"
+      ],
+      "default": "2k",
+      "description": "GPT Image 2 output resolution. Omit when the selected model does not expose this parameter."
+    },
+    "style_ref": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Style Reference",
+      "description": "Reference image path for style transfer."
+    },
+    "seed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Seed",
+      "description": "Reproducibility seed. Leave empty for random."
+    }
+  },
+  "defaults": {
+    "model": "gpt_image_2",
+    "aspect": "16:9",
+    "quality": "high",
+    "resolution": "2k"
+  },
+  "output": {
+    "format": "png",
+    "target": "startFrameImage",
+    "completion_status": "review"
+  },
+  "execution": {
+    "cli": "higgsfield generate create {{model}} --prompt \"{{prompt}}\" --aspect_ratio {{aspect}}",
+    "mcp": "higgsfield.generate_image",
+    "skill": "higgsfield-generate",
+    "wait": true,
+    "json": true
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "append",
+      "token_format": "natural",
+      "tokens": [
+        "light",
+        "dof",
+        "color",
+        "aspect"
+      ]
+    },
+    "character_injection": {
+      "enabled": true,
+      "position": "prepend",
+      "format": "name_and_description"
+    },
+    "max_length": 4000,
+    "separator": " "
+  },
+  "llm_instructions": {
+    "writing_guide": "Write image prompts for Higgsfield using a single, fluent paragraph. Lead with the subject and key physical details, then describe the scene/environment, then lighting and mood, then visual style. For gpt_image_2 prompts can be longer and more descriptive (up to 4000 chars). For flux models keep under 300 words. Do not use numbered lists or section headers in the prompt string itself.",
+    "field_guides": {
+      "prompt": "Full image description. Subject first, then environment, then lighting, then style. Higgsfield supports rich natural language — do not truncate unnecessarily.",
+      "negative": "Comma-separated list of elements to exclude. Examples: 'blurry, low resolution, watermark, text overlays'.",
+      "model": "Choose based on use case: gpt_image_2 for complex narrative stills, flux_2 / flux_kontext for photorealism and high detail, seedream_v4_5 for stylized photoreal, nano_banana_2 for fast iterations.",
+      "aspect": "Match the project aspect ratio unless this shot requires a different composition.",
+      "quality": "For gpt_image_2 use low, medium, or high. The current model default is high. Omit this field for models whose provider schema does not expose quality.",
+      "resolution": "For gpt_image_2 use 1k, 2k, or 4k. The current model default is 2k. Omit this field for models whose provider schema does not expose resolution.",
+      "seed": "Set only when reproducing a previous result exactly. Omit for creative generation."
+    },
+    "examples": [
+      {
+        "scene": "EXT. ABANDONED WAREHOUSE - DUSK",
+        "context": "Detective first arrives at the crime scene",
+        "output": "A weathered detective in her 40s stands at the entrance of a crumbling industrial warehouse, backlit by the fading orange dusk sky. Overgrown concrete walls with peeling signage. Long shadows cast across debris-strewn ground. Cinematic wide shot, golden hour rim light, desaturated warm tones, photorealistic 35mm style."
+      }
+    ],
+    "do": [
+      "Lead with the subject and their relevant physical details",
+      "Include lighting quality and direction",
+      "Match the aspect ratio to the project setting",
+      "Use soul_id via the character's providerRefs.higgsfield.soulId for character consistency"
+    ],
+    "dont": [
+      "Use numbered lists or section headers inside the prompt string",
+      "Exceed 4000 characters for gpt_image_2 or 300 words for flux models",
+      "Write the model name into the prompt text"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "wan-2-1",
+  "bone_version": "1.0",
+  "label": "WAN 2.1",
+  "description": "Wanx 2.1 video generation model. Strong motion quality and prompt adherence for cinematic shots.",
+  "target": "video",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "select",
+      "label": "Duration (seconds)",
+      "default": 4,
+      "options": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "negative": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt",
+      "description": "What to exclude from the video."
+    },
+    "reference_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Start Frame",
+      "description": "Image to use as the first frame of the video."
+    },
+    "resolution": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Resolution",
+      "default": "720p",
+      "options": [
+        "480p",
+        "720p",
+        "1080p"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "The video generation prompt describing motion and action."
+    }
+  },
+  "defaults": {
+    "duration": 4,
+    "resolution": "720p"
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "WAN 2.1 is a video model — prompts must describe motion, not static scenes. Lead with camera movement (dolly in, crane shot, static hold, slow pan). Follow with what the subject is doing. End with environment and atmosphere.\n\nDescribe the arc of the shot from first frame to last. If the shot is static, say so explicitly — 'camera holds, no movement' — otherwise the model may add unwanted drift.\n\nNegative prompts are supported. Include: blur, jitter, stuttering, low quality, artifacts.\n\nFor duration: 4s is standard for a shot. Use 6–8s for slow, atmospheric shots or complex action.\n\nReference image (start frame): strongly recommended. Use the image BONE output for the same shot as the start frame for visual continuity.\n\nKeep prompts under 150 words. WAN 2.1 responds better to direct, concrete descriptions than to stylistic language. Say what the camera sees happening, not how it feels."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "wan-2.1"
+    }
+  }
+}

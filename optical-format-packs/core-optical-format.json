@@ -1,0 +1,56 @@
+{
+  "id": "core-optical-format",
+  "name": "Core Optical Formats",
+  "type": "optical_format",
+  "snippets": [
+    {
+      "id": "optical_format_anamorphic",
+      "name": "Anamorphic",
+      "data": {
+        "opticalFormat": "Anamorphic"
+      }
+    },
+    {
+      "id": "optical_format_spherical",
+      "name": "Spherical",
+      "data": {
+        "opticalFormat": "Spherical"
+      }
+    },
+    {
+      "id": "optical_format_super_35",
+      "name": "Super 35",
+      "data": {
+        "opticalFormat": "Super 35"
+      }
+    },
+    {
+      "id": "optical_format_3_perf",
+      "name": "3 perf",
+      "data": {
+        "opticalFormat": "3 perf"
+      }
+    },
+    {
+      "id": "optical_format_2_perf",
+      "name": "2 perf",
+      "data": {
+        "opticalFormat": "2 perf"
+      }
+    },
+    {
+      "id": "optical_format_open_gate",
+      "name": "Open Gate",
+      "data": {
+        "opticalFormat": "Open Gate"
+      }
+    },
+    {
+      "id": "optical_format_3d",
+      "name": "3D",
+      "data": {
+        "opticalFormat": "3D"
+      }
+    }
+  ]
+}

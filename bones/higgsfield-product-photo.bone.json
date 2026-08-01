@@ -1,0 +1,149 @@
+{
+  "$schema": "https://spore.dev/schemas/bone/v1.0/bone.schema.json",
+  "bone_id": "higgsfield-product-photo",
+  "bone_version": "1.0",
+  "label": "Higgsfield Product Photo",
+  "description": "Higgsfield product photoshoot and marketplace-card workflow. Generates professional product imagery with controlled environment and lighting.",
+  "provider": "higgsfield",
+  "target": "image",
+  "requires": [
+    "image_generation"
+  ],
+  "prompt_skill": "higgsfield-product-photoshoot",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "product_image": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Product Image",
+      "description": "Source image of the product to be placed in the generated scene."
+    },
+    "scene_prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Scene Description",
+      "description": "Environment, surface, and atmosphere for the product shoot."
+    },
+    "lighting": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Lighting Style",
+      "options": [
+        "studio_soft",
+        "natural_window",
+        "golden_hour",
+        "dramatic_contrast",
+        "neon_accent"
+      ],
+      "default": "studio_soft"
+    },
+    "background": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Background",
+      "options": [
+        "clean_white",
+        "textured_surface",
+        "lifestyle_scene",
+        "gradient",
+        "outdoor"
+      ],
+      "default": "clean_white"
+    },
+    "aspect": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Aspect Ratio",
+      "options": [
+        "1:1",
+        "4:5",
+        "16:9",
+        "9:16"
+      ],
+      "default": "1:1"
+    },
+    "style": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Photo Style",
+      "options": [
+        "commercial",
+        "editorial",
+        "lifestyle",
+        "minimal"
+      ],
+      "default": "commercial"
+    },
+    "negative": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt",
+      "description": "Elements to exclude."
+    }
+  },
+  "defaults": {
+    "lighting": "studio_soft",
+    "background": "clean_white",
+    "aspect": "1:1",
+    "style": "commercial"
+  },
+  "output": {
+    "format": "png",
+    "target": "startFrameImage",
+    "completion_status": "review"
+  },
+  "execution": {
+    "cli": "higgsfield generate create product_photoshoot --image \"{{product_image}}\" --prompt \"{{scene_prompt}}\"",
+    "mcp": "higgsfield.generate_image",
+    "skill": "higgsfield-generate",
+    "wait": true,
+    "json": true
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{scene_prompt}} {{lighting}} lighting. {{background}} background. {{style}} photography style.",
+    "max_length": 500,
+    "separator": " "
+  },
+  "llm_instructions": {
+    "writing_guide": "Write product shoot scene descriptions for Higgsfield. The scene_prompt should describe the environment and mood, not the product itself — Higgsfield composites the product from the product_image. Focus on surface texture, material context, ambient atmosphere, and any lifestyle elements. Think: where would this product live in a real shoot?",
+    "field_guides": {
+      "product_image": "Local path to the product source image. Must be a clean photo of the product, ideally against a plain background.",
+      "scene_prompt": "The set: surface material, environment, ambient mood. Do not describe the product — it will be placed automatically. Example: 'Marble bathroom counter, morning steam, blurred greenery in background.'",
+      "lighting": "Match to brand aesthetic and product category: studio_soft for clean DTC; natural_window for beauty/wellness; golden_hour for lifestyle; dramatic_contrast for luxury.",
+      "background": "clean_white for Amazon/marketplace listings; lifestyle_scene for social/editorial; textured_surface for artisan/premium."
+    },
+    "examples": [
+      {
+        "context": "Skincare serum for premium brand",
+        "output": {
+          "scene_prompt": "White marble counter with small water drops, soft morning light, blurred bathroom mirror in background, scattered dried flower petals.",
+          "lighting": "natural_window",
+          "background": "textured_surface",
+          "style": "editorial",
+          "aspect": "4:5"
+        }
+      }
+    ],
+    "do": [
+      "Describe the scene environment, not the product",
+      "Match lighting to the brand's target aesthetic",
+      "Use 1:1 for marketplace listings, 4:5 or 9:16 for social"
+    ],
+    "dont": [
+      "Write the product name or appearance in scene_prompt — it is placed via product_image",
+      "Use generic descriptions like 'nice background'"
+    ]
+  }
+}

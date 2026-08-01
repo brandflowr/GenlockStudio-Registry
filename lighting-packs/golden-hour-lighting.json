@@ -1,0 +1,52 @@
+{
+  "pack_id": "golden-hour-lighting",
+  "name": "Golden Hour Lighting Pack",
+  "version": "1.0.0",
+  "presets": [
+    {
+      "id": "golden-backlit",
+      "name": "Backlit Golden Haze",
+      "description": "Subject backlit by low sun, warm haze and lens flare wrapping around the edges.",
+      "lighting": ["Soft light", "Back light", "Edge light"],
+      "lightingType": ["Daylight", "Golden hour"],
+      "color": ["Warm", "Saturated", "Orange"],
+      "promptModifiers": "golden hour backlight, warm haze, lens flare, sun-kissed, amber glow"
+    },
+    {
+      "id": "golden-long-shadows",
+      "name": "Long Shadow Drama",
+      "description": "Low-angle sun casting extremely long shadows. Warm side light on the subject.",
+      "lighting": ["Hard light", "Side light"],
+      "lightingType": ["Daylight", "Golden hour"],
+      "color": ["Warm", "Orange"],
+      "promptModifiers": "long dramatic shadows, low sun, golden hour, warm side light, stretched shadows"
+    },
+    {
+      "id": "golden-diffused",
+      "name": "Soft Diffused Magic Hour",
+      "description": "Overcast golden hour. Extremely soft, even warmth with no harsh shadows.",
+      "lighting": ["Soft light"],
+      "lightingType": ["Daylight", "Overcast"],
+      "color": ["Warm", "Desaturated"],
+      "promptModifiers": "magic hour, soft diffused light, overcast warmth, gentle amber, no harsh shadows"
+    },
+    {
+      "id": "golden-silhouette-sunset",
+      "name": "Sunset Silhouette",
+      "description": "Subject as pure silhouette against a vivid orange/pink sunset sky.",
+      "lighting": ["Back light", "High contrast"],
+      "lightingType": ["Daylight", "Sunset"],
+      "color": ["Warm", "Saturated", "Orange"],
+      "promptModifiers": "sunset silhouette, vivid sky, orange pink gradient, dark figure, dramatic horizon"
+    },
+    {
+      "id": "golden-window-spill",
+      "name": "Window Spill Interior",
+      "description": "Golden hour light pouring through a window into a dark interior. Warm rectangle of light on the floor.",
+      "lighting": ["Hard light", "Side light"],
+      "lightingType": ["Daylight", "Golden hour"],
+      "color": ["Warm", "Orange"],
+      "promptModifiers": "golden light through window, warm interior spill, dust particles, rectangle of light, cozy"
+    }
+  ]
+}

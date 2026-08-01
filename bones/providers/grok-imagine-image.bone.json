@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "grok-imagine-image",
+  "bone_version": "1.0.0",
+  "label": "Grok Imagine Image",
+  "description": "xAI Grok Imagine image generation with strong editing, style transfer, and multi-image compositing.",
+  "target": "image",
+  "provider": "xai",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "auto"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "mode": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "quality",
+      "options": [
+        "std",
+        "quality"
+      ],
+      "label": "Mode"
+    },
+    "image_references": {
+      "type": "array",
+      "required": false,
+      "ui": "file",
+      "label": "Reference / Edit Images",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    }
+  },
+  "defaults": {
+    "aspect_ratio": "16:9",
+    "mode": "quality"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for Grok Imagine image generation.\n\nRules:\n- Be precise and concrete. Grok Imagine handles complex instructions and multi-image compositing well.\n- When reference images are supplied, clearly state their role (identity, style, composition, edit source).\n- Prefer clear visual hierarchy and lighting direction.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "routing": {
+    "supported_models": [
+      "grok-imagine",
+      "grok_image"
+    ]
+  },
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "grok-imagine-image",
+      "execution_route": "api",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "startFrameImage",
+          "endFrameImage",
+          "asset"
+        ]
+      }
+    }
+  }
+}

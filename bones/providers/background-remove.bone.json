@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "background-remove",
+  "bone_version": "1.0.0",
+  "label": "Background Remove",
+  "description": "Remove background from an image (rembg / U2Net or equivalent).",
+  "target": "image",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "image": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Image"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "u2net",
+      "options": [
+        "u2net",
+        "u2netp",
+        "silueta",
+        "isnet-general-use"
+      ],
+      "label": "Model"
+    }
+  },
+  "defaults": {
+    "model": "u2net"
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE only removes the background from a single image. No prompt writing is required. Pass the source image and optional model choice."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_edit"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "background-remove",
+      "execution_route": "local",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "asset",
+          "startFrameImage"
+        ]
+      }
+    }
+  }
+}

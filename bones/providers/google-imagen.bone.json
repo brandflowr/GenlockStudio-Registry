@@ -1,0 +1,100 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "google-imagen",
+  "bone_version": "1.0.0",
+  "label": "Google Imagen",
+  "description": "High-quality image generation via Google Imagen 4 with strong multi-aspect support.",
+  "target": "image",
+  "provider": "google",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "imagen-4",
+      "options": [
+        "imagen-4",
+        "imagen-3"
+      ],
+      "label": "Model"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    },
+    "guidance": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Guidance"
+    }
+  },
+  "defaults": {
+    "model": "imagen-4",
+    "aspect_ratio": "16:9"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for Google Imagen.\n\nRules:\n- Use clear, descriptive natural language.\n- Specify subject, setting, lighting, and style explicitly.\n- Imagen handles complex scenes well — do not over-simplify.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "routing": {
+    "supported_models": [
+      "imagen-4",
+      "imagen-3"
+    ]
+  },
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "google-imagen",
+      "execution_route": "api",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "startFrameImage",
+          "endFrameImage",
+          "asset"
+        ]
+      }
+    }
+  }
+}

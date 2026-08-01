@@ -1,0 +1,133 @@
+{
+  "id": "core-genre",
+  "name": "Core Genres",
+  "type": "genre",
+  "snippets": [
+    {
+      "id": "genre_action",
+      "name": "Action",
+      "data": {
+        "genre": "Action"
+      }
+    },
+    {
+      "id": "genre_adventure",
+      "name": "Adventure",
+      "data": {
+        "genre": "Adventure"
+      }
+    },
+    {
+      "id": "genre_animation",
+      "name": "Animation",
+      "data": {
+        "genre": "Animation"
+      }
+    },
+    {
+      "id": "genre_comedy",
+      "name": "Comedy",
+      "data": {
+        "genre": "Comedy"
+      }
+    },
+    {
+      "id": "genre_crime",
+      "name": "Crime",
+      "data": {
+        "genre": "Crime"
+      }
+    },
+    {
+      "id": "genre_documentary",
+      "name": "Documentary",
+      "data": {
+        "genre": "Documentary"
+      }
+    },
+    {
+      "id": "genre_drama",
+      "name": "Drama",
+      "data": {
+        "genre": "Drama"
+      }
+    },
+    {
+      "id": "genre_family",
+      "name": "Family",
+      "data": {
+        "genre": "Family"
+      }
+    },
+    {
+      "id": "genre_fantasy",
+      "name": "Fantasy",
+      "data": {
+        "genre": "Fantasy"
+      }
+    },
+    {
+      "id": "genre_history",
+      "name": "History",
+      "data": {
+        "genre": "History"
+      }
+    },
+    {
+      "id": "genre_horror",
+      "name": "Horror",
+      "data": {
+        "genre": "Horror"
+      }
+    },
+    {
+      "id": "genre_music",
+      "name": "Music",
+      "data": {
+        "genre": "Music"
+      }
+    },
+    {
+      "id": "genre_mystery",
+      "name": "Mystery",
+      "data": {
+        "genre": "Mystery"
+      }
+    },
+    {
+      "id": "genre_romance",
+      "name": "Romance",
+      "data": {
+        "genre": "Romance"
+      }
+    },
+    {
+      "id": "genre_science_fiction",
+      "name": "Science Fiction",
+      "data": {
+        "genre": "Science Fiction"
+      }
+    },
+    {
+      "id": "genre_thriller",
+      "name": "Thriller",
+      "data": {
+        "genre": "Thriller"
+      }
+    },
+    {
+      "id": "genre_war",
+      "name": "War",
+      "data": {
+        "genre": "War"
+      }
+    },
+    {
+      "id": "genre_western",
+      "name": "Western",
+      "data": {
+        "genre": "Western"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "core-gender",
+  "name": "Core Gender",
+  "type": "gender",
+  "snippets": [
+    {
+      "id": "gender_male",
+      "name": "Male",
+      "data": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "gender_female",
+      "name": "Female",
+      "data": {
+        "gender": "Female"
+      }
+    },
+    {
+      "id": "gender_trans",
+      "name": "Trans",
+      "data": {
+        "gender": "Trans"
+      }
+    }
+  ]
+}

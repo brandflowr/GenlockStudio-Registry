@@ -1,0 +1,21 @@
+{
+  "id": "core-int-ext",
+  "name": "Core Int/Ext",
+  "type": "int_ext",
+  "snippets": [
+    {
+      "id": "int_ext_interior",
+      "name": "Interior",
+      "data": {
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "int_ext_exterior",
+      "name": "Exterior",
+      "data": {
+        "interiorExterior": "Exterior"
+      }
+    }
+  ]
+}

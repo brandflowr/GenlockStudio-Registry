@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "suno-music",
+  "bone_version": "1.0.0",
+  "label": "Suno Music",
+  "description": "Full song generation with vocals and lyrics via Suno AI (up to ~8 minutes).",
+  "target": "audio",
+  "provider": "suno",
+  "attaches_to": [
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Song Description / Lyrics Prompt"
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Track Title"
+    },
+    "tags": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Genre / Style Tags"
+    },
+    "instrumental": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "default": false,
+      "label": "Instrumental Only"
+    },
+    "duration_hint": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Target Duration (seconds)"
+    }
+  },
+  "defaults": {
+    "instrumental": false
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for Suno AI music generation.\n\nRules:\n- Describe genre, mood, instrumentation, and vocal style clearly.\n- If lyrics are desired, either include them or clearly request original lyrics in a specific style.\n- Keep the request focused — Suno works best with coherent creative direction rather than long contradictory lists.\n- Output only field values."
+  },
+  "output": {
+    "format": "wav",
+    "target": "audio_track",
+    "completion_status": "review"
+  },
+  "requires": [
+    "music_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "suno-music",
+      "execution_route": "api",
+      "output": {
+        "type": "audio",
+        "write_back": [
+          "audioTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

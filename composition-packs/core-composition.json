@@ -1,0 +1,49 @@
+{
+  "id": "core-composition",
+  "name": "Core Compositions",
+  "type": "composition",
+  "snippets": [
+    {
+      "id": "composition_center",
+      "name": "Center",
+      "data": {
+        "composition": "Center"
+      }
+    },
+    {
+      "id": "composition_left_heavy",
+      "name": "Left heavy",
+      "data": {
+        "composition": "Left heavy"
+      }
+    },
+    {
+      "id": "composition_right_heavy",
+      "name": "Right heavy",
+      "data": {
+        "composition": "Right heavy"
+      }
+    },
+    {
+      "id": "composition_balanced",
+      "name": "Balanced",
+      "data": {
+        "composition": "Balanced"
+      }
+    },
+    {
+      "id": "composition_symmetrical",
+      "name": "Symmetrical",
+      "data": {
+        "composition": "Symmetrical"
+      }
+    },
+    {
+      "id": "composition_short_side",
+      "name": "Short side",
+      "data": {
+        "composition": "Short side"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "pack_id": "fog-cinematography",
+  "name": "The Fog (1980) Camera Pack",
+  "version": "1.0.0",
+  "snippets": [
+    {
+      "id": "fog-1-ots-firelight",
+      "name": "The Fog — OTS Firelight",
+      "data": {
+        "shotType": "Over the shoulder",
+        "frameSize": "Wide",
+        "lensSize": "Wide",
+        "composition": "Right heavy",
+        "cameraAngle": "over_shoulder",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light", "High contrast", "Underlight", "Edge light"],
+        "lightingType": ["Moonlight", "Practical light", "Firelight"],
+        "color": ["Warm", "Saturated", "Orange"],
+        "colorPalette": ["#050002","#110803","#121a1d","#181e19","#6b2f1c","#36453e","#5f4019","#46564e","#835124","#b36c57","#be7d36","#e19f5d","#edb298","#f7bd7b","#f9c898"],
+        "camera": "Panavision Panaflex",
+        "lens": "Panavision C series",
+        "cinematographer": "Dean Cundey",
+        "genre": ["Horror", "Ghost", "Thriller"],
+        "timeOfDay": "Dusk",
+        "interiorExterior": "Exterior"
+      }
+    },
+    {
+      "id": "fog-2-moonlight-cu",
+      "name": "The Fog — Moonlight Close-Up",
+      "data": {
+        "shotType": "Insert",
+        "frameSize": "Close Up",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light", "High contrast", "Edge light"],
+        "lightingType": ["Moonlight", "Artificial light"],
+        "color": ["Cool", "Desaturated", "Blue"],
+        "colorPalette": ["#030706","#150810","#090e13","#141110","#293f5b","#284852","#2c4a47","#365a79","#426764","#4e7dba","#568fa0","#74a5c3","#a3b3e5","#c5d3f0","#e2cbeb"],
+        "camera": "Panavision Panaflex",
+        "lens": "Panavision C series",
+        "cinematographer": "Dean Cundey",
+        "genre": ["Horror", "Ghost", "Thriller"],
+        "timeOfDay": "Dusk",
+        "interiorExterior": "Exterior"
+      }
+    },
+    {
+      "id": "fog-3-desaturated-mw",
+      "name": "The Fog — Desaturated Medium Wide",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium Wide",
+        "lensSize": "Wide",
+        "composition": "Left heavy",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light", "High contrast", "Side light"],
+        "lightingType": ["Practical light"],
+        "color": ["Desaturated"],
+        "colorPalette": ["#0b0f0c","#14110d","#211416","#232528","#3c3f44","#692e29","#334736","#4e412d","#414844","#44494f","#594a4c","#675747","#a6844d","#b89470","#f5dbbc"],
+        "camera": "Panavision Panaflex",
+        "lens": "Panavision C series",
+        "cinematographer": "Dean Cundey",
+        "genre": ["Horror", "Ghost", "Thriller"],
+        "timeOfDay": "Dusk",
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "fog-4-red-practical",
+      "name": "The Fog — Red Practical MCU",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium Close Up",
+        "lensSize": "Medium",
+        "composition": "Left heavy",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light", "High contrast", "Side light"],
+        "lightingType": ["Practical light"],
+        "color": ["Mixed", "Saturated", "Red"],
+        "colorPalette": ["#060906","#14100b","#1e0b0d","#101418","#383f4a","#4a4130","#7e2720","#424951","#4d504e","#ad090c","#684f52","#675a49","#938264","#b09976","#f9e0c0"],
+        "camera": "Panavision Panaflex",
+        "lens": "Panavision C series",
+        "cinematographer": "Dean Cundey",
+        "genre": ["Horror", "Ghost", "Thriller"],
+        "timeOfDay": "Dusk",
+        "interiorExterior": "Interior"
+      }
+    }
+  ]
+}

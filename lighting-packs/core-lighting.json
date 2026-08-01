@@ -1,0 +1,77 @@
+{
+  "id": "core-lighting",
+  "name": "Core Lighting",
+  "type": "lighting",
+  "snippets": [
+    {
+      "id": "lighting_soft_light",
+      "name": "Soft light",
+      "data": {
+        "lighting": "Soft light"
+      }
+    },
+    {
+      "id": "lighting_hard_light",
+      "name": "Hard light",
+      "data": {
+        "lighting": "Hard light"
+      }
+    },
+    {
+      "id": "lighting_high_contrast",
+      "name": "High contrast",
+      "data": {
+        "lighting": "High contrast"
+      }
+    },
+    {
+      "id": "lighting_low_contrast",
+      "name": "Low contrast",
+      "data": {
+        "lighting": "Low contrast"
+      }
+    },
+    {
+      "id": "lighting_silhouette",
+      "name": "Silhouette",
+      "data": {
+        "lighting": "Silhouette"
+      }
+    },
+    {
+      "id": "lighting_top_light",
+      "name": "Top light",
+      "data": {
+        "lighting": "Top light"
+      }
+    },
+    {
+      "id": "lighting_underlight",
+      "name": "Underlight",
+      "data": {
+        "lighting": "Underlight"
+      }
+    },
+    {
+      "id": "lighting_side_light",
+      "name": "Side light",
+      "data": {
+        "lighting": "Side light"
+      }
+    },
+    {
+      "id": "lighting_backlight",
+      "name": "Backlight",
+      "data": {
+        "lighting": "Backlight"
+      }
+    },
+    {
+      "id": "lighting_edge_light",
+      "name": "Edge light",
+      "data": {
+        "lighting": "Edge light"
+      }
+    }
+  ]
+}

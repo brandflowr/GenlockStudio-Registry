@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "ffmpeg-compose",
+  "bone_version": "1.0.0",
+  "label": "FFmpeg Compose",
+  "description": "Core video assembly, encoding, audio muxing, subtitle burn-in, and basic transitions via FFmpeg.",
+  "target": "video",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "inputs": {
+      "type": "array",
+      "required": true,
+      "ui": "file",
+      "label": "Input Clips",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operation": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "concat",
+      "options": [
+        "concat",
+        "overlay",
+        "audio_mux",
+        "subtitle_burn",
+        "trim",
+        "scale"
+      ],
+      "label": "Operation"
+    },
+    "output_format": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "mp4",
+      "options": [
+        "mp4",
+        "webm",
+        "mov"
+      ],
+      "label": "Output Format"
+    },
+    "crf": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 18,
+      "label": "CRF (quality)"
+    },
+    "extra_args": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Extra FFmpeg Args"
+    }
+  },
+  "defaults": {
+    "operation": "concat",
+    "output_format": "mp4",
+    "crf": 18
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This is a composition/processing BONE. Describe the desired operation and supply the input media references. No generative prompt is required."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "composition"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "ffmpeg-compose",
+      "execution_route": "local",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "lip-sync",
+  "bone_version": "1.0.0",
+  "label": "Lip Sync",
+  "description": "Audio-driven lip synchronization (Wav2Lip, MuseTalk, or Kling Lip Sync).",
+  "target": "video",
+  "provider": "local",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "video": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Video (face)"
+    },
+    "audio": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Driving Audio"
+    },
+    "engine": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "wav2lip",
+      "options": [
+        "wav2lip",
+        "musetalk",
+        "kling-lip-sync"
+      ],
+      "label": "Engine"
+    },
+    "face_index": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Face Index (if multiple)"
+    }
+  },
+  "defaults": {
+    "engine": "wav2lip"
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE performs lip-sync. It requires a video containing a face and a separate audio track. No creative prompt is needed."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_processing"
+  ],
+  "routing": {
+    "supported_engines": [
+      "wav2lip",
+      "musetalk",
+      "kling-lip-sync"
+    ]
+  },
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "lip-sync",
+      "execution_route": "local",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

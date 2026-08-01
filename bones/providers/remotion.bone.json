@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "remotion",
+  "bone_version": "1.0.0",
+  "label": "Remotion",
+  "description": "Programmatic React-based video composition (animated stills, captions, transitions, data-driven scenes).",
+  "target": "video",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "composition_id": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Composition ID / Template"
+    },
+    "props": {
+      "type": "object",
+      "required": false,
+      "ui": "text",
+      "label": "Composition Props (JSON)"
+    },
+    "duration_frames": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Duration (frames)"
+    },
+    "fps": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 30,
+      "label": "FPS"
+    },
+    "width": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 1920,
+      "label": "Width"
+    },
+    "height": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 1080,
+      "label": "Height"
+    }
+  },
+  "defaults": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE drives a Remotion composition. Supply a composition ID and any props the template expects. It is not a generative prompt BONE."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "composition"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "remotion",
+      "execution_route": "local",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

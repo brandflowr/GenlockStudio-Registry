@@ -1,0 +1,105 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "stock-image",
+  "bone_version": "1.0.0",
+  "label": "Stock Image",
+  "description": "Search and retrieve free stock images from Pexels, Pixabay, or Unsplash.",
+  "target": "image",
+  "provider": "stock",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "query": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Search Query"
+    },
+    "source": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "pexels",
+      "options": [
+        "pexels",
+        "pixabay",
+        "unsplash"
+      ],
+      "label": "Source"
+    },
+    "orientation": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "options": [
+        "landscape",
+        "portrait",
+        "square"
+      ],
+      "label": "Orientation"
+    },
+    "color": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Color Bias"
+    },
+    "per_page": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 5,
+      "label": "Results to Return"
+    }
+  },
+  "defaults": {
+    "source": "pexels",
+    "per_page": 5
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{query}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are preparing a stock image search.\n\nRules:\n- Write a clear, concise search query (keywords work better than full sentences).\n- Prefer concrete subjects over abstract moods when possible.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "stock_image_search"
+  ],
+  "routing": {
+    "supported_sources": [
+      "pexels",
+      "pixabay",
+      "unsplash"
+    ]
+  },
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure stock execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "stock-image",
+      "execution_route": "api",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "asset",
+          "startFrameImage"
+        ]
+      }
+    }
+  }
+}

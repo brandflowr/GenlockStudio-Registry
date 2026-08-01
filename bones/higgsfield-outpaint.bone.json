@@ -1,0 +1,95 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-outpaint",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield Outpaint",
+  "description": "Expand an image beyond its original borders to a new aspect ratio or composition.",
+  "target": "image",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "image": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Image"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "auto",
+      "options": [
+        "auto",
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "label": "Target Aspect Ratio"
+    },
+    "prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Outpaint Direction (optional)"
+    }
+  },
+  "defaults": {
+    "aspect_ratio": "auto"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are directing an outpainting operation.\n\nRules:\n- The original image content must remain intact.\n- Only describe what should appear in the newly generated borders.\n- Match the existing lighting, style, and perspective of the source image.\n- If no prompt is supplied, extend the scene naturally.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_edit"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-outpaint",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate create",
+        "model": "outpaint"
+      },
+      "output": {
+        "type": "image",
+        "write_back": [
+          "asset",
+          "startFrameImage"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Outpaint",
+      "command": "higgsfield generate create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "model": "outpaint"
+      }
+    }
+  ]
+}

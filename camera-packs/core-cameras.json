@@ -1,0 +1,3683 @@
+{
+  "id": "core-cameras",
+  "name": "Core Cinematic Cameras",
+  "type": "camera",
+  "snippets": [
+    {
+      "id": "arri-alexa-35",
+      "name": "ARRI Alexa 35",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The gold standard. Known for the best dynamic range in the industry and 'filmic' color science that looks exactly like real life.",
+        "promptModifiers": "arri alexa 35 format, high dynamic range, cinematic filmic color science, ultra realistic",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "sony-venice-2",
+      "name": "Sony VENICE 2",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The full-frame king. Famous for its natural skin tones and its ability to shoot in incredibly low light without noise.",
+        "promptModifiers": "sony venice 2, full frame sensor, natural skin tones, noise-free low light, cinematic lighting",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "red-v-raptor-xl",
+      "name": "RED V-RAPTOR XL",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The speed demon. Offers 8K resolution and extremely high frame rates, perfect for crisp, high-detail action and slow motion.",
+        "promptModifiers": "red v-raptor xl 8k, crisp hyper-detailed, high frame rate, extreme sharpness, action cinematography",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "panavision-millennium-dxl2",
+      "name": "Panavision Millennium DXL2",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "A rental-only hybrid. Combines RED's 8K sensor with Panavision's legendary color science and large-format optics.",
+        "promptModifiers": "panavision millennium dxl2, large-format optics, panavision color science, 8k cinematic",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "arricam-st-lt",
+      "name": "ARRICAM ST / LT",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The definitive 35mm film cameras. They provide that organic grain and mechanical soul that digital still tries to replicate.",
+        "promptModifiers": "arricam 35mm film, organic film grain, analog texture, cinematic 35mm stock, rich halation",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "panavision-millennium-xl2",
+      "name": "Panavision Millennium XL2",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The prestige 35mm choice. Used by directors like Christopher Nolan for its rock-solid reliability and classic Hollywood feel.",
+        "promptModifiers": "panavision millennium xl2, 35mm film prestige, classic hollywood blockbuster look, rich depth",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "arriflex-416",
+      "name": "ARRIFLEX 416",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The elite Super 16mm camera. Delivers a gritty, nostalgic texture used in modern masterpieces like Carol or The Bear.",
+        "promptModifiers": "arriflex 416 super 16mm, gritty nostalgic film texture, heavy analog grain, cinematic rough look",
+        "colorPalette": []
+      }
+    }
+  ],
+  "elements": [
+    {
+      "id": "element_frame_size_extreme_wide",
+      "type": "frame_size",
+      "name": "Extreme Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Extreme Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_wide",
+      "type": "frame_size",
+      "name": "Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_medium_wide",
+      "type": "frame_size",
+      "name": "Medium Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_medium",
+      "type": "frame_size",
+      "name": "Medium",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium"
+      }
+    },
+    {
+      "id": "element_frame_size_medium_close_up",
+      "type": "frame_size",
+      "name": "Medium Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium Close Up"
+      }
+    },
+    {
+      "id": "element_frame_size_close_up",
+      "type": "frame_size",
+      "name": "Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Close Up"
+      }
+    },
+    {
+      "id": "element_frame_size_extreme_close_up",
+      "type": "frame_size",
+      "name": "Extreme Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Extreme Close Up"
+      }
+    },
+    {
+      "id": "element_shot_type_aerial",
+      "type": "shot_type",
+      "name": "Aerial",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Aerial"
+      }
+    },
+    {
+      "id": "element_shot_type_overhead",
+      "type": "shot_type",
+      "name": "Overhead",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Overhead"
+      }
+    },
+    {
+      "id": "element_shot_type_high_angle",
+      "type": "shot_type",
+      "name": "High angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "High angle"
+      }
+    },
+    {
+      "id": "element_shot_type_low_angle",
+      "type": "shot_type",
+      "name": "Low angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Low angle"
+      }
+    },
+    {
+      "id": "element_shot_type_dutch_angle",
+      "type": "shot_type",
+      "name": "Dutch angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Dutch angle"
+      }
+    },
+    {
+      "id": "element_shot_type_establishing_shot",
+      "type": "shot_type",
+      "name": "Establishing shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Establishing shot"
+      }
+    },
+    {
+      "id": "element_shot_type_over_the_shoulder",
+      "type": "shot_type",
+      "name": "Over the shoulder",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Over the shoulder"
+      }
+    },
+    {
+      "id": "element_shot_type_clean_single",
+      "type": "shot_type",
+      "name": "Clean single",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Clean single"
+      }
+    },
+    {
+      "id": "element_shot_type_2_shot",
+      "type": "shot_type",
+      "name": "2 shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "2 shot"
+      }
+    },
+    {
+      "id": "element_shot_type_3_shot",
+      "type": "shot_type",
+      "name": "3 shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "3 shot"
+      }
+    },
+    {
+      "id": "element_shot_type_group_shot",
+      "type": "shot_type",
+      "name": "Group shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Group shot"
+      }
+    },
+    {
+      "id": "element_shot_type_insert",
+      "type": "shot_type",
+      "name": "Insert",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Insert"
+      }
+    },
+    {
+      "id": "element_composition_center",
+      "type": "composition",
+      "name": "Center",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Center"
+      }
+    },
+    {
+      "id": "element_composition_left_heavy",
+      "type": "composition",
+      "name": "Left heavy",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Left heavy"
+      }
+    },
+    {
+      "id": "element_composition_right_heavy",
+      "type": "composition",
+      "name": "Right heavy",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Right heavy"
+      }
+    },
+    {
+      "id": "element_composition_balanced",
+      "type": "composition",
+      "name": "Balanced",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Balanced"
+      }
+    },
+    {
+      "id": "element_composition_symmetrical",
+      "type": "composition",
+      "name": "Symmetrical",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Symmetrical"
+      }
+    },
+    {
+      "id": "element_composition_short_side",
+      "type": "composition",
+      "name": "Short side",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Short side"
+      }
+    },
+    {
+      "id": "element_media_type_movie",
+      "type": "media_type",
+      "name": "Movie",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Movie"
+      }
+    },
+    {
+      "id": "element_media_type_tv",
+      "type": "media_type",
+      "name": "TV",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "TV"
+      }
+    },
+    {
+      "id": "element_media_type_trailer",
+      "type": "media_type",
+      "name": "Trailer",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Trailer"
+      }
+    },
+    {
+      "id": "element_media_type_music_video",
+      "type": "media_type",
+      "name": "Music Video",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Music Video"
+      }
+    },
+    {
+      "id": "element_media_type_commercial",
+      "type": "media_type",
+      "name": "Commercial",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Commercial"
+      }
+    },
+    {
+      "id": "element_genre_action",
+      "type": "genre",
+      "name": "Action",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Action"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_adventure",
+      "type": "genre",
+      "name": "Adventure",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Adventure"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_animation",
+      "type": "genre",
+      "name": "Animation",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Animation"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_comedy",
+      "type": "genre",
+      "name": "Comedy",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Comedy"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_crime",
+      "type": "genre",
+      "name": "Crime",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Crime"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_documentary",
+      "type": "genre",
+      "name": "Documentary",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Documentary"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_drama",
+      "type": "genre",
+      "name": "Drama",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Drama"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_family",
+      "type": "genre",
+      "name": "Family",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Family"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fantasy",
+      "type": "genre",
+      "name": "Fantasy",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fantasy"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_history",
+      "type": "genre",
+      "name": "History",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "History"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_horror",
+      "type": "genre",
+      "name": "Horror",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Horror"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_music",
+      "type": "genre",
+      "name": "Music",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Music"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_mystery",
+      "type": "genre",
+      "name": "Mystery",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Mystery"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_romance",
+      "type": "genre",
+      "name": "Romance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Romance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_science_fiction",
+      "type": "genre",
+      "name": "Science Fiction",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Science Fiction"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_thriller",
+      "type": "genre",
+      "name": "Thriller",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Thriller"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_war",
+      "type": "genre",
+      "name": "War",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "War"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_western",
+      "type": "genre",
+      "name": "Western",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Western"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hip_hop",
+      "type": "genre",
+      "name": "Hip Hop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hip Hop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_rap",
+      "type": "genre",
+      "name": "Rap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Rap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_rap",
+      "type": "genre",
+      "name": "Pop Rap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Rap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_hip_hop",
+      "type": "genre",
+      "name": "Alternative Hip Hop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative Hip Hop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_trap",
+      "type": "genre",
+      "name": "Trap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Trap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_reggaeton",
+      "type": "genre",
+      "name": "Reggaeton",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Reggaeton"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_reggae",
+      "type": "genre",
+      "name": "Reggae",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Reggae"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_afropop",
+      "type": "genre",
+      "name": "Afropop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Afropop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_r_b",
+      "type": "genre",
+      "name": "R&B",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "R&B"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_r_b",
+      "type": "genre",
+      "name": "Alternative R&B",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative R&B"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_disco",
+      "type": "genre",
+      "name": "Disco",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Disco"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_soul",
+      "type": "genre",
+      "name": "Soul",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Soul"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_gospel",
+      "type": "genre",
+      "name": "Gospel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Gospel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_funk",
+      "type": "genre",
+      "name": "Funk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Funk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_jazz",
+      "type": "genre",
+      "name": "Jazz",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Jazz"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_blues",
+      "type": "genre",
+      "name": "Blues",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Blues"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_latin",
+      "type": "genre",
+      "name": "Latin",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Latin"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop",
+      "type": "genre",
+      "name": "Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_indie_pop",
+      "type": "genre",
+      "name": "Indie Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Indie Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_k_pop",
+      "type": "genre",
+      "name": "K-Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "K-Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_dance",
+      "type": "genre",
+      "name": "Dance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Dance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_electronic",
+      "type": "genre",
+      "name": "Electronic",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Electronic"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_edm",
+      "type": "genre",
+      "name": "EDM",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "EDM"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_idm",
+      "type": "genre",
+      "name": "IDM",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "IDM"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_house_techno",
+      "type": "genre",
+      "name": "House/Techno",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "House/Techno"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_grime",
+      "type": "genre",
+      "name": "Grime",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Grime"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_folk",
+      "type": "genre",
+      "name": "Folk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Folk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_folk_rock",
+      "type": "genre",
+      "name": "Folk Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Folk Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_country",
+      "type": "genre",
+      "name": "Country",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Country"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_singer_songwriter",
+      "type": "genre",
+      "name": "Singer-Songwriter",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Singer-Songwriter"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_rock",
+      "type": "genre",
+      "name": "Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_rock",
+      "type": "genre",
+      "name": "Alternative Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hard_rock",
+      "type": "genre",
+      "name": "Hard Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hard Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_indie_rock",
+      "type": "genre",
+      "name": "Indie Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Indie Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_rock",
+      "type": "genre",
+      "name": "Pop Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_garage_rock",
+      "type": "genre",
+      "name": "Garage Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Garage Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_art_rock",
+      "type": "genre",
+      "name": "Art Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Art Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_metal",
+      "type": "genre",
+      "name": "Metal",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Metal"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_glam",
+      "type": "genre",
+      "name": "Glam",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Glam"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_emo",
+      "type": "genre",
+      "name": "Emo",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Emo"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_punk",
+      "type": "genre",
+      "name": "Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_punk",
+      "type": "genre",
+      "name": "Pop Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_dance_punk",
+      "type": "genre",
+      "name": "Dance Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Dance Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_psychedelic",
+      "type": "genre",
+      "name": "Psychedelic",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Psychedelic"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_experimental",
+      "type": "genre",
+      "name": "Experimental",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Experimental"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_ambient",
+      "type": "genre",
+      "name": "Ambient",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Ambient"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_classical",
+      "type": "genre",
+      "name": "Classical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Classical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_traditional",
+      "type": "genre",
+      "name": "Traditional",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Traditional"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_instrumental",
+      "type": "genre",
+      "name": "Instrumental",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Instrumental"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_car",
+      "type": "genre",
+      "name": "Car",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Car"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_travel",
+      "type": "genre",
+      "name": "Travel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Travel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_airline",
+      "type": "genre",
+      "name": "Airline",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Airline"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hotel",
+      "type": "genre",
+      "name": "Hotel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hotel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_restaurant",
+      "type": "genre",
+      "name": "Restaurant",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Restaurant"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_food",
+      "type": "genre",
+      "name": "Food",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Food"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fast_food",
+      "type": "genre",
+      "name": "Fast Food",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fast Food"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_beverage",
+      "type": "genre",
+      "name": "Beverage",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Beverage"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alcohol",
+      "type": "genre",
+      "name": "Alcohol",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alcohol"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fashion_apparel",
+      "type": "genre",
+      "name": "Fashion / Apparel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fashion / Apparel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_clothing",
+      "type": "genre",
+      "name": "Clothing",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Clothing"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_luxury_fashion",
+      "type": "genre",
+      "name": "Luxury Fashion",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Luxury Fashion"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fast_fashion",
+      "type": "genre",
+      "name": "Fast Fashion",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fast Fashion"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_footwear",
+      "type": "genre",
+      "name": "Footwear",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Footwear"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_eyewear",
+      "type": "genre",
+      "name": "Eyewear",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Eyewear"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_watch",
+      "type": "genre",
+      "name": "Watch",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Watch"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_jewelry",
+      "type": "genre",
+      "name": "Jewelry",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Jewelry"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_health_beauty",
+      "type": "genre",
+      "name": "Health / Beauty",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Health / Beauty"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fitness",
+      "type": "genre",
+      "name": "Fitness",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fitness"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fragrance",
+      "type": "genre",
+      "name": "Fragrance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fragrance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_make_up",
+      "type": "genre",
+      "name": "Make-Up",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Make-Up"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_medical",
+      "type": "genre",
+      "name": "Medical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Medical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pharmaceutical",
+      "type": "genre",
+      "name": "Pharmaceutical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pharmaceutical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_industrial",
+      "type": "genre",
+      "name": "Industrial",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Industrial"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_home_goods",
+      "type": "genre",
+      "name": "Home Goods",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Home Goods"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_electronics",
+      "type": "genre",
+      "name": "Electronics",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Electronics"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_phone",
+      "type": "genre",
+      "name": "Phone",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Phone"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_tech_telecom",
+      "type": "genre",
+      "name": "Tech / Telecom",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Tech / Telecom"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_online_services",
+      "type": "genre",
+      "name": "Online Services",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Online Services"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_financial_services",
+      "type": "genre",
+      "name": "Financial Services",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Financial Services"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_military",
+      "type": "genre",
+      "name": "Military",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Military"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_education",
+      "type": "genre",
+      "name": "Education",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_news",
+      "type": "genre",
+      "name": "News",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "News"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_sports",
+      "type": "genre",
+      "name": "Sports",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Sports"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_entertainment",
+      "type": "genre",
+      "name": "Entertainment",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Entertainment"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_magazine",
+      "type": "genre",
+      "name": "Magazine",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Magazine"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_testimonial",
+      "type": "genre",
+      "name": "Testimonial",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Testimonial"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_celebrity",
+      "type": "genre",
+      "name": "Celebrity",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Celebrity"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_psa_awareness",
+      "type": "genre",
+      "name": "PSA / Awareness",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "PSA / Awareness"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pet",
+      "type": "genre",
+      "name": "Pet",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pet"
+        ]
+      }
+    },
+    {
+      "id": "element_time_period_future",
+      "type": "time_period",
+      "name": "Future",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Future"
+      }
+    },
+    {
+      "id": "element_time_period_2020s",
+      "type": "time_period",
+      "name": "2020s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2020s"
+      }
+    },
+    {
+      "id": "element_time_period_2010s",
+      "type": "time_period",
+      "name": "2010s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2010s"
+      }
+    },
+    {
+      "id": "element_time_period_2000s",
+      "type": "time_period",
+      "name": "2000s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2000s"
+      }
+    },
+    {
+      "id": "element_time_period_1990s",
+      "type": "time_period",
+      "name": "1990s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1990s"
+      }
+    },
+    {
+      "id": "element_time_period_1980s",
+      "type": "time_period",
+      "name": "1980s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1980s"
+      }
+    },
+    {
+      "id": "element_time_period_1970s",
+      "type": "time_period",
+      "name": "1970s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1970s"
+      }
+    },
+    {
+      "id": "element_time_period_1960s",
+      "type": "time_period",
+      "name": "1960s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1960s"
+      }
+    },
+    {
+      "id": "element_time_period_1950s",
+      "type": "time_period",
+      "name": "1950s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1950s"
+      }
+    },
+    {
+      "id": "element_time_period_1940s",
+      "type": "time_period",
+      "name": "1940s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1940s"
+      }
+    },
+    {
+      "id": "element_time_period_1930s",
+      "type": "time_period",
+      "name": "1930s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1930s"
+      }
+    },
+    {
+      "id": "element_time_period_1920s",
+      "type": "time_period",
+      "name": "1920s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1920s"
+      }
+    },
+    {
+      "id": "element_time_period_1910s",
+      "type": "time_period",
+      "name": "1910s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1910s"
+      }
+    },
+    {
+      "id": "element_time_period_1900s",
+      "type": "time_period",
+      "name": "1900s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1900s"
+      }
+    },
+    {
+      "id": "element_time_period_1800s",
+      "type": "time_period",
+      "name": "1800s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1800s"
+      }
+    },
+    {
+      "id": "element_time_period_1700s",
+      "type": "time_period",
+      "name": "1700s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1700s"
+      }
+    },
+    {
+      "id": "element_time_period_renaissance_1400_1700",
+      "type": "time_period",
+      "name": "Renaissance: 1400-1700",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Renaissance: 1400-1700"
+      }
+    },
+    {
+      "id": "element_time_period_medieval_500_1400",
+      "type": "time_period",
+      "name": "Medieval: 500-1400",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Medieval: 500-1400"
+      }
+    },
+    {
+      "id": "element_time_period_ancient_2000bc_500ad",
+      "type": "time_period",
+      "name": "Ancient: 2000BC-500AD",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Ancient: 2000BC-500AD"
+      }
+    },
+    {
+      "id": "element_time_period_stone_age_pre_2000bc",
+      "type": "time_period",
+      "name": "Stone Age: pre-2000BC",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Stone Age: pre-2000BC"
+      }
+    },
+    {
+      "id": "element_color_warm",
+      "type": "color",
+      "name": "Warm",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Warm"
+        ]
+      }
+    },
+    {
+      "id": "element_color_cool",
+      "type": "color",
+      "name": "Cool",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Cool"
+        ]
+      }
+    },
+    {
+      "id": "element_color_mixed",
+      "type": "color",
+      "name": "Mixed",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Mixed"
+        ]
+      }
+    },
+    {
+      "id": "element_color_saturated",
+      "type": "color",
+      "name": "Saturated",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Saturated"
+        ]
+      }
+    },
+    {
+      "id": "element_color_desaturated",
+      "type": "color",
+      "name": "Desaturated",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Desaturated"
+        ]
+      }
+    },
+    {
+      "id": "element_color_red",
+      "type": "color",
+      "name": "Red",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Red"
+        ]
+      }
+    },
+    {
+      "id": "element_color_orange",
+      "type": "color",
+      "name": "Orange",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Orange"
+        ]
+      }
+    },
+    {
+      "id": "element_color_yellow",
+      "type": "color",
+      "name": "Yellow",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Yellow"
+        ]
+      }
+    },
+    {
+      "id": "element_color_green",
+      "type": "color",
+      "name": "Green",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Green"
+        ]
+      }
+    },
+    {
+      "id": "element_color_cyan",
+      "type": "color",
+      "name": "Cyan",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Cyan"
+        ]
+      }
+    },
+    {
+      "id": "element_color_blue",
+      "type": "color",
+      "name": "Blue",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Blue"
+        ]
+      }
+    },
+    {
+      "id": "element_color_purple",
+      "type": "color",
+      "name": "Purple",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Purple"
+        ]
+      }
+    },
+    {
+      "id": "element_color_magenta",
+      "type": "color",
+      "name": "Magenta",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Magenta"
+        ]
+      }
+    },
+    {
+      "id": "element_color_pink",
+      "type": "color",
+      "name": "Pink",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Pink"
+        ]
+      }
+    },
+    {
+      "id": "element_color_white",
+      "type": "color",
+      "name": "White",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "White"
+        ]
+      }
+    },
+    {
+      "id": "element_color_sepia",
+      "type": "color",
+      "name": "Sepia",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Sepia"
+        ]
+      }
+    },
+    {
+      "id": "element_color_black_and_white",
+      "type": "color",
+      "name": "Black and White",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Black and White"
+        ]
+      }
+    },
+    {
+      "id": "element_aspect_ratio_9_16",
+      "type": "aspect_ratio",
+      "name": "9:16",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "9:16"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_square",
+      "type": "aspect_ratio",
+      "name": "1 - square",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1 - square"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_20",
+      "type": "aspect_ratio",
+      "name": "1.20",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.20"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_33",
+      "type": "aspect_ratio",
+      "name": "1.33",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.33"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_37",
+      "type": "aspect_ratio",
+      "name": "1.37",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.37"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_43",
+      "type": "aspect_ratio",
+      "name": "1.43",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.43"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_66",
+      "type": "aspect_ratio",
+      "name": "1.66",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.66"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_78",
+      "type": "aspect_ratio",
+      "name": "1.78",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.78"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_85",
+      "type": "aspect_ratio",
+      "name": "1.85",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.85"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_90",
+      "type": "aspect_ratio",
+      "name": "1.90",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.90"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_00",
+      "type": "aspect_ratio",
+      "name": "2.00",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.00"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_20",
+      "type": "aspect_ratio",
+      "name": "2.20",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.20"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_35",
+      "type": "aspect_ratio",
+      "name": "2.35",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.35"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_39",
+      "type": "aspect_ratio",
+      "name": "2.39",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.39"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_55",
+      "type": "aspect_ratio",
+      "name": "2.55",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.55"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_67",
+      "type": "aspect_ratio",
+      "name": "2.67",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.67"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_76",
+      "type": "aspect_ratio",
+      "name": "2.76+",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.76+"
+      }
+    },
+    {
+      "id": "element_optical_format_anamorphic",
+      "type": "optical_format",
+      "name": "Anamorphic",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Anamorphic"
+      }
+    },
+    {
+      "id": "element_optical_format_spherical",
+      "type": "optical_format",
+      "name": "Spherical",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Spherical"
+      }
+    },
+    {
+      "id": "element_optical_format_super_35",
+      "type": "optical_format",
+      "name": "Super 35",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Super 35"
+      }
+    },
+    {
+      "id": "element_optical_format_3_perf",
+      "type": "optical_format",
+      "name": "3 perf",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "3 perf"
+      }
+    },
+    {
+      "id": "element_optical_format_2_perf",
+      "type": "optical_format",
+      "name": "2 perf",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "2 perf"
+      }
+    },
+    {
+      "id": "element_optical_format_open_gate",
+      "type": "optical_format",
+      "name": "Open Gate",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Open Gate"
+      }
+    },
+    {
+      "id": "element_optical_format_3d",
+      "type": "optical_format",
+      "name": "3D",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "3D"
+      }
+    },
+    {
+      "id": "element_format_film_35mm",
+      "type": "format",
+      "name": "Film - 35mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 35mm"
+      }
+    },
+    {
+      "id": "element_format_film_16mm",
+      "type": "format",
+      "name": "Film - 16mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 16mm"
+      }
+    },
+    {
+      "id": "element_format_film_super_8mm",
+      "type": "format",
+      "name": "Film - Super 8mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - Super 8mm"
+      }
+    },
+    {
+      "id": "element_format_film_65mm_70mm",
+      "type": "format",
+      "name": "Film - 65mm / 70mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 65mm / 70mm"
+      }
+    },
+    {
+      "id": "element_format_film_imax",
+      "type": "format",
+      "name": "Film - IMAX",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - IMAX"
+      }
+    },
+    {
+      "id": "element_format_tape",
+      "type": "format",
+      "name": "Tape",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Tape"
+      }
+    },
+    {
+      "id": "element_format_digital",
+      "type": "format",
+      "name": "Digital",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Digital"
+      }
+    },
+    {
+      "id": "element_format_digital_large_format",
+      "type": "format",
+      "name": "Digital - Large Format",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Digital - Large Format"
+      }
+    },
+    {
+      "id": "element_format_animation",
+      "type": "format",
+      "name": "Animation",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Animation"
+      }
+    },
+    {
+      "id": "element_int_ext_interior",
+      "type": "int_ext",
+      "name": "Interior",
+      "description": "Default Int/Ext element generated from canonical value list.",
+      "tags": [
+        "int_ext",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "element_int_ext_exterior",
+      "type": "int_ext",
+      "name": "Exterior",
+      "description": "Default Int/Ext element generated from canonical value list.",
+      "tags": [
+        "int_ext",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "interiorExterior": "Exterior"
+      }
+    },
+    {
+      "id": "element_time_of_day_day",
+      "type": "time_of_day",
+      "name": "Day",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Day"
+      }
+    },
+    {
+      "id": "element_time_of_day_night",
+      "type": "time_of_day",
+      "name": "Night",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Night"
+      }
+    },
+    {
+      "id": "element_time_of_day_dusk",
+      "type": "time_of_day",
+      "name": "Dusk",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Dusk"
+      }
+    },
+    {
+      "id": "element_time_of_day_dawn",
+      "type": "time_of_day",
+      "name": "Dawn",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Dawn"
+      }
+    },
+    {
+      "id": "element_time_of_day_sunrise",
+      "type": "time_of_day",
+      "name": "Sunrise",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Sunrise"
+      }
+    },
+    {
+      "id": "element_time_of_day_sunset",
+      "type": "time_of_day",
+      "name": "Sunset",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Sunset"
+      }
+    },
+    {
+      "id": "element_gender_male",
+      "type": "gender",
+      "name": "Male",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "element_gender_female",
+      "type": "gender",
+      "name": "Female",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Female"
+      }
+    },
+    {
+      "id": "element_gender_trans",
+      "type": "gender",
+      "name": "Trans",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Trans"
+      }
+    },
+    {
+      "id": "element_lighting_soft_light",
+      "type": "lighting",
+      "name": "Soft light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Soft light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_hard_light",
+      "type": "lighting",
+      "name": "Hard light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Hard light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_high_contrast",
+      "type": "lighting",
+      "name": "High contrast",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "High contrast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_low_contrast",
+      "type": "lighting",
+      "name": "Low contrast",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Low contrast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_silhouette",
+      "type": "lighting",
+      "name": "Silhouette",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Silhouette"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_top_light",
+      "type": "lighting",
+      "name": "Top light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Top light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_underlight",
+      "type": "lighting",
+      "name": "Underlight",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Underlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_side_light",
+      "type": "lighting",
+      "name": "Side light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Side light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_backlight",
+      "type": "lighting",
+      "name": "Backlight",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Backlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_edge_light",
+      "type": "lighting",
+      "name": "Edge light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Edge light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_daylight",
+      "type": "lighting_type",
+      "name": "Daylight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Daylight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_sunny",
+      "type": "lighting_type",
+      "name": "Sunny",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Sunny"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_overcast",
+      "type": "lighting_type",
+      "name": "Overcast",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Overcast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_moonlight",
+      "type": "lighting_type",
+      "name": "Moonlight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Moonlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_artificial_light",
+      "type": "lighting_type",
+      "name": "Artificial light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Artificial light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_practical_light",
+      "type": "lighting_type",
+      "name": "Practical light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Practical light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_fluorescent",
+      "type": "lighting_type",
+      "name": "Fluorescent",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Fluorescent"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_firelight",
+      "type": "lighting_type",
+      "name": "Firelight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Firelight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_mixed_light",
+      "type": "lighting_type",
+      "name": "Mixed light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Mixed light"
+        ]
+      }
+    }
+  ]
+}

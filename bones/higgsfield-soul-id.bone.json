@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-soul-id",
+  "bone_version": "1.1.0",
+  "label": "Higgsfield Soul ID Trainer",
+  "description": "Train a reusable, face-faithful Soul character identity from reference images. The resulting soul_id is stored on the character sheet.",
+  "target": "custom",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "character"
+  ],
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Soul Name"
+    },
+    "images": {
+      "type": "array",
+      "required": true,
+      "ui": "file",
+      "maxItems": 12,
+      "minItems": 3,
+      "label": "Reference Images (minimum 3)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "soul_version": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "soul-2",
+      "options": [
+        "soul-2"
+      ],
+      "label": "Soul Version"
+    }
+  },
+  "defaults": {
+    "soul_version": "soul-2"
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE trains a persistent character identity.\n\nRules:\n- Require at least 3 clear, well-lit reference images of the same person.\n- Prefer varied angles and neutral expressions for best results.\n- After the job completes, the returned soul_id must be written to the character sheet in Studio (character.soulId).\n- Do not generate images with this BONE. It only creates the identity token.\n- Inform the user that subsequent soul-image or video generations should use this soul_id and must suppress facial descriptions."
+  },
+  "output": {
+    "format": "json",
+    "target": "x-character-provider-ref",
+    "completion_status": "review"
+  },
+  "requires": [
+    "character_training"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-soul-id",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield soul-id create",
+        "wait_command": "higgsfield soul-id wait"
+      },
+      "output": {
+        "type": "identity",
+        "fields": {
+          "soul_id": "string",
+          "status": "string"
+        },
+        "write_back": [
+          "character.soulId"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Soul ID Trainer",
+      "command": "higgsfield soul-id create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "wait_command": "higgsfield soul-id wait"
+      }
+    }
+  ]
+}

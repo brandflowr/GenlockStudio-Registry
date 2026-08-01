@@ -1,0 +1,68 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-background-remove",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield Background Remover",
+  "description": "Remove the background from a single image, producing a clean cut-out.",
+  "target": "image",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "image": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Image"
+    }
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE only removes the background from one image.\n\n- Require exactly one source image.\n- Do not generate new content or change the subject.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_edit"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-background-remove",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate create",
+        "model": "image_background_remover"
+      },
+      "output": {
+        "type": "image",
+        "write_back": [
+          "asset",
+          "startFrameImage"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Background Remover",
+      "command": "higgsfield generate create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "model": "image_background_remover"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-3d",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield 3D",
+  "description": "Generate 3D assets from one or more images (image-to-3D, multi-image-to-3D, and basic rigging support).",
+  "target": "custom",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "metadata"
+  ],
+  "fields": {
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "image_to_3d",
+      "options": [
+        "image_to_3d",
+        "multi_image_to_3d",
+        "tripo_3d",
+        "3d_rigging"
+      ],
+      "label": "3D Model"
+    },
+    "images": {
+      "type": "array",
+      "required": true,
+      "ui": "file",
+      "maxItems": 8,
+      "minItems": 1,
+      "label": "Source Image(s)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Optional Guidance"
+    }
+  },
+  "defaults": {
+    "model": "image_to_3d"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are preparing a 3D generation request.\n\nRules:\n- Prefer clean, well-lit source images with clear subject separation.\n- For multi-image mode, supply consistent views of the same object.\n- Only add a prompt when you need to clarify material, style, or topology preferences.\n- This BONE produces a 3D asset, not a 2D image or video.\n- Output only field values."
+  },
+  "output": {
+    "format": "glb",
+    "target": "x-asset",
+    "completion_status": "review"
+  },
+  "requires": [
+    "3d_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-3d",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate create",
+        "default_model": "image_to_3d",
+        "supported_models": [
+          "image_to_3d",
+          "multi_image_to_3d",
+          "tripo_3d",
+          "sam_3_3d",
+          "3d_rigging"
+        ]
+      },
+      "output": {
+        "type": "3d",
+        "write_back": [
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield 3D",
+      "command": "higgsfield generate create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "default_model": "image_to_3d",
+        "supported_models": [
+          "image_to_3d",
+          "multi_image_to_3d",
+          "tripo_3d",
+          "sam_3_3d",
+          "3d_rigging"
+        ]
+      }
+    }
+  ]
+}

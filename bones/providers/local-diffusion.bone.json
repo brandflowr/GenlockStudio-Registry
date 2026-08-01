@@ -1,0 +1,120 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "local-diffusion",
+  "bone_version": "1.0.0",
+  "label": "Local Diffusion",
+  "description": "Local Stable Diffusion / SDXL / similar image generation running on GPU.",
+  "target": "image",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt"
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Checkpoint / Model Name"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "steps": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 25,
+      "label": "Steps"
+    },
+    "guidance": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 7,
+      "label": "CFG Scale"
+    },
+    "seed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Seed"
+    },
+    "image_references": {
+      "type": "array",
+      "required": false,
+      "ui": "file",
+      "label": "Reference / ControlNet Images",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "defaults": {
+    "aspect_ratio": "16:9",
+    "steps": 25,
+    "guidance": 7
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for local Stable Diffusion-style models.\n\nRules:\n- Use the classic subject + details + lighting + style structure that works well with SD/SDXL.\n- Put quality boosters and style terms toward the end if needed.\n- Negative prompts should list common artifacts to avoid.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "local_gpu",
+    "image_generation"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "local-diffusion",
+      "execution_route": "local",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "startFrameImage",
+          "endFrameImage",
+          "asset"
+        ]
+      }
+    }
+  }
+}

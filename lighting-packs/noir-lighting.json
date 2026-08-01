@@ -1,0 +1,61 @@
+{
+  "pack_id": "noir-lighting",
+  "name": "Film Noir Lighting Pack",
+  "version": "1.0.0",
+  "presets": [
+    {
+      "id": "noir-venetian",
+      "name": "Venetian Blind Shadows",
+      "description": "Hard key light through venetian blinds casting striped shadows across the subject. Classic detective office look.",
+      "lighting": ["Hard light", "High contrast", "Side light"],
+      "lightingType": ["Practical light"],
+      "color": ["Desaturated"],
+      "promptModifiers": "venetian blind shadows, film noir, hard shadows, striped light pattern, black and white mood"
+    },
+    {
+      "id": "noir-silhouette",
+      "name": "Doorway Silhouette",
+      "description": "Subject backlit in a doorway, face completely in shadow. Only the outline is visible.",
+      "lighting": ["Back light", "High contrast"],
+      "lightingType": ["Practical light"],
+      "color": ["Desaturated"],
+      "promptModifiers": "silhouette, backlit doorway, film noir, mysterious figure, deep shadow, high contrast"
+    },
+    {
+      "id": "noir-low-key",
+      "name": "Low Key Interrogation",
+      "description": "Single overhead practical lamp. Harsh downward pool of light, everything else in darkness.",
+      "lighting": ["Hard light", "Top light", "High contrast"],
+      "lightingType": ["Practical light", "Tungsten"],
+      "color": ["Warm", "Desaturated"],
+      "promptModifiers": "low key lighting, single overhead lamp, interrogation room, pool of light, deep shadows, noir"
+    },
+    {
+      "id": "noir-neon-rain",
+      "name": "Neon Rain Reflections",
+      "description": "Wet streets reflecting neon signs. Subject lit by colored neon spill from the side.",
+      "lighting": ["Hard light", "Side light", "Edge light"],
+      "lightingType": ["Neon", "Practical light"],
+      "color": ["Saturated", "Red", "Blue"],
+      "promptModifiers": "wet streets, neon reflections, rain, noir, colored light spill, urban night"
+    },
+    {
+      "id": "noir-smoke",
+      "name": "Smoke-Filled Room",
+      "description": "Volumetric light cutting through cigarette smoke. Single hard source from a window.",
+      "lighting": ["Hard light", "Side light"],
+      "lightingType": ["Daylight"],
+      "color": ["Desaturated"],
+      "promptModifiers": "volumetric light, cigarette smoke, light beams, dusty atmosphere, noir, moody"
+    },
+    {
+      "id": "noir-chiaroscuro",
+      "name": "Chiaroscuro Portrait",
+      "description": "Half the face lit, half in complete shadow. Rembrandt triangle on the dark side.",
+      "lighting": ["Hard light", "Side light", "High contrast"],
+      "lightingType": ["Artificial light"],
+      "color": ["Desaturated"],
+      "promptModifiers": "chiaroscuro, half-lit face, Rembrandt lighting, dramatic portrait, film noir, deep shadow"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-soul-image",
+  "bone_version": "1.2.0",
+  "label": "Higgsfield Soul Image",
+  "description": "Face-consistent character image generation using a trained Soul ID. Suppresses facial description automatically.",
+  "target": "image",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot",
+    "scene"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt (no face description)"
+    },
+    "soul_id": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Soul ID"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "quality": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "2k",
+      "options": [
+        "1.5k",
+        "2k"
+      ],
+      "label": "Quality"
+    },
+    "image_reference": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Optional Style/Composition Reference"
+    },
+    "wardrobe_state": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Wardrobe / Temporary State"
+    }
+  },
+  "defaults": {
+    "aspect_ratio": "16:9",
+    "quality": "2k"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "CRITICAL SOUL ID RULES:\n- A Soul ID is present. You must NOT describe facial features, age, ethnicity, skin details, or face shape.\n- Only describe: wardrobe, body language, posture, pose, lighting, environment, camera, and temporary conditions (wet, injured, etc.).\n- Pull costume and non-face distinguishing marks from the character sheet when available.\n- Preserve identity strictly through the soul_id field.\n- If the user tries to change the face, ignore that part of the request.\n- Write a clean, production-ready prompt focused on everything except the face."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation",
+    "character_training"
+  ],
+  "routing": {
+    "supported_models": [
+      "text2image_soul_v2",
+      "soul_cinematic",
+      "soul_cast"
+    ]
+  },
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-soul-image",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate create",
+        "model": "text2image_soul_v2"
+      },
+      "output": {
+        "type": "image",
+        "write_back": [
+          "startFrameImage",
+          "endFrameImage",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Soul Image",
+      "command": "higgsfield generate create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "model": "text2image_soul_v2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "pack_id": "horror-prompts",
+  "name": "Horror Atmosphere Prompts",
+  "version": "1.0.0",
+  "snippets": [
+    {
+      "id": "horror-creeping-fog",
+      "name": "Creeping Fog",
+      "promptModifiers": "thick rolling fog, low visibility, shapes emerging from mist, damp atmosphere, eerie silence, horror"
+    },
+    {
+      "id": "horror-darkness-edge",
+      "name": "Edge of Darkness",
+      "promptModifiers": "barely visible in darkness, single dim light source, deep black shadows, something lurking just out of frame, dread"
+    },
+    {
+      "id": "horror-supernatural-glow",
+      "name": "Supernatural Glow",
+      "promptModifiers": "otherworldly light source, unnatural color, glowing from within, ethereal, ghostly illumination, paranormal"
+    },
+    {
+      "id": "horror-found-footage",
+      "name": "Found Footage Grain",
+      "promptModifiers": "VHS grain, night vision green tint, security camera angle, low resolution, timestamp overlay, found footage horror"
+    },
+    {
+      "id": "horror-isolation",
+      "name": "Isolation Dread",
+      "promptModifiers": "vast empty space, tiny figure alone, overwhelming scale, desolate, abandoned, psychological horror, loneliness"
+    },
+    {
+      "id": "horror-uncanny",
+      "name": "Uncanny Valley",
+      "promptModifiers": "something slightly wrong, unsettling symmetry, too-perfect smile, uncanny valley, liminal space, psychological unease"
+    },
+    {
+      "id": "horror-body-horror",
+      "name": "Body Horror Tension",
+      "promptModifiers": "extreme close-up on skin texture, uncomfortable intimacy, visceral detail, body horror, practical effects look, grotesque beauty"
+    },
+    {
+      "id": "horror-jump-scare-setup",
+      "name": "Jump Scare Setup",
+      "promptModifiers": "false sense of calm, empty doorway, long dark hallway, quiet before the scare, negative space where something should be, tension building"
+    }
+  ]
+}

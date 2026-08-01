@@ -1,0 +1,70 @@
+{
+  "id": "core-lighting-type",
+  "name": "Core Lighting Types",
+  "type": "lighting_type",
+  "snippets": [
+    {
+      "id": "lighting_type_daylight",
+      "name": "Daylight",
+      "data": {
+        "lightingType": "Daylight"
+      }
+    },
+    {
+      "id": "lighting_type_sunny",
+      "name": "Sunny",
+      "data": {
+        "lightingType": "Sunny"
+      }
+    },
+    {
+      "id": "lighting_type_overcast",
+      "name": "Overcast",
+      "data": {
+        "lightingType": "Overcast"
+      }
+    },
+    {
+      "id": "lighting_type_moonlight",
+      "name": "Moonlight",
+      "data": {
+        "lightingType": "Moonlight"
+      }
+    },
+    {
+      "id": "lighting_type_artificial_light",
+      "name": "Artificial light",
+      "data": {
+        "lightingType": "Artificial light"
+      }
+    },
+    {
+      "id": "lighting_type_practical_light",
+      "name": "Practical light",
+      "data": {
+        "lightingType": "Practical light"
+      }
+    },
+    {
+      "id": "lighting_type_fluorescent",
+      "name": "Fluorescent",
+      "data": {
+        "lightingType": "Fluorescent"
+      }
+    },
+    {
+      "id": "lighting_type_firelight",
+      "name": "Firelight",
+      "data": {
+        "lightingType": "Firelight"
+      }
+    },
+    {
+      "id": "lighting_type_mixed_light",
+      "name": "Mixed light",
+      "data": {
+        "lightingType": "Mixed light"
+      }
+    }
+  ]
+}

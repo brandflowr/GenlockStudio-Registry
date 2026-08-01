@@ -1,0 +1,114 @@
+{
+  "id": "core-bones",
+  "name": "Core AI Model BONEs",
+  "type": "bone",
+  "snippets": [
+    {
+      "id": "flux-dev",
+      "name": "Flux Dev (Image Generation)",
+      "data": {
+        "bone_id": "flux-dev",
+        "bone_version": "1.0",
+        "label": "Flux Dev",
+        "description": "Black Forest Labs Flux Dev. Text-to-image with guidance, seed, and negative prompt control.",
+        "target": "image",
+        "attaches_to": ["shot", "scene", "metadata"],
+        "fields": {
+          "text": { "type": "string", "required": true, "ui": "textarea", "label": "Prompt", "description": "The image generation prompt." },
+          "negative": { "type": "string", "required": false, "ui": "textarea", "label": "Negative Prompt", "description": "What to exclude from the image." },
+          "guidance": { "type": "number", "required": false, "ui": "slider", "label": "Guidance Scale", "min": 1, "max": 20, "default": 7.5, "description": "How strictly to follow the prompt. Higher = more literal." },
+          "seed": { "type": "number", "required": false, "ui": "number", "label": "Seed", "description": "Leave empty for random. Set for consistency across shots." },
+          "aspect": { "type": "string", "required": false, "ui": "select", "label": "Aspect Ratio", "options": ["1:1", "16:9", "9:16", "4:3", "3:4", "2.39:1", "21:9"], "default": "16:9" },
+          "lora": { "type": "string", "required": false, "ui": "text", "label": "LoRA Reference", "description": "Path or ID of a LoRA model for style or character consistency." },
+          "style_ref": { "type": "string", "required": false, "ui": "file", "label": "Style Reference Image", "description": "Reference image for style transfer." }
+        },
+        "defaults": { "guidance": 7.5, "aspect": "16:9" },
+        "claude_guidance": "Flux Dev responds best to detailed, descriptive prompts. Lead with subject and composition — what is in the frame and how it is framed. Follow with lighting specifics (source, quality, direction). Mood and cinematic style go last.\n\nBe specific about textures, materials, and colors. Avoid vague emotional language; translate feelings into visual descriptions (e.g. instead of 'melancholy', write 'desaturated blues, long shadows, empty space in frame').\n\nNegative prompts are effective. Always include quality control terms: blurry, low quality, watermark, text, artifacts. Add anything the shot must not contain.\n\nGuidance scale 7–9 works for most shots. Push to 12–15 for highly controlled, specific looks. Stay below 7 for more creative interpretation.\n\nSet seed when visual consistency across shots in a scene matters. Leave empty for variation.\n\nDo not describe camera movement in the text field — that belongs in v_setup tokens. Keep prompts under 200 words."
+      }
+    },
+    {
+      "id": "wan-2.1",
+      "name": "WAN 2.1 (Video Generation)",
+      "data": {
+        "bone_id": "wan-2.1",
+        "bone_version": "1.0",
+        "label": "WAN 2.1",
+        "description": "Wanx 2.1 video generation model. Strong motion quality and prompt adherence for cinematic shots.",
+        "target": "video",
+        "attaches_to": ["shot", "scene", "metadata"],
+        "fields": {
+          "text": { "type": "string", "required": true, "ui": "textarea", "label": "Prompt", "description": "The video generation prompt describing motion and action." },
+          "negative": { "type": "string", "required": false, "ui": "textarea", "label": "Negative Prompt", "description": "What to exclude from the video." },
+          "duration": { "type": "number", "required": false, "ui": "select", "label": "Duration (seconds)", "options": [2, 4, 6, 8], "default": 4 },
+          "resolution": { "type": "string", "required": false, "ui": "select", "label": "Resolution", "options": ["480p", "720p", "1080p"], "default": "720p" },
+          "reference_image": { "type": "string", "required": false, "ui": "file", "label": "Start Frame", "description": "Image to use as the first frame of the video." }
+        },
+        "defaults": { "duration": 4, "resolution": "720p" },
+        "claude_guidance": "WAN 2.1 is a video model — prompts must describe motion, not static scenes. Lead with camera movement (dolly in, crane shot, static hold, slow pan). Follow with what the subject is doing. End with environment and atmosphere.\n\nDescribe the arc of the shot from first frame to last. If the shot is static, say so explicitly — 'camera holds, no movement' — otherwise the model may add unwanted drift.\n\nNegative prompts are supported. Include: blur, jitter, stuttering, low quality, artifacts.\n\nFor duration: 4s is standard for a shot. Use 6–8s for slow, atmospheric shots or complex action.\n\nReference image (start frame): strongly recommended. Use the image BONE output for the same shot as the start frame for visual continuity.\n\nKeep prompts under 150 words. WAN 2.1 responds better to direct, concrete descriptions than to stylistic language. Say what the camera sees happening, not how it feels."
+      }
+    },
+    {
+      "id": "seedance-2",
+      "name": "Seedance 2 (Video Generation)",
+      "data": {
+        "bone_id": "seedance-2",
+        "bone_version": "1.0",
+        "label": "Seedance 2",
+        "description": "ByteDance Seedance 2. High-fidelity video generation with strong motion coherence and cinematic quality.",
+        "target": "video",
+        "attaches_to": ["shot", "scene", "metadata"],
+        "fields": {
+          "text": { "type": "string", "required": true, "ui": "textarea", "label": "Prompt", "description": "The video generation prompt." },
+          "duration": { "type": "number", "required": false, "ui": "select", "label": "Duration (seconds)", "options": [5, 10], "default": 5 },
+          "resolution": { "type": "string", "required": false, "ui": "select", "label": "Resolution", "options": ["720p", "1080p"], "default": "1080p" },
+          "reference_image": { "type": "string", "required": false, "ui": "file", "label": "Start Frame", "description": "Image to use as the first frame." },
+          "aspect": { "type": "string", "required": false, "ui": "select", "label": "Aspect Ratio", "options": ["16:9", "9:16", "1:1", "4:3", "2.39:1"], "default": "16:9" }
+        },
+        "defaults": { "duration": 5, "resolution": "1080p", "aspect": "16:9" },
+        "claude_guidance": "Seedance 2 excels at cinematic, high-motion content. Prompts should read like a camera operator's shot card — precise and physical.\n\nLead with camera movement and lens behavior (e.g. 'slow dolly forward', 'handheld follow', 'static wide'). Then describe the primary subject action in concrete physical terms. Environment and lighting details close the prompt.\n\nSeedance 2 handles complex motion well — do not shy away from multi-element action. It also respects cinematographic language, so v_setup tokens (cu, dolly, noir) translate well into prompt phrasing.\n\nNegative prompts are NOT supported by Seedance 2 — omit the negative field entirely.\n\nDuration: 5s is the standard shot unit. Use 10s only for establishing shots or sustained action sequences.\n\nProvide a start frame reference image whenever possible — Seedance 2's image-to-video quality is significantly stronger than text-only generation.\n\nKeep prompts focused and under 120 words. Seedance 2 degrades with over-specified prompts."
+      }
+    },
+    {
+      "id": "kling-v2",
+      "name": "Kling v2 (Video Generation)",
+      "data": {
+        "bone_id": "kling-v2",
+        "bone_version": "1.0",
+        "label": "Kling v2",
+        "description": "Kuaishou Kling v2. Text-to-video and image-to-video with camera control, mode selection, and strong motion quality.",
+        "target": "video",
+        "attaches_to": ["shot", "scene", "metadata"],
+        "fields": {
+          "text": { "type": "string", "required": true, "ui": "textarea", "label": "Prompt", "description": "The video generation prompt." },
+          "negative": { "type": "string", "required": false, "ui": "textarea", "label": "Negative Prompt" },
+          "duration": { "type": "number", "required": false, "ui": "select", "label": "Duration (seconds)", "options": [5, 10], "default": 5 },
+          "mode": { "type": "string", "required": false, "ui": "select", "label": "Mode", "options": ["standard", "pro"], "default": "standard", "description": "Pro mode for higher quality at additional cost." },
+          "aspect": { "type": "string", "required": false, "ui": "select", "label": "Aspect Ratio", "options": ["16:9", "9:16", "1:1"], "default": "16:9" },
+          "reference_image": { "type": "string", "required": false, "ui": "file", "label": "Reference Image", "description": "Image to use as the first frame." },
+          "camera_control": { "type": "string", "required": false, "ui": "select", "label": "Camera Movement", "options": ["none", "zoom_in", "zoom_out", "pan_left", "pan_right", "tilt_up", "tilt_down", "dolly_forward", "dolly_backward"], "default": "none", "description": "Explicit camera control parameter — overrides text-described movement." }
+        },
+        "defaults": { "duration": 5, "mode": "standard", "aspect": "16:9", "camera_control": "none" },
+        "claude_guidance": "Kling v2 has a dedicated camera_control parameter — use it instead of describing camera movement in the text field. Set camera_control to the appropriate value from the options list, then do NOT describe that same movement in the text prompt (it causes conflicts).\n\nIn the text prompt, focus on: subject appearance and action, environment, lighting, and visual style. The camera is handled by camera_control.\n\nNegative prompts are supported and effective. Include quality terms: blur, distortion, artifacts, low quality.\n\nMode: use 'standard' for most shots. Use 'pro' for hero shots, establishing shots, or anything that will be prominent in the final cut.\n\nDuration: 5s is the standard unit. 10s for slow establishes or extended action.\n\nKling v2 responds very well to reference images. Use the image BONE output as the start frame whenever available — the resulting video will be significantly more consistent with the intended frame.\n\nKeep text prompts under 150 words. Avoid camera language in the text field since camera_control handles it."
+      }
+    },
+    {
+      "id": "flux-schnell",
+      "name": "Flux Schnell (Fast Image Generation)",
+      "data": {
+        "bone_id": "flux-schnell",
+        "bone_version": "1.0",
+        "label": "Flux Schnell",
+        "description": "Black Forest Labs Flux Schnell. Fast, low-cost image generation for drafts, previews, and iteration.",
+        "target": "image",
+        "attaches_to": ["shot", "scene", "metadata"],
+        "fields": {
+          "text": { "type": "string", "required": true, "ui": "textarea", "label": "Prompt", "description": "The image generation prompt." },
+          "seed": { "type": "number", "required": false, "ui": "number", "label": "Seed", "description": "Leave empty for random." },
+          "aspect": { "type": "string", "required": false, "ui": "select", "label": "Aspect Ratio", "options": ["1:1", "16:9", "9:16", "4:3", "3:4", "2.39:1"], "default": "16:9" }
+        },
+        "defaults": { "aspect": "16:9" },
+        "claude_guidance": "Flux Schnell is the fast, low-cost sibling of Flux Dev — use it for drafts, storyboard previews, and iteration before committing to Flux Dev for finals.\n\nPrompt style is the same as Flux Dev: lead with subject and composition, then lighting, then style. However, Schnell is less sensitive to prompt detail — simpler prompts work fine for drafts.\n\nNegative prompts are NOT supported by Flux Schnell — omit the negative field.\n\nGuidance scale is fixed internally — no parameter to set.\n\nBecause Schnell is a draft tool, seed consistency matters more here than in Flux Dev. Set seeds when iterating on a specific shot so you can compare prompt variations against the same base.\n\nKeep prompts under 100 words. Schnell degrades less gracefully with long prompts than Flux Dev does."
+      }
+    }
+  ]
+}

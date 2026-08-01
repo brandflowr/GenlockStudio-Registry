@@ -1,0 +1,70 @@
+{
+  "id": "core-format",
+  "name": "Core Formats",
+  "type": "format",
+  "snippets": [
+    {
+      "id": "format_film_35mm",
+      "name": "Film - 35mm",
+      "data": {
+        "format": "Film - 35mm"
+      }
+    },
+    {
+      "id": "format_film_16mm",
+      "name": "Film - 16mm",
+      "data": {
+        "format": "Film - 16mm"
+      }
+    },
+    {
+      "id": "format_film_super_8mm",
+      "name": "Film - Super 8mm",
+      "data": {
+        "format": "Film - Super 8mm"
+      }
+    },
+    {
+      "id": "format_film_65mm_70mm",
+      "name": "Film - 65mm / 70mm",
+      "data": {
+        "format": "Film - 65mm / 70mm"
+      }
+    },
+    {
+      "id": "format_film_imax",
+      "name": "Film - IMAX",
+      "data": {
+        "format": "Film - IMAX"
+      }
+    },
+    {
+      "id": "format_tape",
+      "name": "Tape",
+      "data": {
+        "format": "Tape"
+      }
+    },
+    {
+      "id": "format_digital",
+      "name": "Digital",
+      "data": {
+        "format": "Digital"
+      }
+    },
+    {
+      "id": "format_digital_large_format",
+      "name": "Digital - Large Format",
+      "data": {
+        "format": "Digital - Large Format"
+      }
+    },
+    {
+      "id": "format_animation",
+      "name": "Animation",
+      "data": {
+        "format": "Animation"
+      }
+    }
+  ]
+}

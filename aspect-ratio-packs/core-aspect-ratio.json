@@ -1,0 +1,126 @@
+{
+  "id": "core-aspect-ratio",
+  "name": "Core Aspect Ratios",
+  "type": "aspect_ratio",
+  "snippets": [
+    {
+      "id": "aspect_ratio_9_16",
+      "name": "9:16",
+      "data": {
+        "aspectRatio": "9:16"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_square",
+      "name": "1 - square",
+      "data": {
+        "aspectRatio": "1 - square"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_20",
+      "name": "1.20",
+      "data": {
+        "aspectRatio": "1.20"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_33",
+      "name": "1.33",
+      "data": {
+        "aspectRatio": "1.33"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_37",
+      "name": "1.37",
+      "data": {
+        "aspectRatio": "1.37"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_43",
+      "name": "1.43",
+      "data": {
+        "aspectRatio": "1.43"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_66",
+      "name": "1.66",
+      "data": {
+        "aspectRatio": "1.66"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_78",
+      "name": "1.78",
+      "data": {
+        "aspectRatio": "1.78"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_85",
+      "name": "1.85",
+      "data": {
+        "aspectRatio": "1.85"
+      }
+    },
+    {
+      "id": "aspect_ratio_1_90",
+      "name": "1.90",
+      "data": {
+        "aspectRatio": "1.90"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_00",
+      "name": "2.00",
+      "data": {
+        "aspectRatio": "2.00"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_20",
+      "name": "2.20",
+      "data": {
+        "aspectRatio": "2.20"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_35",
+      "name": "2.35",
+      "data": {
+        "aspectRatio": "2.35"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_39",
+      "name": "2.39",
+      "data": {
+        "aspectRatio": "2.39"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_55",
+      "name": "2.55",
+      "data": {
+        "aspectRatio": "2.55"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_67",
+      "name": "2.67",
+      "data": {
+        "aspectRatio": "2.67"
+      }
+    },
+    {
+      "id": "aspect_ratio_2_76",
+      "name": "2.76+",
+      "data": {
+        "aspectRatio": "2.76+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "stock-video",
+  "bone_version": "1.0.0",
+  "label": "Stock Video",
+  "description": "Search and retrieve free stock footage from Pexels, Pixabay, or Wikimedia Commons.",
+  "target": "video",
+  "provider": "stock",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "query": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Search Query"
+    },
+    "source": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "pexels",
+      "options": [
+        "pexels",
+        "pixabay",
+        "wikimedia"
+      ],
+      "label": "Source"
+    },
+    "orientation": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "options": [
+        "landscape",
+        "portrait"
+      ],
+      "label": "Orientation"
+    },
+    "min_duration": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Min Duration (seconds)"
+    },
+    "per_page": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 5,
+      "label": "Results to Return"
+    }
+  },
+  "defaults": {
+    "source": "pexels",
+    "per_page": 5
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{query}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are preparing a stock video search.\n\nRules:\n- Use clear keyword-style queries.\n- Prefer concrete actions or subjects (\"drone over forest\", \"city traffic night\") over abstract descriptions.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "stock_video_search"
+  ],
+  "routing": {
+    "supported_sources": [
+      "pexels",
+      "pixabay",
+      "wikimedia"
+    ]
+  },
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure stock execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "stock-video",
+      "execution_route": "api",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

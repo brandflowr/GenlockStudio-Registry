@@ -1,0 +1,49 @@
+{
+  "id": "core-time-of-day",
+  "name": "Core Time of Day",
+  "type": "time_of_day",
+  "snippets": [
+    {
+      "id": "time_of_day_day",
+      "name": "Day",
+      "data": {
+        "timeOfDay": "Day"
+      }
+    },
+    {
+      "id": "time_of_day_night",
+      "name": "Night",
+      "data": {
+        "timeOfDay": "Night"
+      }
+    },
+    {
+      "id": "time_of_day_dusk",
+      "name": "Dusk",
+      "data": {
+        "timeOfDay": "Dusk"
+      }
+    },
+    {
+      "id": "time_of_day_dawn",
+      "name": "Dawn",
+      "data": {
+        "timeOfDay": "Dawn"
+      }
+    },
+    {
+      "id": "time_of_day_sunrise",
+      "name": "Sunrise",
+      "data": {
+        "timeOfDay": "Sunrise"
+      }
+    },
+    {
+      "id": "time_of_day_sunset",
+      "name": "Sunset",
+      "data": {
+        "timeOfDay": "Sunset"
+      }
+    }
+  ]
+}

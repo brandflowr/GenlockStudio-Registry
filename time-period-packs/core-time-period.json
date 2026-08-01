@@ -1,0 +1,147 @@
+{
+  "id": "core-time-period",
+  "name": "Core Time Periods",
+  "type": "time_period",
+  "snippets": [
+    {
+      "id": "time_period_future",
+      "name": "Future",
+      "data": {
+        "timePeriod": "Future"
+      }
+    },
+    {
+      "id": "time_period_2020s",
+      "name": "2020s",
+      "data": {
+        "timePeriod": "2020s"
+      }
+    },
+    {
+      "id": "time_period_2010s",
+      "name": "2010s",
+      "data": {
+        "timePeriod": "2010s"
+      }
+    },
+    {
+      "id": "time_period_2000s",
+      "name": "2000s",
+      "data": {
+        "timePeriod": "2000s"
+      }
+    },
+    {
+      "id": "time_period_1990s",
+      "name": "1990s",
+      "data": {
+        "timePeriod": "1990s"
+      }
+    },
+    {
+      "id": "time_period_1980s",
+      "name": "1980s",
+      "data": {
+        "timePeriod": "1980s"
+      }
+    },
+    {
+      "id": "time_period_1970s",
+      "name": "1970s",
+      "data": {
+        "timePeriod": "1970s"
+      }
+    },
+    {
+      "id": "time_period_1960s",
+      "name": "1960s",
+      "data": {
+        "timePeriod": "1960s"
+      }
+    },
+    {
+      "id": "time_period_1950s",
+      "name": "1950s",
+      "data": {
+        "timePeriod": "1950s"
+      }
+    },
+    {
+      "id": "time_period_1940s",
+      "name": "1940s",
+      "data": {
+        "timePeriod": "1940s"
+      }
+    },
+    {
+      "id": "time_period_1930s",
+      "name": "1930s",
+      "data": {
+        "timePeriod": "1930s"
+      }
+    },
+    {
+      "id": "time_period_1920s",
+      "name": "1920s",
+      "data": {
+        "timePeriod": "1920s"
+      }
+    },
+    {
+      "id": "time_period_1910s",
+      "name": "1910s",
+      "data": {
+        "timePeriod": "1910s"
+      }
+    },
+    {
+      "id": "time_period_1900s",
+      "name": "1900s",
+      "data": {
+        "timePeriod": "1900s"
+      }
+    },
+    {
+      "id": "time_period_1800s",
+      "name": "1800s",
+      "data": {
+        "timePeriod": "1800s"
+      }
+    },
+    {
+      "id": "time_period_1700s",
+      "name": "1700s",
+      "data": {
+        "timePeriod": "1700s"
+      }
+    },
+    {
+      "id": "time_period_renaissance_1400_1700",
+      "name": "Renaissance: 1400-1700",
+      "data": {
+        "timePeriod": "Renaissance: 1400-1700"
+      }
+    },
+    {
+      "id": "time_period_medieval_500_1400",
+      "name": "Medieval: 500-1400",
+      "data": {
+        "timePeriod": "Medieval: 500-1400"
+      }
+    },
+    {
+      "id": "time_period_ancient_2000bc_500ad",
+      "name": "Ancient: 2000BC-500AD",
+      "data": {
+        "timePeriod": "Ancient: 2000BC-500AD"
+      }
+    },
+    {
+      "id": "time_period_stone_age_pre_2000bc",
+      "name": "Stone Age: pre-2000BC",
+      "data": {
+        "timePeriod": "Stone Age: pre-2000BC"
+      }
+    }
+  ]
+}

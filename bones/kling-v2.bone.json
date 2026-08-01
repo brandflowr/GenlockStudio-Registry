@@ -1,0 +1,117 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "kling-v2",
+  "bone_version": "1.0",
+  "label": "Kling v2",
+  "description": "Kuaishou Kling v2. Text-to-video and image-to-video with camera control, mode selection, and strong motion quality.",
+  "target": "video",
+  "provider": "kling-official",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "aspect": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Aspect Ratio",
+      "default": "16:9",
+      "options": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ]
+    },
+    "camera_control": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Camera Movement",
+      "description": "Explicit camera control parameter — overrides text-described movement.",
+      "default": "none",
+      "options": [
+        "none",
+        "zoom_in",
+        "zoom_out",
+        "pan_left",
+        "pan_right",
+        "tilt_up",
+        "tilt_down",
+        "dolly_forward",
+        "dolly_backward"
+      ]
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "select",
+      "label": "Duration (seconds)",
+      "default": 5,
+      "options": [
+        5,
+        10
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Mode",
+      "description": "Pro mode for higher quality at additional cost.",
+      "default": "standard",
+      "options": [
+        "standard",
+        "pro"
+      ]
+    },
+    "negative": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    },
+    "reference_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Reference Image",
+      "description": "Image to use as the first frame."
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "The video generation prompt."
+    }
+  },
+  "defaults": {
+    "aspect": "16:9",
+    "camera_control": "none",
+    "duration": 5,
+    "mode": "standard"
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "Kling v2 has a dedicated camera_control parameter — use it instead of describing camera movement in the text field. Set camera_control to the appropriate value from the options list, then do NOT describe that same movement in the text prompt (it causes conflicts).\n\nIn the text prompt, focus on: subject appearance and action, environment, lighting, and visual style. The camera is handled by camera_control.\n\nNegative prompts are supported and effective. Include quality terms: blur, distortion, artifacts, low quality.\n\nMode: use 'standard' for most shots. Use 'pro' for hero shots, establishing shots, or anything that will be prominent in the final cut.\n\nDuration: 5s is the standard unit. 10s for slow establishes or extended action.\n\nKling v2 responds very well to reference images. Use the image BONE output as the start frame whenever available — the resulting video will be significantly more consistent with the intended frame.\n\nKeep text prompts under 150 words. Avoid camera language in the text field since camera_control handles it."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "kling-v2"
+    }
+  }
+}

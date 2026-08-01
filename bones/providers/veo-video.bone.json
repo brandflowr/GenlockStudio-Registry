@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "veo-video",
+  "bone_version": "1.0.0",
+  "label": "Google Veo Video",
+  "description": "Long-form cinematic video generation via Google Veo 3 (fal.ai or HeyGen gateway).",
+  "target": "video",
+  "provider": "google",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Cinematic Prompt"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "veo3",
+      "options": [
+        "veo3",
+        "veo3.1"
+      ],
+      "label": "Model"
+    },
+    "start_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Start Frame"
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 8,
+      "label": "Duration (seconds)"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "resolution": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "1080p",
+      "options": [
+        "720p",
+        "1080p"
+      ],
+      "label": "Resolution"
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    }
+  },
+  "defaults": {
+    "model": "veo3",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "resolution": "1080p"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for Google Veo cinematic video.\n\nRules:\n- Veo excels at longer, coherent clips. Write with clear beginning → middle → end progression.\n- Emphasize lighting, atmosphere, and camera choreography.\n- When a start_image is supplied, treat it as the opening frame and describe subsequent action only.\n- Prefer natural language over keyword stuffing.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation"
+  ],
+  "routing": {
+    "supported_models": [
+      "veo3",
+      "veo3.1"
+    ]
+  },
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "veo-video",
+      "execution_route": "api",
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  }
+}

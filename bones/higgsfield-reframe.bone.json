@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-reframe",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield Reframe",
+  "description": "Reframe an existing video to a new aspect ratio while preserving the important content.",
+  "target": "video",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "video": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Video"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": true,
+      "ui": "select",
+      "options": [
+        "9:16",
+        "16:9",
+        "1:1",
+        "4:5",
+        "21:9"
+      ],
+      "label": "Target Aspect Ratio"
+    },
+    "resolution": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "720p",
+      "options": [
+        "720p",
+        "1080p"
+      ],
+      "label": "Resolution"
+    }
+  },
+  "defaults": {
+    "resolution": "720p"
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE only reframes an existing video.\n\n- Require a source video and a target aspect ratio.\n- Do not generate new content or change the action.\n- Prefer the most important subject remaining centered or correctly framed after the crop/reframe.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_edit"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-reframe",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate workflow reframe"
+      },
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Reframe",
+      "command": "higgsfield generate workflow reframe",
+      "requires": [
+        "cli.higgsfield"
+      ]
+    }
+  ]
+}

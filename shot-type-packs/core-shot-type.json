@@ -1,0 +1,91 @@
+{
+  "id": "core-shot-type",
+  "name": "Core Shot Types",
+  "type": "shot_type",
+  "snippets": [
+    {
+      "id": "shot_type_aerial",
+      "name": "Aerial",
+      "data": {
+        "shotType": "Aerial"
+      }
+    },
+    {
+      "id": "shot_type_overhead",
+      "name": "Overhead",
+      "data": {
+        "shotType": "Overhead"
+      }
+    },
+    {
+      "id": "shot_type_high_angle",
+      "name": "High angle",
+      "data": {
+        "shotType": "High angle"
+      }
+    },
+    {
+      "id": "shot_type_low_angle",
+      "name": "Low angle",
+      "data": {
+        "shotType": "Low angle"
+      }
+    },
+    {
+      "id": "shot_type_dutch_angle",
+      "name": "Dutch angle",
+      "data": {
+        "shotType": "Dutch angle"
+      }
+    },
+    {
+      "id": "shot_type_establishing_shot",
+      "name": "Establishing shot",
+      "data": {
+        "shotType": "Establishing shot"
+      }
+    },
+    {
+      "id": "shot_type_over_the_shoulder",
+      "name": "Over the shoulder",
+      "data": {
+        "shotType": "Over the shoulder"
+      }
+    },
+    {
+      "id": "shot_type_clean_single",
+      "name": "Clean single",
+      "data": {
+        "shotType": "Clean single"
+      }
+    },
+    {
+      "id": "shot_type_2_shot",
+      "name": "2 shot",
+      "data": {
+        "shotType": "2 shot"
+      }
+    },
+    {
+      "id": "shot_type_3_shot",
+      "name": "3 shot",
+      "data": {
+        "shotType": "3 shot"
+      }
+    },
+    {
+      "id": "shot_type_group_shot",
+      "name": "Group shot",
+      "data": {
+        "shotType": "Group shot"
+      }
+    },
+    {
+      "id": "shot_type_insert",
+      "name": "Insert",
+      "data": {
+        "shotType": "Insert"
+      }
+    }
+  ]
+}

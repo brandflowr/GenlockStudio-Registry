@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "upscale",
+  "bone_version": "1.0.0",
+  "label": "Upscale",
+  "description": "Upscale image or video using Real-ESRGAN or equivalent.",
+  "target": "image",
+  "provider": "local",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "media": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Image or Video"
+    },
+    "scale": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "2x",
+      "options": [
+        "2x",
+        "4x"
+      ],
+      "label": "Scale Factor"
+    },
+    "face_enhance": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "default": false,
+      "label": "Face Enhance"
+    }
+  },
+  "defaults": {
+    "scale": "2x",
+    "face_enhance": false
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This is a pure processing BONE. Pass the media reference and scale. No creative prompt is needed."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_upscale"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure local execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "upscale",
+      "execution_route": "local",
+      "output": {
+        "type": "auto",
+        "write_back": [
+          "asset",
+          "startFrameImage",
+          "videoTake"
+        ]
+      }
+    }
+  }
+}

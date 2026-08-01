@@ -1,0 +1,126 @@
+{
+  "id": "core-color",
+  "name": "Core Colors",
+  "type": "color",
+  "snippets": [
+    {
+      "id": "color_warm",
+      "name": "Warm",
+      "data": {
+        "color": "Warm"
+      }
+    },
+    {
+      "id": "color_cool",
+      "name": "Cool",
+      "data": {
+        "color": "Cool"
+      }
+    },
+    {
+      "id": "color_mixed",
+      "name": "Mixed",
+      "data": {
+        "color": "Mixed"
+      }
+    },
+    {
+      "id": "color_saturated",
+      "name": "Saturated",
+      "data": {
+        "color": "Saturated"
+      }
+    },
+    {
+      "id": "color_desaturated",
+      "name": "Desaturated",
+      "data": {
+        "color": "Desaturated"
+      }
+    },
+    {
+      "id": "color_red",
+      "name": "Red",
+      "data": {
+        "color": "Red"
+      }
+    },
+    {
+      "id": "color_orange",
+      "name": "Orange",
+      "data": {
+        "color": "Orange"
+      }
+    },
+    {
+      "id": "color_yellow",
+      "name": "Yellow",
+      "data": {
+        "color": "Yellow"
+      }
+    },
+    {
+      "id": "color_green",
+      "name": "Green",
+      "data": {
+        "color": "Green"
+      }
+    },
+    {
+      "id": "color_cyan",
+      "name": "Cyan",
+      "data": {
+        "color": "Cyan"
+      }
+    },
+    {
+      "id": "color_blue",
+      "name": "Blue",
+      "data": {
+        "color": "Blue"
+      }
+    },
+    {
+      "id": "color_purple",
+      "name": "Purple",
+      "data": {
+        "color": "Purple"
+      }
+    },
+    {
+      "id": "color_magenta",
+      "name": "Magenta",
+      "data": {
+        "color": "Magenta"
+      }
+    },
+    {
+      "id": "color_pink",
+      "name": "Pink",
+      "data": {
+        "color": "Pink"
+      }
+    },
+    {
+      "id": "color_white",
+      "name": "White",
+      "data": {
+        "color": "White"
+      }
+    },
+    {
+      "id": "color_sepia",
+      "name": "Sepia",
+      "data": {
+        "color": "Sepia"
+      }
+    },
+    {
+      "id": "color_black_and_white",
+      "name": "Black and White",
+      "data": {
+        "color": "Black and White"
+      }
+    }
+  ]
+}

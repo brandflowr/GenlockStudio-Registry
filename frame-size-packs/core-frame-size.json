@@ -1,0 +1,56 @@
+{
+  "id": "core-frame-size",
+  "name": "Core Frame Sizes",
+  "type": "frame_size",
+  "snippets": [
+    {
+      "id": "frame_size_extreme_wide",
+      "name": "Extreme Wide",
+      "data": {
+        "frameSize": "Extreme Wide"
+      }
+    },
+    {
+      "id": "frame_size_wide",
+      "name": "Wide",
+      "data": {
+        "frameSize": "Wide"
+      }
+    },
+    {
+      "id": "frame_size_medium_wide",
+      "name": "Medium Wide",
+      "data": {
+        "frameSize": "Medium Wide"
+      }
+    },
+    {
+      "id": "frame_size_medium",
+      "name": "Medium",
+      "data": {
+        "frameSize": "Medium"
+      }
+    },
+    {
+      "id": "frame_size_medium_close_up",
+      "name": "Medium Close Up",
+      "data": {
+        "frameSize": "Medium Close Up"
+      }
+    },
+    {
+      "id": "frame_size_close_up",
+      "name": "Close Up",
+      "data": {
+        "frameSize": "Close Up"
+      }
+    },
+    {
+      "id": "frame_size_extreme_close_up",
+      "name": "Extreme Close Up",
+      "data": {
+        "frameSize": "Extreme Close Up"
+      }
+    }
+  ]
+}

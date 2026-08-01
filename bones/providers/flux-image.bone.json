@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "flux-image",
+  "bone_version": "1.0.0",
+  "label": "FLUX Image",
+  "description": "State-of-the-art image generation via FLUX (Dev / Pro / Schnell variants).",
+  "target": "image",
+  "provider": "flux",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "flux-dev",
+      "options": [
+        "flux-dev",
+        "flux-pro",
+        "flux-schnell",
+        "flux_2"
+      ],
+      "label": "Model"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "guidance": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 7.5,
+      "label": "Guidance Scale"
+    },
+    "seed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Seed"
+    },
+    "image_references": {
+      "type": "array",
+      "required": false,
+      "ui": "file",
+      "maxItems": 4,
+      "label": "Reference Images",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negative_prompt": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Negative Prompt"
+    }
+  },
+  "defaults": {
+    "model": "flux-dev",
+    "aspect_ratio": "16:9",
+    "guidance": 7.5
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are writing a prompt for FLUX image generation.\n\nRules:\n- FLUX responds extremely well to precise, concrete visual language.\n- Describe subject, materials, lighting, camera, and composition clearly.\n- Prefer specific nouns and verbs over vague adjectives (\"cinematic\", \"epic\", \"beautiful\").\n- When reference images are supplied, treat them as strong identity/style anchors.\n- Keep the prompt self-contained.\n- Output only field values."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "routing": {
+    "supported_models": [
+      "flux-dev",
+      "flux-pro",
+      "flux-schnell",
+      "flux_2"
+    ]
+  },
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure flux execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "flux-image",
+      "execution_route": "api",
+      "output": {
+        "type": "image",
+        "write_back": [
+          "startFrameImage",
+          "endFrameImage",
+          "asset"
+        ]
+      }
+    }
+  }
+}

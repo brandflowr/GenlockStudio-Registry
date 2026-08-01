@@ -1,0 +1,95 @@
+{
+  "pack_id": "alien-cinematography",
+  "name": "Alien (1979) Camera Pack",
+  "version": "1.0.0",
+  "snippets": [
+    {
+      "id": "alien-1-two-shot",
+      "name": "Alien — Nostromo 2-Shot",
+      "data": {
+        "shotType": "2 shot",
+        "frameSize": "Medium",
+        "lensSize": "Medium",
+        "composition": "Center",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light", "High contrast", "Side light"],
+        "lightingType": ["Artificial light", "Mixed light"],
+        "color": ["Cool", "Saturated", "Blue"],
+        "colorPalette": ["#030505","#0d0c0b","#0c1c2e","#282227","#233c6a","#48394c","#445184","#685170","#5d73bc","#8c7392","#9f85a1","#7696da","#9abbf2","#b1d3fa","#fcfdfd"],
+        "camera": "Panavision Panaflex",
+        "lens": "Cooke Varotal Lenses",
+        "cinematographer": "Derek Vanlint",
+        "genre": ["Horror", "Science Fiction", "Thriller"],
+        "timeOfDay": "Night",
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "alien-2-wide-corridor",
+      "name": "Alien — Corridor Wide",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Wide",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Hard light"],
+        "lightingType": ["Artificial light"],
+        "color": ["Cool", "Saturated", "Cyan", "Blue"],
+        "colorPalette": ["#040103","#090705","#0f1614","#11242c","#30395c","#1d495d","#655847","#6b545d","#51635b","#366483","#849b96","#71a6ce","#96c5ea","#b0e0f7","#e9fbfa"],
+        "camera": "Panavision Panaflex",
+        "lens": "Cooke Varotal Lenses",
+        "cinematographer": "Derek Vanlint",
+        "genre": ["Horror", "Science Fiction", "Thriller"],
+        "timeOfDay": "Night",
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "alien-3-blue-wash",
+      "name": "Alien — Blue Wash Medium Wide",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium Wide",
+        "lensSize": "Wide",
+        "composition": "Right heavy",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Soft light"],
+        "lightingType": ["Artificial light"],
+        "color": ["Cool", "Saturated", "Blue"],
+        "colorPalette": ["#041564","#4c165f","#083289","#622768","#72396e","#1a5ca6","#4b81bd","#937895","#1e99da","#5f9ace","#c3b5a2","#b0bed2","#bcbdbd","#dad9d4","#cedbe5"],
+        "camera": "Panavision Panaflex",
+        "lens": "Cooke Varotal Lenses",
+        "cinematographer": "Derek Vanlint",
+        "genre": ["Horror", "Science Fiction", "Thriller"],
+        "timeOfDay": "Night",
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "alien-4-desaturated",
+      "name": "Alien — Desaturated Medium",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "cameraAngle": "eye_level",
+        "aspectRatio": "2.35",
+        "lighting": ["Soft light"],
+        "lightingType": ["Artificial light"],
+        "color": ["Desaturated", "Blue"],
+        "colorPalette": ["#0a100f","#131211","#11191c","#211e1f","#364049","#444039","#545052","#57514b","#545756","#4d5c6c","#717d93","#af9a79","#96a3b9","#b3becf","#c3cbd8"],
+        "camera": "Panavision Panaflex",
+        "lens": "Cooke Varotal Lenses",
+        "cinematographer": "Derek Vanlint",
+        "genre": ["Horror", "Science Fiction", "Thriller"],
+        "timeOfDay": "Night",
+        "interiorExterior": "Interior"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-dubbing",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield Dubbing",
+  "description": "Dub an existing video into a different language using ISO-639-3 language codes.",
+  "target": "video",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "video": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Video"
+    },
+    "target_language": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Target Language (ISO-639-3)"
+    }
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "separator": " ",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "This BONE performs language dubbing.\n\n- Require a source video and a valid ISO-639-3 target language code.\n- Do not change the picture or original timing more than necessary for lip sync.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_edit",
+    "audio_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-dubbing",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate workflow dubbing"
+      },
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Dubbing",
+      "command": "higgsfield generate workflow dubbing",
+      "requires": [
+        "cli.higgsfield"
+      ]
+    }
+  ]
+}

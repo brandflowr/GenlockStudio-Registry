@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-marketing",
+  "bone_version": "1.1.0",
+  "label": "Higgsfield Marketing Studio",
+  "description": "Generate branded marketing assets — avatars, product shots, ad formats, and short marketing videos — using Higgsfield Marketing Studio.",
+  "target": "image",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot",
+    "metadata"
+  ],
+  "fields": {
+    "asset_type": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "ad_image",
+      "options": [
+        "ad_image",
+        "avatar",
+        "product_hero",
+        "ad_video",
+        "story_ad",
+        "banner"
+      ],
+      "label": "Asset Type"
+    },
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Creative Brief / Prompt"
+    },
+    "brand_kit": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Brand Kit ID or Notes"
+    },
+    "product_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Product Reference"
+    },
+    "avatar_reference": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Avatar / Talent Reference"
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "1:1",
+      "options": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "1.91:1"
+      ],
+      "label": "Aspect Ratio"
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Duration (seconds, video only)"
+    },
+    "call_to_action": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "CTA Text"
+    }
+  },
+  "defaults": {
+    "asset_type": "ad_image",
+    "aspect_ratio": "1:1"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are creating a branded marketing asset.\n\nRules:\n- Respect any supplied brand_kit, product_image, or avatar_reference exactly.\n- Write clear, commercially oriented prompts. Focus on product benefits, lifestyle context, and strong visual hierarchy.\n- For video assets, include pacing and a clear hook in the first 2 seconds.\n- Keep text overlays minimal unless the user explicitly requests them.\n- Match the requested aspect ratio and platform conventions (feed, story, landscape ad).\n- Output only field values. No extra commentary."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "marketing_image"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-marketing",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield marketing-studio",
+        "image_model": "marketing_studio_image",
+        "video_model": "marketing_studio_video"
+      },
+      "output": {
+        "type": "auto",
+        "write_back": [
+          "asset",
+          "startFrameImage",
+          "videoTake"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Marketing Studio",
+      "command": "higgsfield marketing-studio",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "image_model": "marketing_studio_image",
+        "video_model": "marketing_studio_video"
+      }
+    }
+  ]
+}

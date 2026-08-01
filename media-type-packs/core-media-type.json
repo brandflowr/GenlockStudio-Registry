@@ -1,0 +1,42 @@
+{
+  "id": "core-media-type",
+  "name": "Core Media Types",
+  "type": "media_type",
+  "snippets": [
+    {
+      "id": "media_type_movie",
+      "name": "Movie",
+      "data": {
+        "mediaType": "Movie"
+      }
+    },
+    {
+      "id": "media_type_tv",
+      "name": "TV",
+      "data": {
+        "mediaType": "TV"
+      }
+    },
+    {
+      "id": "media_type_trailer",
+      "name": "Trailer",
+      "data": {
+        "mediaType": "Trailer"
+      }
+    },
+    {
+      "id": "media_type_music_video",
+      "name": "Music Video",
+      "data": {
+        "mediaType": "Music Video"
+      }
+    },
+    {
+      "id": "media_type_commercial",
+      "name": "Commercial",
+      "data": {
+        "mediaType": "Commercial"
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-tts",
+  "bone_version": "1.1.0",
+  "label": "Higgsfield Text-to-Speech",
+  "description": "Generate narration or voice tracks using Seed Audio or Text-to-Speech v2. Supports preset and custom voices.",
+  "target": "audio",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Narration Text"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "seed_audio",
+      "options": [
+        "seed_audio",
+        "text2speech_v2"
+      ],
+      "label": "Model"
+    },
+    "voice_type": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "default": "preset",
+      "options": [
+        "preset",
+        "element"
+      ],
+      "label": "Voice Type"
+    },
+    "voice_id": {
+      "type": "string",
+      "required": true,
+      "ui": "text",
+      "label": "Voice ID"
+    },
+    "speed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "default": 1,
+      "label": "Speed"
+    },
+    "emotion": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Emotion / Delivery"
+    }
+  },
+  "defaults": {
+    "model": "seed_audio",
+    "voice_type": "preset",
+    "speed": 1
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are preparing a text-to-speech request.\n\nRules:\n- Pass the narration text exactly as written unless the user asks for light polishing.\n- Always require a valid voice_id. Prefer preset voices unless a custom element voice is specified.\n- Keep delivery natural and clear. Only add emotion or style notes when explicitly requested.\n- This BONE produces audio only. Do not generate video or images.\n- After generation, the audio should be available for attachment to a shot or for use in explainer / dubbing pipelines."
+  },
+  "output": {
+    "format": "wav",
+    "target": "audio_track",
+    "completion_status": "review"
+  },
+  "requires": [
+    "speech_generation"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-tts",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate create",
+        "default_model": "seed_audio",
+        "supported_models": [
+          "seed_audio",
+          "text2speech_v2",
+          "inworld_text_to_speech"
+        ]
+      },
+      "output": {
+        "type": "audio",
+        "write_back": [
+          "audioTake",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Text-to-Speech",
+      "command": "higgsfield generate create",
+      "requires": [
+        "cli.higgsfield"
+      ],
+      "args": {
+        "default_model": "seed_audio",
+        "supported_models": [
+          "seed_audio",
+          "text2speech_v2",
+          "inworld_text_to_speech"
+        ]
+      }
+    }
+  ]
+}

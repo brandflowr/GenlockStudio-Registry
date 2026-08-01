@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "flux-schnell",
+  "bone_version": "1.0",
+  "label": "Flux Schnell",
+  "description": "Black Forest Labs Flux Schnell. Fast, low-cost image generation for drafts, previews, and iteration.",
+  "target": "image",
+  "provider": "flux",
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "aspect": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Aspect Ratio",
+      "default": "16:9",
+      "options": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "2.39:1"
+      ]
+    },
+    "seed": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Seed",
+      "description": "Leave empty for random."
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "The image generation prompt."
+    }
+  },
+  "defaults": {
+    "aspect": "16:9"
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "Flux Schnell is the fast, low-cost sibling of Flux Dev — use it for drafts, storyboard previews, and iteration before committing to Flux Dev for finals.\n\nPrompt style is the same as Flux Dev: lead with subject and composition, then lighting, then style. However, Schnell is less sensitive to prompt detail — simpler prompts work fine for drafts.\n\nNegative prompts are NOT supported by Flux Schnell — omit the negative field.\n\nGuidance scale is fixed internally — no parameter to set.\n\nBecause Schnell is a draft tool, seed consistency matters more here than in Flux Dev. Set seeds when iterating on a specific shot so you can compare prompt variations against the same base.\n\nKeep prompts under 100 words. Schnell degrades less gracefully with long prompts than Flux Dev does."
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "execution_routes": [
+    {
+      "type": "manual",
+      "label": "Configure flux execution in Genlock"
+    }
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "flux-schnell"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://spore.dev/schemas/bone/v1.0/bone.schema.json",
+  "bone_id": "higgsfield-virality",
+  "bone_version": "1.0",
+  "label": "Higgsfield Virality Predictor",
+  "description": "Higgsfield brain_activity analysis. Predicts hook strength, attention peak, retention risk, and engagement score for a generated video.",
+  "provider": "higgsfield",
+  "target": "custom",
+  "requires": [
+    "video_analysis"
+  ],
+  "prompt_skill": "higgsfield-generate",
+  "attaches_to": [
+    "shot",
+    "scene"
+  ],
+  "fields": {
+    "video_path": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Video to Analyze",
+      "description": "Path to the video file to run virality analysis on."
+    },
+    "hook_score": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Hook Score (out)",
+      "description": "Read-only. Populated by the analysis result."
+    },
+    "attention_peak": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Attention Peak (s)",
+      "description": "Read-only. Second in the video where attention is highest."
+    },
+    "retention_risk": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Retention Risk (out)",
+      "description": "Read-only. Summary of where viewers are likely to drop off."
+    },
+    "engagement_score": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Engagement Score (out)",
+      "description": "Read-only. Overall predicted engagement score 0–100."
+    },
+    "report_notes": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Notes",
+      "description": "LLM-written interpretation of the virality report for this shot."
+    }
+  },
+  "defaults": {},
+  "output": {
+    "format": "json",
+    "target": "custom",
+    "completion_status": "review"
+  },
+  "execution": {
+    "cli": "higgsfield generate create brain_activity --video \"{{video_path}}\"",
+    "mcp": "higgsfield.virality_predictor",
+    "skill": "higgsfield-generate",
+    "wait": true,
+    "json": true
+  },
+  "prompt_assembly": {
+    "strategy": "raw",
+    "max_length": 1
+  },
+  "llm_instructions": {
+    "writing_guide": "The virality BONE does not generate content — it analyzes an existing video. When running this BONE: pass the video_path field to the Higgsfield virality_predictor MCP tool or CLI. After the analysis returns, write the results into hook_score, attention_peak, retention_risk, and engagement_score fields on the shot in story.skel. Write a plain-language summary in report_notes explaining what the scores mean for this specific shot and what could improve retention.",
+    "field_guides": {
+      "video_path": "Workspace-relative path to the generated video take. Use the active take from the shot's video-map.json entry and resolve it to an absolute path only for the provider call.",
+      "hook_score": "0–100. Higher is better. Below 40 = weak hook, needs rewrite. 60+ = strong attention grab.",
+      "attention_peak": "Second timestamp. Note in report_notes if the peak aligns with the intended story beat.",
+      "retention_risk": "Plain language. Example: 'Significant drop predicted at 12s — pacing issue after the establishing shot.'",
+      "report_notes": "Write 2–3 sentences: what the scores indicate, which beat is the weakest, and one actionable suggestion for improving retention."
+    },
+    "examples": [
+      {
+        "context": "30-second UGC ad, generated video analyzed",
+        "virality_result": {
+          "hook_score": 72,
+          "attention_peak": 4,
+          "engagement_score": 61,
+          "retention_risk": "Drop at 18s"
+        },
+        "report_notes": "Strong hook (72) — the opening statement lands well. Attention peaks at 4s, aligning with the product reveal. Drop predicted at 18s suggests the mid-section loses momentum; consider cutting 3–4 seconds of product b-roll and moving the CTA earlier."
+      }
+    ],
+    "do": [
+      "Read hook_score, attention_peak, retention_risk, engagement_score from the API response and write them back to the shot",
+      "Write report_notes in plain language the director can act on",
+      "Reference specific timestamps when noting retention issues"
+    ],
+    "dont": [
+      "Leave report_notes empty — always write an interpretation",
+      "Run virality analysis before a video take exists for the shot"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.9.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-draw-to-video",
+  "bone_version": "1.1.0",
+  "label": "Higgsfield Draw-to-Video",
+  "description": "Edit an existing video by providing a sketch/frame at a specific timestamp and a text instruction (e.g. change clothing color, add object, alter action).",
+  "target": "video",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "shot"
+  ],
+  "fields": {
+    "video": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Source Video"
+    },
+    "sketch": {
+      "type": "string",
+      "required": true,
+      "ui": "file",
+      "label": "Edited Sketch / Frame"
+    },
+    "timestamp": {
+      "type": "number",
+      "required": true,
+      "ui": "number",
+      "label": "Timestamp (seconds)"
+    },
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Edit Instruction"
+    }
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "llm_instructions": {
+    "writing_guide": "You are directing a precise video edit via sketch.\n\nRules:\n- The source video and the sketch frame are the primary inputs.\n- The prompt should describe only the intended change (e.g. \"make the jacket bright red\", \"add rain\", \"change the logo on the bag\").\n- Do not rewrite the entire scene. Focus on the delta between the original frame and the sketch.\n- Timestamp must match the moment the sketch represents.\n- Keep the rest of the video’s motion and continuity intact.\n- Output only field values."
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation",
+    "video_edit"
+  ],
+  "extensions": {
+    "x-grok-source": {
+      "dialect": "grok-draft-2026-07",
+      "original_id": "higgsfield-draw-to-video",
+      "execution_route": "cli",
+      "cli": {
+        "command": "higgsfield generate workflow draw_to_video"
+      },
+      "output": {
+        "type": "video",
+        "write_back": [
+          "videoTake",
+          "asset"
+        ]
+      }
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "cli",
+      "label": "Higgsfield CLI — Higgsfield Draw-to-Video",
+      "command": "higgsfield generate workflow draw_to_video",
+      "requires": [
+        "cli.higgsfield"
+      ]
+    }
+  ]
+}
