@@ -15,16 +15,74 @@
     "model": {
       "type": "string",
       "required": true,
-      "ui": "text",
+      "ui": "select",
       "label": "Model",
-      "description": "Model ID from the model catalog (required)."
+      "default": "soul_2",
+      "options": [
+        {
+          "value": "soul_2",
+          "label": "Higgsfield Soul 2.0"
+        },
+        {
+          "value": "soul_cinematic",
+          "label": "Soul Cinema"
+        },
+        {
+          "value": "gpt_image_2",
+          "label": "GPT Image 2"
+        },
+        {
+          "value": "cinematic_studio_2_5",
+          "label": "Cinema Studio Image 2.5"
+        },
+        {
+          "value": "marketing_studio_image",
+          "label": "Marketing Studio Image"
+        },
+        {
+          "value": "ms_image",
+          "label": "DTC Ads"
+        },
+        {
+          "value": "image_auto",
+          "label": "Auto"
+        },
+        {
+          "value": "autosprite",
+          "label": "AutoSprite Animation"
+        },
+        {
+          "value": "soul_cast",
+          "label": "Soul Cast"
+        },
+        {
+          "value": "soul_location",
+          "label": "Soul Location"
+        },
+        {
+          "value": "sam_3_3d",
+          "label": "SAM 3 3D Objects"
+        },
+        {
+          "value": "image_to_3d",
+          "label": "Image to 3D"
+        },
+        {
+          "value": "multi_image_to_3d",
+          "label": "Multi-Image to 3D"
+        },
+        {
+          "value": "3d_rigging",
+          "label": "3D Rigging"
+        }
+      ]
     },
     "prompt": {
       "type": "string",
-      "required": false,
+      "required": true,
       "ui": "textarea",
       "label": "Prompt",
-      "description": "Text description of what to generate."
+      "description": "Creative instruction assembled by Genlock."
     },
     "count": {
       "type": "number",
@@ -65,6 +123,7 @@
     }
   },
   "defaults": {
+    "model": "soul_2",
     "count": 1
   },
   "prompt_assembly": {
@@ -83,7 +142,7 @@
     "max_length": 4000
   },
   "llm_instructions": {
-    "writing_guide": "Write a concrete Higgsfield AI image prompt for Generate Image. Respect the discovered parameter contract and do not invent unsupported fields.",
+    "writing_guide": "Write a concrete Higgsfield image prompt for Generate Image. Respect the discovered parameter contract and do not invent unsupported fields.",
     "do": [
       "Use the discovered parameter names",
       "Keep values inside the documented constraints"
@@ -105,8 +164,9 @@
   "execution_routes": [
     {
       "type": "mcp",
-      "label": "Higgsfield AI MCP · Generate Image",
+      "label": "Higgsfield MCP · Generate Image",
       "tool": "generate_image",
+      "operation": "image_generation",
       "args": {
         "params": {
           "model": "{{model}}",
@@ -117,8 +177,7 @@
           "get_cost": "{{get_cost}}",
           "use_unlim": "{{use_unlim}}"
         }
-      },
-      "operation": "image_generation"
+      }
     }
   ],
   "routing": {
@@ -130,7 +189,7 @@
       "tool_name": "generate_image",
       "transport": "mcp",
       "surface": "mcp.higgsfield.ai",
-      "discovered_at": "2026-08-30T22:23:33.713Z",
+      "discovered_at": "2026-09-06T15:51:19.753Z",
       "input_schema": {
         "type": "object",
         "properties": {
@@ -204,10 +263,17 @@
         "$schema": "https://json-schema.org/draft/2020-12/schema"
       }
     },
+    "x-genlock-provider-source": {
+      "server_id": "higgsfield",
+      "operation": "image_generation",
+      "transport": "mcp",
+      "surface": "mcp.higgsfield.ai",
+      "tool_name": "generate_image"
+    },
     "x-genlock-surface": {
       "version": "1.0",
       "archetype": "image-canvas",
-      "accent": "mint",
+      "accent": "cyan",
       "tagline": "A mapped image instrument for Generate Image.",
       "controls": {
         "model": {
@@ -277,12 +343,160 @@
       "revision": 1,
       "bone_version": "1.0.0"
     },
-    "x-genlock-provider-source": {
-      "server_id": "higgsfield",
-      "operation": "image_generation",
-      "transport": "mcp",
-      "surface": "mcp.higgsfield.ai",
-      "tool_name": "generate_image"
+    "x-genlock-model-constraints": {
+      "soul_2": {
+        "aspect_ratios": [
+          "1:1",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "soul_cinematic": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16",
+          "3:2",
+          "2:3",
+          "21:9"
+        ]
+      },
+      "gpt_image_2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "21:9",
+          "9:16",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "cinematic_studio_2_5": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "16:9",
+          "9:16",
+          "21:9"
+        ]
+      },
+      "marketing_studio_image": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "ms_image": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "21:9",
+          "27:16",
+          "16:27",
+          "9:8",
+          "8:9",
+          "4:9",
+          "9:4"
+        ]
+      },
+      "image_auto": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "soul_cast": {
+        "aspect_ratios": [
+          "16:9"
+        ]
+      },
+      "soul_location": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16",
+          "3:2",
+          "2:3",
+          "21:9",
+          "9:21"
+        ]
+      },
+      "cinematic_studio_3_0": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "cinematic_studio_video": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "cinematic_studio_video_v2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "marketing_studio_video": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "higgsfield_preset": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "1:1"
+        ]
+      }
     }
   }
 }
