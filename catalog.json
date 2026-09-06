@@ -190,6 +190,41 @@
       "author": "Spore",
       "url": "bone-packs/core-bones.json",
       "updated_at": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "higgsfield-generate-image",
+      "type": "bone",
+      "name": "Higgsfield · Generate Image",
+      "description": "Generate one image request and render its result(s) in the generation widget.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/providers/higgsfield-generate-image.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-05T13:29:41.418Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "higgsfield",
+      "capabilities": [
+        "image_generation"
+      ]
+    },
+    {
+      "id": "minimax-image-generation",
+      "type": "bone",
+      "name": "MiniMax · Image Generation",
+      "description": "Image Generation mapped from MiniMax's reviewed Genlock provider contract.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/providers/minimax-image-generation.bone.json",
+      "category": "bones",
+      "updated_at": "2026-08-31T22:59:35.539Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "minimax",
+      "capabilities": [
+        "image_generation"
+      ]
     }
-  ]
+  ],
+  "generated_at": "2026-09-05T13:29:41.418Z"
 }
