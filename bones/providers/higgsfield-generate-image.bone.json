@@ -60,20 +60,44 @@
           "label": "Soul Location"
         },
         {
-          "value": "sam_3_3d",
-          "label": "SAM 3 3D Objects"
+          "value": "soul_v2",
+          "label": "Higgsfield Soul 2.0"
         },
         {
-          "value": "image_to_3d",
-          "label": "Image to 3D"
+          "value": "z_image",
+          "label": "Z Image"
         },
         {
-          "value": "multi_image_to_3d",
-          "label": "Multi-Image to 3D"
+          "value": "nano_banana",
+          "label": "Nano Banana"
         },
         {
-          "value": "3d_rigging",
-          "label": "3D Rigging"
+          "value": "nano_banana_pro",
+          "label": "Nano Banana Pro"
+        },
+        {
+          "value": "nano_banana_2_shots",
+          "label": "Nano Banana Pro"
+        },
+        {
+          "value": "nano_banana_2",
+          "label": "Nano Banana 2"
+        },
+        {
+          "value": "nano_banana_2_lite",
+          "label": "Nano Banana 2 Lite"
+        },
+        {
+          "value": "seedream_v4_5",
+          "label": "Seedream 4.5"
+        },
+        {
+          "value": "flux_2",
+          "label": "FLUX.2"
+        },
+        {
+          "value": "flux_2_pro_outpaint",
+          "label": "FLUX.2 Pro Outpaint"
         }
       ]
     },
@@ -189,7 +213,7 @@
       "tool_name": "generate_image",
       "transport": "mcp",
       "surface": "mcp.higgsfield.ai",
-      "discovered_at": "2026-09-06T15:51:19.753Z",
+      "discovered_at": "2026-09-06T18:29:55.774Z",
       "input_schema": {
         "type": "object",
         "properties": {
@@ -452,6 +476,117 @@
           "9:21"
         ]
       },
+      "soul_v2": {
+        "aspect_ratios": [
+          "1:1",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "z_image": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "nano_banana": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_pro": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2_shots": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2_lite": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "seedream_v4_5": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "16:9",
+          "3:2",
+          "21:9",
+          "3:4",
+          "9:16",
+          "2:3"
+        ]
+      },
+      "flux_2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
       "cinematic_studio_3_0": {
         "aspect_ratios": [
           "21:9",
@@ -495,6 +630,104 @@
           "16:9",
           "9:16",
           "1:1"
+        ]
+      },
+      "flux_3_video": {
+        "aspect_ratios": [
+          "21:9",
+          "2:1",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "minimax_h3": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "minimax_h3_max": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "wan2_6": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "1:1"
+        ]
+      },
+      "seedance1_5": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_0": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_0_mini": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_5": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "ad_multiplier": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "topaz_video": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
         ]
       }
     }

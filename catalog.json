@@ -200,7 +200,7 @@
       "version": "1.0.0",
       "url": "bones/providers/higgsfield-generate-image.bone.json",
       "category": "bones",
-      "updated_at": "2026-09-06T16:00:30.979Z",
+      "updated_at": "2026-09-06T18:30:27.558Z",
       "format": "bone",
       "target": "image",
       "provider": "higgsfield",
@@ -226,5 +226,5 @@
       ]
     }
   ],
-  "generated_at": "2026-09-06T16:00:30.980Z"
+  "generated_at": "2026-09-06T18:30:27.558Z"
 }
