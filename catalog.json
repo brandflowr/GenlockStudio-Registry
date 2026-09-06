@@ -224,7 +224,24 @@
       "capabilities": [
         "image_generation"
       ]
+    },
+    {
+      "id": "higgsfield-generate-video",
+      "type": "bone",
+      "name": "Higgsfield · Generate Video",
+      "description": "Generate one direct video request and render it in the generation widget.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/providers/higgsfield-generate-video.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-06T18:51:29.565Z",
+      "format": "bone",
+      "target": "video",
+      "provider": "higgsfield",
+      "capabilities": [
+        "video_generation"
+      ]
     }
   ],
-  "generated_at": "2026-09-06T18:30:27.558Z"
+  "generated_at": "2026-09-06T18:51:29.565Z"
 }

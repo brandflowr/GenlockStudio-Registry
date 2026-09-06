@@ -1,0 +1,789 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.10.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-generate-video",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield · Generate Video",
+  "description": "Generate one direct video request and render it in the generation widget.",
+  "target": "video",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "metadata",
+    "scene",
+    "shot"
+  ],
+  "fields": {
+    "model": {
+      "type": "string",
+      "required": true,
+      "ui": "select",
+      "label": "Model",
+      "default": "cinematic_studio_3_0",
+      "options": [
+        {
+          "value": "cinematic_studio_3_0",
+          "label": "Cinema Studio Video 3.0"
+        },
+        {
+          "value": "cinematic_studio_video",
+          "label": "Cinema Studio Video"
+        },
+        {
+          "value": "cinematic_studio_video_v2",
+          "label": "Cinema Studio Video"
+        },
+        {
+          "value": "marketing_studio_video",
+          "label": "Marketing Studio"
+        },
+        {
+          "value": "clipify",
+          "label": "Personal Clipper"
+        },
+        {
+          "value": "higgsfield_preset",
+          "label": "Higgsfield Preset"
+        },
+        {
+          "value": "flux_3_video",
+          "label": "FLUX 3 Video"
+        },
+        {
+          "value": "grok_video_v15",
+          "label": "Grok Video 1.5"
+        },
+        {
+          "value": "video_background_remover",
+          "label": "Video Background Remover"
+        },
+        {
+          "value": "sync_so",
+          "label": "Sync Lipsync 3"
+        },
+        {
+          "value": "minimax_hailuo",
+          "label": "Minimax Hailuo"
+        },
+        {
+          "value": "minimax_h3",
+          "label": "MiniMax H3"
+        },
+        {
+          "value": "minimax_h3_max",
+          "label": "MiniMax H3 Max"
+        },
+        {
+          "value": "wan2_6",
+          "label": "Wan 2.6 Video"
+        },
+        {
+          "value": "seedance1_5",
+          "label": "Seedance 1.5 Pro"
+        },
+        {
+          "value": "seedance_2_0",
+          "label": "Seedance 2.0"
+        },
+        {
+          "value": "seedance_2_0_mini",
+          "label": "Seedance 2.0 Mini"
+        },
+        {
+          "value": "seedance_2_5",
+          "label": "Seedance 2.5"
+        },
+        {
+          "value": "ad_multiplier",
+          "label": "Ad Multiplier"
+        },
+        {
+          "value": "topaz_video",
+          "label": "Topaz"
+        }
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "Creative instruction assembled by Genlock."
+    },
+    "count": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "Count",
+      "description": "Number of variants (1-4) generated from this same prompt, inputs, and settings and rendered together in one widget. Use the matching generate_*_batch tool for independent prompts or inputs. Ignored with use_unlim: an unlim request is always one generation — count is capped to 1 and the cap comes back in adjustments.",
+      "default": 1,
+      "min": 1,
+      "max": 4
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Aspect Ratio",
+      "description": "Output aspect ratio. Use '9:16' for vertical/portrait platforms (TikTok, Reels, YouTube Shorts) and '16:9' for horizontal/landscape. When omitted the model default applies, which is landscape ('16:9') for Marketing Studio — so pass '9:16' explicitly for TikTok/Reels output. Alternatively pass explicit width/height (e.g. width:1080,height:1920) and the backend derives the aspect ratio."
+    },
+    "medias": {
+      "type": "array",
+      "required": false,
+      "ui": "text",
+      "label": "Medias",
+      "description": "Reference media inputs."
+    },
+    "get_cost": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "Get Cost",
+      "description": "If true, return the cost in credits for this generation without submitting any job. Use to preflight cost before generating."
+    },
+    "use_unlim": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "Use Unlim",
+      "description": "Which balance pays for this generation: the caller's free-trial unlimited generations (true) or their credits (false). OMIT IT to let the server decide — if they hold an allowance that covers the model, the tool submits nothing and returns `unlim_choice`, the question to put to the user before spending anything of theirs. Answer it by calling again with the same params plus this field; the answer is remembered for a few minutes, so a multi-step flow is asked once. true also caps count to 1. Whichever way it is set, a rejected opt-in is reported rather than quietly replaced with a charge."
+    },
+    "preset_id": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Preset Id",
+      "description": "Preset id from presets_show. Use only with model: higgsfield_preset."
+    },
+    "declined_preset_id": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Declined Preset Id",
+      "description": "Preset id declined by the user. Suppresses only that exact preset recommendation for this literal generation retry."
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "Duration",
+      "description": "Duration in seconds. Missing → model default. Unsupported → nearest allowed value or clamped to range.",
+      "min": -9007199254740991,
+      "max": 9007199254740991
+    }
+  },
+  "defaults": {
+    "model": "cinematic_studio_3_0",
+    "count": 1
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "append",
+      "token_format": "natural"
+    },
+    "character_injection": {
+      "enabled": true,
+      "position": "prepend",
+      "format": "name_and_description"
+    },
+    "max_length": 4000
+  },
+  "llm_instructions": {
+    "writing_guide": "Write a concrete Higgsfield video prompt for Generate Video. Respect the discovered parameter contract and do not invent unsupported fields.",
+    "do": [
+      "Use the discovered parameter names",
+      "Keep values inside the documented constraints"
+    ],
+    "dont": [
+      "Do not place credentials in the BONE",
+      "Do not invent unsupported MCP parameters"
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "target": "video_take",
+    "completion_status": "review"
+  },
+  "requires": [
+    "video_generation"
+  ],
+  "authoring_mode": "hybrid",
+  "execution_routes": [
+    {
+      "type": "mcp",
+      "label": "Higgsfield MCP · Generate Video",
+      "tool": "generate_video",
+      "operation": "video_generation",
+      "args": {
+        "params": {
+          "model": "{{model}}",
+          "prompt": "{{assembled}}",
+          "count": "{{count}}",
+          "aspect_ratio": "{{aspect_ratio}}",
+          "medias": "{{medias}}",
+          "get_cost": "{{get_cost}}",
+          "use_unlim": "{{use_unlim}}",
+          "preset_id": "{{preset_id}}",
+          "declined_preset_id": "{{declined_preset_id}}",
+          "duration": "{{duration}}"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "server_id": "higgsfield"
+  },
+  "extensions": {
+    "x-genlock-mcp-source": {
+      "server_id": "higgsfield",
+      "tool_name": "generate_video",
+      "transport": "mcp",
+      "surface": "mcp.higgsfield.ai",
+      "discovered_at": "2026-09-06T18:50:12.972Z",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "params": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "model": {
+                    "type": "string",
+                    "description": "Model ID from the model catalog (required)."
+                  },
+                  "prompt": {
+                    "description": "Text description of what to generate. Optional for Marketing Studio workflows.",
+                    "type": "string"
+                  },
+                  "count": {
+                    "default": 1,
+                    "description": "Number of variants (1-4) generated from this same prompt, inputs, and settings and rendered together in one widget. Use the matching generate_*_batch tool for independent prompts or inputs. Ignored with use_unlim: an unlim request is always one generation — count is capped to 1 and the cap comes back in adjustments.",
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "aspect_ratio": {
+                    "description": "Output aspect ratio. Use '9:16' for vertical/portrait platforms (TikTok, Reels, YouTube Shorts) and '16:9' for horizontal/landscape. When omitted the model default applies, which is landscape ('16:9') for Marketing Studio — so pass '9:16' explicitly for TikTok/Reels output. Alternatively pass explicit width/height (e.g. width:1080,height:1920) and the backend derives the aspect ratio.",
+                    "type": "string"
+                  },
+                  "medias": {
+                    "description": "Reference media inputs.",
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string",
+                          "description": "UUID from media_upload/media_import_url or job_id from a prior generation. Do not pass https:// URLs here."
+                        },
+                        "role": {
+                          "type": "string",
+                          "description": "Role — varies by model; inspect the selected model's medias[].roles. Server may auto-coerce when unambiguous."
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "role"
+                      ]
+                    }
+                  },
+                  "get_cost": {
+                    "description": "If true, return the cost in credits for this generation without submitting any job. Use to preflight cost before generating.",
+                    "type": "boolean"
+                  },
+                  "use_unlim": {
+                    "description": "Which balance pays for this generation: the caller's free-trial unlimited generations (true) or their credits (false). OMIT IT to let the server decide — if they hold an allowance that covers the model, the tool submits nothing and returns `unlim_choice`, the question to put to the user before spending anything of theirs. Answer it by calling again with the same params plus this field; the answer is remembered for a few minutes, so a multi-step flow is asked once. true also caps count to 1. Whichever way it is set, a rejected opt-in is reported rather than quietly replaced with a charge.",
+                    "type": "boolean"
+                  },
+                  "preset_id": {
+                    "description": "Preset id from presets_show. Use only with model: higgsfield_preset.",
+                    "type": "string"
+                  },
+                  "declined_preset_id": {
+                    "description": "Preset id declined by the user. Suppresses only that exact preset recommendation for this literal generation retry.",
+                    "type": "string"
+                  },
+                  "duration": {
+                    "description": "Duration in seconds. Missing → model default. Unsupported → nearest allowed value or clamped to range.",
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "model"
+                ],
+                "additionalProperties": {}
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "params"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema"
+      }
+    },
+    "x-genlock-provider-source": {
+      "server_id": "higgsfield",
+      "operation": "video_generation",
+      "transport": "mcp",
+      "surface": "mcp.higgsfield.ai",
+      "tool_name": "generate_video"
+    },
+    "x-genlock-surface": {
+      "version": "1.0",
+      "archetype": "director",
+      "accent": "mint",
+      "tagline": "A mapped video instrument for Generate Video.",
+      "controls": {
+        "model": {
+          "kind": "model-cards",
+          "source": "models",
+          "prominent": true
+        },
+        "prompt": {
+          "kind": "prompt-canvas",
+          "prominent": true
+        },
+        "count": {
+          "kind": "slider"
+        },
+        "aspect_ratio": {
+          "kind": "text"
+        },
+        "medias": {
+          "kind": "json-patch"
+        },
+        "get_cost": {
+          "kind": "switch"
+        },
+        "use_unlim": {
+          "kind": "switch"
+        },
+        "preset_id": {
+          "kind": "text"
+        },
+        "declined_preset_id": {
+          "kind": "text"
+        },
+        "duration": {
+          "kind": "duration-rail"
+        }
+      },
+      "groups": [
+        {
+          "id": "primary",
+          "label": "Direction",
+          "role": "primary",
+          "fields": [
+            "model",
+            "prompt"
+          ]
+        },
+        {
+          "id": "performance",
+          "label": "Motion and timing",
+          "role": "performance",
+          "fields": [
+            "count",
+            "get_cost",
+            "use_unlim",
+            "duration"
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Shot tuning",
+          "role": "advanced",
+          "fields": [
+            "aspect_ratio",
+            "medias",
+            "preset_id",
+            "declined_preset_id"
+          ],
+          "collapsed": true
+        }
+      ],
+      "output": {
+        "kind": "video",
+        "label": "Generated video"
+      }
+    },
+    "x-genlock-surface-authoring": {
+      "version": "1.0",
+      "tool": "marketplace-surface-workshop",
+      "revision": 1,
+      "bone_version": "1.0.0"
+    },
+    "x-genlock-model-constraints": {
+      "soul_2": {
+        "aspect_ratios": [
+          "1:1",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "soul_cinematic": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16",
+          "3:2",
+          "2:3",
+          "21:9"
+        ]
+      },
+      "gpt_image_2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "21:9",
+          "9:16",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "cinematic_studio_2_5": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "16:9",
+          "9:16",
+          "21:9"
+        ]
+      },
+      "marketing_studio_image": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "ms_image": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "21:9",
+          "27:16",
+          "16:27",
+          "9:8",
+          "8:9",
+          "4:9",
+          "9:4"
+        ]
+      },
+      "image_auto": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "soul_cast": {
+        "aspect_ratios": [
+          "16:9"
+        ]
+      },
+      "soul_location": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16",
+          "3:2",
+          "2:3",
+          "21:9",
+          "9:21"
+        ]
+      },
+      "soul_v2": {
+        "aspect_ratios": [
+          "1:1",
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "3:2",
+          "2:3"
+        ]
+      },
+      "z_image": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "nano_banana": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_pro": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2_shots": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "nano_banana_2_lite": {
+        "aspect_ratios": [
+          "1:1",
+          "3:2",
+          "2:3",
+          "4:3",
+          "3:4",
+          "4:5",
+          "5:4",
+          "9:16",
+          "16:9",
+          "21:9"
+        ]
+      },
+      "seedream_v4_5": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "16:9",
+          "3:2",
+          "21:9",
+          "3:4",
+          "9:16",
+          "2:3"
+        ]
+      },
+      "flux_2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "cinematic_studio_3_0": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "cinematic_studio_video": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "cinematic_studio_video_v2": {
+        "aspect_ratios": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ]
+      },
+      "marketing_studio_video": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "higgsfield_preset": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "1:1"
+        ]
+      },
+      "flux_3_video": {
+        "aspect_ratios": [
+          "21:9",
+          "2:1",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "minimax_h3": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "minimax_h3_max": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "wan2_6": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "1:1"
+        ]
+      },
+      "seedance1_5": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_0": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_0_mini": {
+        "aspect_ratios": [
+          "16:9",
+          "9:16",
+          "4:3",
+          "3:4",
+          "1:1",
+          "21:9"
+        ]
+      },
+      "seedance_2_5": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "ad_multiplier": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      },
+      "topaz_video": {
+        "aspect_ratios": [
+          "21:9",
+          "16:9",
+          "4:3",
+          "1:1",
+          "3:4",
+          "9:16"
+        ]
+      }
+    }
+  }
+}
