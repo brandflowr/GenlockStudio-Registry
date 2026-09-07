@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated_at": "2026-09-07T21:54:20.849Z",
+  "generated_at": "2026-09-07T22:29:56.617Z",
   "categories": [
     "bones",
     "elements",
@@ -636,7 +636,7 @@
         "image_generation"
       ],
       "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
-      "updated_at": "2026-09-07T21:54:20.849Z",
+      "updated_at": "2026-09-07T22:29:56.617Z",
       "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c",
       "release_evidence": {
         "status": "verified",
@@ -644,7 +644,7 @@
         "test_id": "f3af1467-0920-4bc1-8eb8-a89379432433",
         "test_confirmed_at": "2026-09-07T21:09:49.558Z",
         "test_source": "user-confirmed-scp-test",
-        "verified_at": "2026-09-07T21:54:20.846Z"
+        "verified_at": "2026-09-07T22:29:56.613Z"
       }
     }
   ]
