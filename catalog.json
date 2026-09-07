@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated_at": "2026-09-07T21:09:49.617Z",
+  "generated_at": "2026-09-07T21:54:20.849Z",
   "categories": [
     "bones",
     "elements",
@@ -544,32 +544,6 @@
       "content_sha256": "f0fa7c3ad7b346f4cf1db71f362e119586c8d273e7473ac7bc64b31f0108e12f"
     },
     {
-      "id": "higgsfield-generate-image",
-      "type": "bone",
-      "format": "bone",
-      "category": "bones",
-      "name": "Higgsfield · Generate Image",
-      "description": "Generate one image request and render its result(s) in the generation widget.",
-      "author": "Skeleton Control Plane",
-      "version": "1.0.0",
-      "provider": "higgsfield",
-      "target": "image",
-      "capabilities": [
-        "image_generation"
-      ],
-      "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
-      "updated_at": "2026-09-07T21:09:49.568Z",
-      "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c",
-      "release_evidence": {
-        "status": "verified",
-        "content_sha256": "d90512e00486f1203ca235ea1011b0319e78a31c8a7d8182c37a3ce70a9dbad5",
-        "test_id": "f3af1467-0920-4bc1-8eb8-a89379432433",
-        "verified_at": "2026-09-07T21:09:49.510Z",
-        "test_confirmed_at": "2026-09-07T21:09:49.558Z",
-        "test_source": "user-confirmed-scp-test"
-      }
-    },
-    {
       "id": "higgsfield-generate-video",
       "type": "bone",
       "format": "bone",
@@ -645,6 +619,32 @@
         "verified_at": "2026-09-07T21:09:49.558Z",
         "test_confirmed_at": "2026-09-07T21:09:49.605Z",
         "test_source": "user-confirmed-scp-test"
+      }
+    },
+    {
+      "id": "higgsfield-generate-image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "Higgsfield · Generate Image",
+      "description": "Generate one image request and render its result(s) in the generation widget.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "higgsfield",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
+      "updated_at": "2026-09-07T21:54:20.849Z",
+      "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "d90512e00486f1203ca235ea1011b0319e78a31c8a7d8182c37a3ce70a9dbad5",
+        "test_id": "f3af1467-0920-4bc1-8eb8-a89379432433",
+        "test_confirmed_at": "2026-09-07T21:09:49.558Z",
+        "test_source": "user-confirmed-scp-test",
+        "verified_at": "2026-09-07T21:54:20.846Z"
       }
     }
   ]
