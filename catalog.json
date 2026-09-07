@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated_at": "2026-09-07T17:52:59.978Z",
+  "generated_at": "2026-09-07T21:09:49.617Z",
   "categories": [
     "bones",
     "elements",
@@ -21,7 +21,7 @@
       "author": "Genlock Studio",
       "version": "1.1",
       "url": "bones/creative/character-reference-sheet.bone.json",
-      "category": "bones",
+      "category": "elements",
       "format": "bone",
       "updated_at": "2026-09-07T17:52:59.954Z",
       "provider": "genlock",
@@ -36,424 +36,6 @@
       "content_sha256": "a8485f10df5ea464c453d09c1e043946515548469709a5e62e4815535fd086ea"
     },
     {
-      "id": "elevenlabs-music",
-      "type": "bone",
-      "name": "ElevenLabs · Music",
-      "description": "Compose an original music cue from a concise creative brief.",
-      "author": "Spore",
-      "version": "1.2.0",
-      "url": "bones/elevenlabs/elevenlabs-music.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.864Z",
-      "format": "bone",
-      "target": "audio",
-      "provider": "elevenlabs",
-      "capabilities": [
-        "music_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "23294a6c6bbb651325d194da1946296cf32e3820936fbfd85cc1f602784ab2dc"
-    },
-    {
-      "id": "elevenlabs-sound-effects",
-      "type": "bone",
-      "name": "ElevenLabs · Sound Effects",
-      "description": "Generate a production-ready sound effect from a concrete description.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/elevenlabs/elevenlabs-sound-effects.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.933Z",
-      "format": "bone",
-      "target": "audio",
-      "provider": "elevenlabs",
-      "capabilities": [
-        "sound_effect_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "754b59194813c58a0750b60dac9cd98d77d0a8e2f4f8f02f6034072bc7463486"
-    },
-    {
-      "id": "elevenlabs-tts",
-      "type": "bone",
-      "name": "ElevenLabs · Text to Speech",
-      "description": "Turn dialogue or narration into a project audio asset using a voice from your ElevenLabs account.",
-      "author": "Spore",
-      "version": "1.2.0",
-      "url": "bones/elevenlabs/elevenlabs-tts.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.874Z",
-      "format": "bone",
-      "target": "audio",
-      "provider": "elevenlabs",
-      "capabilities": [
-        "speech_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "bb3ef2526bac14175552cb72fb37c86512e88a555ea8dc2975e1b0a9299fd377"
-    },
-    {
-      "id": "flux-dev",
-      "type": "bone",
-      "name": "Flux Dev (Image Generation)",
-      "description": "Black Forest Labs Flux Dev model. Text-to-image with guidance, seed, and negative prompt control.",
-      "author": "Spore",
-      "version": "1.0",
-      "url": "bones/fal/flux-dev.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.911Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "fal",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "0cb01f1389ec9c84e470984aaa5ef05b638e88dd58b032b8de5db7493c35fe09"
-    },
-    {
-      "id": "genlock-image",
-      "type": "bone",
-      "name": "Genlock Image — Structured",
-      "description": "Structured image prompt in the canonical Genlock frame: subject, scene, shot, lighting, color_palette, style. Serialized to the generator's prompt (mirrors the ai_generation.prompt_components shape). Runs via Higgsfield.",
-      "author": "Genlock Studio",
-      "version": "1.2.0",
-      "url": "bones/higgsfield/genlock-image.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.954Z",
-      "provider": "higgsfield",
-      "target": "image",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "830cb2f5d30851831d818722d967b79d1d38026b322cccc7521c0a660c5d74ce"
-    },
-    {
-      "id": "genlock-video",
-      "type": "bone",
-      "name": "Genlock Video — Structured (Seedance / VEO / Kling)",
-      "description": "Structured video prompt in the canonical Genlock frame: subject, action, scene, shot, camera, lighting, color_palette, style. Serialized to the target model's JSON (the SEEDANCE/VEO/KLING shape). Runs via Higgsfield.",
-      "author": "Genlock Studio",
-      "version": "1.1.0",
-      "url": "bones/higgsfield/genlock-video.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.959Z",
-      "provider": "higgsfield",
-      "target": "video",
-      "capabilities": [
-        "video_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "fc1430a3f9584f4e9d39a24c1809f36d3c2c4c56573fa90cc014e3ff4eb6d557"
-    },
-    {
-      "id": "gpt-image",
-      "type": "bone",
-      "name": "GPT Image",
-      "description": "A model-safe OpenAI GPT Image 2 instrument with exact size, quality, and background controls.",
-      "author": "Spore",
-      "version": "1.1.0",
-      "url": "bones/openai/gpt-image.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.878Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "openai",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "fc1767fc24ba6d2db9224dc2701f3176ca4d4da8709d834f6a56728969948c34"
-    },
-    {
-      "id": "grok-image",
-      "type": "bone",
-      "name": "Grok Image",
-      "description": "A model-safe xAI Grok Imagine instrument with exact aspect ratio control.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/xai/grok-image.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.935Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "xai",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "0ac28e4523e450259e693f7f79daab39826298cfe1fd5c6af2453b6d1927d124"
-    },
-    {
-      "id": "higgsfield-generate-image",
-      "type": "bone",
-      "name": "Higgsfield · Generate Image",
-      "description": "Generate one image request and render its result(s) in the generation widget.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.881Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "higgsfield",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c"
-    },
-    {
-      "id": "higgsfield-generate-video",
-      "type": "bone",
-      "name": "Higgsfield · Generate Video",
-      "description": "Generate one direct video request and render it in the generation widget.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/higgsfield/higgsfield-generate-video.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.882Z",
-      "format": "bone",
-      "target": "video",
-      "provider": "higgsfield",
-      "capabilities": [
-        "video_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "7d437eced9a5e8cf1416059395387f2418d71f8d38cbfb6397f9cbad94ad2a04"
-    },
-    {
-      "id": "minimax-image-generation",
-      "type": "bone",
-      "name": "MiniMax · Image Generation",
-      "description": "Image Generation mapped from MiniMax's reviewed Genlock provider contract.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/minimax/minimax-image-generation.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.884Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "minimax",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "1a93d7ab70153ca35cee1f8259f1ebd09b22905dd7ce6fc3b4185633b84c4caf"
-    },
-    {
-      "id": "openart-gpt-image-2-image2image",
-      "type": "bone",
-      "name": "OpenArt · gpt-image-2 · image2image",
-      "description": "Submit an asynchronous image generation on OpenArt.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/openart/openart-gpt-image-2-image2image.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.952Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "openart",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "0257da4a6f98da142f508d724886bcb6b9f29d0afc2d8ecc8b46111778a4e4c5"
-    },
-    {
-      "id": "openart-gpt-image-2-text2image",
-      "type": "bone",
-      "name": "OpenArt · gpt-image-2 · text2image",
-      "description": "Submit an asynchronous image generation on OpenArt.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/openart/openart-gpt-image-2-text2image.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.953Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "openart",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "ec87279b67d428af1f537e3fcd84e5629dc4f10bbe28b47fbee1bc2e967131b0"
-    },
-    {
-      "id": "openart-image",
-      "type": "bone",
-      "name": "OpenArt Image Generation",
-      "description": "Generate or edit a still image through OpenArt's live MCP catalog without freezing a model or tool schema into the BONE.",
-      "author": "Genlock Studio",
-      "version": "1.0",
-      "url": "bones/openart/openart-image.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.961Z",
-      "provider": "openart",
-      "target": "image",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "d3bd1ab7d28d417c807b2de55ed3f0bbf155d65fa540f4f9d85122887e3c5bd3"
-    },
-    {
-      "id": "openart-video",
-      "type": "bone",
-      "name": "OpenArt Video Generation",
-      "description": "Generate a video take through OpenArt's live MCP catalog without freezing a model or tool schema into the BONE.",
-      "author": "Genlock Studio",
-      "version": "1.0",
-      "url": "bones/openart/openart-video.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.962Z",
-      "provider": "openart",
-      "target": "video",
-      "capabilities": [
-        "video_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "5dc4e13bc9fa795fba268de9fc3de31023a845c3556310c916e5bb3616181232"
-    },
-    {
-      "id": "runpod-image",
-      "type": "bone",
-      "name": "RunPod Image Generation",
-      "description": "Generate a still image on your own RunPod serverless endpoint. The worker's input schema is yours — Genlock passes `input` through unchanged.",
-      "author": "Genlock Studio",
-      "version": "1.1.0",
-      "url": "bones/runpod/runpod-image.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.962Z",
-      "provider": "runpod",
-      "target": "image",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "2e4fa109f3fce6ff944fdb65b2efd16078b60f676b6045d7fafa1712229945bb"
-    },
-    {
-      "id": "runpod-image-generation",
-      "type": "bone",
-      "name": "RunPod · Image Generation (own endpoints)",
-      "description": "Image Generation (own endpoints) mapped from RunPod's reviewed Genlock provider contract.",
-      "author": "Spore",
-      "version": "1.1.0",
-      "url": "bones/runpod/runpod-image-generation.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.936Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "runpod",
-      "capabilities": [
-        "image_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "ca1c2b52f5c8e119f2b8745077bb0269bea41a023a0029eaca22ba29c33355d9"
-    },
-    {
-      "id": "runpod-video",
-      "type": "bone",
-      "name": "RunPod Video Generation",
-      "description": "Generate a video clip on your own RunPod serverless endpoint. The worker's input schema is yours — Genlock passes `input` through unchanged.",
-      "author": "Genlock Studio",
-      "version": "1.1.0",
-      "url": "bones/runpod/runpod-video.bone.json",
-      "category": "bones",
-      "format": "bone",
-      "updated_at": "2026-09-07T17:52:59.963Z",
-      "provider": "runpod",
-      "target": "video",
-      "capabilities": [
-        "video_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "2b75c4f2df091dce7e2cfbeba458cfdb61bb354c9dd2b02f6bbcefc75004403e"
-    },
-    {
-      "id": "seedance-2",
-      "type": "bone",
-      "name": "Seedance 2 (Video Generation)",
-      "description": "ByteDance Seedance 2. AI filmmaking video prompts with text-only, storyboard-driven, and character-sheet-plus-storyboard reference modes.",
-      "author": "Spore",
-      "version": "1.1",
-      "url": "bones/fal/seedance-2.bone.json",
-      "category": "bones",
-      "updated_at": "2026-09-07T17:52:59.893Z",
-      "format": "bone",
-      "target": "video",
-      "provider": "fal",
-      "capabilities": [
-        "video_generation"
-      ],
-      "validation": {
-        "structural": "passed",
-        "live_execution": "unverified"
-      },
-      "content_sha256": "8f0b5a358c2465835bb775ab27dd42ef108b06904453337912adfb1a40411abc"
-    },
-    {
       "id": "storyboard-grid-9",
       "type": "bone",
       "name": "9-Panel Cinematic Storyboard",
@@ -461,7 +43,7 @@
       "author": "Genlock Studio",
       "version": "1.1",
       "url": "bones/creative/storyboard-grid-9.bone.json",
-      "category": "bones",
+      "category": "elements",
       "format": "bone",
       "updated_at": "2026-09-07T17:52:59.963Z",
       "provider": "genlock",
@@ -960,6 +542,110 @@
       "format": "pack",
       "payload": "snippets",
       "content_sha256": "f0fa7c3ad7b346f4cf1db71f362e119586c8d273e7473ac7bc64b31f0108e12f"
+    },
+    {
+      "id": "higgsfield-generate-image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "Higgsfield · Generate Image",
+      "description": "Generate one image request and render its result(s) in the generation widget.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "higgsfield",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
+      "updated_at": "2026-09-07T21:09:49.568Z",
+      "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "d90512e00486f1203ca235ea1011b0319e78a31c8a7d8182c37a3ce70a9dbad5",
+        "test_id": "f3af1467-0920-4bc1-8eb8-a89379432433",
+        "verified_at": "2026-09-07T21:09:49.510Z",
+        "test_confirmed_at": "2026-09-07T21:09:49.558Z",
+        "test_source": "user-confirmed-scp-test"
+      }
+    },
+    {
+      "id": "higgsfield-generate-video",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "Higgsfield · Generate Video",
+      "description": "Generate one direct video request and render it in the generation widget.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "higgsfield",
+      "target": "video",
+      "capabilities": [
+        "video_generation"
+      ],
+      "url": "bones/higgsfield/higgsfield-generate-video.bone.json",
+      "updated_at": "2026-09-07T21:09:49.585Z",
+      "content_sha256": "7d437eced9a5e8cf1416059395387f2418d71f8d38cbfb6397f9cbad94ad2a04",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "6e997c8975fcb8826c8ade210bff0a2767da65e13511cd15e806a5427a6baa64",
+        "test_id": "79034a80-73fc-4df2-94f9-5ee639f4b5ad",
+        "verified_at": "2026-09-07T21:09:49.530Z",
+        "test_confirmed_at": "2026-09-07T21:09:49.574Z",
+        "test_source": "user-confirmed-scp-test"
+      }
+    },
+    {
+      "id": "openart-gpt-image-2-image2image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "OpenArt · gpt-image-2 · image2image",
+      "description": "Submit an asynchronous image generation on OpenArt.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "openart",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "url": "bones/openart/openart-gpt-image-2-image2image.bone.json",
+      "updated_at": "2026-09-07T21:09:49.602Z",
+      "content_sha256": "6eed0fb90d76c9f257777e096d6f033225d214f24c1c05aef64758be7cc9e64e",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "51122e47e901a6acd75a3fd841daf1aea9c5bafe07ff3f2c228f983e616bc57c",
+        "test_id": "c17e0c4e-2efa-443f-bc49-444cca176d31",
+        "verified_at": "2026-09-07T21:09:49.541Z",
+        "test_confirmed_at": "2026-09-07T21:09:49.590Z",
+        "test_source": "user-confirmed-scp-test"
+      }
+    },
+    {
+      "id": "openart-gpt-image-2-text2image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "OpenArt · gpt-image-2 · text2image",
+      "description": "Submit an asynchronous image generation on OpenArt.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "openart",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "url": "bones/openart/openart-gpt-image-2-text2image.bone.json",
+      "updated_at": "2026-09-07T21:09:49.617Z",
+      "content_sha256": "6d9bb8ceef5815557abf0e785e47da3a07e56ae4181ab1d81019954fc4932682",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "e28320097b9a421d18a8f96f9edb05f7ccaae8e5880a1d3a05d5112ccddf2485",
+        "test_id": "a863b7a7-077e-4b1e-af68-0bce7c5cf3f6",
+        "verified_at": "2026-09-07T21:09:49.558Z",
+        "test_confirmed_at": "2026-09-07T21:09:49.605Z",
+        "test_source": "user-confirmed-scp-test"
+      }
     }
   ]
 }

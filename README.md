@@ -1,7 +1,9 @@
 # Genlock Studio Registry
 
-`catalog.json` is the authoritative active package index consumed by SCP and Genlock Studio. Package IDs and payload types remain stable; URLs point into bones/, muscles/, elements/, palettes/, templates/, and providers/.
+SCP drafts → test and verify → publish to GitHub → install in Genlock.
 
-Archive entries are preserved for review and are never auto-installed or added to the active catalog. See archive/index.json for provenance and validation findings. Structural validation is not a live provider execution test.
+Genlock consumes this repository's catalog and user customs. AI generators are individual BONE releases under bones/. Elements, palettes, muscles, and provider connection definitions have their own categories.
 
-Edit through SCP, validate, then review, commit and push with GitHub Desktop. Runtime catalog and package reads must not substitute bundled or cached snapshots. Workspace installations and project documents remain durable user data.
+Drafts and test records live only in the local checkout's ignored drafts/ and authoring/ folders. SCP prepares a generator release only after the exact revision has run successfully, its output rendered, and its contract passed verification. The catalog carries matching release evidence. Review, commit, and push with GitHub Desktop; then refresh SCP to confirm GitHub publication.
+
+Run node schema/verify-generators.mjs before pushing. GitHub runs the same check on pushes and pull requests. Archived definitions are excluded from the active catalog. Runtime reads use current GitHub data without bundled or cached substitutes; installed releases and user documents are durable data.

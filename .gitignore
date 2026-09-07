@@ -1,0 +1,4 @@
+
+# SCP authoring documents stay local; only verified releases ship.
+/drafts/
+/authoring/
