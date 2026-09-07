@@ -1,0 +1,3606 @@
+{
+  "id": "animation-4265051-elements",
+  "pack_id": "animation-4265051-elements",
+  "type": "mixed",
+  "name": "Animation Elements",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable elements curated from the ShotDeck deck “Animation”.",
+  "source_category": "Animation",
+  "source_deck_id": "4265051",
+  "tags": [
+    "Animation"
+  ],
+  "updated_at": "2026-08-01T22:53:42.901Z",
+  "elements": [
+    {
+      "id": "animation-4265051-frame-size-wide",
+      "type": "frame_size",
+      "name": "Wide",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "frameSize": "Wide",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-shot-type-establishing-shot",
+      "type": "shot_type",
+      "name": "Establishing shot",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "Establishing shot",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-composition-center",
+      "type": "composition",
+      "name": "Center",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "composition": "Center",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-aspect-ratio-2",
+      "type": "aspect_ratio",
+      "name": "2",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "2",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-format-animation",
+      "type": "format",
+      "name": "Animation",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Animation",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-int-ext-exterior",
+      "type": "int_ext",
+      "name": "Exterior",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "interiorExterior": "Exterior",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-time-of-day-day",
+      "type": "time_of_day",
+      "name": "Day",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "timeOfDay": "Day",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-action",
+      "type": "genre",
+      "name": "Action",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Action"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-animation",
+      "type": "genre",
+      "name": "Animation",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Animation"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-crime",
+      "type": "genre",
+      "name": "Crime",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Crime"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-genre-drama",
+      "type": "genre",
+      "name": "Drama",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Drama"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-genre-mystery",
+      "type": "genre",
+      "name": "Mystery",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Mystery"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-genre-psychological",
+      "type": "genre",
+      "name": "Psychological",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Psychological"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-genre-revenge",
+      "type": "genre",
+      "name": "Revenge",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Revenge"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-genre-thriller",
+      "type": "genre",
+      "name": "Thriller",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Thriller"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-lighting-soft-light",
+      "type": "lighting",
+      "name": "Soft light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Soft light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-lighting-top-light",
+      "type": "lighting",
+      "name": "Top light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Top light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-lighting-type-daylight",
+      "type": "lighting_type",
+      "name": "Daylight",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Daylight"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-lighting-type-overcast",
+      "type": "lighting_type",
+      "name": "Overcast",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Overcast"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-color-palette-love-death-robots-palette",
+      "type": "color_palette",
+      "name": "Love, Death & Robots Palette",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#2c1f27",
+          "#20232a",
+          "#2e251e",
+          "#29322d",
+          "#3b3b4f",
+          "#4c442c",
+          "#674d61",
+          "#64533f",
+          "#505c6a",
+          "#496054",
+          "#717a9c",
+          "#af8caa",
+          "#b78f81",
+          "#8da5b9",
+          "#bfd2e1"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      ],
+      "sourceShotIds": [
+        "F6W8K4P9"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:18.590Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "animation-4265051-camera-panavision-millennium-millenium-xl-xl2",
+      "type": "camera",
+      "name": "Panavision Millennium / Millenium XL / XL2",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Panavision Millennium / Millenium XL / XL2",
+        "format": "Film - 35mm",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-lens-size-panavision-e-series",
+      "type": "lens_size",
+      "name": "Panavision E series",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Medium",
+        "lens": "Panavision E series",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-frame-size-medium-close-up",
+      "type": "frame_size",
+      "name": "Medium Close Up",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Medium Close Up",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-shot-type-clean-single",
+      "type": "shot_type",
+      "name": "Clean single",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "shotType": "Clean single",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-composition-right-heavy",
+      "type": "composition",
+      "name": "Right heavy",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "composition": "Right heavy",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-aspect-ratio-2-39",
+      "type": "aspect_ratio",
+      "name": "2.39",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "2.39",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-optical-format-anamorphic",
+      "type": "optical_format",
+      "name": "Anamorphic",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "opticalFormat": "Anamorphic",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-format-film-35mm",
+      "type": "format",
+      "name": "Film - 35mm",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Film - 35mm",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-time-of-day-night",
+      "type": "time_of_day",
+      "name": "Night",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "timeOfDay": "Night",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-genre-adventure",
+      "type": "genre",
+      "name": "Adventure",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Adventure"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-fantasy",
+      "type": "genre",
+      "name": "Fantasy",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Fantasy"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-mixed",
+      "type": "color",
+      "name": "Mixed",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Mixed"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-saturated",
+      "type": "color",
+      "name": "Saturated",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Saturated"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-red",
+      "type": "color",
+      "name": "Red",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Red"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-color-orange",
+      "type": "color",
+      "name": "Orange",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Orange"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-color-yellow",
+      "type": "color",
+      "name": "Yellow",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Yellow"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-color-purple",
+      "type": "color",
+      "name": "Purple",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Purple"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-color-magenta",
+      "type": "color",
+      "name": "Magenta",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Magenta"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-lighting-hard-light",
+      "type": "lighting",
+      "name": "Hard light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Hard light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-lighting-side-light",
+      "type": "lighting",
+      "name": "Side light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Side light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-lighting-type-artificial-light",
+      "type": "lighting_type",
+      "name": "Artificial light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Artificial light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-lighting-type-practical-light",
+      "type": "lighting_type",
+      "name": "Practical light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Practical light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-color-palette-pok-mon-detective-pikachu-palette",
+      "type": "color_palette",
+      "name": "Pokémon Detective Pikachu Palette",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#0d0b31",
+          "#361536",
+          "#38256e",
+          "#68254a",
+          "#a4190f",
+          "#594a8c",
+          "#803e72",
+          "#b9461b",
+          "#ac58bb",
+          "#c185cc",
+          "#eda633",
+          "#dbadde",
+          "#f9c72f",
+          "#ecd0e7",
+          "#faf3ee"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      ],
+      "sourceShotIds": [
+        "FIA8ZKCB"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:22.525Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "animation-4265051-lens-size-wide",
+      "type": "lens_size",
+      "name": "Wide",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-format-digital",
+      "type": "format",
+      "name": "Digital",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Digital",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-int-ext-interior",
+      "type": "int_ext",
+      "name": "Interior",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "interiorExterior": "Interior",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-family",
+      "type": "genre",
+      "name": "Family",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Family"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-hard-sci-fi",
+      "type": "genre",
+      "name": "Hard Sci-Fi",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Hard Sci-Fi"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-military",
+      "type": "genre",
+      "name": "Military",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Military"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-science-fiction",
+      "type": "genre",
+      "name": "Science-Fiction",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Science-Fiction"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-space",
+      "type": "genre",
+      "name": "Space",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Space"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-time-travel",
+      "type": "genre",
+      "name": "Time Travel",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Time Travel"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-genre-cgi-animation",
+      "type": "genre",
+      "name": "CGI Animation",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "CGI Animation"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-color-warm",
+      "type": "color",
+      "name": "Warm",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Warm"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-lighting-backlight",
+      "type": "lighting",
+      "name": "Backlight",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Backlight"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-palette-lightyear-palette",
+      "type": "color_palette",
+      "name": "Lightyear Palette",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#191617",
+          "#161b1f",
+          "#191b1b",
+          "#321606",
+          "#663a17",
+          "#703412",
+          "#934e23",
+          "#c27140",
+          "#c27737",
+          "#de914b",
+          "#f8c076",
+          "#fbd897"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      ],
+      "sourceShotIds": [
+        "B17LMTB8"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:38.977Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "animation-4265051-camera-canon-5d-mk-ii",
+      "type": "camera",
+      "name": "Canon 5D Mk II",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Canon 5D Mk II",
+        "format": "Digital",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-frame-size-extreme-wide",
+      "type": "frame_size",
+      "name": "Extreme Wide",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Extreme Wide",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-shot-type-none",
+      "type": "shot_type",
+      "name": "None",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "None",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-composition-balanced",
+      "type": "composition",
+      "name": "Balanced",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "composition": "Balanced",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-time-of-day-sunset",
+      "type": "time_of_day",
+      "name": "Sunset",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "timeOfDay": "Sunset",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-comedy",
+      "type": "genre",
+      "name": "Comedy",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Comedy"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-music",
+      "type": "genre",
+      "name": "Music",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Music"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-musical",
+      "type": "genre",
+      "name": "Musical",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Musical"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-stop-motion-animation",
+      "type": "genre",
+      "name": "Stop-Motion Animation",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Stop-Motion Animation"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-puppetry",
+      "type": "genre",
+      "name": "Puppetry",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Puppetry"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-genre-claymation",
+      "type": "genre",
+      "name": "Claymation",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Claymation"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-blue",
+      "type": "color",
+      "name": "Blue",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Blue"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-pink",
+      "type": "color",
+      "name": "Pink",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Pink"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-lighting-edge-light",
+      "type": "lighting",
+      "name": "Edge light",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Edge light"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-lighting-neutral-contrast",
+      "type": "lighting",
+      "name": "Neutral contrast",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Neutral contrast"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    },
+    {
+      "id": "animation-4265051-color-palette-missing-link-palette",
+      "type": "color_palette",
+      "name": "Missing Link Palette",
+      "description": "Curated from the ShotDeck deck “Animation”.",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#1d2946",
+          "#3c253a",
+          "#36325f",
+          "#53324f",
+          "#1c4762",
+          "#424866",
+          "#7e4b74",
+          "#b06384",
+          "#bc6160",
+          "#d5788b",
+          "#e8867b",
+          "#fb8e93",
+          "#fd9d95",
+          "#fabe9b"
+        ],
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      ],
+      "sourceShotIds": [
+        "3MK118WR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:42.901Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    }
+  ]
+}

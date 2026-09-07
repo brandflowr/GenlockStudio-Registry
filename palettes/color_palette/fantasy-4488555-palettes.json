@@ -1,0 +1,463 @@
+{
+  "id": "fantasy-4488555-palettes",
+  "pack_id": "fantasy-4488555-palettes",
+  "type": "color_palette",
+  "name": "Fantasy Palettes",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Color palettes curated from the ShotDeck deck “Fantasy”.",
+  "source_category": "Fantasy",
+  "source_deck_id": "4488555",
+  "tags": [
+    "Fantasy"
+  ],
+  "updated_at": "2026-08-01T23:38:05.953Z",
+  "snippets": [
+    {
+      "id": "shotdeck-palette-sgesl5io",
+      "name": "Sinners Palette",
+      "description": "Cool, Green, Cyan, White · Hard light, Backlight",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/SGESL5IO.jpg",
+      "colors": [
+        "#262219",
+        "#2a302a",
+        "#2c3439",
+        "#394831",
+        "#3f472d",
+        "#405056",
+        "#5d5445",
+        "#515f53",
+        "#8d866a",
+        "#a39b7e",
+        "#81a8ac",
+        "#98b2a9",
+        "#b1c8be",
+        "#c6d3c5",
+        "#e1e3d1"
+      ],
+      "data": {
+        "colors": [
+          "#262219",
+          "#2a302a",
+          "#2c3439",
+          "#394831",
+          "#3f472d",
+          "#405056",
+          "#5d5445",
+          "#515f53",
+          "#8d866a",
+          "#a39b7e",
+          "#81a8ac",
+          "#98b2a9",
+          "#b1c8be",
+          "#c6d3c5",
+          "#e1e3d1"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#262219",
+            "#2a302a",
+            "#2c3439",
+            "#394831",
+            "#3f472d"
+          ],
+          "mids": [
+            "#405056",
+            "#5d5445",
+            "#515f53",
+            "#8d866a",
+            "#a39b7e"
+          ],
+          "highlights": [
+            "#81a8ac",
+            "#98b2a9",
+            "#b1c8be",
+            "#c6d3c5",
+            "#e1e3d1"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/SGESL5IO.jpg",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "shotdeck-palette-ilrtpmz4",
+      "name": "Indiana Jones and the Dial of Destiny Palette",
+      "description": "Warm, Desaturated · Hard light, Side light",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/ILRTPMZ4.jpg",
+      "colors": [
+        "#050605",
+        "#060607",
+        "#080607",
+        "#2e1f14",
+        "#51383c",
+        "#5d3725",
+        "#563d26",
+        "#61464a",
+        "#7d5c3c",
+        "#a17e58",
+        "#af94a0",
+        "#b99a78",
+        "#d8bea2",
+        "#e9d9c7"
+      ],
+      "data": {
+        "colors": [
+          "#050605",
+          "#060607",
+          "#080607",
+          "#2e1f14",
+          "#51383c",
+          "#5d3725",
+          "#563d26",
+          "#61464a",
+          "#7d5c3c",
+          "#a17e58",
+          "#af94a0",
+          "#b99a78",
+          "#d8bea2",
+          "#e9d9c7"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#050605",
+            "#060607",
+            "#080607",
+            "#2e1f14"
+          ],
+          "mids": [
+            "#51383c",
+            "#5d3725",
+            "#563d26",
+            "#61464a"
+          ],
+          "highlights": [
+            "#7d5c3c",
+            "#a17e58",
+            "#af94a0",
+            "#b99a78",
+            "#d8bea2",
+            "#e9d9c7"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/ILRTPMZ4.jpg",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "shotdeck-palette-cydst1bd",
+      "name": "Stranger Things Palette",
+      "description": "Cool, Desaturated, Cyan, Blue · Hard light, High contrast, Silhouette, Side light, Backlight",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/CYDST1BD.jpg",
+      "colors": [
+        "#040404",
+        "#060a08",
+        "#130e10",
+        "#0e181d",
+        "#24445c",
+        "#2a4652",
+        "#2f4947",
+        "#475453",
+        "#39596b",
+        "#62554a",
+        "#6e575e",
+        "#5e8a9d",
+        "#ae9f8f",
+        "#7aaabc",
+        "#9eb5b3"
+      ],
+      "data": {
+        "colors": [
+          "#040404",
+          "#060a08",
+          "#130e10",
+          "#0e181d",
+          "#24445c",
+          "#2a4652",
+          "#2f4947",
+          "#475453",
+          "#39596b",
+          "#62554a",
+          "#6e575e",
+          "#5e8a9d",
+          "#ae9f8f",
+          "#7aaabc",
+          "#9eb5b3"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#040404",
+            "#060a08",
+            "#130e10",
+            "#0e181d",
+            "#24445c"
+          ],
+          "mids": [
+            "#2a4652",
+            "#2f4947",
+            "#475453",
+            "#39596b",
+            "#62554a"
+          ],
+          "highlights": [
+            "#6e575e",
+            "#5e8a9d",
+            "#ae9f8f",
+            "#7aaabc",
+            "#9eb5b3"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/CYDST1BD.jpg",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "shotdeck-palette-1q9ixwq7",
+      "name": "Enter the Void Palette",
+      "description": "Cool, Saturated, Green · Hard light, Backlight",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/1Q9IXWQ7.jpg",
+      "colors": [
+        "#010001",
+        "#010101",
+        "#010203",
+        "#041d0a",
+        "#0a5f23",
+        "#138528",
+        "#32a639",
+        "#4bb749"
+      ],
+      "data": {
+        "colors": [
+          "#010001",
+          "#010101",
+          "#010203",
+          "#041d0a",
+          "#0a5f23",
+          "#138528",
+          "#32a639",
+          "#4bb749"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#010001",
+            "#010101"
+          ],
+          "mids": [
+            "#010203",
+            "#041d0a"
+          ],
+          "highlights": [
+            "#0a5f23",
+            "#138528",
+            "#32a639",
+            "#4bb749"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/1Q9IXWQ7.jpg",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "shotdeck-palette-w3lzv65t",
+      "name": "Big Fish Palette",
+      "description": "Warm · Hard light",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/W3LZV65T.jpg",
+      "colors": [
+        "#2d2c15",
+        "#322e30",
+        "#302f38",
+        "#3b3a4b",
+        "#545616",
+        "#5b566b",
+        "#60595f",
+        "#75772b",
+        "#797490",
+        "#928c94",
+        "#9f9a3f",
+        "#9b98ae",
+        "#bcb561",
+        "#d6d17a",
+        "#e2dfa8"
+      ],
+      "data": {
+        "colors": [
+          "#2d2c15",
+          "#322e30",
+          "#302f38",
+          "#3b3a4b",
+          "#545616",
+          "#5b566b",
+          "#60595f",
+          "#75772b",
+          "#797490",
+          "#928c94",
+          "#9f9a3f",
+          "#9b98ae",
+          "#bcb561",
+          "#d6d17a",
+          "#e2dfa8"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#2d2c15",
+            "#322e30",
+            "#302f38",
+            "#3b3a4b",
+            "#545616"
+          ],
+          "mids": [
+            "#5b566b",
+            "#60595f",
+            "#75772b",
+            "#797490",
+            "#928c94"
+          ],
+          "highlights": [
+            "#9f9a3f",
+            "#9b98ae",
+            "#bcb561",
+            "#d6d17a",
+            "#e2dfa8"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/W3LZV65T.jpg",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    }
+  ]
+}

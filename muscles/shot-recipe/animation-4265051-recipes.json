@@ -1,0 +1,863 @@
+{
+  "id": "animation-4265051-recipes",
+  "pack_id": "animation-4265051-recipes",
+  "type": "shot-recipe",
+  "name": "Animation Shot MUSCLEs",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Animation”.",
+  "source_category": "Animation",
+  "source_deck_id": "4265051",
+  "tags": [
+    "Animation"
+  ],
+  "updated_at": "2026-08-01T22:53:42.901Z",
+  "snippets": [
+    {
+      "id": "shotdeck-f6w8k4p9",
+      "name": "Love, Death & Robots",
+      "description": "Animation · Wide · Establishing shot",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg",
+      "data": {
+        "shotType": "Establishing shot",
+        "frameSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Soft light",
+          "Top light"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Overcast"
+        ],
+        "color": [],
+        "colorPalette": [
+          "#2c1f27",
+          "#20232a",
+          "#2e251e",
+          "#29322d",
+          "#3b3b4f",
+          "#4c442c",
+          "#674d61",
+          "#64533f",
+          "#505c6a",
+          "#496054",
+          "#717a9c",
+          "#af8caa",
+          "#b78f81",
+          "#8da5b9",
+          "#bfd2e1"
+        ],
+        "genre": [
+          "Action",
+          "Animation",
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Psychological",
+          "Revenge",
+          "Thriller"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "2",
+        "format": "Animation",
+        "paletteUsage": {
+          "shadows": [
+            "#2c1f27",
+            "#20232a",
+            "#2e251e",
+            "#29322d",
+            "#3b3b4f"
+          ],
+          "mids": [
+            "#4c442c",
+            "#674d61",
+            "#64533f",
+            "#505c6a",
+            "#496054"
+          ],
+          "highlights": [
+            "#717a9c",
+            "#af8caa",
+            "#b78f81",
+            "#8da5b9",
+            "#bfd2e1"
+          ]
+        },
+        "shotSchema": {
+          "aspect_ratio": 2,
+          "format": "Animation",
+          "frame_size": "Wide",
+          "shot_type": "Establishing shot",
+          "composition": "Center",
+          "lighting": [
+            "Soft light",
+            "Top light"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Overcast"
+          ],
+          "genre": [
+            "Action",
+            "Animation",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Psychological",
+            "Revenge",
+            "Thriller"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "lens": "standard_50mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#2c1f27",
+              "#20232a",
+              "#2e251e",
+              "#29322d",
+              "#3b3b4f",
+              "#4c442c",
+              "#674d61",
+              "#64533f",
+              "#505c6a",
+              "#496054",
+              "#717a9c",
+              "#af8caa",
+              "#b78f81",
+              "#8da5b9",
+              "#bfd2e1"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#2c1f27",
+                "#20232a",
+                "#2e251e",
+                "#29322d",
+                "#3b3b4f"
+              ],
+              "mids": [
+                "#4c442c",
+                "#674d61",
+                "#64533f",
+                "#505c6a",
+                "#496054"
+              ],
+              "highlights": [
+                "#717a9c",
+                "#af8caa",
+                "#b78f81",
+                "#8da5b9",
+                "#bfd2e1"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "F6W8K4P9",
+            "title": "Love, Death & Robots",
+            "year": "2019",
+            "image_url": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg",
+            "deck_id": "4265051",
+            "deck_name": "Animation",
+            "source_category": "Animation",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4265051",
+            "captured_at": "2026-08-01T21:06:31.488Z"
+          },
+          "color": []
+        },
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "shotdeck-fia8zkcb",
+      "name": "Pokémon Detective Pikachu",
+      "description": "Film - 35mm · Anamorphic · Medium Close Up · Clean single",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium Close Up",
+        "lensSize": "Medium",
+        "composition": "Right heavy",
+        "lighting": [
+          "Hard light",
+          "Side light"
+        ],
+        "lightingType": [
+          "Artificial light",
+          "Practical light"
+        ],
+        "color": [
+          "Mixed",
+          "Saturated",
+          "Red",
+          "Orange",
+          "Yellow",
+          "Purple",
+          "Magenta"
+        ],
+        "colorPalette": [
+          "#0d0b31",
+          "#361536",
+          "#38256e",
+          "#68254a",
+          "#a4190f",
+          "#594a8c",
+          "#803e72",
+          "#b9461b",
+          "#ac58bb",
+          "#c185cc",
+          "#eda633",
+          "#dbadde",
+          "#f9c72f",
+          "#ecd0e7",
+          "#faf3ee"
+        ],
+        "camera": "Panavision Millennium / Millenium XL / XL2",
+        "lens": "Panavision E series",
+        "cinematographer": "John Mathieson",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Fantasy"
+        ],
+        "timeOfDay": "Night",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "2.39",
+        "opticalFormat": "Anamorphic",
+        "format": "Film - 35mm",
+        "paletteUsage": {
+          "shadows": [
+            "#0d0b31",
+            "#361536",
+            "#38256e",
+            "#68254a",
+            "#a4190f"
+          ],
+          "mids": [
+            "#594a8c",
+            "#803e72",
+            "#b9461b",
+            "#ac58bb",
+            "#c185cc"
+          ],
+          "highlights": [
+            "#eda633",
+            "#dbadde",
+            "#f9c72f",
+            "#ecd0e7",
+            "#faf3ee"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Mixed",
+            "Saturated",
+            "Red",
+            "Orange",
+            "Yellow",
+            "Purple",
+            "Magenta"
+          ],
+          "aspect_ratio": 2.39,
+          "optical_format": "Anamorphic",
+          "format": "Film - 35mm",
+          "frame_size": "Medium Close Up",
+          "shot_type": "Clean single",
+          "lens_size": "Medium",
+          "composition": "Right heavy",
+          "lighting": [
+            "Hard light",
+            "Side light"
+          ],
+          "lighting_type": [
+            "Artificial light",
+            "Practical light"
+          ],
+          "camera": "Panavision Millennium / Millenium XL / XL2",
+          "lens": "Panavision E series",
+          "cinematographer": "John Mathieson",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Fantasy"
+          ],
+          "time_of_day": "Night",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "medium_close_up",
+            "angle": "eye_level",
+            "lens": "standard_50mm",
+            "depth_of_field": "shallow"
+          },
+          "lighting_setup": {
+            "primary_source": "artificial",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#0d0b31",
+              "#361536",
+              "#38256e",
+              "#68254a",
+              "#a4190f",
+              "#594a8c",
+              "#803e72",
+              "#b9461b",
+              "#ac58bb",
+              "#c185cc",
+              "#eda633",
+              "#dbadde",
+              "#f9c72f",
+              "#ecd0e7",
+              "#faf3ee"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#0d0b31",
+                "#361536",
+                "#38256e",
+                "#68254a",
+                "#a4190f"
+              ],
+              "mids": [
+                "#594a8c",
+                "#803e72",
+                "#b9461b",
+                "#ac58bb",
+                "#c185cc"
+              ],
+              "highlights": [
+                "#eda633",
+                "#dbadde",
+                "#f9c72f",
+                "#ecd0e7",
+                "#faf3ee"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "FIA8ZKCB",
+            "title": "Pokémon Detective Pikachu",
+            "year": "2019",
+            "image_url": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg",
+            "deck_id": "4265051",
+            "deck_name": "Animation",
+            "source_category": "Animation",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4265051",
+            "captured_at": "2026-08-01T21:06:31.488Z"
+          }
+        },
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "shotdeck-b17lmtb8",
+      "name": "Lightyear",
+      "description": "Digital · Wide · Clean single",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Wide",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Hard light",
+          "Backlight"
+        ],
+        "lightingType": [
+          "Daylight"
+        ],
+        "color": [
+          "Warm",
+          "Saturated",
+          "Orange"
+        ],
+        "colorPalette": [
+          "#191617",
+          "#161b1f",
+          "#191b1b",
+          "#321606",
+          "#663a17",
+          "#703412",
+          "#934e23",
+          "#c27140",
+          "#c27737",
+          "#de914b",
+          "#f8c076",
+          "#fbd897"
+        ],
+        "cinematographer": "Jeremy Lasky",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Family",
+          "Hard Sci-Fi",
+          "Military",
+          "Science Fiction",
+          "Space",
+          "Time Travel",
+          "CGI Animation",
+          "Science-Fiction"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Interior",
+        "aspectRatio": "2.39",
+        "format": "Digital",
+        "paletteUsage": {
+          "shadows": [
+            "#191617",
+            "#161b1f",
+            "#191b1b",
+            "#321606"
+          ],
+          "mids": [
+            "#663a17",
+            "#703412",
+            "#934e23",
+            "#c27140"
+          ],
+          "highlights": [
+            "#c27737",
+            "#de914b",
+            "#f8c076",
+            "#fbd897"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Warm",
+            "Saturated",
+            "Orange"
+          ],
+          "aspect_ratio": 2.39,
+          "format": "Digital",
+          "frame_size": "Wide",
+          "shot_type": "Clean single",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Hard light",
+            "Backlight"
+          ],
+          "lighting_type": [
+            "Daylight"
+          ],
+          "cinematographer": "Jeremy Lasky",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Family",
+            "Hard Sci-Fi",
+            "Military",
+            "Science Fiction",
+            "Space",
+            "Time Travel",
+            "CGI Animation",
+            "Science-Fiction"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Interior",
+          "camera_setup": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#191617",
+              "#161b1f",
+              "#191b1b",
+              "#321606",
+              "#663a17",
+              "#703412",
+              "#934e23",
+              "#c27140",
+              "#c27737",
+              "#de914b",
+              "#f8c076",
+              "#fbd897"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#191617",
+                "#161b1f",
+                "#191b1b",
+                "#321606"
+              ],
+              "mids": [
+                "#663a17",
+                "#703412",
+                "#934e23",
+                "#c27140"
+              ],
+              "highlights": [
+                "#c27737",
+                "#de914b",
+                "#f8c076",
+                "#fbd897"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "B17LMTB8",
+            "title": "Lightyear",
+            "year": "2022",
+            "image_url": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg",
+            "deck_id": "4265051",
+            "deck_name": "Animation",
+            "source_category": "Animation",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4265051",
+            "captured_at": "2026-08-01T21:06:31.488Z"
+          }
+        },
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "shotdeck-3mk118wr",
+      "name": "Missing Link",
+      "description": "Digital · Extreme Wide · None",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg",
+      "data": {
+        "shotType": "None",
+        "frameSize": "Extreme Wide",
+        "lensSize": "Wide",
+        "composition": "Balanced",
+        "lighting": [
+          "Hard light",
+          "Backlight",
+          "Edge light",
+          "Neutral contrast"
+        ],
+        "lightingType": [
+          "Daylight"
+        ],
+        "color": [
+          "Mixed",
+          "Saturated",
+          "Blue",
+          "Magenta",
+          "Pink"
+        ],
+        "colorPalette": [
+          "#1d2946",
+          "#3c253a",
+          "#36325f",
+          "#53324f",
+          "#1c4762",
+          "#424866",
+          "#7e4b74",
+          "#b06384",
+          "#bc6160",
+          "#d5788b",
+          "#e8867b",
+          "#fb8e93",
+          "#fd9d95",
+          "#fabe9b"
+        ],
+        "camera": "Canon 5D Mk II",
+        "cinematographer": "Chris Peterson",
+        "genre": [
+          "Adventure",
+          "Animation",
+          "Comedy",
+          "Family",
+          "Fantasy",
+          "Music",
+          "Musical",
+          "Stop-Motion Animation",
+          "Puppetry",
+          "Claymation"
+        ],
+        "timeOfDay": "Sunset",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "2.39",
+        "format": "Digital",
+        "paletteUsage": {
+          "shadows": [
+            "#1d2946",
+            "#3c253a",
+            "#36325f",
+            "#53324f"
+          ],
+          "mids": [
+            "#1c4762",
+            "#424866",
+            "#7e4b74",
+            "#b06384"
+          ],
+          "highlights": [
+            "#bc6160",
+            "#d5788b",
+            "#e8867b",
+            "#fb8e93",
+            "#fd9d95",
+            "#fabe9b"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Mixed",
+            "Saturated",
+            "Blue",
+            "Magenta",
+            "Pink"
+          ],
+          "aspect_ratio": 2.39,
+          "format": "Digital",
+          "frame_size": "Extreme Wide",
+          "shot_type": "None",
+          "lens_size": "Wide",
+          "composition": "Balanced",
+          "lighting": [
+            "Hard light",
+            "Backlight",
+            "Edge light",
+            "Neutral contrast"
+          ],
+          "lighting_type": [
+            "Daylight"
+          ],
+          "camera": "Canon 5D Mk II",
+          "cinematographer": "Chris Peterson",
+          "genre": [
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Family",
+            "Fantasy",
+            "Music",
+            "Musical",
+            "Stop-Motion Animation",
+            "Puppetry",
+            "Claymation"
+          ],
+          "time_of_day": "Sunset",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "extreme_wide",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#1d2946",
+              "#3c253a",
+              "#36325f",
+              "#53324f",
+              "#1c4762",
+              "#424866",
+              "#7e4b74",
+              "#b06384",
+              "#bc6160",
+              "#d5788b",
+              "#e8867b",
+              "#fb8e93",
+              "#fd9d95",
+              "#fabe9b"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#1d2946",
+                "#3c253a",
+                "#36325f",
+                "#53324f"
+              ],
+              "mids": [
+                "#1c4762",
+                "#424866",
+                "#7e4b74",
+                "#b06384"
+              ],
+              "highlights": [
+                "#bc6160",
+                "#d5788b",
+                "#e8867b",
+                "#fb8e93",
+                "#fd9d95",
+                "#fabe9b"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "3MK118WR",
+            "title": "Missing Link",
+            "year": "2019",
+            "image_url": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg",
+            "deck_id": "4265051",
+            "deck_name": "Animation",
+            "source_category": "Animation",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4265051",
+            "captured_at": "2026-08-01T21:06:31.488Z"
+          }
+        },
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    }
+  ]
+}

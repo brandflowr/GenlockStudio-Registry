@@ -1,0 +1,397 @@
+{
+  "id": "animation-4265051-palettes",
+  "pack_id": "animation-4265051-palettes",
+  "type": "color_palette",
+  "name": "Animation Palettes",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Color palettes curated from the ShotDeck deck “Animation”.",
+  "source_category": "Animation",
+  "source_deck_id": "4265051",
+  "tags": [
+    "Animation"
+  ],
+  "updated_at": "2026-08-01T22:53:42.901Z",
+  "snippets": [
+    {
+      "id": "shotdeck-palette-f6w8k4p9",
+      "name": "Love, Death & Robots Palette",
+      "description": "Soft light, Top light",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Revenge",
+        "Thriller",
+        "Wide",
+        "Establishing shot",
+        "Day",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/F6W8K4P9.jpg",
+      "colors": [
+        "#2c1f27",
+        "#20232a",
+        "#2e251e",
+        "#29322d",
+        "#3b3b4f",
+        "#4c442c",
+        "#674d61",
+        "#64533f",
+        "#505c6a",
+        "#496054",
+        "#717a9c",
+        "#af8caa",
+        "#b78f81",
+        "#8da5b9",
+        "#bfd2e1"
+      ],
+      "data": {
+        "colors": [
+          "#2c1f27",
+          "#20232a",
+          "#2e251e",
+          "#29322d",
+          "#3b3b4f",
+          "#4c442c",
+          "#674d61",
+          "#64533f",
+          "#505c6a",
+          "#496054",
+          "#717a9c",
+          "#af8caa",
+          "#b78f81",
+          "#8da5b9",
+          "#bfd2e1"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#2c1f27",
+            "#20232a",
+            "#2e251e",
+            "#29322d",
+            "#3b3b4f"
+          ],
+          "mids": [
+            "#4c442c",
+            "#674d61",
+            "#64533f",
+            "#505c6a",
+            "#496054"
+          ],
+          "highlights": [
+            "#717a9c",
+            "#af8caa",
+            "#b78f81",
+            "#8da5b9",
+            "#bfd2e1"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/F6W8K4P9.jpg",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "F6W8K4P9",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/F6W8K4P9.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:49:18.590Z"
+    },
+    {
+      "id": "shotdeck-palette-fia8zkcb",
+      "name": "Pokémon Detective Pikachu Palette",
+      "description": "Mixed, Saturated, Red, Orange, Yellow, Purple, Magenta · Hard light, Side light",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Mixed",
+        "Saturated",
+        "Red",
+        "Orange",
+        "Yellow",
+        "Purple",
+        "Magenta",
+        "Medium Close Up",
+        "Clean single",
+        "Night",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/FIA8ZKCB.jpg",
+      "colors": [
+        "#0d0b31",
+        "#361536",
+        "#38256e",
+        "#68254a",
+        "#a4190f",
+        "#594a8c",
+        "#803e72",
+        "#b9461b",
+        "#ac58bb",
+        "#c185cc",
+        "#eda633",
+        "#dbadde",
+        "#f9c72f",
+        "#ecd0e7",
+        "#faf3ee"
+      ],
+      "data": {
+        "colors": [
+          "#0d0b31",
+          "#361536",
+          "#38256e",
+          "#68254a",
+          "#a4190f",
+          "#594a8c",
+          "#803e72",
+          "#b9461b",
+          "#ac58bb",
+          "#c185cc",
+          "#eda633",
+          "#dbadde",
+          "#f9c72f",
+          "#ecd0e7",
+          "#faf3ee"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#0d0b31",
+            "#361536",
+            "#38256e",
+            "#68254a",
+            "#a4190f"
+          ],
+          "mids": [
+            "#594a8c",
+            "#803e72",
+            "#b9461b",
+            "#ac58bb",
+            "#c185cc"
+          ],
+          "highlights": [
+            "#eda633",
+            "#dbadde",
+            "#f9c72f",
+            "#ecd0e7",
+            "#faf3ee"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/FIA8ZKCB.jpg",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "FIA8ZKCB",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/FIA8ZKCB.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:49:22.525Z"
+    },
+    {
+      "id": "shotdeck-palette-b17lmtb8",
+      "name": "Lightyear Palette",
+      "description": "Warm, Saturated, Orange · Hard light, Backlight",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Hard Sci-Fi",
+        "Military",
+        "Science Fiction",
+        "Space",
+        "Time Travel",
+        "CGI Animation",
+        "Science-Fiction",
+        "Warm",
+        "Saturated",
+        "Orange",
+        "Wide",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/B17LMTB8.jpg",
+      "colors": [
+        "#191617",
+        "#161b1f",
+        "#191b1b",
+        "#321606",
+        "#663a17",
+        "#703412",
+        "#934e23",
+        "#c27140",
+        "#c27737",
+        "#de914b",
+        "#f8c076",
+        "#fbd897"
+      ],
+      "data": {
+        "colors": [
+          "#191617",
+          "#161b1f",
+          "#191b1b",
+          "#321606",
+          "#663a17",
+          "#703412",
+          "#934e23",
+          "#c27140",
+          "#c27737",
+          "#de914b",
+          "#f8c076",
+          "#fbd897"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#191617",
+            "#161b1f",
+            "#191b1b",
+            "#321606"
+          ],
+          "mids": [
+            "#663a17",
+            "#703412",
+            "#934e23",
+            "#c27140"
+          ],
+          "highlights": [
+            "#c27737",
+            "#de914b",
+            "#f8c076",
+            "#fbd897"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/B17LMTB8.jpg",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "B17LMTB8",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/B17LMTB8.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:53:38.977Z"
+    },
+    {
+      "id": "shotdeck-palette-3mk118wr",
+      "name": "Missing Link Palette",
+      "description": "Mixed, Saturated, Blue, Magenta, Pink · Hard light, Backlight, Edge light, Neutral contrast",
+      "category": "Animation",
+      "tags": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music",
+        "Musical",
+        "Stop-Motion Animation",
+        "Puppetry",
+        "Claymation",
+        "Mixed",
+        "Saturated",
+        "Blue",
+        "Magenta",
+        "Pink",
+        "Extreme Wide",
+        "None",
+        "Sunset",
+        "Exterior"
+      ],
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/3MK118WR.jpg",
+      "colors": [
+        "#1d2946",
+        "#3c253a",
+        "#36325f",
+        "#53324f",
+        "#1c4762",
+        "#424866",
+        "#7e4b74",
+        "#b06384",
+        "#bc6160",
+        "#d5788b",
+        "#e8867b",
+        "#fb8e93",
+        "#fd9d95",
+        "#fabe9b"
+      ],
+      "data": {
+        "colors": [
+          "#1d2946",
+          "#3c253a",
+          "#36325f",
+          "#53324f",
+          "#1c4762",
+          "#424866",
+          "#7e4b74",
+          "#b06384",
+          "#bc6160",
+          "#d5788b",
+          "#e8867b",
+          "#fb8e93",
+          "#fd9d95",
+          "#fabe9b"
+        ],
+        "usageHint": {
+          "shadows": [
+            "#1d2946",
+            "#3c253a",
+            "#36325f",
+            "#53324f"
+          ],
+          "mids": [
+            "#1c4762",
+            "#424866",
+            "#7e4b74",
+            "#b06384"
+          ],
+          "highlights": [
+            "#bc6160",
+            "#d5788b",
+            "#e8867b",
+            "#fb8e93",
+            "#fd9d95",
+            "#fabe9b"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/3MK118WR.jpg",
+        "sourceCategory": "Animation",
+        "sourceDeckId": "4265051"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "3MK118WR",
+        "deckId": "4265051",
+        "deckName": "Animation",
+        "sourceCategory": "Animation",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4265051",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/3MK118WR.jpg"
+      },
+      "createdAt": "2026-08-01T21:28:45.844Z",
+      "updatedAt": "2026-08-01T22:53:42.901Z"
+    }
+  ]
+}

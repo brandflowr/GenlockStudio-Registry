@@ -1,0 +1,1032 @@
+{
+  "id": "fantasy-4488555-recipes",
+  "pack_id": "fantasy-4488555-recipes",
+  "type": "shot-recipe",
+  "name": "Fantasy Shot MUSCLEs",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Fantasy”.",
+  "source_category": "Fantasy",
+  "source_deck_id": "4488555",
+  "tags": [
+    "Fantasy"
+  ],
+  "updated_at": "2026-08-01T23:38:05.953Z",
+  "snippets": [
+    {
+      "id": "shotdeck-sgesl5io",
+      "name": "Sinners",
+      "description": "Film - 65mm / 70mm · Anamorphic · Medium · 2 shot",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg",
+      "data": {
+        "shotType": "2 shot",
+        "frameSize": "Medium",
+        "lensSize": "Wide",
+        "composition": "Balanced",
+        "lighting": [
+          "Hard light",
+          "Backlight"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Sunny"
+        ],
+        "color": [
+          "Cool",
+          "Green",
+          "Cyan",
+          "White"
+        ],
+        "colorPalette": [
+          "#262219",
+          "#2a302a",
+          "#2c3439",
+          "#394831",
+          "#3f472d",
+          "#405056",
+          "#5d5445",
+          "#515f53",
+          "#8d866a",
+          "#a39b7e",
+          "#81a8ac",
+          "#98b2a9",
+          "#b1c8be",
+          "#c6d3c5",
+          "#e1e3d1"
+        ],
+        "camera": "Panavision System 65",
+        "lens": "Panavision Sphero 65mm Lenses",
+        "cinematographer": "Autumn Durald Arkapaw",
+        "genre": [
+          "Fantasy",
+          "Horror",
+          "Occult",
+          "Music",
+          "Thriller"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "opticalFormat": "Anamorphic",
+        "format": "Film - 65mm / 70mm",
+        "paletteUsage": {
+          "shadows": [
+            "#262219",
+            "#2a302a",
+            "#2c3439",
+            "#394831",
+            "#3f472d"
+          ],
+          "mids": [
+            "#405056",
+            "#5d5445",
+            "#515f53",
+            "#8d866a",
+            "#a39b7e"
+          ],
+          "highlights": [
+            "#81a8ac",
+            "#98b2a9",
+            "#b1c8be",
+            "#c6d3c5",
+            "#e1e3d1"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Cool",
+            "Green",
+            "Cyan",
+            "White"
+          ],
+          "optical_format": "Anamorphic",
+          "format": "Film - 65mm / 70mm",
+          "frame_size": "Medium",
+          "shot_type": "2 shot",
+          "lens_size": "Wide",
+          "composition": "Balanced",
+          "lighting": [
+            "Hard light",
+            "Backlight"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Sunny"
+          ],
+          "camera": "Panavision System 65",
+          "lens": "Panavision Sphero 65mm Lenses",
+          "cinematographer": "Autumn Durald Arkapaw",
+          "genre": [
+            "Fantasy",
+            "Horror",
+            "Occult",
+            "Music",
+            "Thriller"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "medium",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#262219",
+              "#2a302a",
+              "#2c3439",
+              "#394831",
+              "#3f472d",
+              "#405056",
+              "#5d5445",
+              "#515f53",
+              "#8d866a",
+              "#a39b7e",
+              "#81a8ac",
+              "#98b2a9",
+              "#b1c8be",
+              "#c6d3c5",
+              "#e1e3d1"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#262219",
+                "#2a302a",
+                "#2c3439",
+                "#394831",
+                "#3f472d"
+              ],
+              "mids": [
+                "#405056",
+                "#5d5445",
+                "#515f53",
+                "#8d866a",
+                "#a39b7e"
+              ],
+              "highlights": [
+                "#81a8ac",
+                "#98b2a9",
+                "#b1c8be",
+                "#c6d3c5",
+                "#e1e3d1"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "SGESL5IO",
+            "title": "Sinners",
+            "year": "2025",
+            "image_url": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg",
+            "deck_id": "4488555",
+            "deck_name": "Fantasy",
+            "source_category": "Fantasy",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488555",
+            "captured_at": "2026-08-01T23:36:04.684Z"
+          }
+        },
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "shotdeck-ilrtpmz4",
+      "name": "Indiana Jones and the Dial of Destiny",
+      "description": "Digital, Digital - Large Format · Anamorphic · Medium · Clean single",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Hard light",
+          "Side light"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Sunny"
+        ],
+        "color": [
+          "Warm",
+          "Desaturated"
+        ],
+        "colorPalette": [
+          "#050605",
+          "#060607",
+          "#080607",
+          "#2e1f14",
+          "#51383c",
+          "#5d3725",
+          "#563d26",
+          "#61464a",
+          "#7d5c3c",
+          "#a17e58",
+          "#af94a0",
+          "#b99a78",
+          "#d8bea2",
+          "#e9d9c7"
+        ],
+        "camera": "ARRI ALEXA LF",
+        "lens": "Panavision C series",
+        "cinematographer": "Phedon Papamichael",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Crime",
+          "Epic",
+          "Heist"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Interior",
+        "aspectRatio": "2.39",
+        "opticalFormat": "Anamorphic",
+        "format": "Digital, Digital - Large Format",
+        "paletteUsage": {
+          "shadows": [
+            "#050605",
+            "#060607",
+            "#080607",
+            "#2e1f14"
+          ],
+          "mids": [
+            "#51383c",
+            "#5d3725",
+            "#563d26",
+            "#61464a"
+          ],
+          "highlights": [
+            "#7d5c3c",
+            "#a17e58",
+            "#af94a0",
+            "#b99a78",
+            "#d8bea2",
+            "#e9d9c7"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Warm",
+            "Desaturated"
+          ],
+          "aspect_ratio": 2.39,
+          "optical_format": "Anamorphic",
+          "format": "Digital, Digital - Large Format",
+          "frame_size": "Medium",
+          "shot_type": "Clean single",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Hard light",
+            "Side light"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Sunny"
+          ],
+          "camera": "ARRI ALEXA LF",
+          "lens": "Panavision C series",
+          "cinematographer": "Phedon Papamichael",
+          "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Crime",
+            "Epic",
+            "Heist"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Interior",
+          "camera_setup": {
+            "shot_size": "medium",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#050605",
+              "#060607",
+              "#080607",
+              "#2e1f14",
+              "#51383c",
+              "#5d3725",
+              "#563d26",
+              "#61464a",
+              "#7d5c3c",
+              "#a17e58",
+              "#af94a0",
+              "#b99a78",
+              "#d8bea2",
+              "#e9d9c7"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#050605",
+                "#060607",
+                "#080607",
+                "#2e1f14"
+              ],
+              "mids": [
+                "#51383c",
+                "#5d3725",
+                "#563d26",
+                "#61464a"
+              ],
+              "highlights": [
+                "#7d5c3c",
+                "#a17e58",
+                "#af94a0",
+                "#b99a78",
+                "#d8bea2",
+                "#e9d9c7"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "ILRTPMZ4",
+            "title": "Indiana Jones and the Dial of Destiny",
+            "year": "2023",
+            "image_url": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg",
+            "deck_id": "4488555",
+            "deck_name": "Fantasy",
+            "source_category": "Fantasy",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488555",
+            "captured_at": "2026-08-01T23:36:04.684Z"
+          }
+        },
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "shotdeck-cydst1bd",
+      "name": "Stranger Things",
+      "description": "Digital · Spherical · Wide · Establishing shot",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg",
+      "data": {
+        "shotType": "Establishing shot",
+        "frameSize": "Wide",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Hard light",
+          "High contrast",
+          "Silhouette",
+          "Side light",
+          "Backlight"
+        ],
+        "lightingType": [
+          "Moonlight",
+          "Artificial light",
+          "Practical light"
+        ],
+        "color": [
+          "Cool",
+          "Desaturated",
+          "Cyan",
+          "Blue"
+        ],
+        "colorPalette": [
+          "#040404",
+          "#060a08",
+          "#130e10",
+          "#0e181d",
+          "#24445c",
+          "#2a4652",
+          "#2f4947",
+          "#475453",
+          "#39596b",
+          "#62554a",
+          "#6e575e",
+          "#5e8a9d",
+          "#ae9f8f",
+          "#7aaabc",
+          "#9eb5b3"
+        ],
+        "camera": "RED Weapon Helium",
+        "lens": "Leitz SUMMILUX-C",
+        "cinematographer": "Tim Ives",
+        "genre": [
+          "Coming-of-Age",
+          "Drama",
+          "Fantasy",
+          "High School/Teen",
+          "Horror",
+          "Monster",
+          "Science Fiction"
+        ],
+        "timeOfDay": "Night",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "2",
+        "opticalFormat": "Spherical",
+        "format": "Digital",
+        "paletteUsage": {
+          "shadows": [
+            "#040404",
+            "#060a08",
+            "#130e10",
+            "#0e181d",
+            "#24445c"
+          ],
+          "mids": [
+            "#2a4652",
+            "#2f4947",
+            "#475453",
+            "#39596b",
+            "#62554a"
+          ],
+          "highlights": [
+            "#6e575e",
+            "#5e8a9d",
+            "#ae9f8f",
+            "#7aaabc",
+            "#9eb5b3"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Cool",
+            "Desaturated",
+            "Cyan",
+            "Blue"
+          ],
+          "aspect_ratio": 2,
+          "optical_format": "Spherical",
+          "format": "Digital",
+          "frame_size": "Wide",
+          "shot_type": "Establishing shot",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Hard light",
+            "High contrast",
+            "Silhouette",
+            "Side light",
+            "Backlight"
+          ],
+          "lighting_type": [
+            "Moonlight",
+            "Artificial light",
+            "Practical light"
+          ],
+          "camera": "RED Weapon Helium",
+          "lens": "Leitz SUMMILUX-C",
+          "cinematographer": "Tim Ives",
+          "genre": [
+            "Coming-of-Age",
+            "Drama",
+            "Fantasy",
+            "High School/Teen",
+            "Horror",
+            "Monster",
+            "Science Fiction"
+          ],
+          "time_of_day": "Night",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "moonlight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#040404",
+              "#060a08",
+              "#130e10",
+              "#0e181d",
+              "#24445c",
+              "#2a4652",
+              "#2f4947",
+              "#475453",
+              "#39596b",
+              "#62554a",
+              "#6e575e",
+              "#5e8a9d",
+              "#ae9f8f",
+              "#7aaabc",
+              "#9eb5b3"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#040404",
+                "#060a08",
+                "#130e10",
+                "#0e181d",
+                "#24445c"
+              ],
+              "mids": [
+                "#2a4652",
+                "#2f4947",
+                "#475453",
+                "#39596b",
+                "#62554a"
+              ],
+              "highlights": [
+                "#6e575e",
+                "#5e8a9d",
+                "#ae9f8f",
+                "#7aaabc",
+                "#9eb5b3"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "CYDST1BD",
+            "title": "Stranger Things",
+            "year": "2017",
+            "image_url": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg",
+            "deck_id": "4488555",
+            "deck_name": "Fantasy",
+            "source_category": "Fantasy",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488555",
+            "captured_at": "2026-08-01T23:36:04.684Z"
+          }
+        },
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "shotdeck-1q9ixwq7",
+      "name": "Enter the Void",
+      "description": "Film - 16mm · Anamorphic · Medium Close Up · Over the shoulder",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg",
+      "data": {
+        "shotType": "Over the shoulder",
+        "frameSize": "Medium Close Up",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Hard light",
+          "Backlight"
+        ],
+        "lightingType": [
+          "Artificial light"
+        ],
+        "color": [
+          "Cool",
+          "Saturated",
+          "Green"
+        ],
+        "colorPalette": [
+          "#010001",
+          "#010101",
+          "#010203",
+          "#041d0a",
+          "#0a5f23",
+          "#138528",
+          "#32a639",
+          "#4bb749"
+        ],
+        "camera": "Aaton XTR Prod 16mm",
+        "lens": "Zeiss Master Primes",
+        "cinematographer": "Benoît Debie",
+        "genre": [
+          "Drama",
+          "Fantasy",
+          "Psychedelic"
+        ],
+        "timeOfDay": "Night",
+        "interiorExterior": "Interior",
+        "aspectRatio": "2.35",
+        "opticalFormat": "Anamorphic",
+        "format": "Film - 16mm",
+        "paletteUsage": {
+          "shadows": [
+            "#010001",
+            "#010101"
+          ],
+          "mids": [
+            "#010203",
+            "#041d0a"
+          ],
+          "highlights": [
+            "#0a5f23",
+            "#138528",
+            "#32a639",
+            "#4bb749"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Cool",
+            "Saturated",
+            "Green"
+          ],
+          "aspect_ratio": 2.35,
+          "optical_format": "Anamorphic",
+          "format": "Film - 16mm",
+          "frame_size": "Medium Close Up",
+          "shot_type": "Over the shoulder",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Hard light",
+            "Backlight"
+          ],
+          "lighting_type": [
+            "Artificial light"
+          ],
+          "camera": "Aaton XTR Prod 16mm",
+          "lens": "Zeiss Master Primes",
+          "cinematographer": "Benoît Debie",
+          "genre": [
+            "Drama",
+            "Fantasy",
+            "Psychedelic"
+          ],
+          "time_of_day": "Night",
+          "interior_exterior": "Interior",
+          "camera_setup": {
+            "shot_size": "medium_close_up",
+            "angle": "over_shoulder",
+            "lens": "wide_24mm",
+            "depth_of_field": "shallow"
+          },
+          "lighting_setup": {
+            "primary_source": "artificial",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#010001",
+              "#010101",
+              "#010203",
+              "#041d0a",
+              "#0a5f23",
+              "#138528",
+              "#32a639",
+              "#4bb749"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#010001",
+                "#010101"
+              ],
+              "mids": [
+                "#010203",
+                "#041d0a"
+              ],
+              "highlights": [
+                "#0a5f23",
+                "#138528",
+                "#32a639",
+                "#4bb749"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "1Q9IXWQ7",
+            "title": "Enter the Void",
+            "year": "2009",
+            "image_url": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg",
+            "deck_id": "4488555",
+            "deck_name": "Fantasy",
+            "source_category": "Fantasy",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488555",
+            "captured_at": "2026-08-01T23:36:04.684Z"
+          }
+        },
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "shotdeck-w3lzv65t",
+      "name": "Big Fish",
+      "description": "Film - 35mm · Spherical · Extreme Wide · Clean single",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Extreme Wide",
+        "lensSize": "Telephoto",
+        "composition": "Right heavy",
+        "lighting": [
+          "Hard light"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Sunny"
+        ],
+        "color": [
+          "Warm"
+        ],
+        "colorPalette": [
+          "#2d2c15",
+          "#322e30",
+          "#302f38",
+          "#3b3a4b",
+          "#545616",
+          "#5b566b",
+          "#60595f",
+          "#75772b",
+          "#797490",
+          "#928c94",
+          "#9f9a3f",
+          "#9b98ae",
+          "#bcb561",
+          "#d6d17a",
+          "#e2dfa8"
+        ],
+        "camera": "Panavision Cameras",
+        "lens": "Panavision Lenses",
+        "cinematographer": "Philippe Rousselot",
+        "genre": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Magical Realism",
+          "Low Fantasy"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "1.85",
+        "opticalFormat": "Spherical",
+        "format": "Film - 35mm",
+        "paletteUsage": {
+          "shadows": [
+            "#2d2c15",
+            "#322e30",
+            "#302f38",
+            "#3b3a4b",
+            "#545616"
+          ],
+          "mids": [
+            "#5b566b",
+            "#60595f",
+            "#75772b",
+            "#797490",
+            "#928c94"
+          ],
+          "highlights": [
+            "#9f9a3f",
+            "#9b98ae",
+            "#bcb561",
+            "#d6d17a",
+            "#e2dfa8"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Warm"
+          ],
+          "aspect_ratio": 1.85,
+          "optical_format": "Spherical",
+          "format": "Film - 35mm",
+          "frame_size": "Extreme Wide",
+          "shot_type": "Clean single",
+          "lens_size": "Telephoto",
+          "composition": "Right heavy",
+          "lighting": [
+            "Hard light"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Sunny"
+          ],
+          "camera": "Panavision Cameras",
+          "lens": "Panavision Lenses",
+          "cinematographer": "Philippe Rousselot",
+          "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Magical Realism",
+            "Low Fantasy"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "extreme_wide",
+            "angle": "eye_level",
+            "lens": "telephoto",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#2d2c15",
+              "#322e30",
+              "#302f38",
+              "#3b3a4b",
+              "#545616",
+              "#5b566b",
+              "#60595f",
+              "#75772b",
+              "#797490",
+              "#928c94",
+              "#9f9a3f",
+              "#9b98ae",
+              "#bcb561",
+              "#d6d17a",
+              "#e2dfa8"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#2d2c15",
+                "#322e30",
+                "#302f38",
+                "#3b3a4b",
+                "#545616"
+              ],
+              "mids": [
+                "#5b566b",
+                "#60595f",
+                "#75772b",
+                "#797490",
+                "#928c94"
+              ],
+              "highlights": [
+                "#9f9a3f",
+                "#9b98ae",
+                "#bcb561",
+                "#d6d17a",
+                "#e2dfa8"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "W3LZV65T",
+            "title": "Big Fish",
+            "year": "2003",
+            "image_url": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg",
+            "deck_id": "4488555",
+            "deck_name": "Fantasy",
+            "source_category": "Fantasy",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488555",
+            "captured_at": "2026-08-01T23:36:04.684Z"
+          }
+        },
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:04.412Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    }
+  ]
+}

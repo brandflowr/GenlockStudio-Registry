@@ -1,0 +1,3027 @@
+{
+  "id": "horror-4488403-elements",
+  "pack_id": "horror-4488403-elements",
+  "type": "mixed",
+  "name": "Horror Elements",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable elements curated from the ShotDeck deck “Horror”.",
+  "source_category": "Horror",
+  "source_deck_id": "4488403",
+  "tags": [
+    "Horror"
+  ],
+  "updated_at": "2026-08-01T22:53:55.004Z",
+  "elements": [
+    {
+      "id": "horror-4488403-lens-size-wide",
+      "type": "lens_size",
+      "name": "Wide",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-frame-size-extreme-wide",
+      "type": "frame_size",
+      "name": "Extreme Wide",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Extreme Wide",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-shot-type-establishing-shot",
+      "type": "shot_type",
+      "name": "Establishing shot",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "Establishing shot",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-composition-center",
+      "type": "composition",
+      "name": "Center",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "composition": "Center",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-aspect-ratio-2-39",
+      "type": "aspect_ratio",
+      "name": "2.39",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "2.39",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-format-digital",
+      "type": "format",
+      "name": "Digital",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Digital",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-int-ext-exterior",
+      "type": "int_ext",
+      "name": "Exterior",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "interiorExterior": "Exterior",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-time-of-day-night",
+      "type": "time_of_day",
+      "name": "Night",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "timeOfDay": "Night",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-genre-horror",
+      "type": "genre",
+      "name": "Horror",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Horror"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-science-fiction",
+      "type": "genre",
+      "name": "Science Fiction",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Science Fiction"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-color-cool",
+      "type": "color",
+      "name": "Cool",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Cool"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-color-desaturated",
+      "type": "color",
+      "name": "Desaturated",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Desaturated"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-color-blue",
+      "type": "color",
+      "name": "Blue",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Blue"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-lighting-soft-light",
+      "type": "lighting",
+      "name": "Soft light",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Soft light"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-lighting-backlight",
+      "type": "lighting",
+      "name": "Backlight",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Backlight"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-lighting-type-moonlight",
+      "type": "lighting_type",
+      "name": "Moonlight",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Moonlight"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-lighting-type-artificial-light",
+      "type": "lighting_type",
+      "name": "Artificial light",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Artificial light"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-color-palette-come-true-palette",
+      "type": "color_palette",
+      "name": "Come True Palette",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#0c1717",
+          "#102029",
+          "#244857",
+          "#2b5a6c",
+          "#4a99a4",
+          "#7c9ca4",
+          "#7eb6ae"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      ],
+      "sourceShotIds": [
+        "0JS7BXGM"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:46:41.279Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "horror-4488403-camera-arricam-lt",
+      "type": "camera",
+      "name": "Arricam LT",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Arricam LT",
+        "format": "Film - 35mm",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-lens-size-zeiss-ultra-prime",
+      "type": "lens_size",
+      "name": "Zeiss Ultra Prime",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Zeiss Ultra Prime",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-frame-size-close-up",
+      "type": "frame_size",
+      "name": "Close Up",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Close Up",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-shot-type-clean-single",
+      "type": "shot_type",
+      "name": "Clean single",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "Clean single",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-aspect-ratio-1-66",
+      "type": "aspect_ratio",
+      "name": "1.66",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "1.66",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-optical-format-spherical",
+      "type": "optical_format",
+      "name": "Spherical",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "opticalFormat": "Spherical",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-format-film-35mm",
+      "type": "format",
+      "name": "Film - 35mm",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Film - 35mm",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-time-of-day-day",
+      "type": "time_of_day",
+      "name": "Day",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "timeOfDay": "Day",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-comedy",
+      "type": "genre",
+      "name": "Comedy",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Comedy"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-genre-psychological-horror",
+      "type": "genre",
+      "name": "Psychological Horror",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Psychological Horror"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-romance",
+      "type": "genre",
+      "name": "Romance",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Romance"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-satire",
+      "type": "genre",
+      "name": "Satire",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Satire"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-genre-fantasy",
+      "type": "genre",
+      "name": "Fantasy",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Fantasy"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-genre-magical-realism",
+      "type": "genre",
+      "name": "Magical Realism",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Magical Realism"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-color-saturated",
+      "type": "color",
+      "name": "Saturated",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Saturated"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-color-green",
+      "type": "color",
+      "name": "Green",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Green"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-color-cyan",
+      "type": "color",
+      "name": "Cyan",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Cyan"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-lighting-low-contrast",
+      "type": "lighting",
+      "name": "Low contrast",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Low contrast"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-lighting-type-daylight",
+      "type": "lighting_type",
+      "name": "Daylight",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Daylight"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-color-palette-poor-things-palette",
+      "type": "color_palette",
+      "name": "Poor Things Palette",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#222011",
+          "#1b281d",
+          "#11313d",
+          "#344d2a",
+          "#1b4d5c",
+          "#45511b",
+          "#666235",
+          "#356975",
+          "#4a6e52",
+          "#619380",
+          "#a48e70",
+          "#86abae",
+          "#8bb0a9",
+          "#a9ccc8",
+          "#c7ded8"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      ],
+      "sourceShotIds": [
+        "GF7LHXGR"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T22:41:45.624Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "horror-4488403-camera-arriflex-435-xtreme",
+      "type": "camera",
+      "name": "Arriflex 435 Xtreme",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "camera": "Arriflex 435 Xtreme",
+        "format": "Film - 35mm",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-lens-size-panavision-primo-classic",
+      "type": "lens_size",
+      "name": "Panavision Primo Classic",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Panavision Primo Classic",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-frame-size-medium",
+      "type": "frame_size",
+      "name": "Medium",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "frameSize": "Medium",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-composition-right-heavy",
+      "type": "composition",
+      "name": "Right heavy",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "composition": "Right heavy",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-aspect-ratio-1-33",
+      "type": "aspect_ratio",
+      "name": "1.33",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "aspectRatio": "1.33",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-int-ext-interior",
+      "type": "int_ext",
+      "name": "Interior",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "interiorExterior": "Interior",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-genre-drama",
+      "type": "genre",
+      "name": "Drama",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Drama"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-thriller",
+      "type": "genre",
+      "name": "Thriller",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Thriller"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-dark-comedy",
+      "type": "genre",
+      "name": "Dark Comedy",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Dark Comedy"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-color-warm",
+      "type": "color",
+      "name": "Warm",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Warm"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-lighting-hard-light",
+      "type": "lighting",
+      "name": "Hard light",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Hard light"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-lighting-high-contrast",
+      "type": "lighting",
+      "name": "High contrast",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "lighting": [
+          "High contrast"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-lighting-top-light",
+      "type": "lighting",
+      "name": "Top light",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "lighting": [
+          "Top light"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-lighting-type-sunny",
+      "type": "lighting_type",
+      "name": "Sunny",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Sunny"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-color-palette-saltburn-palette",
+      "type": "color_palette",
+      "name": "Saltburn Palette",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#020402",
+          "#1e0c05",
+          "#202023",
+          "#2f2224",
+          "#473b3f",
+          "#742614",
+          "#3c4146",
+          "#5a3c22",
+          "#4b4247",
+          "#834f2f",
+          "#b07352",
+          "#ae7c4b",
+          "#bf8e67"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      ],
+      "sourceShotIds": [
+        "Y6UC0F7B"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T22:48:59.570Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "horror-4488403-camera-arri-alexa-mini",
+      "type": "camera",
+      "name": "ARRI ALEXA Mini",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA Mini",
+        "format": "Digital",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-frame-size-medium-close-up",
+      "type": "frame_size",
+      "name": "Medium Close Up",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Medium Close Up",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-genre-monster",
+      "type": "genre",
+      "name": "Monster",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Monster"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-genre-occult",
+      "type": "genre",
+      "name": "Occult",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Occult"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-color-mixed",
+      "type": "color",
+      "name": "Mixed",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Mixed"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-color-palette-gretel-hansel-palette",
+      "type": "color_palette",
+      "name": "Gretel & Hansel Palette",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#0a090a",
+          "#161c19",
+          "#1e1c14",
+          "#122023",
+          "#35463c",
+          "#4d432a",
+          "#264a53",
+          "#4b5c52",
+          "#675941",
+          "#3a626c",
+          "#5e8e94",
+          "#988459",
+          "#b1996b",
+          "#78a6aa",
+          "#95bcb7"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      ],
+      "sourceShotIds": [
+        "GVIJ52F7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T22:49:15.145Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "horror-4488403-camera-panavision-millennium-millenium-xl-xl2",
+      "type": "camera",
+      "name": "Panavision Millennium / Millenium XL / XL2",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Panavision Millennium / Millenium XL / XL2",
+        "format": "Film - 35mm",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-lens-size-panavision-super-speed-zeiss-mkii",
+      "type": "lens_size",
+      "name": "Panavision Super Speed Zeiss MKII",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Long Lens",
+        "lens": "Panavision Super Speed Zeiss MKII",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-frame-size-wide",
+      "type": "frame_size",
+      "name": "Wide",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Wide",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-shot-type-2-shot",
+      "type": "shot_type",
+      "name": "2 shot",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "2 shot",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-aspect-ratio-1-85",
+      "type": "aspect_ratio",
+      "name": "1.85",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "1.85",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-lighting-type-overcast",
+      "type": "lighting_type",
+      "name": "Overcast",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Overcast"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    },
+    {
+      "id": "horror-4488403-color-palette-bones-and-all-palette",
+      "type": "color_palette",
+      "name": "Bones and All Palette",
+      "description": "Curated from the ShotDeck deck “Horror”.",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#231b19",
+          "#32282d",
+          "#2c2a3b",
+          "#3d394e",
+          "#523634",
+          "#463b43",
+          "#4d424b",
+          "#5e4441",
+          "#515068",
+          "#89829c"
+        ],
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      ],
+      "sourceShotIds": [
+        "KLPIH2G0"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T22:53:55.004Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    }
+  ]
+}

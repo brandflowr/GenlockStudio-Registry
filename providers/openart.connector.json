@@ -1,0 +1,37 @@
+{
+  "connector_version": "1.0",
+  "provider": {
+    "pack_id": "openart",
+    "pack_version": "1.3",
+    "label": "OpenArt",
+    "description": "OAuth MCP for image and video generation, editing, projects, uploads, account credits, and the OpenArt library.",
+    "website": "https://openart.ai",
+    "detection": {
+      "method": "mcp",
+      "mcp_url": "https://mcp.openart.ai/mcp"
+    },
+    "auth": {
+      "mcp": {
+        "url": "https://mcp.openart.ai/mcp",
+        "auth_type": "oauth"
+      }
+    },
+    "capabilities": [
+      { "type": "image_generation", "label": "Image Generation" },
+      { "type": "image_edit", "label": "Image Editing" },
+      { "type": "video_generation", "label": "Video Generation" },
+      { "type": "asset_management", "label": "Projects, Uploads, and Library" },
+      { "type": "account_read", "label": "Account and Credits" }
+    ],
+    "execution_routes": {
+      "image": [{ "type": "mcp", "label": "OpenArt MCP live image-tool discovery" }],
+      "video": [{ "type": "mcp", "label": "OpenArt MCP live video-tool discovery" }]
+    }
+  },
+  "bones": [],
+  "skill": null,
+  "permissions": {
+    "remote_hosts": ["mcp.openart.ai"],
+    "local_execution": false
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "id": "horror-4488403-recipes",
+  "pack_id": "horror-4488403-recipes",
+  "type": "shot-recipe",
+  "name": "Horror Shot MUSCLEs",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Horror”.",
+  "source_category": "Horror",
+  "source_deck_id": "4488403",
+  "tags": [
+    "Horror"
+  ],
+  "updated_at": "2026-08-01T22:53:55.004Z",
+  "snippets": [
+    {
+      "id": "shotdeck-0js7bxgm",
+      "name": "Come True",
+      "description": "Digital · Extreme Wide · Establishing shot",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg",
+      "data": {
+        "shotType": "Establishing shot",
+        "frameSize": "Extreme Wide",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Soft light",
+          "Backlight"
+        ],
+        "lightingType": [
+          "Moonlight",
+          "Artificial light"
+        ],
+        "color": [
+          "Cool",
+          "Desaturated",
+          "Blue"
+        ],
+        "colorPalette": [
+          "#0c1717",
+          "#102029",
+          "#244857",
+          "#2b5a6c",
+          "#4a99a4",
+          "#7c9ca4",
+          "#7eb6ae"
+        ],
+        "cinematographer": "Anthony Scott Burns",
+        "genre": [
+          "Horror",
+          "Science Fiction"
+        ],
+        "timeOfDay": "Night",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "2.39",
+        "format": "Digital",
+        "paletteUsage": {
+          "shadows": [
+            "#0c1717",
+            "#102029"
+          ],
+          "mids": [
+            "#244857",
+            "#2b5a6c"
+          ],
+          "highlights": [
+            "#4a99a4",
+            "#7c9ca4",
+            "#7eb6ae"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Cool",
+            "Desaturated",
+            "Blue"
+          ],
+          "aspect_ratio": 2.39,
+          "format": "Digital",
+          "frame_size": "Extreme Wide",
+          "shot_type": "Establishing shot",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Soft light",
+            "Backlight"
+          ],
+          "lighting_type": [
+            "Moonlight",
+            "Artificial light"
+          ],
+          "cinematographer": "Anthony Scott Burns",
+          "genre": [
+            "Horror",
+            "Science Fiction"
+          ],
+          "time_of_day": "Night",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "extreme_wide",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "moonlight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#0c1717",
+              "#102029",
+              "#244857",
+              "#2b5a6c",
+              "#4a99a4",
+              "#7c9ca4",
+              "#7eb6ae"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#0c1717",
+                "#102029"
+              ],
+              "mids": [
+                "#244857",
+                "#2b5a6c"
+              ],
+              "highlights": [
+                "#4a99a4",
+                "#7c9ca4",
+                "#7eb6ae"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "0JS7BXGM",
+            "title": "Come True",
+            "year": "2020",
+            "image_url": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg",
+            "deck_id": "4488403",
+            "deck_name": "Horror",
+            "source_category": "Horror",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488403",
+            "captured_at": "2026-08-01T20:56:32.304Z"
+          }
+        },
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z"
+    },
+    {
+      "id": "shotdeck-gf7lhxgr",
+      "name": "Poor Things",
+      "description": "Film - 35mm · Spherical · Close Up · Clean single",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Close Up",
+        "lensSize": "Long Lens",
+        "composition": "Center",
+        "lighting": [
+          "Soft light",
+          "Low contrast"
+        ],
+        "lightingType": [
+          "Daylight"
+        ],
+        "color": [
+          "Cool",
+          "Saturated",
+          "Green",
+          "Cyan",
+          "Blue"
+        ],
+        "colorPalette": [
+          "#222011",
+          "#1b281d",
+          "#11313d",
+          "#344d2a",
+          "#1b4d5c",
+          "#45511b",
+          "#666235",
+          "#356975",
+          "#4a6e52",
+          "#619380",
+          "#a48e70",
+          "#86abae",
+          "#8bb0a9",
+          "#a9ccc8",
+          "#c7ded8"
+        ],
+        "camera": "Arricam LT",
+        "lens": "Zeiss Ultra Prime",
+        "cinematographer": "Robbie Ryan",
+        "genre": [
+          "Comedy",
+          "Psychological Horror",
+          "Romance",
+          "Satire",
+          "Science Fiction",
+          "Horror",
+          "Fantasy",
+          "Magical Realism"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "1.66",
+        "opticalFormat": "Spherical",
+        "format": "Film - 35mm",
+        "paletteUsage": {
+          "shadows": [
+            "#222011",
+            "#1b281d",
+            "#11313d",
+            "#344d2a",
+            "#1b4d5c"
+          ],
+          "mids": [
+            "#45511b",
+            "#666235",
+            "#356975",
+            "#4a6e52",
+            "#619380"
+          ],
+          "highlights": [
+            "#a48e70",
+            "#86abae",
+            "#8bb0a9",
+            "#a9ccc8",
+            "#c7ded8"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Cool",
+            "Saturated",
+            "Green",
+            "Cyan",
+            "Blue"
+          ],
+          "aspect_ratio": 1.66,
+          "optical_format": "Spherical",
+          "format": "Film - 35mm",
+          "frame_size": "Close Up",
+          "shot_type": "Clean single",
+          "lens_size": "Long Lens",
+          "composition": "Center",
+          "lighting": [
+            "Soft light",
+            "Low contrast"
+          ],
+          "lighting_type": [
+            "Daylight"
+          ],
+          "camera": "Arricam LT",
+          "lens": "Zeiss Ultra Prime",
+          "cinematographer": "Robbie Ryan",
+          "genre": [
+            "Comedy",
+            "Psychological Horror",
+            "Romance",
+            "Satire",
+            "Science Fiction",
+            "Horror",
+            "Fantasy",
+            "Magical Realism"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "close_up",
+            "angle": "eye_level",
+            "lens": "long_lens",
+            "depth_of_field": "shallow"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#222011",
+              "#1b281d",
+              "#11313d",
+              "#344d2a",
+              "#1b4d5c",
+              "#45511b",
+              "#666235",
+              "#356975",
+              "#4a6e52",
+              "#619380",
+              "#a48e70",
+              "#86abae",
+              "#8bb0a9",
+              "#a9ccc8",
+              "#c7ded8"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#222011",
+                "#1b281d",
+                "#11313d",
+                "#344d2a",
+                "#1b4d5c"
+              ],
+              "mids": [
+                "#45511b",
+                "#666235",
+                "#356975",
+                "#4a6e52",
+                "#619380"
+              ],
+              "highlights": [
+                "#a48e70",
+                "#86abae",
+                "#8bb0a9",
+                "#a9ccc8",
+                "#c7ded8"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "GF7LHXGR",
+            "title": "Poor Things",
+            "year": "2023",
+            "image_url": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg",
+            "deck_id": "4488403",
+            "deck_name": "Horror",
+            "source_category": "Horror",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488403",
+            "captured_at": "2026-08-01T20:56:32.304Z"
+          }
+        },
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z"
+    },
+    {
+      "id": "shotdeck-y6uc0f7b",
+      "name": "Saltburn",
+      "description": "Film - 35mm · Spherical · Medium · Clean single",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium",
+        "lensSize": "Wide",
+        "composition": "Right heavy",
+        "lighting": [
+          "Hard light",
+          "High contrast",
+          "Top light"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Sunny"
+        ],
+        "color": [
+          "Warm",
+          "Saturated"
+        ],
+        "colorPalette": [
+          "#020402",
+          "#1e0c05",
+          "#202023",
+          "#2f2224",
+          "#473b3f",
+          "#742614",
+          "#3c4146",
+          "#5a3c22",
+          "#4b4247",
+          "#834f2f",
+          "#b07352",
+          "#ae7c4b",
+          "#bf8e67"
+        ],
+        "camera": "Arriflex 435 Xtreme",
+        "lens": "Panavision Primo Classic",
+        "cinematographer": "Linus Sandgren",
+        "genre": [
+          "Comedy",
+          "Drama",
+          "Thriller",
+          "Psychological Horror",
+          "Satire",
+          "Dark Comedy",
+          "Horror"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Interior",
+        "aspectRatio": "1.33",
+        "opticalFormat": "Spherical",
+        "format": "Film - 35mm",
+        "paletteUsage": {
+          "shadows": [
+            "#020402",
+            "#1e0c05",
+            "#202023",
+            "#2f2224"
+          ],
+          "mids": [
+            "#473b3f",
+            "#742614",
+            "#3c4146",
+            "#5a3c22"
+          ],
+          "highlights": [
+            "#4b4247",
+            "#834f2f",
+            "#b07352",
+            "#ae7c4b",
+            "#bf8e67"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Warm",
+            "Saturated"
+          ],
+          "aspect_ratio": 1.33,
+          "optical_format": "Spherical",
+          "format": "Film - 35mm",
+          "frame_size": "Medium",
+          "shot_type": "Clean single",
+          "lens_size": "Wide",
+          "composition": "Right heavy",
+          "lighting": [
+            "Hard light",
+            "High contrast",
+            "Top light"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Sunny"
+          ],
+          "camera": "Arriflex 435 Xtreme",
+          "lens": "Panavision Primo Classic",
+          "cinematographer": "Linus Sandgren",
+          "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller",
+            "Psychological Horror",
+            "Satire",
+            "Dark Comedy",
+            "Horror"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Interior",
+          "camera_setup": {
+            "shot_size": "medium",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#020402",
+              "#1e0c05",
+              "#202023",
+              "#2f2224",
+              "#473b3f",
+              "#742614",
+              "#3c4146",
+              "#5a3c22",
+              "#4b4247",
+              "#834f2f",
+              "#b07352",
+              "#ae7c4b",
+              "#bf8e67"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#020402",
+                "#1e0c05",
+                "#202023",
+                "#2f2224"
+              ],
+              "mids": [
+                "#473b3f",
+                "#742614",
+                "#3c4146",
+                "#5a3c22"
+              ],
+              "highlights": [
+                "#4b4247",
+                "#834f2f",
+                "#b07352",
+                "#ae7c4b",
+                "#bf8e67"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "Y6UC0F7B",
+            "title": "Saltburn",
+            "year": "2023",
+            "image_url": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg",
+            "deck_id": "4488403",
+            "deck_name": "Horror",
+            "source_category": "Horror",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488403",
+            "captured_at": "2026-08-01T20:56:32.304Z"
+          }
+        },
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z"
+    },
+    {
+      "id": "shotdeck-gvij52f7",
+      "name": "Gretel & Hansel",
+      "description": "Digital · Spherical · Medium Close Up · Clean single",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg",
+      "data": {
+        "shotType": "Clean single",
+        "frameSize": "Medium Close Up",
+        "lensSize": "Wide",
+        "composition": "Center",
+        "lighting": [
+          "Soft light",
+          "Hard light"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Sunny"
+        ],
+        "color": [
+          "Mixed",
+          "Saturated",
+          "Cyan",
+          "Blue"
+        ],
+        "colorPalette": [
+          "#0a090a",
+          "#161c19",
+          "#1e1c14",
+          "#122023",
+          "#35463c",
+          "#4d432a",
+          "#264a53",
+          "#4b5c52",
+          "#675941",
+          "#3a626c",
+          "#5e8e94",
+          "#988459",
+          "#b1996b",
+          "#78a6aa",
+          "#95bcb7"
+        ],
+        "camera": "ARRI ALEXA Mini",
+        "lens": "Zeiss Ultra Prime",
+        "cinematographer": "Galo Olivares",
+        "genre": [
+          "Fantasy",
+          "Horror",
+          "Thriller",
+          "Monster",
+          "Occult"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "1.66",
+        "opticalFormat": "Spherical",
+        "format": "Digital",
+        "paletteUsage": {
+          "shadows": [
+            "#0a090a",
+            "#161c19",
+            "#1e1c14",
+            "#122023",
+            "#35463c"
+          ],
+          "mids": [
+            "#4d432a",
+            "#264a53",
+            "#4b5c52",
+            "#675941",
+            "#3a626c"
+          ],
+          "highlights": [
+            "#5e8e94",
+            "#988459",
+            "#b1996b",
+            "#78a6aa",
+            "#95bcb7"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Mixed",
+            "Saturated",
+            "Cyan",
+            "Blue"
+          ],
+          "aspect_ratio": 1.66,
+          "optical_format": "Spherical",
+          "format": "Digital",
+          "frame_size": "Medium Close Up",
+          "shot_type": "Clean single",
+          "lens_size": "Wide",
+          "composition": "Center",
+          "lighting": [
+            "Soft light",
+            "Hard light"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Sunny"
+          ],
+          "camera": "ARRI ALEXA Mini",
+          "lens": "Zeiss Ultra Prime",
+          "cinematographer": "Galo Olivares",
+          "genre": [
+            "Fantasy",
+            "Horror",
+            "Thriller",
+            "Monster",
+            "Occult"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "medium_close_up",
+            "angle": "eye_level",
+            "lens": "wide_24mm",
+            "depth_of_field": "shallow"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "cold"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#0a090a",
+              "#161c19",
+              "#1e1c14",
+              "#122023",
+              "#35463c",
+              "#4d432a",
+              "#264a53",
+              "#4b5c52",
+              "#675941",
+              "#3a626c",
+              "#5e8e94",
+              "#988459",
+              "#b1996b",
+              "#78a6aa",
+              "#95bcb7"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#0a090a",
+                "#161c19",
+                "#1e1c14",
+                "#122023",
+                "#35463c"
+              ],
+              "mids": [
+                "#4d432a",
+                "#264a53",
+                "#4b5c52",
+                "#675941",
+                "#3a626c"
+              ],
+              "highlights": [
+                "#5e8e94",
+                "#988459",
+                "#b1996b",
+                "#78a6aa",
+                "#95bcb7"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "GVIJ52F7",
+            "title": "Gretel & Hansel",
+            "year": "2020",
+            "image_url": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg",
+            "deck_id": "4488403",
+            "deck_name": "Horror",
+            "source_category": "Horror",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488403",
+            "captured_at": "2026-08-01T20:56:32.304Z"
+          }
+        },
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z"
+    },
+    {
+      "id": "shotdeck-klpih2g0",
+      "name": "Bones and All",
+      "description": "Film - 35mm · Wide · 2 shot",
+      "category": "Horror",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "kind": "shot-recipe",
+      "schema": "genlock.shot-recipe/v1",
+      "image": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg",
+      "data": {
+        "shotType": "2 shot",
+        "frameSize": "Wide",
+        "lensSize": "Long Lens",
+        "composition": "Center",
+        "lighting": [
+          "Soft light",
+          "Low contrast"
+        ],
+        "lightingType": [
+          "Daylight",
+          "Overcast"
+        ],
+        "color": [
+          "Mixed",
+          "Desaturated"
+        ],
+        "colorPalette": [
+          "#231b19",
+          "#32282d",
+          "#2c2a3b",
+          "#3d394e",
+          "#523634",
+          "#463b43",
+          "#4d424b",
+          "#5e4441",
+          "#515068",
+          "#89829c"
+        ],
+        "camera": "Panavision Millennium / Millenium XL / XL2",
+        "lens": "Panavision Super Speed Zeiss MKII",
+        "cinematographer": "Arseni Khachaturan",
+        "genre": [
+          "Drama",
+          "Horror",
+          "Romance",
+          "Monster",
+          "Psychological Horror",
+          "Thriller"
+        ],
+        "timeOfDay": "Day",
+        "interiorExterior": "Exterior",
+        "aspectRatio": "1.85",
+        "format": "Film - 35mm",
+        "paletteUsage": {
+          "shadows": [
+            "#231b19",
+            "#32282d",
+            "#2c2a3b"
+          ],
+          "mids": [
+            "#3d394e",
+            "#523634",
+            "#463b43"
+          ],
+          "highlights": [
+            "#4d424b",
+            "#5e4441",
+            "#515068",
+            "#89829c"
+          ]
+        },
+        "shotSchema": {
+          "color": [
+            "Mixed",
+            "Desaturated"
+          ],
+          "aspect_ratio": 1.85,
+          "format": "Film - 35mm",
+          "frame_size": "Wide",
+          "shot_type": "2 shot",
+          "lens_size": "Long Lens",
+          "composition": "Center",
+          "lighting": [
+            "Soft light",
+            "Low contrast"
+          ],
+          "lighting_type": [
+            "Daylight",
+            "Overcast"
+          ],
+          "camera": "Panavision Millennium / Millenium XL / XL2",
+          "lens": "Panavision Super Speed Zeiss MKII",
+          "cinematographer": "Arseni Khachaturan",
+          "genre": [
+            "Drama",
+            "Horror",
+            "Romance",
+            "Monster",
+            "Psychological Horror",
+            "Thriller"
+          ],
+          "time_of_day": "Day",
+          "interior_exterior": "Exterior",
+          "camera_setup": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "lens": "long_lens",
+            "depth_of_field": "medium"
+          },
+          "lighting_setup": {
+            "primary_source": "daylight",
+            "color_temperature": "warm"
+          },
+          "color_palette": {
+            "order": "dark_to_light",
+            "colors": [
+              "#231b19",
+              "#32282d",
+              "#2c2a3b",
+              "#3d394e",
+              "#523634",
+              "#463b43",
+              "#4d424b",
+              "#5e4441",
+              "#515068",
+              "#89829c"
+            ],
+            "usage_hint": {
+              "shadows": [
+                "#231b19",
+                "#32282d",
+                "#2c2a3b"
+              ],
+              "mids": [
+                "#3d394e",
+                "#523634",
+                "#463b43"
+              ],
+              "highlights": [
+                "#4d424b",
+                "#5e4441",
+                "#515068",
+                "#89829c"
+              ]
+            }
+          },
+          "source": {
+            "provider": "shotdeck",
+            "shot_id": "KLPIH2G0",
+            "title": "Bones and All",
+            "year": "2022",
+            "image_url": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg",
+            "deck_id": "4488403",
+            "deck_name": "Horror",
+            "source_category": "Horror",
+            "deck_url": "https://shotdeck.com/browse/decks#/deck/4488403",
+            "captured_at": "2026-08-01T20:56:32.304Z"
+          }
+        },
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403"
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z"
+    }
+  ]
+}

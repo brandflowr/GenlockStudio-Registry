@@ -1,0 +1,69 @@
+{
+  "$schema": "https://spore.dev/schemas/bone/v1.0/bone.schema.json",
+  "bone_id": "genlock-style",
+  "bone_version": "1.0",
+  "label": "Genlock Style — Look & Consistency",
+  "description": "A reusable visual-style modifier: look, color palette, grain, references, per-provider style codes, and negative prompts. Attaches at project/scene/shot level and feeds the generator bones' style/negative — it does not render on its own.",
+  "target": "style",
+  "attaches_to": ["metadata", "scene", "shot"],
+  "fields": {
+    "look":            { "type": "string", "required": false, "ui": "textarea", "label": "Look",            "description": "Overall visual look in one phrase, e.g. 'film-noir cinematic, high contrast, modern tech polish'." },
+    "references":      { "type": "array",  "required": false, "ui": "textarea", "label": "References",      "description": "Reference titles or visual touchstones, e.g. [\"Blade Runner 2049\", \"neo-noir tech interiors\"]." },
+    "grain":           { "type": "string", "required": false, "ui": "text",     "label": "Grain / Texture", "description": "Film grain / texture note, e.g. 'subtle 35mm film grain'." },
+    "color_palette":   { "type": "array",  "required": false, "ui": "textarea", "label": "Color Palette",  "description": "Palette descriptors, e.g. [\"jet black\", \"tungsten amber\", \"cyan studio glow\"]." },
+    "mood":            { "type": "string", "required": false, "ui": "text",     "label": "Mood",           "description": "Target mood: mysterious / tense / dramatic / ominous." },
+    "era":             { "type": "string", "required": false, "ui": "text",     "label": "Visual Era",     "description": "modern / vintage / timeless / futuristic." },
+    "primary_style":   { "type": "array",  "required": false, "ui": "textarea", "label": "Primary Style",  "description": "Core style keywords, e.g. [\"cinematic\", \"photorealistic\", \"film noir\"]." },
+    "technical":       { "type": "array",  "required": false, "ui": "textarea", "label": "Technical",      "description": "Technical keywords, e.g. [\"shallow depth of field\", \"cinematic composition\"]." },
+    "negative_prompt": { "type": "string", "required": false, "ui": "textarea", "label": "Negative Prompt", "description": "Shared negative keywords applied across generators." },
+    "style_codes":     { "type": "object", "required": false, "ui": "textarea", "label": "Provider Style Codes", "description": "Optional per-provider raw codes, e.g. { \"midjourney\": \"--style raw --stylize 750\", \"runway\": { \"style_preset\": \"cinematic_realism\" } }." },
+    "typography":      { "type": "object", "required": false, "ui": "textarea", "label": "Typography",      "description": "Title/caption type tokens, e.g. { \"title_font\": \"Futura Bold\", \"case\": \"uppercase\" }." },
+    "motion_style":    { "type": "string", "required": false, "ui": "text",     "label": "Motion Style",    "description": "Movement grammar, e.g. 'slow push-ins, no whip pans, 24fps cadence'." },
+    "grading_lut":     { "type": "string", "required": false, "ui": "file",     "label": "Grading LUT",     "description": "Path to a .cube LUT this look bakes with (Safelight applies explicitly — never auto)." },
+    "captions_style":  { "type": "object", "required": false, "ui": "textarea", "label": "Captions Style",  "description": "Caption intent tokens, e.g. { \"position\": \"lower-third\", \"max_chars\": 42 }." },
+    "a11y":            { "type": "object", "required": false, "ui": "textarea", "label": "Accessibility",   "description": "A11y tokens, e.g. { \"min_contrast\": \"4.5:1\", \"captions_required\": true }." },
+    "reference_image": { "type": "string", "required": false, "ui": "file",     "label": "Style Reference Image", "description": "Optional reference image for style transfer." }
+  },
+  "defaults": {
+    "negative_prompt": "cartoon, anime, bright flat lighting, low quality, overexposed, watermark, text on screen"
+  },
+  "output": {
+    "format": "json",
+    "target": "custom",
+    "completion_status": "review"
+  },
+  "prompt_assembly": {
+    "strategy": "sequential",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "append",
+      "token_format": "natural",
+      "tokens": ["color", "mood", "light"],
+      "note": "Style is a modifier: it contributes look/palette/grain to the generator bone's prompt and shares its negative_prompt. It is not a standalone render."
+    },
+    "character_injection": { "enabled": false },
+    "max_length": 600,
+    "separator": ", "
+  },
+  "llm_instructions": {
+    "writing_guide": "Author one shared style and reuse it verbatim across every shot in a sequence so the look stays consistent. Set it at the metadata (project) level for a whole episode, override at scene level for a distinct location/act, and only at shot level for a deliberate one-off. The style feeds the image/video generator bones' style/look fields and contributes its negative_prompt — do not restate the subject or action here.",
+    "field_guides": {
+      "look": "One fluent phrase capturing the whole visual signature.",
+      "references": "Concrete touchstones the model recognizes (films, photographers, looks).",
+      "color_palette": "3–4 concrete color names that recur across the sequence.",
+      "primary_style": "Few core keywords; keep identical across shots in a sequence.",
+      "style_codes": "Raw provider flags/presets passed through untouched when that provider runs.",
+      "negative_prompt": "Comma-separated; merged with the generator bone's own negatives."
+    },
+    "do": [
+      "Define the style once and reuse it across the sequence",
+      "Set project-level default at metadata, override sparingly per scene",
+      "Keep palette and primary_style identical across continuous shots"
+    ],
+    "dont": [
+      "Restate subject or action in the style bone",
+      "Change core style keywords shot-to-shot within one continuous sequence",
+      "Treat this as a generator — it has no render output of its own"
+    ]
+  }
+}

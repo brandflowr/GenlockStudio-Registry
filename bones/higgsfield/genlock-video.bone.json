@@ -1,0 +1,338 @@
+{
+  "$schema": "https://spore.dev/schemas/bone/v1.0/bone.schema.json",
+  "bone_id": "genlock-video",
+  "bone_version": "1.1.0",
+  "label": "Genlock Video — Structured (Seedance / VEO / Kling)",
+  "description": "Structured video prompt in the canonical Genlock frame: subject, action, scene, shot, camera, lighting, color_palette, style. Serialized to the target model's JSON (the SEEDANCE/VEO/KLING shape). Runs via Higgsfield.",
+  "provider": "higgsfield",
+  "target": "video",
+  "requires": [
+    "video_generation"
+  ],
+  "attaches_to": [
+    "shot",
+    "scene",
+    "metadata"
+  ],
+  "fields": {
+    "subject": {
+      "type": "string",
+      "required": false,
+      "ui": "textarea",
+      "label": "Subject",
+      "description": "Who or what is in the shot. Reuse character-lock text verbatim when no reference sheet or Soul ID is available."
+    },
+    "action": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Action",
+      "description": "What happens, with kinetic verbs. Cover the clip's timeline."
+    },
+    "scene": {
+      "type": "object",
+      "required": false,
+      "ui": "textarea",
+      "label": "Scene",
+      "description": "{ setting, time_of_day, atmosphere }"
+    },
+    "shot": {
+      "type": "object",
+      "required": false,
+      "ui": "textarea",
+      "label": "Shot",
+      "description": "{ type, angle, lens, framing }"
+    },
+    "camera": {
+      "type": "object",
+      "required": false,
+      "ui": "textarea",
+      "label": "Camera",
+      "description": "{ movement, speed }"
+    },
+    "lighting": {
+      "type": "object",
+      "required": false,
+      "ui": "textarea",
+      "label": "Lighting",
+      "description": "{ key, mood, color_temperature }"
+    },
+    "color_palette": {
+      "type": "array",
+      "required": false,
+      "ui": "textarea",
+      "label": "Color Palette",
+      "description": "Array of palette descriptors, e.g. [\"jet black\", \"tungsten amber\"]."
+    },
+    "style": {
+      "type": "object",
+      "required": false,
+      "ui": "textarea",
+      "label": "Style",
+      "description": "{ look, references, grain }"
+    },
+    "duration": {
+      "type": "number",
+      "required": false,
+      "ui": "select",
+      "label": "Duration (s)",
+      "options": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        15
+      ],
+      "default": 6
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Aspect Ratio",
+      "options": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3"
+      ],
+      "default": "16:9"
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Model",
+      "options": [
+        "seedance_2_0"
+      ],
+      "default": "seedance_2_0"
+    },
+    "start_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "Start Frame",
+      "description": "First frame for image-to-video. Maps to shot.startFrameImage."
+    },
+    "end_image": {
+      "type": "string",
+      "required": false,
+      "ui": "file",
+      "label": "End Frame",
+      "description": "Last frame for guided generation. Maps to shot.endFrameImage."
+    }
+  },
+  "defaults": {
+    "model": "seedance_2_0",
+    "duration": 6,
+    "aspect_ratio": "16:9"
+  },
+  "output": {
+    "format": "mp4",
+    "target": "videoTake",
+    "completion_status": "review"
+  },
+  "execution": {
+    "mcp": "generate_video",
+    "skill": "higgsfield-generate",
+    "wait": true,
+    "json": true
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{subject}}. {{action}}. Scene: {{scene}}. Shot: {{shot}}. Camera: {{camera}}. Lighting: {{lighting}}. Palette: {{color_palette}}. Style: {{style}}.",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "inline",
+      "token_format": "natural",
+      "tokens": [
+        "size",
+        "angle",
+        "lens",
+        "move",
+        "light",
+        "aspect"
+      ],
+      "note": "v_setup is fallback context. Prefer the structured shot/camera/lighting fields when populated."
+    },
+    "character_injection": {
+      "enabled": true,
+      "position": "subject_prefix",
+      "format": "name_and_description"
+    },
+    "max_length": 2000,
+    "separator": " "
+  },
+  "llm_instructions": {
+    "writing_guide": "Author the prompt as the canonical Genlock video frame, then Genlock serializes it to the target model's JSON. Fill subject + action always; populate scene/shot/camera/lighting/style/color_palette as structured objects (see docs/_recent/prompts-examples.md for the SEEDANCE/VEO/KLING shape). Keep style language consistent across shots in a sequence. Default duration 6s for short beats, 15s for full sequences. Default NO MUSIC unless asked. Do not put the word 'camera' inside the camera.movement string for Seedance.",
+    "field_guides": {
+      "subject": "Character-lock description verbatim if no reference sheet/Soul ID; otherwise keep short.",
+      "action": "Kinetic verbs covering the clip timeline. For 15s sequences, break into beats.",
+      "scene": "{ setting, time_of_day, atmosphere } — one phrase each.",
+      "shot": "{ type, angle, lens, framing } — e.g. type 'wide', angle 'eye-level', lens '35mm', framing 'subject centered third'.",
+      "camera": "{ movement, speed } — e.g. movement 'slow dolly-in', speed 'slow'.",
+      "lighting": "{ key, mood, color_temperature } — describe the key light, emotional mood, and color temperature.",
+      "color_palette": "3–4 concrete color names.",
+      "style": "{ look, references, grain } — overall look, reference titles, and film grain.",
+      "model": "seedance_2_0 cinematic narrative; veo3_1 high quality; veo3_1_lite budget/quick; kling3_0 fast stylized."
+    },
+    "do": [
+      "Populate the structured scene/shot/camera/lighting/style objects",
+      "Keep style consistent across a sequence",
+      "Use start_image from shot.startFrameImage for image-to-video continuity",
+      "Default to NO MUSIC unless the user asks"
+    ],
+    "dont": [
+      "Use the word 'camera' inside camera.movement",
+      "Add music by default",
+      "Re-describe a character's face when a reference sheet or Soul ID anchors identity"
+    ]
+  },
+  "extensions": {
+    "x-genlock-surface": {
+      "version": "1.0",
+      "archetype": "director",
+      "accent": "mint",
+      "tagline": "Structured video prompt in the canonical Genlock frame: subject, action, scene, shot, camera, lighting, color_palette, style. Serialized to the target model's JSON (the SEEDANCE/VEO/KLING shape). Runs via Higgsfield.",
+      "controls": {
+        "subject": {
+          "kind": "text"
+        },
+        "action": {
+          "kind": "prompt-canvas",
+          "prominent": true
+        },
+        "scene": {
+          "kind": "json-patch"
+        },
+        "shot": {
+          "kind": "json-patch"
+        },
+        "camera": {
+          "kind": "json-patch"
+        },
+        "lighting": {
+          "kind": "json-patch"
+        },
+        "color_palette": {
+          "kind": "json-patch"
+        },
+        "style": {
+          "kind": "json-patch"
+        },
+        "duration": {
+          "kind": "duration-rail"
+        },
+        "aspect_ratio": {
+          "kind": "aspect-tiles"
+        },
+        "model": {
+          "kind": "model-cards",
+          "source": "models",
+          "prominent": true
+        },
+        "start_image": {
+          "kind": "asset-well"
+        },
+        "end_image": {
+          "kind": "asset-well"
+        }
+      },
+      "groups": [
+        {
+          "id": "primary",
+          "label": "Direction",
+          "role": "primary",
+          "fields": [
+            "action",
+            "model"
+          ]
+        },
+        {
+          "id": "references",
+          "label": "Source media",
+          "role": "references",
+          "fields": [
+            "start_image",
+            "end_image"
+          ]
+        },
+        {
+          "id": "performance",
+          "label": "Motion and timing",
+          "role": "performance",
+          "fields": [
+            "duration"
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Frame and delivery",
+          "role": "delivery",
+          "fields": [
+            "aspect_ratio"
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Advanced direction",
+          "role": "advanced",
+          "fields": [
+            "subject",
+            "scene",
+            "shot",
+            "camera",
+            "lighting",
+            "color_palette",
+            "style"
+          ],
+          "collapsed": true
+        }
+      ],
+      "output": {
+        "kind": "video",
+        "label": "Mp4 output"
+      }
+    },
+    "x-genlock-mcp-source": {
+      "server_id": "higgsfield",
+      "tool_name": "generate_video",
+      "transport": "mcp",
+      "surface": "Higgsfield Video Generation"
+    },
+    "x-genlock-provider-source": {
+      "server_id": "higgsfield",
+      "operation": "video_generation",
+      "transport": "mcp",
+      "surface": "Higgsfield Video Generation",
+      "tool_name": "generate_video"
+    },
+    "x-genlock-surface-authoring": {
+      "version": "1.0",
+      "tool": "marketplace-surface-workshop",
+      "revision": 1,
+      "bone_version": "1.1.0"
+    }
+  },
+  "execution_routes": [
+    {
+      "type": "mcp",
+      "label": "Higgsfield Video Generation",
+      "tool": "generate_video",
+      "operation": "video_generation",
+      "args": {
+        "params": {
+          "model": "{{model}}",
+          "prompt": "{{assembled}}",
+          "duration": "{{duration}}",
+          "aspect_ratio": "{{aspect_ratio}}"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "server_id": "higgsfield"
+  }
+}

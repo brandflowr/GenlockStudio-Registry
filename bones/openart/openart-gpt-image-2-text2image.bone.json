@@ -1,0 +1,431 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.10.0/spec/bone.schema.json",
+  "bone_id": "openart-gpt-image-2-text2image",
+  "bone_version": "1.0.0",
+  "label": "OpenArt \u00b7 gpt-image-2 \u00b7 text2image",
+  "description": "Submit an asynchronous image generation on OpenArt.",
+  "target": "image",
+  "provider": "openart",
+  "attaches_to": [
+    "metadata",
+    "scene",
+    "shot"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt"
+    },
+    "imageCount": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "ImageCount",
+      "default": 1,
+      "min": 1,
+      "max": 8
+    },
+    "aspectRatio": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "AspectRatio",
+      "default": "4:3",
+      "options": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "5:4",
+        "4:5",
+        "21:9",
+        "9:21"
+      ]
+    },
+    "resolutionTier": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "ResolutionTier",
+      "default": "2k",
+      "options": [
+        "1k",
+        "2k",
+        "4k"
+      ]
+    },
+    "lockAspectRatio": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "LockAspectRatio",
+      "default": true
+    },
+    "customWidth": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "CustomWidth",
+      "max": 9007199254740991
+    },
+    "customHeight": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "CustomHeight",
+      "max": 9007199254740991
+    },
+    "quality": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Quality",
+      "default": "medium",
+      "options": [
+        "low",
+        "medium",
+        "high",
+        "auto"
+      ]
+    },
+    "outputFormat": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "OutputFormat",
+      "default": "png",
+      "options": [
+        "png",
+        "jpeg",
+        "webp"
+      ]
+    },
+    "outputCompression": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "OutputCompression",
+      "min": 0,
+      "max": 100
+    },
+    "autoEnhancePrompt": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "AutoEnhancePrompt",
+      "default": false
+    }
+  },
+  "defaults": {
+    "imageCount": 1,
+    "aspectRatio": "4:3",
+    "resolutionTier": "2k",
+    "lockAspectRatio": true,
+    "quality": "medium",
+    "outputFormat": "png",
+    "autoEnhancePrompt": false
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "append",
+      "token_format": "natural"
+    },
+    "character_injection": {
+      "enabled": true,
+      "position": "prepend",
+      "format": "name_and_description"
+    },
+    "max_length": 4000
+  },
+  "llm_instructions": {
+    "writing_guide": "Write a concrete OpenArt image prompt for Generate image. Respect the discovered parameter contract and do not invent unsupported fields.",
+    "do": [
+      "Use the discovered parameter names",
+      "Keep values inside the documented constraints"
+    ],
+    "dont": [
+      "Do not place credentials in the BONE",
+      "Do not invent unsupported MCP parameters"
+    ]
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "authoring_mode": "hybrid",
+  "execution_routes": [
+    {
+      "type": "mcp",
+      "label": "OpenArt MCP \u00b7 Generate image",
+      "tool": "openart_generate_image",
+      "operation": "image_generation",
+      "args": {
+        "model": "gpt-image-2",
+        "mode": "text2image",
+        "params": {
+          "prompt": "{{assembled}}",
+          "imageCount": "{{imageCount}}",
+          "aspectRatio": "{{aspectRatio}}",
+          "resolutionTier": "{{resolutionTier}}",
+          "lockAspectRatio": "{{lockAspectRatio}}",
+          "customWidth": "{{customWidth}}",
+          "customHeight": "{{customHeight}}",
+          "quality": "{{quality}}",
+          "outputFormat": "{{outputFormat}}",
+          "outputCompression": "{{outputCompression}}",
+          "autoEnhancePrompt": "{{autoEnhancePrompt}}"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "server_id": "openart"
+  },
+  "extensions": {
+    "x-genlock-mcp-source": {
+      "server_id": "openart",
+      "tool_name": "openart_generate_image",
+      "transport": "mcp",
+      "surface": "mcp.openart.ai",
+      "discovered_at": "2026-09-06T21:23:18.977Z",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Model id from openart_model_list (e.g. byte-plus-seedream-4-5), NOT its displayName."
+          },
+          "mode": {
+            "type": "string",
+            "minLength": 1,
+            "description": "image mode from openart_model_list."
+          },
+          "params": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {},
+            "description": "Form values matching the openart_model_form_get schema."
+          },
+          "projectId": {
+            "description": "Target project id from openart_project_list; omit to use your default project.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "model",
+          "mode",
+          "params"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema"
+      }
+    },
+    "x-genlock-provider-source": {
+      "server_id": "openart",
+      "operation": "image_generation",
+      "transport": "mcp",
+      "surface": "mcp.openart.ai",
+      "tool_name": "openart_generate_image"
+    },
+    "x-genlock-surface": {
+      "version": "1.0",
+      "archetype": "image-canvas",
+      "accent": "cyan",
+      "tagline": "A mapped image instrument for Openart Generate Image.",
+      "controls": {
+        "prompt": {
+          "kind": "prompt-canvas",
+          "prominent": true
+        },
+        "imageCount": {
+          "kind": "slider"
+        },
+        "aspectRatio": {
+          "kind": "aspect-tiles"
+        },
+        "resolutionTier": {
+          "kind": "choice-chips"
+        },
+        "lockAspectRatio": {
+          "kind": "switch"
+        },
+        "customWidth": {
+          "kind": "number"
+        },
+        "customHeight": {
+          "kind": "number"
+        },
+        "quality": {
+          "kind": "choice-chips"
+        },
+        "outputFormat": {
+          "kind": "choice-chips"
+        },
+        "outputCompression": {
+          "kind": "slider"
+        },
+        "autoEnhancePrompt": {
+          "kind": "switch"
+        }
+      },
+      "groups": [
+        {
+          "id": "primary",
+          "label": "Composition",
+          "role": "primary",
+          "fields": [
+            "prompt"
+          ]
+        },
+        {
+          "id": "performance",
+          "label": "Image treatment",
+          "role": "performance",
+          "fields": [
+            "imageCount",
+            "lockAspectRatio",
+            "outputCompression",
+            "autoEnhancePrompt"
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Frame delivery",
+          "role": "delivery",
+          "fields": [
+            "aspectRatio",
+            "resolutionTier",
+            "quality",
+            "outputFormat"
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Image tuning",
+          "role": "advanced",
+          "fields": [
+            "customWidth",
+            "customHeight"
+          ],
+          "collapsed": true
+        }
+      ],
+      "output": {
+        "kind": "image",
+        "label": "Generated image"
+      }
+    },
+    "x-genlock-surface-authoring": {
+      "version": "1.0",
+      "tool": "marketplace-surface-workshop",
+      "revision": 1,
+      "bone_version": "1.0.0"
+    },
+    "x-openart-model-form": {
+      "model": "gpt-image-2",
+      "mode": "text2image",
+      "media": "image",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "imageCount": {
+            "default": 1,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "aspectRatio": {
+            "default": "4:3",
+            "type": "string",
+            "enum": [
+              "1:1",
+              "3:2",
+              "2:3",
+              "16:9",
+              "9:16",
+              "4:3",
+              "3:4",
+              "5:4",
+              "4:5",
+              "21:9",
+              "9:21"
+            ]
+          },
+          "resolutionTier": {
+            "default": "2k",
+            "type": "string",
+            "enum": [
+              "1k",
+              "2k",
+              "4k"
+            ]
+          },
+          "lockAspectRatio": {
+            "default": true,
+            "type": "boolean"
+          },
+          "customWidth": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "customHeight": {
+            "type": "integer",
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "quality": {
+            "default": "medium",
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "auto"
+            ]
+          },
+          "outputFormat": {
+            "default": "png",
+            "type": "string",
+            "enum": [
+              "png",
+              "jpeg",
+              "webp"
+            ]
+          },
+          "outputCompression": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "autoEnhancePrompt": {
+            "default": false,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "prompt"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

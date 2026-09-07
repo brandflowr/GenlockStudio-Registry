@@ -1,0 +1,947 @@
+{
+  "entries": [
+    {
+      "id": "core-bones",
+      "source": "registry",
+      "url": "archive/registry/bone-packs/core-bones.json",
+      "sha256": "c0995f49c5403369ebca88c8ada5f6e9c1d230d001d7564eeda6e4cdd5402b38",
+      "reason": "Legacy BONE snippet pack; requires SCP review",
+      "refinable": false,
+      "validation": null
+    },
+    {
+      "id": "higgsfield-3d",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-3d.bone.json",
+      "sha256": "fb07a4d575bc08f0bcd0ab6bed97f798766dbf790f959462f6b3ae82eff5667e",
+      "reason": "The BONE must include an x-genlock-surface instrument definition.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "The BONE must include an x-genlock-surface instrument definition."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-background-remove",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-background-remove.bone.json",
+      "sha256": "1891b9ce139a47ae745fd578ebfbba48ecdc1b214ae246e27df01353541617e2",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. Generator BONE must author a prompt control or prompt_assembly.template. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: image_edit. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "Generator BONE must author a prompt control or prompt_assembly.template.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: image_edit.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-draw-to-video",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-draw-to-video.bone.json",
+      "sha256": "7f629d0e82dc57a5e5c41a90315387d2dcd4a1664c14b2694b760b9d7b45b054",
+      "reason": "Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. execution_routes must contain the exact mcp generate_video route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not authorize the authored MCP tool.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact mcp generate_video route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not authorize the authored MCP tool."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-dubbing",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-dubbing.bone.json",
+      "sha256": "7d8cb0f8d6c1b675642611a3ebdcc635556cc550c1f56098a3c646b75973338f",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. Generator BONE must author a prompt control or prompt_assembly.template. The BONE must include an x-genlock-surface instrument definition. Genlock: Capability audio_generation does not produce BONE target video. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"audio_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "Generator BONE must author a prompt control or prompt_assembly.template.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Capability audio_generation does not produce BONE target video.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"audio_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-image",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-image.bone.json",
+      "sha256": "25df8f1be721c5ae8919a74a220a3b4aa87650283d675d1e2794f34c9eb076c3",
+      "reason": "routing.server_id must match the executable provider. execution_routes must contain the exact mcp generate_image route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not authorize the authored MCP tool.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact mcp generate_image route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not authorize the authored MCP tool."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-marketing",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-marketing.bone.json",
+      "sha256": "849868320b788717637221821d2dfe02e8b0d5167df58c1c34866030f3a23d5c",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: marketing_image. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: marketing_image.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-outpaint",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-outpaint.bone.json",
+      "sha256": "33bda7a4ba04c6dffe7b1ce358c6848d9b805d739f8bc68c3452fe52c98104b7",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: image_edit. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: image_edit.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-product-photo",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-product-photo.bone.json",
+      "sha256": "8e30b926ebeeb1dda1b23661820cd6b859afd8ea2f22cd33817d4056f477d96a",
+      "reason": "Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. execution_routes must contain the exact mcp generate_image route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not authorize the authored MCP tool.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact mcp generate_image route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not authorize the authored MCP tool."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-reframe",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-reframe.bone.json",
+      "sha256": "330c4f78d2adb143cd3ffaaff4f49da547fe7529c2cc3df155773e0a3001a81c",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. Generator BONE must author a prompt control or prompt_assembly.template. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: video_edit. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "Generator BONE must author a prompt control or prompt_assembly.template.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: video_edit.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-soul-id",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-soul-id.bone.json",
+      "sha256": "6a3aef029571f62367df5fea7574165a945618997501f4e49d7cd381fb36cc1f",
+      "reason": "The BONE must include an x-genlock-surface instrument definition.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "The BONE must include an x-genlock-surface instrument definition."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-soul-image",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-soul-image.bone.json",
+      "sha256": "28125f1508b1c2cbc52e0d760160b86fcc89959f70a8f941a92bb2cfb81d9176",
+      "reason": "Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. execution_routes must contain the exact mcp generate_image route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not authorize the authored MCP tool.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact mcp generate_image route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not authorize the authored MCP tool."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-tts",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-tts.bone.json",
+      "sha256": "89176334f0bdecbf1c51acc1c33a18dc9d5bfffbe59ca00ca72f94153572bfb3",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. routing.server_id must match the executable provider. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"speech_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "routing.server_id must match the executable provider.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"speech_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-video",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-video.bone.json",
+      "sha256": "e0f19a98969b11816f17507c52694921f7eb5a03f71067bc08ebcd871c3271a8",
+      "reason": "routing.server_id must match the executable provider. execution_routes must contain the exact mcp generate_video route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not authorize the authored MCP tool.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact mcp generate_video route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not authorize the authored MCP tool."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-virality",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-virality.bone.json",
+      "sha256": "b7eab4dbdae8ba433054cdf2b615c3c5e0e08082b06f1760a7c3c626967a410b",
+      "reason": "The BONE must include an x-genlock-surface instrument definition.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "The BONE must include an x-genlock-surface instrument definition."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "higgsfield-voice-change",
+      "source": "registry",
+      "url": "archive/registry/bones/higgsfield-voice-change.bone.json",
+      "sha256": "8652fab8c50d86c6a65d85ef0ad0be0c701d789f34767b96b48173c32248e69e",
+      "reason": "Provider higgsfield cannot execute the authored capabilities. Provider higgsfield requires an authored model control or routing.model. routing.server_id must match the executable provider. Generator BONE must author a prompt control or prompt_assembly.template. The BONE must include an x-genlock-surface instrument definition. Genlock: Capability audio_generation does not produce BONE target video. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"audio_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider higgsfield does not declare the authored capability.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider higgsfield cannot execute the authored capabilities.",
+          "Provider higgsfield requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "Generator BONE must author a prompt control or prompt_assembly.template.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Capability audio_generation does not produce BONE target video.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"audio_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider higgsfield does not declare the authored capability."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "background-remove",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/background-remove.bone.json",
+      "sha256": "0690d1f3a6cb6932a073bb434500410ff59cf3580085154b399b55bf18d87929",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: image_edit. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: image_edit.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "elevenlabs-music",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/elevenlabs-music.bone.json",
+      "sha256": "7fee6d8fa600d2cd575c7230ed1017ee2c03f73fbe2b64cb02205e328fada5e5",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact api music_generation route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"music_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "elevenlabs-tts",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/elevenlabs-tts.bone.json",
+      "sha256": "571f15f433b1fc783b028ac91aaf539309f406f1a9c07a5a147c00dd18634b1e",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact api speech_generation route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"speech_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "elevenlabs-tts",
+      "source": "starter",
+      "url": "archive/starter/elevenlabs/elevenlabs-tts.bone.json",
+      "sha256": "b35959e1b6ae84c3373e3f0900a6ad1cc3b18b4b7d078f2b73ce0f41d320b774",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "ffmpeg-compose",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/ffmpeg-compose.bone.json",
+      "sha256": "3521d8788b57211a6b53e3d1b3724a894e7f5301a00bd656b9f66dbae35c935a",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: composition. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: composition.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "flux-image",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/flux-image.bone.json",
+      "sha256": "3e663553877f3c5bae4c3148e3a32fc257d110fcfe9303477419bc2fe07d2bb2",
+      "reason": "Provider flux has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider flux has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "google-imagen",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/google-imagen.bone.json",
+      "sha256": "a346a5b81832baf3d76299fdf1f88d31b40f1fca7216c98bf5929b2db956d50b",
+      "reason": "Provider google has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider google has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "gpt-image",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/gpt-image.bone.json",
+      "sha256": "4d2c7954e4c73221a4f072bf559cbabfec319cdf5a5dca91c6d43f7b821a67e9",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact api image_generation route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "Field aspect_ratio is not accepted by provider openai model gpt-image-2.",
+          "Field image_references is not accepted by provider openai model gpt-image-2.",
+          "Field negative_prompt is not accepted by provider openai model gpt-image-2.",
+          "Model dall-e-3 is not declared for provider openai capability image_generation.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "grok-imagine-image",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/grok-imagine-image.bone.json",
+      "sha256": "0941506272ae37349d785adfae15cbbe4d91b8831d742e9cee4caadc28567169",
+      "reason": "Provider xai requires an authored model control or routing.model. routing.server_id must match the executable provider. execution_routes must contain the exact api image_generation route used by Genlock. Provider provenance must match the executable provider, capability, and transport. Provider xai requires a closed authored model catalog. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider xai requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact api image_generation route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "Provider xai requires a closed authored model catalog.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "grok-imagine-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/grok-imagine-video.bone.json",
+      "sha256": "c075bd38292d72f691b283e84e4f01b175f2ecaaa3825227f388bba2ee17d110",
+      "reason": "Provider xai cannot execute the authored capabilities. Provider xai requires an authored model control or routing.model. routing.server_id must match the executable provider. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE. Genlock: Provider xai requires a closed authored model catalog.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider xai cannot execute the authored capabilities.",
+          "Provider xai requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+          "Genlock: Provider xai requires a closed authored model catalog."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "heygen-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/heygen-video.bone.json",
+      "sha256": "fc996142019b8685ae125694b2b64b2abfef6ad9118ecd7f898e0f90dceaaf86",
+      "reason": "Provider heygen has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider heygen has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "kling-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/kling-video.bone.json",
+      "sha256": "17d351f92135b55a2ded2c85f2a1be5fe6d6c195d66daa1a6fcd550a9f1ae42e",
+      "reason": "Provider kling-official has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider kling-official has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "lip-sync",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/lip-sync.bone.json",
+      "sha256": "2b198d588954ab00552dfda58127ae2568ff17665d8874c897def1b5cd3b589e",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: video_processing. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: video_processing.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "local-diffusion",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/local-diffusion.bone.json",
+      "sha256": "9544c5989a9c9065380a65c15b144be5351e28db9abbc03414cac1c4ecdf50a3",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "local-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/local-video.bone.json",
+      "sha256": "23aafdd179963dee70cc69e23c4b19b0087410353585fac0312a1278367a1463",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "minimax-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/minimax-video.bone.json",
+      "sha256": "71257a9e4efc2bcbf1397c204f3944d2a9982fe1704986224ff90b825a93a06e",
+      "reason": "Provider minimax requires an authored model control or routing.model. routing.server_id must match the executable provider. execution_routes must contain the exact api video_generation route used by Genlock. Provider provenance must match the executable provider, capability, and transport. The BONE must include an x-genlock-surface instrument definition. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider minimax requires an authored model control or routing.model.",
+          "routing.server_id must match the executable provider.",
+          "execution_routes must contain the exact api video_generation route used by Genlock.",
+          "Provider provenance must match the executable provider, capability, and transport.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "recraft-image",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/recraft-image.bone.json",
+      "sha256": "e9885a65cd4bd901a7e8fff8d14dcaa14e7836a8192c75072776abab5a80bfc2",
+      "reason": "Provider recraft has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider recraft has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"image_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "remotion",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/remotion.bone.json",
+      "sha256": "741082c215d50aeef8c7ca0683f59c49eeb588889c9507a517b68de1a4c932fb",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: composition. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: composition.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "runway-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/runway-video.bone.json",
+      "sha256": "1a17e984eab3324e9fc3a94960d7c82a61c6f6d974e459297fdb2669953d3409",
+      "reason": "Provider runway has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider runway has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "stock-image",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/stock-image.bone.json",
+      "sha256": "783b1eee274edbfff93ca7f9a93b0949e141f2bf84c2b1a2e683e993a0018d01",
+      "reason": "Provider stock has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: stock_image_search. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider stock has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: stock_image_search.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "stock-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/stock-video.bone.json",
+      "sha256": "bd78888f2580fd36d096b4165ab57e32192229a45e258dac1327466c4d6f59ea",
+      "reason": "Provider stock has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: stock_video_search. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider stock has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: stock_video_search.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "suno-music",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/suno-music.bone.json",
+      "sha256": "a49555801609e11d086794bcc5f6bfce5b65170da5c183b99e7bc2833a156a1a",
+      "reason": "Provider suno has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"music_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider suno has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"music_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "talking-head",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/talking-head.bone.json",
+      "sha256": "6e6086abd512e101a292fb62e64ab19e05e900eecb47101677143470281d5588",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: video_processing. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: video_processing.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "upscale",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/upscale.bone.json",
+      "sha256": "fe7230e79dc8454e3c7d7e9fd1cb06875e0e555f4529de0ce60aaaa08b71fff3",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: Generator BONE has no media generation capability: image_upscale. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no media generation capability: image_upscale.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "veo-video",
+      "source": "registry",
+      "url": "archive/registry/bones/providers/veo-video.bone.json",
+      "sha256": "37f057b460da0178e9a4757be1c73304832bc82324265a404e15a6f58199e18a",
+      "reason": "Provider google has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": true,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider google has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "seedance-2",
+      "source": "registry",
+      "url": "archive/registry/bones/seedance-2.bone.json",
+      "sha256": "d9ff466e1c157a6491062a9ad50eeb433c860da782e4470ac2592defc2363af2",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "provider is required and must be a stable provider id.",
+          "requires must declare the Brain capability needed by this BONE.",
+          "Provider <missing> has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: Generator BONE has no provider.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "seedance-2",
+      "source": "starter",
+      "url": "archive/starter/seedance-2.bone.json",
+      "sha256": "5679f7c0a1e15ea411e409f3000d5cf95b9d64a370dafd597b6d9f7d3e127287",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "wan-2-1",
+      "source": "registry",
+      "url": "archive/registry/bones/wan-2-1.bone.json",
+      "sha256": "1c91622c0180af01f2e5200d48ff42069e3add26786c35e19acc6a46fe1e65ef",
+      "reason": "Provider local has no executable Genlock generator adapter. The BONE must include an x-genlock-surface instrument definition. Genlock: routing.server_id must match the executable provider. Genlock: Provider provenance must declare an api, cli, or mcp transport. Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included. Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation. Genlock: extensions.x-genlock-surface is required for every generator BONE.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "Provider local has no executable Genlock generator adapter.",
+          "The BONE must include an x-genlock-surface instrument definition.",
+          "Genlock: routing.server_id must match the executable provider.",
+          "Genlock: Provider provenance must declare an api, cli, or mcp transport.",
+          "Genlock: extensions[\"x-genlock-provider-source\"] is required (server_id, operation, transport); native install rejects a BONE without it, MCP bones included.",
+          "Genlock: execution_routes must contain the exact <missing> route with operation \"video_generation\"; native install matches routes on type and operation.",
+          "Genlock: extensions.x-genlock-surface is required for every generator BONE."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "flux-dev",
+      "source": "starter",
+      "url": "archive/starter/flux-dev.bone.json",
+      "sha256": "51d61c4f751053940164b3bb678436ac6a19fc1ed4842551ed3ab5ed50770a8b",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "Add model-specific writing guidance before publishing."
+        ]
+      }
+    },
+    {
+      "id": "elevenlabs-sound-effects",
+      "source": "starter",
+      "url": "archive/starter/elevenlabs/elevenlabs-sound-effects.bone.json",
+      "sha256": "ab9658af52819b85d72a9cc1633703fcc55604642939aa3d506b3ca223e10831",
+      "reason": "Superseded by the selected canonical definition",
+      "refinable": true,
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "id": "genlock-style",
+      "source": "starter",
+      "url": "archive/starter/genlock-style.bone.json",
+      "sha256": "a0b7c50e03fff6267ee35ca5e91b861e2e756f8fbf4846aa77739775842bf9bd",
+      "reason": "provider is required and must be a stable provider id. requires must declare the Brain capability needed by this BONE. The BONE must include an x-genlock-surface instrument definition.",
+      "refinable": false,
+      "validation": {
+        "valid": false,
+        "errors": [
+          "provider is required and must be a stable provider id.",
+          "requires must declare the Brain capability needed by this BONE.",
+          "The BONE must include an x-genlock-surface instrument definition."
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "id": "core-cameras",
+      "source": "consolidation",
+      "url": "archive/consolidation/core-cameras-before-csv-merge.json",
+      "reason": "Preserved original before restoring 86 camera entries from Desktop CSV import",
+      "sha256": "552d2277f8e608811e94effc2cea9672b842e5f9d88150295f12da133180f06d"
+    }
+  ]
+}

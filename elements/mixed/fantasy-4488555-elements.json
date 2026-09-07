@@ -1,0 +1,3478 @@
+{
+  "id": "fantasy-4488555-elements",
+  "pack_id": "fantasy-4488555-elements",
+  "type": "mixed",
+  "name": "Fantasy Elements",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Reusable elements curated from the ShotDeck deck “Fantasy”.",
+  "source_category": "Fantasy",
+  "source_deck_id": "4488555",
+  "tags": [
+    "Fantasy"
+  ],
+  "updated_at": "2026-08-01T23:38:05.953Z",
+  "elements": [
+    {
+      "id": "fantasy-4488555-camera-panavision-system-65",
+      "type": "camera",
+      "name": "Panavision System 65",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Panavision System 65",
+        "format": "Film - 65mm / 70mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-lens-size-panavision-sphero-65mm-lenses",
+      "type": "lens_size",
+      "name": "Panavision Sphero 65mm Lenses",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Panavision Sphero 65mm Lenses",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-frame-size-medium",
+      "type": "frame_size",
+      "name": "Medium",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "frameSize": "Medium",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-shot-type-2-shot",
+      "type": "shot_type",
+      "name": "2 shot",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "2 shot",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-composition-balanced",
+      "type": "composition",
+      "name": "Balanced",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "composition": "Balanced",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-optical-format-anamorphic",
+      "type": "optical_format",
+      "name": "Anamorphic",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "opticalFormat": "Anamorphic",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-format-film-65mm-70mm",
+      "type": "format",
+      "name": "Film - 65mm / 70mm",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Film - 65mm / 70mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-int-ext-exterior",
+      "type": "int_ext",
+      "name": "Exterior",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "interiorExterior": "Exterior",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-time-of-day-day",
+      "type": "time_of_day",
+      "name": "Day",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "timeOfDay": "Day",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-fantasy",
+      "type": "genre",
+      "name": "Fantasy",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Fantasy"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-horror",
+      "type": "genre",
+      "name": "Horror",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Horror"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-occult",
+      "type": "genre",
+      "name": "Occult",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Occult"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-music",
+      "type": "genre",
+      "name": "Music",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Music"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-thriller",
+      "type": "genre",
+      "name": "Thriller",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Thriller"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-color-cool",
+      "type": "color",
+      "name": "Cool",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Cool"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-color-green",
+      "type": "color",
+      "name": "Green",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Green"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-color-cyan",
+      "type": "color",
+      "name": "Cyan",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Cyan"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-color-white",
+      "type": "color",
+      "name": "White",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "White"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-hard-light",
+      "type": "lighting",
+      "name": "Hard light",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Hard light"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-backlight",
+      "type": "lighting",
+      "name": "Backlight",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "lighting": [
+          "Backlight"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-type-daylight",
+      "type": "lighting_type",
+      "name": "Daylight",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Daylight"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-type-sunny",
+      "type": "lighting_type",
+      "name": "Sunny",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Sunny"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-color-palette-sinners-palette",
+      "type": "color_palette",
+      "name": "Sinners Palette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Horror",
+        "Occult",
+        "Music",
+        "Thriller",
+        "Cool",
+        "Green",
+        "Cyan",
+        "White",
+        "Medium",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#262219",
+          "#2a302a",
+          "#2c3439",
+          "#394831",
+          "#3f472d",
+          "#405056",
+          "#5d5445",
+          "#515f53",
+          "#8d866a",
+          "#a39b7e",
+          "#81a8ac",
+          "#98b2a9",
+          "#b1c8be",
+          "#c6d3c5",
+          "#e1e3d1"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      ],
+      "sourceShotIds": [
+        "SGESL5IO"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "SGESL5IO",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/SGESL5IO.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:50.119Z",
+      "updatedAt": "2026-08-01T23:37:50.119Z"
+    },
+    {
+      "id": "fantasy-4488555-camera-arri-alexa-lf",
+      "type": "camera",
+      "name": "ARRI ALEXA LF",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA LF",
+        "format": "Digital, Digital - Large Format",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-lens-size-panavision-c-series",
+      "type": "lens_size",
+      "name": "Panavision C series",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Panavision C series",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-shot-type-clean-single",
+      "type": "shot_type",
+      "name": "Clean single",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "Clean single",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-composition-center",
+      "type": "composition",
+      "name": "Center",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "composition": "Center",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-aspect-ratio-2-39",
+      "type": "aspect_ratio",
+      "name": "2.39",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "aspectRatio": "2.39",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-format-digital-digital-large-format",
+      "type": "format",
+      "name": "Digital, Digital - Large Format",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "format": "Digital, Digital - Large Format",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-int-ext-interior",
+      "type": "int_ext",
+      "name": "Interior",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "interiorExterior": "Interior",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-action",
+      "type": "genre",
+      "name": "Action",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Action"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-adventure",
+      "type": "genre",
+      "name": "Adventure",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Adventure"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-crime",
+      "type": "genre",
+      "name": "Crime",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Crime"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-epic",
+      "type": "genre",
+      "name": "Epic",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Epic"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-heist",
+      "type": "genre",
+      "name": "Heist",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Heist"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-color-warm",
+      "type": "color",
+      "name": "Warm",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Warm"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-color-desaturated",
+      "type": "color",
+      "name": "Desaturated",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Desaturated"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-side-light",
+      "type": "lighting",
+      "name": "Side light",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Side light"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-color-palette-indiana-jones-and-the-dial-of-destiny-palette",
+      "type": "color_palette",
+      "name": "Indiana Jones and the Dial of Destiny Palette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Action",
+        "Adventure",
+        "Crime",
+        "Epic",
+        "Heist",
+        "Warm",
+        "Desaturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#050605",
+          "#060607",
+          "#080607",
+          "#2e1f14",
+          "#51383c",
+          "#5d3725",
+          "#563d26",
+          "#61464a",
+          "#7d5c3c",
+          "#a17e58",
+          "#af94a0",
+          "#b99a78",
+          "#d8bea2",
+          "#e9d9c7"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      ],
+      "sourceShotIds": [
+        "ILRTPMZ4"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "ILRTPMZ4",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/ILRTPMZ4.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:53.741Z",
+      "updatedAt": "2026-08-01T23:37:53.741Z"
+    },
+    {
+      "id": "fantasy-4488555-camera-red-weapon-helium",
+      "type": "camera",
+      "name": "RED Weapon Helium",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "RED Weapon Helium",
+        "format": "Digital",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lens-size-leitz-summilux-c",
+      "type": "lens_size",
+      "name": "Leitz SUMMILUX-C",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Leitz SUMMILUX-C",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-frame-size-wide",
+      "type": "frame_size",
+      "name": "Wide",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Wide",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-shot-type-establishing-shot",
+      "type": "shot_type",
+      "name": "Establishing shot",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "shotType": "Establishing shot",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-aspect-ratio-2",
+      "type": "aspect_ratio",
+      "name": "2",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "2",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-optical-format-spherical",
+      "type": "optical_format",
+      "name": "Spherical",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "opticalFormat": "Spherical",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-format-digital",
+      "type": "format",
+      "name": "Digital",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Digital",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-time-of-day-night",
+      "type": "time_of_day",
+      "name": "Night",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "timeOfDay": "Night",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-coming-of-age",
+      "type": "genre",
+      "name": "Coming-of-Age",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Coming-of-Age"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-drama",
+      "type": "genre",
+      "name": "Drama",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Drama"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-high-school-teen",
+      "type": "genre",
+      "name": "High School/Teen",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "High School/Teen"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-monster",
+      "type": "genre",
+      "name": "Monster",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Monster"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-science-fiction",
+      "type": "genre",
+      "name": "Science Fiction",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Science Fiction"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-color-blue",
+      "type": "color",
+      "name": "Blue",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "color": [
+          "Blue"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-high-contrast",
+      "type": "lighting",
+      "name": "High contrast",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "High contrast"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-silhouette",
+      "type": "lighting",
+      "name": "Silhouette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lighting": [
+          "Silhouette"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-type-moonlight",
+      "type": "lighting_type",
+      "name": "Moonlight",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Moonlight"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-type-artificial-light",
+      "type": "lighting_type",
+      "name": "Artificial light",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "lightingType": [
+          "Artificial light"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-lighting-type-practical-light",
+      "type": "lighting_type",
+      "name": "Practical light",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "lightingType": [
+          "Practical light"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-color-palette-stranger-things-palette",
+      "type": "color_palette",
+      "name": "Stranger Things Palette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Coming-of-Age",
+        "Drama",
+        "High School/Teen",
+        "Horror",
+        "Monster",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Cyan",
+        "Blue",
+        "Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#040404",
+          "#060a08",
+          "#130e10",
+          "#0e181d",
+          "#24445c",
+          "#2a4652",
+          "#2f4947",
+          "#475453",
+          "#39596b",
+          "#62554a",
+          "#6e575e",
+          "#5e8a9d",
+          "#ae9f8f",
+          "#7aaabc",
+          "#9eb5b3"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      ],
+      "sourceShotIds": [
+        "CYDST1BD"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "CYDST1BD",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/CYDST1BD.jpg"
+      },
+      "createdAt": "2026-08-01T23:37:59.614Z",
+      "updatedAt": "2026-08-01T23:37:59.614Z"
+    },
+    {
+      "id": "fantasy-4488555-camera-aaton-xtr-prod-16mm",
+      "type": "camera",
+      "name": "Aaton XTR Prod 16mm",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "camera": "Aaton XTR Prod 16mm",
+        "format": "Film - 16mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-lens-size-zeiss-master-primes",
+      "type": "lens_size",
+      "name": "Zeiss Master Primes",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "lensSize": "Wide",
+        "lens": "Zeiss Master Primes",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-frame-size-medium-close-up",
+      "type": "frame_size",
+      "name": "Medium Close Up",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "frameSize": "Medium Close Up",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-shot-type-over-the-shoulder",
+      "type": "shot_type",
+      "name": "Over the shoulder",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "shotType": "Over the shoulder",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-aspect-ratio-2-35",
+      "type": "aspect_ratio",
+      "name": "2.35",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "aspectRatio": "2.35",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-format-film-16mm",
+      "type": "format",
+      "name": "Film - 16mm",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "format": "Film - 16mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-psychedelic",
+      "type": "genre",
+      "name": "Psychedelic",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "genre": [
+          "Psychedelic"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-color-saturated",
+      "type": "color",
+      "name": "Saturated",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "color": [
+          "Saturated"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-color-palette-enter-the-void-palette",
+      "type": "color_palette",
+      "name": "Enter the Void Palette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Drama",
+        "Psychedelic",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Medium Close Up",
+        "Over the shoulder",
+        "Night",
+        "Interior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#010001",
+          "#010101",
+          "#010203",
+          "#041d0a",
+          "#0a5f23",
+          "#138528",
+          "#32a639",
+          "#4bb749"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      ],
+      "sourceShotIds": [
+        "1Q9IXWQ7"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "1Q9IXWQ7",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/1Q9IXWQ7.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:02.819Z",
+      "updatedAt": "2026-08-01T23:38:02.819Z"
+    },
+    {
+      "id": "fantasy-4488555-camera-panavision-cameras",
+      "type": "camera",
+      "name": "Panavision Cameras",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "camera": "Panavision Cameras",
+        "format": "Film - 35mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-lens-size-panavision-lenses",
+      "type": "lens_size",
+      "name": "Panavision Lenses",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "lensSize": "Telephoto",
+        "lens": "Panavision Lenses",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-frame-size-extreme-wide",
+      "type": "frame_size",
+      "name": "Extreme Wide",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "frameSize": "Extreme Wide",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-composition-right-heavy",
+      "type": "composition",
+      "name": "Right heavy",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "composition": "Right heavy",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-aspect-ratio-1-85",
+      "type": "aspect_ratio",
+      "name": "1.85",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "aspectRatio": "1.85",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-format-film-35mm",
+      "type": "format",
+      "name": "Film - 35mm",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "format": "Film - 35mm",
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-magical-realism",
+      "type": "genre",
+      "name": "Magical Realism",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Magical Realism"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-genre-low-fantasy",
+      "type": "genre",
+      "name": "Low Fantasy",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "genre": [
+          "Low Fantasy"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    },
+    {
+      "id": "fantasy-4488555-color-palette-big-fish-palette",
+      "type": "color_palette",
+      "name": "Big Fish Palette",
+      "description": "Curated from the ShotDeck deck “Fantasy”.",
+      "category": "Fantasy",
+      "tags": [
+        "Fantasy",
+        "Adventure",
+        "Drama",
+        "Magical Realism",
+        "Low Fantasy",
+        "Warm",
+        "Extreme Wide",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ],
+      "data": {
+        "colorPalette": [
+          "#2d2c15",
+          "#322e30",
+          "#302f38",
+          "#3b3a4b",
+          "#545616",
+          "#5b566b",
+          "#60595f",
+          "#75772b",
+          "#797490",
+          "#928c94",
+          "#9f9a3f",
+          "#9b98ae",
+          "#bcb561",
+          "#d6d17a",
+          "#e2dfa8"
+        ],
+        "sourceCategory": "Fantasy",
+        "sourceDeckId": "4488555"
+      },
+      "referenceImages": [
+        "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      ],
+      "sourceShotIds": [
+        "W3LZV65T"
+      ],
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "W3LZV65T",
+        "deckId": "4488555",
+        "deckName": "Fantasy",
+        "sourceCategory": "Fantasy",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488555",
+        "imageUrl": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg"
+      },
+      "createdAt": "2026-08-01T23:38:05.953Z",
+      "updatedAt": "2026-08-01T23:38:05.953Z"
+    }
+  ]
+}

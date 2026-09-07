@@ -1,0 +1,193 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.10.0/spec/bone.schema.json",
+  "bone_id": "elevenlabs-sound-effects",
+  "bone_version": "1.0.0",
+  "label": "ElevenLabs · Sound Effects",
+  "description": "Generate a production-ready sound effect from a concrete description.",
+  "provider": "elevenlabs",
+  "target": "audio",
+  "requires": [
+    "sound_effect_generation"
+  ],
+  "attaches_to": [
+    "metadata",
+    "scene",
+    "shot"
+  ],
+  "fields": {
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Sound description",
+      "description": "Describe the source, material, environment, distance, and action."
+    },
+    "model": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Sound model",
+      "default": "eleven_text_to_sound_v2",
+      "options": [
+        "eleven_text_to_sound_v2"
+      ]
+    },
+    "duration_seconds": {
+      "type": "number",
+      "required": false,
+      "ui": "number",
+      "label": "Duration (seconds)",
+      "description": "Leave blank for automatic duration, or choose 0.5 to 30 seconds.",
+      "min": 0.5,
+      "max": 30
+    },
+    "prompt_influence": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "Prompt influence",
+      "default": 0.3,
+      "min": 0,
+      "max": 1
+    },
+    "loop": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "Seamless loop",
+      "default": false
+    },
+    "output_format": {
+      "type": "string",
+      "required": false,
+      "ui": "select",
+      "label": "Audio quality",
+      "default": "mp3_44100_128",
+      "options": [
+        "mp3_44100_128",
+        "mp3_44100_192",
+        "pcm_44100"
+      ]
+    }
+  },
+  "defaults": {
+    "model": "eleven_text_to_sound_v2",
+    "prompt_influence": 0.3,
+    "loop": false,
+    "output_format": "mp3_44100_128"
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "max_length": 2000
+  },
+  "output": {
+    "format": "mp3",
+    "target": "audio_take",
+    "completion_status": "review"
+  },
+  "execution_routes": [
+    {
+      "type": "api",
+      "label": "ElevenLabs Sound Effects",
+      "operation": "sound_effect_generation",
+      "args": {
+        "text": "{{assembled}}",
+        "model_id": "{{model}}",
+        "duration_seconds": "{{duration_seconds}}",
+        "prompt_influence": "{{prompt_influence}}",
+        "loop": "{{loop}}"
+      }
+    }
+  ],
+  "routing": {
+    "server_id": "elevenlabs"
+  },
+  "llm_instructions": {
+    "writing_guide": "Describe one sound event concretely: source, material, action, space, distance, intensity, and decay.",
+    "do": [
+      "Name the physical sound source",
+      "Describe the acoustic environment"
+    ],
+    "dont": [
+      "Write a music prompt",
+      "Put credentials in the BONE"
+    ]
+  },
+  "extensions": {
+    "x-genlock-surface": {
+      "version": "1.0",
+      "archetype": "audio-lab",
+      "accent": "rose",
+      "tagline": "Generate a production-ready sound effect from a concrete description.",
+      "controls": {
+        "prompt": {
+          "kind": "prompt-canvas",
+          "prominent": true
+        },
+        "model": {
+          "kind": "model-cards",
+          "source": "models",
+          "prominent": true
+        },
+        "duration_seconds": {
+          "kind": "duration-rail"
+        },
+        "prompt_influence": {
+          "kind": "slider"
+        },
+        "loop": {
+          "kind": "switch"
+        },
+        "output_format": {
+          "kind": "choice-chips"
+        }
+      },
+      "groups": [
+        {
+          "id": "primary",
+          "label": "Voice and script",
+          "role": "primary",
+          "fields": [
+            "prompt",
+            "model"
+          ]
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "role": "performance",
+          "fields": [
+            "duration_seconds",
+            "prompt_influence",
+            "loop"
+          ]
+        },
+        {
+          "id": "delivery",
+          "label": "Audio delivery",
+          "role": "delivery",
+          "fields": [
+            "output_format"
+          ]
+        }
+      ],
+      "output": {
+        "kind": "audio",
+        "label": "Mp3 output"
+      }
+    },
+    "x-genlock-provider-source": {
+      "server_id": "elevenlabs",
+      "operation": "sound_effect_generation",
+      "transport": "api",
+      "surface": "ElevenLabs Sound Effects"
+    },
+    "x-genlock-surface-authoring": {
+      "version": "1.0",
+      "tool": "marketplace-surface-workshop",
+      "revision": 1,
+      "bone_version": "1.0.0"
+    }
+  }
+}

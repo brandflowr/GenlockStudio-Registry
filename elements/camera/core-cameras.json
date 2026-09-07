@@ -1,0 +1,5618 @@
+{
+  "id": "core-cameras",
+  "name": "Core Cinematic Cameras",
+  "type": "camera",
+  "snippets": [
+    {
+      "id": "arri-alexa-35",
+      "name": "ARRI Alexa 35",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The gold standard. Known for the best dynamic range in the industry and 'filmic' color science that looks exactly like real life.",
+        "promptModifiers": "arri alexa 35 format, high dynamic range, cinematic filmic color science, ultra realistic",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "sony-venice-2",
+      "name": "Sony VENICE 2",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The full-frame king. Famous for its natural skin tones and its ability to shoot in incredibly low light without noise.",
+        "promptModifiers": "sony venice 2, full frame sensor, natural skin tones, noise-free low light, cinematic lighting",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "red-v-raptor-xl",
+      "name": "RED V-RAPTOR XL",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "The speed demon. Offers 8K resolution and extremely high frame rates, perfect for crisp, high-detail action and slow motion.",
+        "promptModifiers": "red v-raptor xl 8k, crisp hyper-detailed, high frame rate, extreme sharpness, action cinematography",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "panavision-millennium-dxl2",
+      "name": "Panavision Millennium DXL2",
+      "data": {
+        "category": "Digital Flagships",
+        "description": "A rental-only hybrid. Combines RED's 8K sensor with Panavision's legendary color science and large-format optics.",
+        "promptModifiers": "panavision millennium dxl2, large-format optics, panavision color science, 8k cinematic",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "arricam-st-lt",
+      "name": "ARRICAM ST / LT",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The definitive 35mm film cameras. They provide that organic grain and mechanical soul that digital still tries to replicate.",
+        "promptModifiers": "arricam 35mm film, organic film grain, analog texture, cinematic 35mm stock, rich halation",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "panavision-millennium-xl2",
+      "name": "Panavision Millennium XL2",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The prestige 35mm choice. Used by directors like Christopher Nolan for its rock-solid reliability and classic Hollywood feel.",
+        "promptModifiers": "panavision millennium xl2, 35mm film prestige, classic hollywood blockbuster look, rich depth",
+        "colorPalette": []
+      }
+    },
+    {
+      "id": "arriflex-416",
+      "name": "ARRIFLEX 416",
+      "data": {
+        "category": "Analog Film Classics",
+        "description": "The elite Super 16mm camera. Delivers a gritty, nostalgic texture used in modern masterpieces like Carol or The Bear.",
+        "promptModifiers": "arriflex 416 super 16mm, gritty nostalgic film texture, heavy analog grain, cinematic rough look",
+        "colorPalette": []
+      }
+    }
+  ],
+  "elements": [
+    {
+      "id": "element_frame_size_extreme_wide",
+      "type": "frame_size",
+      "name": "Extreme Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Extreme Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_wide",
+      "type": "frame_size",
+      "name": "Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_medium_wide",
+      "type": "frame_size",
+      "name": "Medium Wide",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium Wide"
+      }
+    },
+    {
+      "id": "element_frame_size_medium",
+      "type": "frame_size",
+      "name": "Medium",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium"
+      }
+    },
+    {
+      "id": "element_frame_size_medium_close_up",
+      "type": "frame_size",
+      "name": "Medium Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Medium Close Up"
+      }
+    },
+    {
+      "id": "element_frame_size_close_up",
+      "type": "frame_size",
+      "name": "Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Close Up"
+      }
+    },
+    {
+      "id": "element_frame_size_extreme_close_up",
+      "type": "frame_size",
+      "name": "Extreme Close Up",
+      "description": "Default Frame Sizes element generated from canonical value list.",
+      "tags": [
+        "frame_size",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "frameSize": "Extreme Close Up"
+      }
+    },
+    {
+      "id": "element_shot_type_aerial",
+      "type": "shot_type",
+      "name": "Aerial",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Aerial"
+      }
+    },
+    {
+      "id": "element_shot_type_overhead",
+      "type": "shot_type",
+      "name": "Overhead",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Overhead"
+      }
+    },
+    {
+      "id": "element_shot_type_high_angle",
+      "type": "shot_type",
+      "name": "High angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "High angle"
+      }
+    },
+    {
+      "id": "element_shot_type_low_angle",
+      "type": "shot_type",
+      "name": "Low angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Low angle"
+      }
+    },
+    {
+      "id": "element_shot_type_dutch_angle",
+      "type": "shot_type",
+      "name": "Dutch angle",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Dutch angle"
+      }
+    },
+    {
+      "id": "element_shot_type_establishing_shot",
+      "type": "shot_type",
+      "name": "Establishing shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Establishing shot"
+      }
+    },
+    {
+      "id": "element_shot_type_over_the_shoulder",
+      "type": "shot_type",
+      "name": "Over the shoulder",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Over the shoulder"
+      }
+    },
+    {
+      "id": "element_shot_type_clean_single",
+      "type": "shot_type",
+      "name": "Clean single",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Clean single"
+      }
+    },
+    {
+      "id": "element_shot_type_2_shot",
+      "type": "shot_type",
+      "name": "2 shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "2 shot"
+      }
+    },
+    {
+      "id": "element_shot_type_3_shot",
+      "type": "shot_type",
+      "name": "3 shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "3 shot"
+      }
+    },
+    {
+      "id": "element_shot_type_group_shot",
+      "type": "shot_type",
+      "name": "Group shot",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Group shot"
+      }
+    },
+    {
+      "id": "element_shot_type_insert",
+      "type": "shot_type",
+      "name": "Insert",
+      "description": "Default Shot Types element generated from canonical value list.",
+      "tags": [
+        "shot_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "shotType": "Insert"
+      }
+    },
+    {
+      "id": "element_composition_center",
+      "type": "composition",
+      "name": "Center",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Center"
+      }
+    },
+    {
+      "id": "element_composition_left_heavy",
+      "type": "composition",
+      "name": "Left heavy",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Left heavy"
+      }
+    },
+    {
+      "id": "element_composition_right_heavy",
+      "type": "composition",
+      "name": "Right heavy",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Right heavy"
+      }
+    },
+    {
+      "id": "element_composition_balanced",
+      "type": "composition",
+      "name": "Balanced",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Balanced"
+      }
+    },
+    {
+      "id": "element_composition_symmetrical",
+      "type": "composition",
+      "name": "Symmetrical",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Symmetrical"
+      }
+    },
+    {
+      "id": "element_composition_short_side",
+      "type": "composition",
+      "name": "Short side",
+      "description": "Default Compositions element generated from canonical value list.",
+      "tags": [
+        "composition",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "composition": "Short side"
+      }
+    },
+    {
+      "id": "element_media_type_movie",
+      "type": "media_type",
+      "name": "Movie",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Movie"
+      }
+    },
+    {
+      "id": "element_media_type_tv",
+      "type": "media_type",
+      "name": "TV",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "TV"
+      }
+    },
+    {
+      "id": "element_media_type_trailer",
+      "type": "media_type",
+      "name": "Trailer",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Trailer"
+      }
+    },
+    {
+      "id": "element_media_type_music_video",
+      "type": "media_type",
+      "name": "Music Video",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Music Video"
+      }
+    },
+    {
+      "id": "element_media_type_commercial",
+      "type": "media_type",
+      "name": "Commercial",
+      "description": "Default Media Types element generated from canonical value list.",
+      "tags": [
+        "media_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "mediaType": "Commercial"
+      }
+    },
+    {
+      "id": "element_genre_action",
+      "type": "genre",
+      "name": "Action",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Action"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_adventure",
+      "type": "genre",
+      "name": "Adventure",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Adventure"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_animation",
+      "type": "genre",
+      "name": "Animation",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Animation"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_comedy",
+      "type": "genre",
+      "name": "Comedy",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Comedy"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_crime",
+      "type": "genre",
+      "name": "Crime",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Crime"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_documentary",
+      "type": "genre",
+      "name": "Documentary",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Documentary"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_drama",
+      "type": "genre",
+      "name": "Drama",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Drama"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_family",
+      "type": "genre",
+      "name": "Family",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Family"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fantasy",
+      "type": "genre",
+      "name": "Fantasy",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fantasy"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_history",
+      "type": "genre",
+      "name": "History",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "History"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_horror",
+      "type": "genre",
+      "name": "Horror",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Horror"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_music",
+      "type": "genre",
+      "name": "Music",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Music"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_mystery",
+      "type": "genre",
+      "name": "Mystery",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Mystery"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_romance",
+      "type": "genre",
+      "name": "Romance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Romance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_science_fiction",
+      "type": "genre",
+      "name": "Science Fiction",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Science Fiction"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_thriller",
+      "type": "genre",
+      "name": "Thriller",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Thriller"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_war",
+      "type": "genre",
+      "name": "War",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "War"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_western",
+      "type": "genre",
+      "name": "Western",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Western"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hip_hop",
+      "type": "genre",
+      "name": "Hip Hop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hip Hop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_rap",
+      "type": "genre",
+      "name": "Rap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Rap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_rap",
+      "type": "genre",
+      "name": "Pop Rap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Rap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_hip_hop",
+      "type": "genre",
+      "name": "Alternative Hip Hop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative Hip Hop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_trap",
+      "type": "genre",
+      "name": "Trap",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Trap"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_reggaeton",
+      "type": "genre",
+      "name": "Reggaeton",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Reggaeton"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_reggae",
+      "type": "genre",
+      "name": "Reggae",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Reggae"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_afropop",
+      "type": "genre",
+      "name": "Afropop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Afropop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_r_b",
+      "type": "genre",
+      "name": "R&B",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "R&B"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_r_b",
+      "type": "genre",
+      "name": "Alternative R&B",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative R&B"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_disco",
+      "type": "genre",
+      "name": "Disco",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Disco"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_soul",
+      "type": "genre",
+      "name": "Soul",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Soul"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_gospel",
+      "type": "genre",
+      "name": "Gospel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Gospel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_funk",
+      "type": "genre",
+      "name": "Funk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Funk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_jazz",
+      "type": "genre",
+      "name": "Jazz",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Jazz"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_blues",
+      "type": "genre",
+      "name": "Blues",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Blues"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_latin",
+      "type": "genre",
+      "name": "Latin",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Latin"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop",
+      "type": "genre",
+      "name": "Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_indie_pop",
+      "type": "genre",
+      "name": "Indie Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Indie Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_k_pop",
+      "type": "genre",
+      "name": "K-Pop",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "K-Pop"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_dance",
+      "type": "genre",
+      "name": "Dance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Dance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_electronic",
+      "type": "genre",
+      "name": "Electronic",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Electronic"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_edm",
+      "type": "genre",
+      "name": "EDM",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "EDM"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_idm",
+      "type": "genre",
+      "name": "IDM",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "IDM"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_house_techno",
+      "type": "genre",
+      "name": "House/Techno",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "House/Techno"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_grime",
+      "type": "genre",
+      "name": "Grime",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Grime"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_folk",
+      "type": "genre",
+      "name": "Folk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Folk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_folk_rock",
+      "type": "genre",
+      "name": "Folk Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Folk Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_country",
+      "type": "genre",
+      "name": "Country",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Country"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_singer_songwriter",
+      "type": "genre",
+      "name": "Singer-Songwriter",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Singer-Songwriter"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_rock",
+      "type": "genre",
+      "name": "Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alternative_rock",
+      "type": "genre",
+      "name": "Alternative Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alternative Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hard_rock",
+      "type": "genre",
+      "name": "Hard Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hard Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_indie_rock",
+      "type": "genre",
+      "name": "Indie Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Indie Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_rock",
+      "type": "genre",
+      "name": "Pop Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_garage_rock",
+      "type": "genre",
+      "name": "Garage Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Garage Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_art_rock",
+      "type": "genre",
+      "name": "Art Rock",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Art Rock"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_metal",
+      "type": "genre",
+      "name": "Metal",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Metal"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_glam",
+      "type": "genre",
+      "name": "Glam",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Glam"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_emo",
+      "type": "genre",
+      "name": "Emo",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Emo"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_punk",
+      "type": "genre",
+      "name": "Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pop_punk",
+      "type": "genre",
+      "name": "Pop Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pop Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_dance_punk",
+      "type": "genre",
+      "name": "Dance Punk",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Dance Punk"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_psychedelic",
+      "type": "genre",
+      "name": "Psychedelic",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Psychedelic"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_experimental",
+      "type": "genre",
+      "name": "Experimental",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Experimental"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_ambient",
+      "type": "genre",
+      "name": "Ambient",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Ambient"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_classical",
+      "type": "genre",
+      "name": "Classical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Classical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_traditional",
+      "type": "genre",
+      "name": "Traditional",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Traditional"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_instrumental",
+      "type": "genre",
+      "name": "Instrumental",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Instrumental"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_car",
+      "type": "genre",
+      "name": "Car",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Car"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_travel",
+      "type": "genre",
+      "name": "Travel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Travel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_airline",
+      "type": "genre",
+      "name": "Airline",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Airline"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_hotel",
+      "type": "genre",
+      "name": "Hotel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Hotel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_restaurant",
+      "type": "genre",
+      "name": "Restaurant",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Restaurant"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_food",
+      "type": "genre",
+      "name": "Food",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Food"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fast_food",
+      "type": "genre",
+      "name": "Fast Food",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fast Food"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_beverage",
+      "type": "genre",
+      "name": "Beverage",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Beverage"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_alcohol",
+      "type": "genre",
+      "name": "Alcohol",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Alcohol"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fashion_apparel",
+      "type": "genre",
+      "name": "Fashion / Apparel",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fashion / Apparel"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_clothing",
+      "type": "genre",
+      "name": "Clothing",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Clothing"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_luxury_fashion",
+      "type": "genre",
+      "name": "Luxury Fashion",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Luxury Fashion"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fast_fashion",
+      "type": "genre",
+      "name": "Fast Fashion",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fast Fashion"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_footwear",
+      "type": "genre",
+      "name": "Footwear",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Footwear"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_eyewear",
+      "type": "genre",
+      "name": "Eyewear",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Eyewear"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_watch",
+      "type": "genre",
+      "name": "Watch",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Watch"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_jewelry",
+      "type": "genre",
+      "name": "Jewelry",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Jewelry"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_health_beauty",
+      "type": "genre",
+      "name": "Health / Beauty",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Health / Beauty"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fitness",
+      "type": "genre",
+      "name": "Fitness",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fitness"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_fragrance",
+      "type": "genre",
+      "name": "Fragrance",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Fragrance"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_make_up",
+      "type": "genre",
+      "name": "Make-Up",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Make-Up"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_medical",
+      "type": "genre",
+      "name": "Medical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Medical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pharmaceutical",
+      "type": "genre",
+      "name": "Pharmaceutical",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pharmaceutical"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_industrial",
+      "type": "genre",
+      "name": "Industrial",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Industrial"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_home_goods",
+      "type": "genre",
+      "name": "Home Goods",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Home Goods"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_electronics",
+      "type": "genre",
+      "name": "Electronics",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Electronics"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_phone",
+      "type": "genre",
+      "name": "Phone",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Phone"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_tech_telecom",
+      "type": "genre",
+      "name": "Tech / Telecom",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Tech / Telecom"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_online_services",
+      "type": "genre",
+      "name": "Online Services",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Online Services"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_financial_services",
+      "type": "genre",
+      "name": "Financial Services",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Financial Services"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_military",
+      "type": "genre",
+      "name": "Military",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Military"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_education",
+      "type": "genre",
+      "name": "Education",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_news",
+      "type": "genre",
+      "name": "News",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "News"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_sports",
+      "type": "genre",
+      "name": "Sports",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Sports"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_entertainment",
+      "type": "genre",
+      "name": "Entertainment",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Entertainment"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_magazine",
+      "type": "genre",
+      "name": "Magazine",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Magazine"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_testimonial",
+      "type": "genre",
+      "name": "Testimonial",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Testimonial"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_celebrity",
+      "type": "genre",
+      "name": "Celebrity",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Celebrity"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_psa_awareness",
+      "type": "genre",
+      "name": "PSA / Awareness",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "PSA / Awareness"
+        ]
+      }
+    },
+    {
+      "id": "element_genre_pet",
+      "type": "genre",
+      "name": "Pet",
+      "description": "Default Genres element generated from canonical value list.",
+      "tags": [
+        "genre",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "genre": [
+          "Pet"
+        ]
+      }
+    },
+    {
+      "id": "element_time_period_future",
+      "type": "time_period",
+      "name": "Future",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Future"
+      }
+    },
+    {
+      "id": "element_time_period_2020s",
+      "type": "time_period",
+      "name": "2020s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2020s"
+      }
+    },
+    {
+      "id": "element_time_period_2010s",
+      "type": "time_period",
+      "name": "2010s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2010s"
+      }
+    },
+    {
+      "id": "element_time_period_2000s",
+      "type": "time_period",
+      "name": "2000s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "2000s"
+      }
+    },
+    {
+      "id": "element_time_period_1990s",
+      "type": "time_period",
+      "name": "1990s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1990s"
+      }
+    },
+    {
+      "id": "element_time_period_1980s",
+      "type": "time_period",
+      "name": "1980s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1980s"
+      }
+    },
+    {
+      "id": "element_time_period_1970s",
+      "type": "time_period",
+      "name": "1970s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1970s"
+      }
+    },
+    {
+      "id": "element_time_period_1960s",
+      "type": "time_period",
+      "name": "1960s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1960s"
+      }
+    },
+    {
+      "id": "element_time_period_1950s",
+      "type": "time_period",
+      "name": "1950s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1950s"
+      }
+    },
+    {
+      "id": "element_time_period_1940s",
+      "type": "time_period",
+      "name": "1940s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1940s"
+      }
+    },
+    {
+      "id": "element_time_period_1930s",
+      "type": "time_period",
+      "name": "1930s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1930s"
+      }
+    },
+    {
+      "id": "element_time_period_1920s",
+      "type": "time_period",
+      "name": "1920s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1920s"
+      }
+    },
+    {
+      "id": "element_time_period_1910s",
+      "type": "time_period",
+      "name": "1910s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1910s"
+      }
+    },
+    {
+      "id": "element_time_period_1900s",
+      "type": "time_period",
+      "name": "1900s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1900s"
+      }
+    },
+    {
+      "id": "element_time_period_1800s",
+      "type": "time_period",
+      "name": "1800s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1800s"
+      }
+    },
+    {
+      "id": "element_time_period_1700s",
+      "type": "time_period",
+      "name": "1700s",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "1700s"
+      }
+    },
+    {
+      "id": "element_time_period_renaissance_1400_1700",
+      "type": "time_period",
+      "name": "Renaissance: 1400-1700",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Renaissance: 1400-1700"
+      }
+    },
+    {
+      "id": "element_time_period_medieval_500_1400",
+      "type": "time_period",
+      "name": "Medieval: 500-1400",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Medieval: 500-1400"
+      }
+    },
+    {
+      "id": "element_time_period_ancient_2000bc_500ad",
+      "type": "time_period",
+      "name": "Ancient: 2000BC-500AD",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Ancient: 2000BC-500AD"
+      }
+    },
+    {
+      "id": "element_time_period_stone_age_pre_2000bc",
+      "type": "time_period",
+      "name": "Stone Age: pre-2000BC",
+      "description": "Default Time Periods element generated from canonical value list.",
+      "tags": [
+        "time_period",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timePeriod": "Stone Age: pre-2000BC"
+      }
+    },
+    {
+      "id": "element_color_warm",
+      "type": "color",
+      "name": "Warm",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Warm"
+        ]
+      }
+    },
+    {
+      "id": "element_color_cool",
+      "type": "color",
+      "name": "Cool",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Cool"
+        ]
+      }
+    },
+    {
+      "id": "element_color_mixed",
+      "type": "color",
+      "name": "Mixed",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Mixed"
+        ]
+      }
+    },
+    {
+      "id": "element_color_saturated",
+      "type": "color",
+      "name": "Saturated",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Saturated"
+        ]
+      }
+    },
+    {
+      "id": "element_color_desaturated",
+      "type": "color",
+      "name": "Desaturated",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Desaturated"
+        ]
+      }
+    },
+    {
+      "id": "element_color_red",
+      "type": "color",
+      "name": "Red",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Red"
+        ]
+      }
+    },
+    {
+      "id": "element_color_orange",
+      "type": "color",
+      "name": "Orange",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Orange"
+        ]
+      }
+    },
+    {
+      "id": "element_color_yellow",
+      "type": "color",
+      "name": "Yellow",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Yellow"
+        ]
+      }
+    },
+    {
+      "id": "element_color_green",
+      "type": "color",
+      "name": "Green",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Green"
+        ]
+      }
+    },
+    {
+      "id": "element_color_cyan",
+      "type": "color",
+      "name": "Cyan",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Cyan"
+        ]
+      }
+    },
+    {
+      "id": "element_color_blue",
+      "type": "color",
+      "name": "Blue",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Blue"
+        ]
+      }
+    },
+    {
+      "id": "element_color_purple",
+      "type": "color",
+      "name": "Purple",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Purple"
+        ]
+      }
+    },
+    {
+      "id": "element_color_magenta",
+      "type": "color",
+      "name": "Magenta",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Magenta"
+        ]
+      }
+    },
+    {
+      "id": "element_color_pink",
+      "type": "color",
+      "name": "Pink",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Pink"
+        ]
+      }
+    },
+    {
+      "id": "element_color_white",
+      "type": "color",
+      "name": "White",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "White"
+        ]
+      }
+    },
+    {
+      "id": "element_color_sepia",
+      "type": "color",
+      "name": "Sepia",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Sepia"
+        ]
+      }
+    },
+    {
+      "id": "element_color_black_and_white",
+      "type": "color",
+      "name": "Black and White",
+      "description": "Default Colors element generated from canonical value list.",
+      "tags": [
+        "color",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "color": [
+          "Black and White"
+        ]
+      }
+    },
+    {
+      "id": "element_aspect_ratio_9_16",
+      "type": "aspect_ratio",
+      "name": "9:16",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "9:16"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_square",
+      "type": "aspect_ratio",
+      "name": "1 - square",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1 - square"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_20",
+      "type": "aspect_ratio",
+      "name": "1.20",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.20"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_33",
+      "type": "aspect_ratio",
+      "name": "1.33",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.33"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_37",
+      "type": "aspect_ratio",
+      "name": "1.37",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.37"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_43",
+      "type": "aspect_ratio",
+      "name": "1.43",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.43"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_66",
+      "type": "aspect_ratio",
+      "name": "1.66",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.66"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_78",
+      "type": "aspect_ratio",
+      "name": "1.78",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.78"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_85",
+      "type": "aspect_ratio",
+      "name": "1.85",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.85"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_1_90",
+      "type": "aspect_ratio",
+      "name": "1.90",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "1.90"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_00",
+      "type": "aspect_ratio",
+      "name": "2.00",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.00"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_20",
+      "type": "aspect_ratio",
+      "name": "2.20",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.20"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_35",
+      "type": "aspect_ratio",
+      "name": "2.35",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.35"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_39",
+      "type": "aspect_ratio",
+      "name": "2.39",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.39"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_55",
+      "type": "aspect_ratio",
+      "name": "2.55",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.55"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_67",
+      "type": "aspect_ratio",
+      "name": "2.67",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.67"
+      }
+    },
+    {
+      "id": "element_aspect_ratio_2_76",
+      "type": "aspect_ratio",
+      "name": "2.76+",
+      "description": "Default Aspect Ratios element generated from canonical value list.",
+      "tags": [
+        "aspect_ratio",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "aspectRatio": "2.76+"
+      }
+    },
+    {
+      "id": "element_optical_format_anamorphic",
+      "type": "optical_format",
+      "name": "Anamorphic",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Anamorphic"
+      }
+    },
+    {
+      "id": "element_optical_format_spherical",
+      "type": "optical_format",
+      "name": "Spherical",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Spherical"
+      }
+    },
+    {
+      "id": "element_optical_format_super_35",
+      "type": "optical_format",
+      "name": "Super 35",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Super 35"
+      }
+    },
+    {
+      "id": "element_optical_format_3_perf",
+      "type": "optical_format",
+      "name": "3 perf",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "3 perf"
+      }
+    },
+    {
+      "id": "element_optical_format_2_perf",
+      "type": "optical_format",
+      "name": "2 perf",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "2 perf"
+      }
+    },
+    {
+      "id": "element_optical_format_open_gate",
+      "type": "optical_format",
+      "name": "Open Gate",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "Open Gate"
+      }
+    },
+    {
+      "id": "element_optical_format_3d",
+      "type": "optical_format",
+      "name": "3D",
+      "description": "Default Optical Formats element generated from canonical value list.",
+      "tags": [
+        "optical_format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "opticalFormat": "3D"
+      }
+    },
+    {
+      "id": "element_format_film_35mm",
+      "type": "format",
+      "name": "Film - 35mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 35mm"
+      }
+    },
+    {
+      "id": "element_format_film_16mm",
+      "type": "format",
+      "name": "Film - 16mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 16mm"
+      }
+    },
+    {
+      "id": "element_format_film_super_8mm",
+      "type": "format",
+      "name": "Film - Super 8mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - Super 8mm"
+      }
+    },
+    {
+      "id": "element_format_film_65mm_70mm",
+      "type": "format",
+      "name": "Film - 65mm / 70mm",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - 65mm / 70mm"
+      }
+    },
+    {
+      "id": "element_format_film_imax",
+      "type": "format",
+      "name": "Film - IMAX",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Film - IMAX"
+      }
+    },
+    {
+      "id": "element_format_tape",
+      "type": "format",
+      "name": "Tape",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Tape"
+      }
+    },
+    {
+      "id": "element_format_digital",
+      "type": "format",
+      "name": "Digital",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Digital"
+      }
+    },
+    {
+      "id": "element_format_digital_large_format",
+      "type": "format",
+      "name": "Digital - Large Format",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Digital - Large Format"
+      }
+    },
+    {
+      "id": "element_format_animation",
+      "type": "format",
+      "name": "Animation",
+      "description": "Default Formats element generated from canonical value list.",
+      "tags": [
+        "format",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "format": "Animation"
+      }
+    },
+    {
+      "id": "element_int_ext_interior",
+      "type": "int_ext",
+      "name": "Interior",
+      "description": "Default Int/Ext element generated from canonical value list.",
+      "tags": [
+        "int_ext",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "interiorExterior": "Interior"
+      }
+    },
+    {
+      "id": "element_int_ext_exterior",
+      "type": "int_ext",
+      "name": "Exterior",
+      "description": "Default Int/Ext element generated from canonical value list.",
+      "tags": [
+        "int_ext",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "interiorExterior": "Exterior"
+      }
+    },
+    {
+      "id": "element_time_of_day_day",
+      "type": "time_of_day",
+      "name": "Day",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Day"
+      }
+    },
+    {
+      "id": "element_time_of_day_night",
+      "type": "time_of_day",
+      "name": "Night",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Night"
+      }
+    },
+    {
+      "id": "element_time_of_day_dusk",
+      "type": "time_of_day",
+      "name": "Dusk",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Dusk"
+      }
+    },
+    {
+      "id": "element_time_of_day_dawn",
+      "type": "time_of_day",
+      "name": "Dawn",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Dawn"
+      }
+    },
+    {
+      "id": "element_time_of_day_sunrise",
+      "type": "time_of_day",
+      "name": "Sunrise",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Sunrise"
+      }
+    },
+    {
+      "id": "element_time_of_day_sunset",
+      "type": "time_of_day",
+      "name": "Sunset",
+      "description": "Default Time of Day element generated from canonical value list.",
+      "tags": [
+        "time_of_day",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "timeOfDay": "Sunset"
+      }
+    },
+    {
+      "id": "element_gender_male",
+      "type": "gender",
+      "name": "Male",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Male"
+      }
+    },
+    {
+      "id": "element_gender_female",
+      "type": "gender",
+      "name": "Female",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Female"
+      }
+    },
+    {
+      "id": "element_gender_trans",
+      "type": "gender",
+      "name": "Trans",
+      "description": "Default Gender element generated from canonical value list.",
+      "tags": [
+        "gender",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "gender": "Trans"
+      }
+    },
+    {
+      "id": "element_lighting_soft_light",
+      "type": "lighting",
+      "name": "Soft light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Soft light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_hard_light",
+      "type": "lighting",
+      "name": "Hard light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Hard light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_high_contrast",
+      "type": "lighting",
+      "name": "High contrast",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "High contrast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_low_contrast",
+      "type": "lighting",
+      "name": "Low contrast",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Low contrast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_silhouette",
+      "type": "lighting",
+      "name": "Silhouette",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Silhouette"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_top_light",
+      "type": "lighting",
+      "name": "Top light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Top light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_underlight",
+      "type": "lighting",
+      "name": "Underlight",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Underlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_side_light",
+      "type": "lighting",
+      "name": "Side light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Side light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_backlight",
+      "type": "lighting",
+      "name": "Backlight",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Backlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_edge_light",
+      "type": "lighting",
+      "name": "Edge light",
+      "description": "Default Lighting element generated from canonical value list.",
+      "tags": [
+        "lighting",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lighting": [
+          "Edge light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_daylight",
+      "type": "lighting_type",
+      "name": "Daylight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Daylight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_sunny",
+      "type": "lighting_type",
+      "name": "Sunny",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Sunny"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_overcast",
+      "type": "lighting_type",
+      "name": "Overcast",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Overcast"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_moonlight",
+      "type": "lighting_type",
+      "name": "Moonlight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Moonlight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_artificial_light",
+      "type": "lighting_type",
+      "name": "Artificial light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Artificial light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_practical_light",
+      "type": "lighting_type",
+      "name": "Practical light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Practical light"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_fluorescent",
+      "type": "lighting_type",
+      "name": "Fluorescent",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Fluorescent"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_firelight",
+      "type": "lighting_type",
+      "name": "Firelight",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Firelight"
+        ]
+      }
+    },
+    {
+      "id": "element_lighting_type_mixed_light",
+      "type": "lighting_type",
+      "name": "Mixed light",
+      "description": "Default Lighting Types element generated from canonical value list.",
+      "tags": [
+        "lighting_type",
+        "canonical",
+        "default"
+      ],
+      "data": {
+        "lightingType": [
+          "Mixed light"
+        ]
+      }
+    },
+    {
+      "id": "element_camera_sony-venice",
+      "type": "camera",
+      "name": "Sony Venice",
+      "description": "Camera definition imported from Cameras_Lenses-Grouped.csv.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony Venice",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "12/23/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_phase-one-xf-iq4-150mp",
+      "type": "camera",
+      "name": "Phase One XF IQ4 150MP",
+      "description": "- This medium format camera offers incredible resolution and image quality.\n    - Pros: Phase One is the gold standard in medium format photography, especially for fashion and editorial shoots. The IQ4 has 150MP resolution, extreme dynamic range, and unparalleled color depth.\n    - Best For: Ultra high-resolution photos with incredible detail and texture.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Phase One XF IQ4 150MP",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "- This medium format camera offers incredible resolution and image quality.\n    - Pros: Phase One is the gold standard in medium format photography, especially for fashion and editorial shoots. The IQ4 has 150MP resolution, extreme dynamic range, and unparalleled color depth.\n    - Best For: Ultra high-resolution photos with incredible detail and texture.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-a7r3",
+      "type": "camera",
+      "name": "Sony A7r3",
+      "description": "42.4MP full-frame mirrorless powerhouse with exceptional dynamic range, 10fps shooting, and advanced eye AF. Excel at landscape, studio, and portrait photography. Dual SD slots and improved battery life make it reliable for professional work.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony A7r3",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "42.4MP full-frame mirrorless powerhouse with exceptional dynamic range, 10fps shooting, and advanced eye AF. Excel at landscape, studio, and portrait photography. Dual SD slots and improved battery life make it reliable for professional work.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-finepix-xp140",
+      "type": "camera",
+      "name": "Fujifilm FinePix XP140",
+      "description": "Budget-friendly waterproof camera with 16.4MP sensor. Waterproof to 25m and freezeproof. Perfect for family beach trips and outdoor adventures.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm FinePix XP140",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Budget-friendly waterproof camera with 16.4MP sensor. Waterproof to 25m and freezeproof. Perfect for family beach trips and outdoor adventures.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_iphone-16-pro-max",
+      "type": "camera",
+      "name": "iPhone 16 Pro Max",
+      "description": "Versatile Photography: The combination of wide, ultra-wide, and telephoto lenses makes it suitable for various shooting scenarios, from portraits to landscapes.\nLow-Light Conditions: Enhanced Night mode and LiDAR Scanner enable impressive performance in dim environments.\nProfessional Videography: Supports 4K Dolby Vision HDR recording at up to 120 fps, catering to high-quality video production needs.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "iPhone 16 Pro Max",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Versatile Photography: The combination of wide, ultra-wide, and telephoto lenses makes it suitable for various shooting scenarios, from portraits to landscapes.\nLow-Light Conditions: Enhanced Night mode and LiDAR Scanner enable impressive performance in dim environments.\nProfessional Videography: Supports 4K Dolby Vision HDR recording at up to 120 fps, catering to high-quality video production needs.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-d850",
+      "type": "camera",
+      "name": "Nikon D850",
+      "description": "Best for: Professional photography, particularly landscape, wildlife, and studio work\nHigh resolution (45.7MP) makes it excellent for large prints\nStrong low-light performance and fast autofocus",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon D850",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Professional photography, particularly landscape, wildlife, and studio work\nHigh resolution (45.7MP) makes it excellent for large prints\nStrong low-light performance and fast autofocus",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_olympus-om-d-e-m10-mark-iv",
+      "type": "camera",
+      "name": "Olympus OM-D E-M10 Mark IV",
+      "description": "Entry-level Micro Four Thirds with 20MP sensor and compact design. In-body stabilization and tiltable screen. Great starter camera for beginners.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Olympus OM-D E-M10 Mark IV",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Entry-level Micro Four Thirds with 20MP sensor and compact design. In-body stabilization and tiltable screen. Great starter camera for beginners.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-gfx-100s",
+      "type": "camera",
+      "name": "Fujifilm GFX 100S",
+      "description": "Best for: Medium-format system for outdoor editorial shoots with emphasis on both the model and expansive backgrounds.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm GFX 100S",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Medium-format system for outdoor editorial shoots with emphasis on both the model and expansive backgrounds.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-alpha-1",
+      "type": "camera",
+      "name": "Sony Alpha 1",
+      "description": "- Pros: Sony’s flagship mirrorless camera boasts a high-resolution 50.1MP sensor, fast autofocus, and excellent video capabilities.\n    - Best For: High-speed captures and working in more dynamic environments, such as outdoors or editorial shoots with fast movements.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony Alpha 1",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "- Pros: Sony’s flagship mirrorless camera boasts a high-resolution 50.1MP sensor, fast autofocus, and excellent video capabilities.\n    - Best For: High-speed captures and working in more dynamic environments, such as outdoors or editorial shoots with fast movements.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-alpha-a6600",
+      "type": "camera",
+      "name": "Sony Alpha A6600",
+      "description": "Compact APS-C mirrorless with real-time tracking AF and excellent battery life. Fast 11fps shooting and strong video features. Perfect for travel, street photography, and everyday use.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony Alpha A6600",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Compact APS-C mirrorless with real-time tracking AF and excellent battery life. Fast 11fps shooting and strong video features. Perfect for travel, street photography, and everyday use.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_leica-sl2-with-apo-summicron-sl-50mm-f-2-asph-shot-at-f-2-8-iso-100-1-125s",
+      "type": "camera",
+      "name": "Leica SL2 with APO-Summicron-SL 50mm f/2 ASPH, shot at f/2.8, ISO 100, 1/125s",
+      "description": "Camera definition imported from Cameras_Lenses-Grouped.csv.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Leica SL2 with APO-Summicron-SL 50mm f/2 ASPH, shot at f/2.8, ISO 100, 1/125s",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-r5-at-f-2",
+      "type": "camera",
+      "name": "Canon EOS R5 at f/2",
+      "description": "- Pros: Canon’s mirrorless system has incredible autofocus, excellent skin tone rendering, and a robust 45MP sensor for high-resolution images.\n    - Best For: Portraits and fashion photography where precise detail is crucial.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS R5 at f/2",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "- Pros: Canon’s mirrorless system has incredible autofocus, excellent skin tone rendering, and a robust 45MP sensor for high-resolution images.\n    - Best For: Portraits and fashion photography where precise detail is crucial.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_leica-m11-monochrom-summilux-50mm-f-1-4",
+      "type": "camera",
+      "name": "Leica M11 Monochrom + Summilux 50mm f/1.4",
+      "description": "Camera definition imported from Cameras_Lenses-Grouped.csv.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Leica M11 Monochrom + Summilux 50mm f/1.4",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-gfx-100-ll",
+      "type": "camera",
+      "name": "Fujifilm GFX 100 ll",
+      "description": "102MP sensor, cinematic depth, ultra-sharp details",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm GFX 100 ll",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "102MP sensor, cinematic depth, ultra-sharp details",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-r5",
+      "type": "camera",
+      "name": "Canon EOS R5",
+      "description": "Revolutionary 45MP mirrorless with 8K video and up to 20fps shooting. Class-leading AF system and excellent image quality. Versatile enough for any professional use from weddings to sports.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS R5",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Revolutionary 45MP mirrorless with 8K video and up to 20fps shooting. Class-leading AF system and excellent image quality. Versatile enough for any professional use from weddings to sports.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-powershot-g5-x-mark-ii",
+      "type": "camera",
+      "name": "Canon PowerShot G5 X Mark II",
+      "description": "Advanced compact with 20.1MP 1-inch sensor and 5x zoom. Pop-up EVF and tilting touchscreen. Great for enthusiasts wanting quality in a portable package.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon PowerShot G5 X Mark II",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Advanced compact with 20.1MP 1-inch sensor and 5x zoom. Pop-up EVF and tilting touchscreen. Great for enthusiasts wanting quality in a portable package.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-x-pro3",
+      "type": "camera",
+      "name": "Fujifilm X-Pro3",
+      "description": "Rangefinder-style camera with unique reverse-tilt LCD and hybrid viewfinder. 26.1MP X-Trans sensor and excellent film simulations. Ideal for street photographers and documentary work.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm X-Pro3",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Rangefinder-style camera with unique reverse-tilt LCD and hybrid viewfinder. 26.1MP X-Trans sensor and excellent film simulations. Ideal for street photographers and documentary work.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-rebel-t8i",
+      "type": "camera",
+      "name": "Canon EOS Rebel T8i",
+      "description": "Entry-level DSLR with 24.1MP sensor and guided shooting modes. Excellent live view AF and articulating screen. Perfect for beginners learning photography.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS Rebel T8i",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Entry-level DSLR with 24.1MP sensor and guided shooting modes. Excellent live view AF and articulating screen. Perfect for beginners learning photography.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-a7r-v",
+      "type": "camera",
+      "name": "Sony A7R V",
+      "description": "Best for: Ultra-high-resolution images that emphasize texture, patterns, and fine details, ideal for both portraits and full-body shots.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony A7R V",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Ultra-high-resolution images that emphasize texture, patterns, and fine details, ideal for both portraits and full-body shots.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-a9-ii",
+      "type": "camera",
+      "name": "Sony A9 II",
+      "description": "Speed demon with 24.2MP full-frame sensor, blackout-free 20fps shooting, and industry-leading AF tracking. Silent operation and dual card slots make it perfect for sports, wildlife, and event photography.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony A9 II",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Speed demon with 24.2MP full-frame sensor, blackout-free 20fps shooting, and industry-leading AF tracking. Silent operation and dual card slots make it perfect for sports, wildlife, and event photography.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-z9-a-professional-grade-mirrorless-camera-with-outstanding-low-light-performance",
+      "type": "camera",
+      "name": "Nikon Z9: A professional-grade mirrorless camera with outstanding low-light performance.",
+      "description": "Best for: Sports, wildlife, and photojournalism\nExceptional autofocus and tracking\nHigh-speed continuous shooting\nProfessional-grade weather sealing",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon Z9: A professional-grade mirrorless camera with outstanding low-light performance.",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Sports, wildlife, and photojournalism\nExceptional autofocus and tracking\nHigh-speed continuous shooting\nProfessional-grade weather sealing",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-gh5",
+      "type": "camera",
+      "name": "Panasonic GH5",
+      "description": "Micro Four Thirds powerhouse with 20.3MP sensor and professional video features. 4K/60p recording, no recording limits, and excellent stabilization. Industry standard for video production and documentary work.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Panasonic GH5",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Micro Four Thirds powerhouse with 20.3MP sensor and professional video features. 4K/60p recording, no recording limits, and excellent stabilization. Industry standard for video production and documentary work.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-d6",
+      "type": "camera",
+      "name": "Nikon D6",
+      "description": "Flagship DSLR built for speed and reliability, featuring 105-point AF and 14fps shooting. Practically unlimited buffer and outstanding low-light performance. The choice of many pro sports photographers.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon D6",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Flagship DSLR built for speed and reliability, featuring 105-point AF and 14fps shooting. Practically unlimited buffer and outstanding low-light performance. The choice of many pro sports photographers.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_hasselblad-h6d-100c",
+      "type": "camera",
+      "name": "Hasselblad H6D-100c",
+      "description": "Best for: High-end commercial photography, fashion, and fine art\nMedium format sensor with 100MP resolution\nSuperior color reproduction and dynamic range",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Hasselblad H6D-100c",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: High-end commercial photography, fashion, and fine art\nMedium format sensor with 100MP resolution\nSuperior color reproduction and dynamic range",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-dc-s1r",
+      "type": "camera",
+      "name": "Panasonic Lumix DC-S1R",
+      "description": "High-resolution beast with 47.3MP sensor and 187MP high-res mode. Robust build quality, excellent EVF, and strong video features. Ideal for studio work, architecture, and commercial photography requiring large prints.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix DC-S1R",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "High-resolution beast with 47.3MP sensor and 187MP high-res mode. Robust build quality, excellent EVF, and strong video features. Ideal for studio work, architecture, and commercial photography requiring large prints.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-a1",
+      "type": "camera",
+      "name": "Sony A1",
+      "description": "Flagship 50.1MP full-frame mirrorless with 30fps shooting and 8K video. State-of-the-art AF and resolution. The ultimate hybrid camera for professionals demanding the best.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony A1",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Flagship 50.1MP full-frame mirrorless with 30fps shooting and 8K video. State-of-the-art AF and resolution. The ultimate hybrid camera for professionals demanding the best.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-gfx-50r",
+      "type": "camera",
+      "name": "Fujifilm GFX 50R",
+      "description": "Medium format mirrorless with 51.4MP sensor in a relatively compact body. Outstanding image quality and color reproduction. Ideal for studio and commercial photography.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm GFX 50R",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Medium format mirrorless with 51.4MP sensor in a relatively compact body. Outstanding image quality and color reproduction. Ideal for studio and commercial photography.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_hasselblad-x2d-100c",
+      "type": "camera",
+      "name": "Hasselblad X2D 100C",
+      "description": "Best for: Medium-format photography, ideal for studio or on-location shoots where impeccable detail, color fidelity, and dynamic range are essential.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Hasselblad X2D 100C",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Medium-format photography, ideal for studio or on-location shoots where impeccable detail, color fidelity, and dynamic range are essential.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_olympus-e-m5-mark-iii",
+      "type": "camera",
+      "name": "Olympus E-M5 Mark III",
+      "description": "Compact Micro Four Thirds with 20.4MP sensor and strong stabilization. Weather-sealed body with advanced features. Perfect for travel and everyday photography.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Olympus E-M5 Mark III",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Compact Micro Four Thirds with 20.4MP sensor and strong stabilization. Weather-sealed body with advanced features. Perfect for travel and everyday photography.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-5d-mark-iv",
+      "type": "camera",
+      "name": "Canon EOS 5D Mark IV",
+      "description": "Professional Grade",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS 5D Mark IV",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Professional Grade",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_olympus-tough-tg-6",
+      "type": "camera",
+      "name": "Olympus Tough TG-6",
+      "description": "Rugged compact camera with 12MP sensor and waterproof/crushproof design. RAW shooting and microscope mode. Ideal for underwater photography and extreme outdoor activities.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Olympus Tough TG-6",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Rugged compact camera with 12MP sensor and waterproof/crushproof design. RAW shooting and microscope mode. Ideal for underwater photography and extreme outdoor activities.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-z9",
+      "type": "camera",
+      "name": "Nikon Z9",
+      "description": "Best for: Action or dynamic fashion shoots, such as models in motion, showcasing the flow of fabric and movement with impeccable sharpness.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon Z9",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Action or dynamic fashion shoots, such as models in motion, showcasing the flow of fabric and movement with impeccable sharpness.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-x100v",
+      "type": "camera",
+      "name": "Fujifilm X100V",
+      "description": "Fixed-lens compact with 26.1MP APS-C sensor and 23mm f/2 lens. Hybrid viewfinder and excellent build quality. The ultimate street photography tool.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm X100V",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Fixed-lens compact with 26.1MP APS-C sensor and 23mm f/2 lens. Hybrid viewfinder and excellent build quality. The ultimate street photography tool.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_fujifilm-x-t4",
+      "type": "camera",
+      "name": "Fujifilm X-T4",
+      "description": "Versatile hybrid camera with 26.1MP APS-C sensor, excellent IBIS, and Fuji's renowned color science. Strong video features including 4K/60p make it ideal for both photographers and filmmakers.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Fujifilm X-T4",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Versatile hybrid camera with 26.1MP APS-C sensor, excellent IBIS, and Fuji's renowned color science. Strong video features including 4K/60p make it ideal for both photographers and filmmakers.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_leica-sl2",
+      "type": "camera",
+      "name": "Leica SL2",
+      "description": "Best for: Artistic, fine-art editorial shoots with a focus on storytelling and cinematic imagery.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Leica SL2",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Artistic, fine-art editorial shoots with a focus on storytelling and cinematic imagery.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-1d-x-mark-iii",
+      "type": "camera",
+      "name": "Canon EOS-1D X Mark III",
+      "description": "Pro-grade DSLR with 20.1MP sensor, 16fps mechanical shutter, and deep-learning AF. Built like a tank with outstanding weather sealing. Excels in sports, wildlife, and demanding professional environments. Superior low-light performance and unlimited buffer.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS-1D X Mark III",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Pro-grade DSLR with 20.1MP sensor, 16fps mechanical shutter, and deep-learning AF. Built like a tank with outstanding weather sealing. Excels in sports, wildlife, and demanding professional environments. Superior low-light performance and unlimited buffer.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-z-7ii",
+      "type": "camera",
+      "name": "Nikon Z 7II",
+      "description": "45.7MP full-frame mirrorless featuring dual processors, improved AF, and dual card slots. Exceptional dynamic range and detail retention make it perfect for landscape and commercial photography. Strong 4K video capabilities.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon Z 7II",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "45.7MP full-frame mirrorless featuring dual processors, improved AF, and dual card slots. Exceptional dynamic range and detail retention make it perfect for landscape and commercial photography. Strong 4K video capabilities.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-m50-mark-ii",
+      "type": "camera",
+      "name": "Canon EOS M50 Mark II",
+      "description": "Compact mirrorless with 24.1MP APS-C sensor and excellent vlogging features. Fully articulating screen and improved AF make it perfect for content creators. Good entry point into mirrorless photography.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS M50 Mark II",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Compact mirrorless with 24.1MP APS-C sensor and excellent vlogging features. Fully articulating screen and improved AF make it perfect for content creators. Good entry point into mirrorless photography.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-d780",
+      "type": "camera",
+      "name": "Nikon D780",
+      "description": "Versatile DSLR with 24.5MP sensor combining DSLR and mirrorless features. Excellent low-light performance and video capabilities. Great all-rounder for enthusiasts.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon D780",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Versatile DSLR with 24.5MP sensor combining DSLR and mirrorless features. Excellent low-light performance and video capabilities. Great all-rounder for enthusiasts.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-z50",
+      "type": "camera",
+      "name": "Nikon Z50",
+      "description": "Entry-level mirrorless with 20.9MP APS-C sensor and robust build quality. User-friendly interface with room to grow. Great for beginners wanting to learn photography with lightweight gear.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon Z50",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Entry-level mirrorless with 20.9MP APS-C sensor and robust build quality. User-friendly interface with room to grow. Great for beginners wanting to learn photography with lightweight gear.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-cyber-shot-rx100-vii",
+      "type": "camera",
+      "name": "Sony Cyber-shot RX100 VII",
+      "description": "Premium compact camera with 20.1MP 1-inch sensor and 24-200mm zoom. Lightning-fast AF and blackout-free shooting at 20fps. Perfect pocket camera for travel and everyday carry.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Sony Cyber-shot RX100 VII",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Premium compact camera with 20.1MP 1-inch sensor and 24-200mm zoom. Lightning-fast AF and blackout-free shooting at 20fps. Perfect pocket camera for travel and everyday carry.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_nikon-coolpix-p1000",
+      "type": "camera",
+      "name": "Nikon Coolpix P1000",
+      "description": "Superzoom bridge camera with 125x optical zoom range. 16MP sensor and advanced stabilization. Specialized for wildlife, moon photography, and extreme telephoto needs.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Nikon Coolpix P1000",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Superzoom bridge camera with 125x optical zoom range. 16MP sensor and advanced stabilization. Specialized for wildlife, moon photography, and extreme telephoto needs.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-zs200",
+      "type": "camera",
+      "name": "Panasonic Lumix ZS200",
+      "description": "Travel zoom camera with 20.1MP 1-inch sensor and 15x optical zoom. 24-360mm equivalent range makes it versatile for all travel scenarios. Good balance of image quality and zoom range.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix ZS200",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Travel zoom camera with 20.1MP 1-inch sensor and 15x optical zoom. 24-360mm equivalent range makes it versatile for all travel scenarios. Good balance of image quality and zoom range.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_olympus-om-d-e-m1x",
+      "type": "camera",
+      "name": "Olympus OM-D E-M1X",
+      "description": "Professional Micro Four Thirds camera with integrated vertical grip and class-leading weather sealing. Exceptional stabilization and pro-level controls. Perfect for wildlife and sports, especially with telephoto lenses.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Olympus OM-D E-M1X",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Professional Micro Four Thirds camera with integrated vertical grip and class-leading weather sealing. Exceptional stabilization and pro-level controls. Perfect for wildlife and sports, especially with telephoto lenses.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-r6",
+      "type": "camera",
+      "name": "Canon EOS R6",
+      "description": "Professional full-frame mirrorless with 20.1MP sensor and excellent low-light capabilities. Fast AF and up to 20fps shooting. Versatile workhorse for professional photographers.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Canon EOS R6",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Professional full-frame mirrorless with 20.1MP sensor and excellent low-light capabilities. Fast AF and up to 20fps shooting. Versatile workhorse for professional photographers.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_hasselblad-x2d-100c-with-xcd-90mm-f-2-5-shot-at-f-4-iso-64",
+      "type": "camera",
+      "name": "Hasselblad X2D 100C with XCD 90mm f/2.5, shot at f/4, ISO 64",
+      "description": "Camera definition imported from Cameras_Lenses-Grouped.csv.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Hasselblad X2D 100C with XCD 90mm f/2.5, shot at f/4, ISO 64",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_phase-one-iq4-150mp",
+      "type": "camera",
+      "name": "Phase One IQ4 150MP",
+      "description": "Signals industry’s highest-end digital back, ultra-precision (e.g., \"studio-captured with Phase One IQ4 150MP\").",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Phase One IQ4 150MP",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Signals industry’s highest-end digital back, ultra-precision (e.g., \"studio-captured with Phase One IQ4 150MP\").",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-s5",
+      "type": "camera",
+      "name": "Panasonic Lumix S5",
+      "description": "Full-frame mirrorless with 24.2MP sensor focused on video features. Excellent low-light performance and stabilization. Great hybrid camera for filmmakers and photographers.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix S5",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Full-frame mirrorless with 24.2MP sensor focused on video features. Excellent low-light performance and stabilization. Great hybrid camera for filmmakers and photographers.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_olympus-pen-f",
+      "type": "camera",
+      "name": "Olympus PEN-F",
+      "description": "Stylish retro-designed camera with 20MP sensor and unique color/monotone profiles. Excellent street photography tool with tiltable screen and quiet operation. Perfect for creative photographers who appreciate analog-style controls.",
+      "tags": [
+        "camera",
+        "still-camera"
+      ],
+      "data": {
+        "camera": "Olympus PEN-F",
+        "sourceType": "Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Stylish retro-designed camera with 20MP sensor and unique color/monotone profiles. Excellent street photography tool with tiltable screen and quiet operation. Perfect for creative photographers who appreciate analog-style controls.",
+        "tags": [
+          "camera",
+          "still-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-komodo-x-global-shutter",
+      "type": "camera",
+      "name": "RED Komodo-X (global shutter)",
+      "description": "Sports / action stabilization power.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "sports",
+        "movement"
+      ],
+      "data": {
+        "camera": "RED Komodo-X (global shutter)",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Sports / action stabilization power.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "sports",
+          "movement"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_freefly-ember-s5k-alta-x-ronin-4d-hybrid-rig",
+      "type": "camera",
+      "name": "Freefly Ember S5K / Alta X + Ronin 4D Hybrid Rig",
+      "description": "Aerial + moving body cine realism.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "sports",
+        "movement"
+      ],
+      "data": {
+        "camera": "Freefly Ember S5K / Alta X + Ronin 4D Hybrid Rig",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Aerial + moving body cine realism.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "sports",
+          "movement"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_aaton-penelope-delta",
+      "type": "camera",
+      "name": "Aaton Penelope Delta",
+      "description": "Ultra-rare hybrid film+digital cinema rig.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "rig"
+      ],
+      "data": {
+        "camera": "Aaton Penelope Delta",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Ultra-rare hybrid film+digital cinema rig.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "rig"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-cinealta-f65",
+      "type": "camera",
+      "name": "Sony CineAlta F65",
+      "description": "Special ops cinema camera, 8K raw color science.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "8k+"
+      ],
+      "data": {
+        "camera": "Sony CineAlta F65",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Special ops cinema camera, 8K raw color science.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "8k+"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-vr-rf-5-2-dual-fisheye-system",
+      "type": "camera",
+      "name": "Canon VR RF-5.2 Dual Fisheye System",
+      "description": "Immersive worldbuilding looks.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "immersive"
+      ],
+      "data": {
+        "camera": "Canon VR RF-5.2 Dual Fisheye System",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Immersive worldbuilding looks.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "immersive"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_imax-mkiv-msm-9802-70mm-film",
+      "type": "camera",
+      "name": "IMAX MKIV / MSM 9802 70mm Film",
+      "description": "The Nolan / IMAX cathedral look.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "imax"
+      ],
+      "data": {
+        "camera": "IMAX MKIV / MSM 9802 70mm Film",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "The Nolan / IMAX cathedral look.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "imax"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arri-alexa-65-imax-mod",
+      "type": "camera",
+      "name": "ARRI ALEXA 65 IMAX Mod",
+      "description": "IMAX-grade digital capture, insane scale & depth.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "imax"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA 65 IMAX Mod",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "IMAX-grade digital capture, insane scale & depth.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "imax"
+        ],
+        "date": "10/30/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arri-alexa-35",
+      "type": "camera",
+      "name": "ARRI ALEXA 35",
+      "description": "(New Hollywood Favorite)\n- Resolution: 4.6K Super 35\n- Why it's used: ARRI’s latest flagship with better color science, 17 stops of dynamic range, and beautiful highlight rolloff.\n- Used in: High-end Netflix, Apple TV+, and studio films post-2023\n- Format: ARRIRAW, Apple ProRes\n🎥 Known for color depth and versatility in all lighting conditions.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA 35",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "(New Hollywood Favorite)\n- Resolution: 4.6K Super 35\n- Why it's used: ARRI’s latest flagship with better color science, 17 stops of dynamic range, and beautiful highlight rolloff.\n- Used in: High-end Netflix, Apple TV+, and studio films post-2023\n- Format: ARRIRAW, Apple ProRes\n🎥 Known for color depth and versatility in all lighting conditions.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/13/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_imax-msm-9802-65mm-film",
+      "type": "camera",
+      "name": "IMAX MSM 9802 (65mm film)",
+      "description": "'- Resolution: Equivalent to 12K digital (when scanned)\n- Why it's used: Nothing beats true IMAX 70mm film for grandeur.\n- Used in: Oppenheimer, Tenet, Dunkirk by Christopher Nolan\n🎞️ Used only by elite directors for select sequences — massive, heavy, and film-based.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "8k+"
+      ],
+      "data": {
+        "camera": "IMAX MSM 9802 (65mm film)",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "'- Resolution: Equivalent to 12K digital (when scanned)\n- Why it's used: Nothing beats true IMAX 70mm film for grandeur.\n- Used in: Oppenheimer, Tenet, Dunkirk by Christopher Nolan\n🎞️ Used only by elite directors for select sequences — massive, heavy, and film-based.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "8k+"
+        ],
+        "date": "6/13/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-venice-2",
+      "type": "camera",
+      "name": "Sony VENICE 2",
+      "description": "'- Resolution: 8.6K (Full-frame, 16-bit X-OCN)\n- Why it's used: Dual ISO, internal RAW, IMAX-certified. Exceptional for low-light, skin tones, and HDR grading.\n- Used in: Top Gun: Maverick, The Creator, Elvis\n- Lens Support: PL mount, full-frame anamorphic\n🌙 Perfect for high-contrast scenes, night shots, and dynamic skin tone reproduction.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "8k+",
+        "imax"
+      ],
+      "data": {
+        "camera": "Sony VENICE 2",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "'- Resolution: 8.6K (Full-frame, 16-bit X-OCN)\n- Why it's used: Dual ISO, internal RAW, IMAX-certified. Exceptional for low-light, skin tones, and HDR grading.\n- Used in: Top Gun: Maverick, The Creator, Elvis\n- Lens Support: PL mount, full-frame anamorphic\n🌙 Perfect for high-contrast scenes, night shots, and dynamic skin tone reproduction.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "8k+",
+          "imax"
+        ],
+        "date": "6/13/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-v-raptor-xl-8k-vv",
+      "type": "camera",
+      "name": "Red V-RAPTOR XL 8K VV",
+      "description": "'- Resolution: 8K VistaVision (8192 x 4320)\n- Why it's used: Stunning detail, global shutter options, and compact modularity. Excellent for action and VFX-heavy work.\n- Used in: Guardians of the Galaxy Vol. 3, The Matrix Resurrections\n- Recording Format: REDCODE RAW\n⚡️ Best for fast-moving sequences, CGI/VFX integration, and UHD streaming masters.",
+      "tags": [
+        "camera",
+        "video-camera",
+        "8k+"
+      ],
+      "data": {
+        "camera": "Red V-RAPTOR XL 8K VV",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "'- Resolution: 8K VistaVision (8192 x 4320)\n- Why it's used: Stunning detail, global shutter options, and compact modularity. Excellent for action and VFX-heavy work.\n- Used in: Guardians of the Galaxy Vol. 3, The Matrix Resurrections\n- Recording Format: REDCODE RAW\n⚡️ Best for fast-moving sequences, CGI/VFX integration, and UHD streaming masters.",
+        "tags": [
+          "camera",
+          "video-camera",
+          "8k+"
+        ],
+        "date": "6/13/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arri-alexa-65",
+      "type": "camera",
+      "name": "ARRI ALEXA 65",
+      "description": "Best for: Large format cinematography\nEpic landscape shots\nHigh-end feature films requiring maximum image quality",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA 65",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Large format cinematography\nEpic landscape shots\nHigh-end feature films requiring maximum image quality",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-v-raptor",
+      "type": "camera",
+      "name": "Red V-Raptor",
+      "description": "Super close-up clarity and realism",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Red V-Raptor",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Super close-up clarity and realism",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_uhd-canon-eos-r6-mark-ii-camera",
+      "type": "camera",
+      "name": "UHD Canon EOS R6 Mark II camera",
+      "description": "Best for: Hybrid shooters (photo/video)\nStrong autofocus for video\nGood for event videography and content creation",
+      "tags": [
+        "camera",
+        "video-camera",
+        "hybrid"
+      ],
+      "data": {
+        "camera": "UHD Canon EOS R6 Mark II camera",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Hybrid shooters (photo/video)\nStrong autofocus for video\nGood for event videography and content creation",
+        "tags": [
+          "camera",
+          "video-camera",
+          "hybrid"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_imax-msm-9802",
+      "type": "camera",
+      "name": "IMAX MSM 9802",
+      "description": "Best for: IMAX theatrical releases\nLarge format filming\nSpecialized productions requiring the highest possible quality",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "IMAX MSM 9802",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: IMAX theatrical releases\nLarge format filming\nSpecialized productions requiring the highest possible quality",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-g95",
+      "type": "camera",
+      "name": "Panasonic Lumix G95",
+      "description": "Hybrid Micro Four Thirds camera with 20.3MP sensor and robust features. Good stabilization and weather sealing. Versatile option for both stills and video.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix G95",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Hybrid Micro Four Thirds camera with 20.3MP sensor and robust features. Good stabilization and weather sealing. Versatile option for both stills and video.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-monstro-8k-vv",
+      "type": "camera",
+      "name": "RED Monstro 8K VV",
+      "description": "8K resolution with full-frame sensor, ideal for detail",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "RED Monstro 8K VV",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "8K resolution with full-frame sensor, ideal for detail",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arriflex-35bl",
+      "type": "camera",
+      "name": "ARRIFLEX 35BL",
+      "description": "Best For: Studio and location-based narrative films.\nWhy: Compact and quiet 35mm film camera, great for professional productions.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRIFLEX 35BL",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best For: Studio and location-based narrative films.\nWhy: Compact and quiet 35mm film camera, great for professional productions.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-c500-mark-ll",
+      "type": "camera",
+      "name": "Canon C500 Mark ll",
+      "description": "Full-frame sensor, 5.9K, awesome colors",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Canon C500 Mark ll",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Full-frame sensor, 5.9K, awesome colors",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_kodak-super-8-camera",
+      "type": "camera",
+      "name": "Kodak Super 8 Camera",
+      "description": "Nostalgic aesthetics with contemporary fetures",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Kodak Super 8 Camera",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Nostalgic aesthetics with contemporary fetures",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_krasnogorsk-3-k-3",
+      "type": "camera",
+      "name": "Krasnogorsk-3 (K-3)",
+      "description": "16mm film, classic aesthetics",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Krasnogorsk-3 (K-3)",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "16mm film, classic aesthetics",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-zv-1",
+      "type": "camera",
+      "name": "Sony ZV-1",
+      "description": "Compact camera designed specifically for vlogging. 20.1MP 1-inch sensor and excellent AF tracking. Perfect for content creators and social media professionals.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Sony ZV-1",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Compact camera designed specifically for vlogging. 20.1MP 1-inch sensor and excellent AF tracking. Perfect for content creators and social media professionals.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_sony-venice-3",
+      "type": "camera",
+      "name": "Sony Venice",
+      "description": "Best for: Feature films and high-end commercials\nExceptional in low light\nDual ISO capability\nBeautiful skin tones",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Sony Venice",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Feature films and high-end commercials\nExceptional in low light\nDual ISO capability\nBeautiful skin tones",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_bell-howell-film-70",
+      "type": "camera",
+      "name": "Bell & Howell Film 70",
+      "description": "Ideal for capturing high-quality action shots",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Bell & Howell Film 70",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Ideal for capturing high-quality action shots",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-helium-8k",
+      "type": "camera",
+      "name": "Red Helium 8k",
+      "description": "Best for: Productions requiring very high resolution\nVFX-heavy shoots\nCommercial work requiring extensive post-production flexibility",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Red Helium 8k",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Productions requiring very high resolution\nVFX-heavy shoots\nCommercial work requiring extensive post-production flexibility",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_insta-360-one",
+      "type": "camera",
+      "name": "Insta 360 One",
+      "description": "Video Camera definition imported from Cameras_Lenses-Grouped.csv.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Insta 360 One",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arricam-lt",
+      "type": "camera",
+      "name": "ARRICAM LT",
+      "description": "Best For: Narrative filmmaking, particularly drama.\nWhy: Quiet operation and advanced optical features make it a go-to for traditional film production.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRICAM LT",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best For: Narrative filmmaking, particularly drama.\nWhy: Quiet operation and advanced optical features make it a go-to for traditional film production.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_red-komodo-6k",
+      "type": "camera",
+      "name": "Red Komodo 6K",
+      "description": "Best for: Independent films, documentaries, and compact productions\nExcellent for gimbal work and tight spaces\nGlobal shutter makes it great for fast-moving subjects",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Red Komodo 6K",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Independent films, documentaries, and compact productions\nExcellent for gimbal work and tight spaces\nGlobal shutter makes it great for fast-moving subjects",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panaflex-millennium-xl2",
+      "type": "camera",
+      "name": "Panaflex Millennium XL2",
+      "description": "Panaflex Millennium XL2 Best For: Major motion pictures, high-end film productions, feature films Key Features: 35mm film camera, extremely quiet operation, 3-perf or 4-perf movement, wide lens compatibility, variable speed up to 50fps, crystal-controlled speed, integrated video assist",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Panaflex Millennium XL2",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Panaflex Millennium XL2 Best For: Major motion pictures, high-end film productions, feature films Key Features: 35mm film camera, extremely quiet operation, 3-perf or 4-perf movement, wide lens compatibility, variable speed up to 50fps, crystal-controlled speed, integrated video assist",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-gh5",
+      "type": "camera",
+      "name": "Panasonic Lumix GH5",
+      "description": "The Panasonic Lumix GH5 is renowned for its exceptional video capabilities, making it a favorite among filmmakers, videographers, and content creators. It was one of the first consumer cameras to offer 4K video at 60fps with 10-bit 4:2:2 internal recording, providing professional-grade quality and flexibility for post-production. With features like 5-axis dual image stabilization, variable frame rates up to 180fps, and optional V-Log L for enhanced dynamic range, it excels in both creative and technical demands. Its rugged, weather-sealed design, combined with the versatility of the Micro Four Thirds system, makes it ideal for travel, vlogging, and hybrid shooting. The GH5 is celebrated as a reliable tool for high-quality video production and still photography in a compact, durable package.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix GH5",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "The Panasonic Lumix GH5 is renowned for its exceptional video capabilities, making it a favorite among filmmakers, videographers, and content creators. It was one of the first consumer cameras to offer 4K video at 60fps with 10-bit 4:2:2 internal recording, providing professional-grade quality and flexibility for post-production. With features like 5-axis dual image stabilization, variable frame rates up to 180fps, and optional V-Log L for enhanced dynamic range, it excels in both creative and technical demands. Its rugged, weather-sealed design, combined with the versatility of the Micro Four Thirds system, makes it ideal for travel, vlogging, and hybrid shooting. The GH5 is celebrated as a reliable tool for high-quality video production and still photography in a compact, durable package.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panavision-millennium-dxl2",
+      "type": "camera",
+      "name": "Panavision Millennium DXL2",
+      "description": "Best For: Feature films and high-end cinema.\nWhy: Combines large-format digital capture with Panavision lenses, offering a cinematic look with rich detail and dynamic range.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Panavision Millennium DXL2",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best For: Feature films and high-end cinema.\nWhy: Combines large-format digital capture with Panavision lenses, offering a cinematic look with rich detail and dynamic range.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arri-alexa-mini-lf",
+      "type": "camera",
+      "name": "ARRI ALEXA Mini LF",
+      "description": "Best For: Cinematic productions and commercials.\nWhy: Captures large-format images with exceptional dynamic range and color science, perfect for high-end video and movie production.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA Mini LF",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best For: Cinematic productions and commercials.\nWhy: Captures large-format images with exceptional dynamic range and color science, perfect for high-end video and movie production.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_panasonic-lumix-s5-ii",
+      "type": "camera",
+      "name": "Panasonic Lumix S5 II",
+      "description": "Best for: Compact, high-performance camera for capturing on-the-go editorial shoots in urban environments or low-light settings.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Panasonic Lumix S5 II",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Compact, high-performance camera for capturing on-the-go editorial shoots in urban environments or low-light settings.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_canon-eos-r5-c-mirrorless-cinema-camera-kit-with-rf-24-105mm-f-2-8-lens",
+      "type": "camera",
+      "name": "CANON EOS R5 C MIRRORLESS CINEMA CAMERA KIT WITH RF 24-105MM F/2.8 LENS",
+      "description": "Best for: Professional videographers needing both strong photo and video capabilities\n8K recording capability\nExcellent for documentary work",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "CANON EOS R5 C MIRRORLESS CINEMA CAMERA KIT WITH RF 24-105MM F/2.8 LENS",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: Professional videographers needing both strong photo and video capabilities\n8K recording capability\nExcellent for documentary work",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "video": "checked",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_aaton-penelope-delta-2",
+      "type": "camera",
+      "name": "Aaton Penelope Delta",
+      "description": "35mm film, advanced tech for precise image capture",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Aaton Penelope Delta",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "35mm film, advanced tech for precise image capture",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_arri-alexa-lf",
+      "type": "camera",
+      "name": "ARRI ALEXA LF",
+      "description": "Best for: High-end feature films and television\nBeautiful natural color science\nExcellent dynamic range\nIndustry standard for major productions",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "ARRI ALEXA LF",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best for: High-end feature films and television\nBeautiful natural color science\nExcellent dynamic range\nIndustry standard for major productions",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    },
+    {
+      "id": "element_camera_aaton-35-lll",
+      "type": "camera",
+      "name": "Aaton 35-lll",
+      "description": "Best For: Documentary and handheld filmmaking.\nWhy: Lightweight and ergonomic for handheld work, ideal for quick and dynamic shooting. Known for reliability in film productions.",
+      "tags": [
+        "camera",
+        "video-camera"
+      ],
+      "data": {
+        "camera": "Aaton 35-lll",
+        "sourceType": "Video Camera",
+        "sourceFile": "Cameras_Lenses-Grouped.csv",
+        "sourceDetails": "Best For: Documentary and handheld filmmaking.\nWhy: Lightweight and ergonomic for handheld work, ideal for quick and dynamic shooting. Known for reliability in film productions.",
+        "tags": [
+          "camera",
+          "video-camera"
+        ],
+        "date": "6/10/2025",
+        "dbEngine": "checked"
+      }
+    }
+  ]
+}

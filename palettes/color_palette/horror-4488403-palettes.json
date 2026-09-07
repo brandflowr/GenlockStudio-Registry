@@ -1,0 +1,376 @@
+{
+  "id": "horror-4488403-palettes",
+  "pack_id": "horror-4488403-palettes",
+  "type": "color_palette",
+  "name": "Horror Palettes",
+  "version": "1.0.0",
+  "author": "Spore",
+  "description": "Color palettes curated from the ShotDeck deck “Horror”.",
+  "source_category": "Horror",
+  "source_deck_id": "4488403",
+  "tags": [
+    "Horror"
+  ],
+  "updated_at": "2026-08-01T22:53:55.004Z",
+  "snippets": [
+    {
+      "category": "Horror",
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/0JS7BXGM.jpg",
+      "data": {
+        "usageHint": {
+          "shadows": [
+            "#0c1717",
+            "#102029"
+          ],
+          "mids": [
+            "#244857",
+            "#2b5a6c"
+          ],
+          "highlights": [
+            "#4a99a4",
+            "#7c9ca4",
+            "#7eb6ae"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/0JS7BXGM.jpg",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403",
+        "colors": [
+          "#0c1717",
+          "#102029",
+          "#244857",
+          "#2b5a6c",
+          "#4a99a4",
+          "#7c9ca4",
+          "#7eb6ae"
+        ]
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "0JS7BXGM",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/0JS7BXGM.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T21:46:41.279Z",
+      "id": "shotdeck-palette-0js7bxgm",
+      "name": "Come True Palette",
+      "description": "Cool, Desaturated, Blue · Soft light, Backlight",
+      "tags": [
+        "Horror",
+        "Science Fiction",
+        "Cool",
+        "Desaturated",
+        "Blue",
+        "Extreme Wide",
+        "Establishing shot",
+        "Night",
+        "Exterior"
+      ]
+    },
+    {
+      "category": "Horror",
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GF7LHXGR.jpg",
+      "data": {
+        "usageHint": {
+          "shadows": [
+            "#222011",
+            "#1b281d",
+            "#11313d",
+            "#344d2a",
+            "#1b4d5c"
+          ],
+          "mids": [
+            "#45511b",
+            "#666235",
+            "#356975",
+            "#4a6e52",
+            "#619380"
+          ],
+          "highlights": [
+            "#a48e70",
+            "#86abae",
+            "#8bb0a9",
+            "#a9ccc8",
+            "#c7ded8"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GF7LHXGR.jpg",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403",
+        "colors": [
+          "#222011",
+          "#1b281d",
+          "#11313d",
+          "#344d2a",
+          "#1b4d5c",
+          "#45511b",
+          "#666235",
+          "#356975",
+          "#4a6e52",
+          "#619380",
+          "#a48e70",
+          "#86abae",
+          "#8bb0a9",
+          "#a9ccc8",
+          "#c7ded8"
+        ]
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GF7LHXGR",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GF7LHXGR.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:41:45.624Z",
+      "id": "shotdeck-palette-gf7lhxgr",
+      "name": "Poor Things Palette",
+      "description": "Cool, Saturated, Green, Cyan, Blue · Soft light, Low contrast",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Psychological Horror",
+        "Romance",
+        "Satire",
+        "Science Fiction",
+        "Fantasy",
+        "Magical Realism",
+        "Cool",
+        "Saturated",
+        "Green",
+        "Cyan",
+        "Blue",
+        "Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ]
+    },
+    {
+      "category": "Horror",
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/Y6UC0F7B.jpg",
+      "data": {
+        "usageHint": {
+          "shadows": [
+            "#020402",
+            "#1e0c05",
+            "#202023",
+            "#2f2224"
+          ],
+          "mids": [
+            "#473b3f",
+            "#742614",
+            "#3c4146",
+            "#5a3c22"
+          ],
+          "highlights": [
+            "#4b4247",
+            "#834f2f",
+            "#b07352",
+            "#ae7c4b",
+            "#bf8e67"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/Y6UC0F7B.jpg",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403",
+        "colors": [
+          "#020402",
+          "#1e0c05",
+          "#202023",
+          "#2f2224",
+          "#473b3f",
+          "#742614",
+          "#3c4146",
+          "#5a3c22",
+          "#4b4247",
+          "#834f2f",
+          "#b07352",
+          "#ae7c4b",
+          "#bf8e67"
+        ]
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "Y6UC0F7B",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/Y6UC0F7B.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:48:59.570Z",
+      "id": "shotdeck-palette-y6uc0f7b",
+      "name": "Saltburn Palette",
+      "description": "Warm, Saturated · Hard light, High contrast, Top light",
+      "tags": [
+        "Horror",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Psychological Horror",
+        "Satire",
+        "Dark Comedy",
+        "Warm",
+        "Saturated",
+        "Medium",
+        "Clean single",
+        "Day",
+        "Interior"
+      ]
+    },
+    {
+      "category": "Horror",
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GVIJ52F7.jpg",
+      "data": {
+        "usageHint": {
+          "shadows": [
+            "#0a090a",
+            "#161c19",
+            "#1e1c14",
+            "#122023",
+            "#35463c"
+          ],
+          "mids": [
+            "#4d432a",
+            "#264a53",
+            "#4b5c52",
+            "#675941",
+            "#3a626c"
+          ],
+          "highlights": [
+            "#5e8e94",
+            "#988459",
+            "#b1996b",
+            "#78a6aa",
+            "#95bcb7"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GVIJ52F7.jpg",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403",
+        "colors": [
+          "#0a090a",
+          "#161c19",
+          "#1e1c14",
+          "#122023",
+          "#35463c",
+          "#4d432a",
+          "#264a53",
+          "#4b5c52",
+          "#675941",
+          "#3a626c",
+          "#5e8e94",
+          "#988459",
+          "#b1996b",
+          "#78a6aa",
+          "#95bcb7"
+        ]
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "GVIJ52F7",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/GVIJ52F7.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:49:15.145Z",
+      "id": "shotdeck-palette-gvij52f7",
+      "name": "Gretel & Hansel Palette",
+      "description": "Mixed, Saturated, Cyan, Blue · Soft light, Hard light",
+      "tags": [
+        "Horror",
+        "Fantasy",
+        "Thriller",
+        "Monster",
+        "Occult",
+        "Mixed",
+        "Saturated",
+        "Cyan",
+        "Blue",
+        "Medium Close Up",
+        "Clean single",
+        "Day",
+        "Exterior"
+      ]
+    },
+    {
+      "category": "Horror",
+      "image": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/KLPIH2G0.jpg",
+      "data": {
+        "usageHint": {
+          "shadows": [
+            "#231b19",
+            "#32282d",
+            "#2c2a3b"
+          ],
+          "mids": [
+            "#3d394e",
+            "#523634",
+            "#463b43"
+          ],
+          "highlights": [
+            "#4d424b",
+            "#5e4441",
+            "#515068",
+            "#89829c"
+          ]
+        },
+        "referenceImage": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/KLPIH2G0.jpg",
+        "sourceCategory": "Horror",
+        "sourceDeckId": "4488403",
+        "colors": [
+          "#231b19",
+          "#32282d",
+          "#2c2a3b",
+          "#3d394e",
+          "#523634",
+          "#463b43",
+          "#4d424b",
+          "#5e4441",
+          "#515068",
+          "#89829c"
+        ]
+      },
+      "source": {
+        "provider": "shotdeck",
+        "externalId": "KLPIH2G0",
+        "deckId": "4488403",
+        "deckName": "Horror",
+        "sourceCategory": "Horror",
+        "deckUrl": "https://shotdeck.com/browse/decks#/deck/4488403",
+        "imageUrl": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/KLPIH2G0.jpg"
+      },
+      "createdAt": "2026-08-01T21:32:44.416Z",
+      "updatedAt": "2026-08-01T22:53:55.004Z",
+      "id": "shotdeck-palette-klpih2g0",
+      "name": "Bones and All Palette",
+      "description": "Mixed, Desaturated · Soft light, Low contrast",
+      "tags": [
+        "Horror",
+        "Drama",
+        "Romance",
+        "Monster",
+        "Psychological Horror",
+        "Thriller",
+        "Mixed",
+        "Desaturated",
+        "Wide",
+        "2 shot",
+        "Day",
+        "Exterior"
+      ]
+    }
+  ]
+}

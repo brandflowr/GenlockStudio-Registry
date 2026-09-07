@@ -1,195 +1,215 @@
 {
-  "version": "1.0",
+  "version": "1.2",
+  "generated_at": "2026-09-07T17:52:59.978Z",
+  "categories": [
+    "bones",
+    "elements",
+    "muscles",
+    "palettes",
+    "providers",
+    "templates"
+  ],
+  "schema": {
+    "elements": "schema/elements.json"
+  },
   "packs": [
     {
-      "id": "core-cameras",
-      "name": "Core Cinematic Cameras",
-      "type": "camera",
-      "version": "1.0.0",
-      "description": "A flagship compilation of top-tier cinematic camera setups.",
-      "author": "Story Skins",
-      "url": "camera-packs/core-cameras.json",
-      "updated_at": "2026-04-19T17:45:46.031Z"
-    },
-    {
-      "id": "core-lenses",
-      "name": "Core Cinema Lenses",
-      "type": "lens_size",
-      "version": "1.0.0",
-      "description": "A flagship compilation of essential cinema lenses.",
-      "author": "Story Skins",
-      "url": "lens-packs/core-lenses.json",
-      "updated_at": "2026-04-19T17:45:46.032Z"
-    },
-    {
-      "id": "core-frame-size",
-      "name": "Core Frame Sizes",
-      "type": "frame_size",
-      "version": "1.0.0",
-      "description": "Default Frame Sizes elements.",
-      "author": "Story Skins",
-      "url": "frame-size-packs/core-frame-size.json",
-      "updated_at": "2026-04-19T17:45:46.054Z"
-    },
-    {
-      "id": "core-shot-type",
-      "name": "Core Shot Types",
-      "type": "shot_type",
-      "version": "1.0.0",
-      "description": "Default Shot Types elements.",
-      "author": "Story Skins",
-      "url": "shot-type-packs/core-shot-type.json",
-      "updated_at": "2026-04-19T17:45:46.055Z"
-    },
-    {
-      "id": "core-composition",
-      "name": "Core Compositions",
-      "type": "composition",
-      "version": "1.0.0",
-      "description": "Default Compositions elements.",
-      "author": "Story Skins",
-      "url": "composition-packs/core-composition.json",
-      "updated_at": "2026-04-19T17:45:46.055Z"
-    },
-    {
-      "id": "core-color-palette",
-      "name": "Core Color Palettes",
-      "type": "color_palette",
-      "version": "1.0.0",
-      "description": "Default Color Palettes elements.",
-      "author": "Story Skins",
-      "url": "color-palette-packs/core-color-palette.json",
-      "updated_at": "2026-04-19T17:45:46.056Z"
-    },
-    {
-      "id": "core-media-type",
-      "name": "Core Media Types",
-      "type": "media_type",
-      "version": "1.0.0",
-      "description": "Default Media Types elements.",
-      "author": "Story Skins",
-      "url": "media-type-packs/core-media-type.json",
-      "updated_at": "2026-04-19T17:45:46.057Z"
-    },
-    {
-      "id": "core-genre",
-      "name": "Core Genres",
-      "type": "genre",
-      "version": "1.0.0",
-      "description": "Default Genres elements.",
-      "author": "Story Skins",
-      "url": "genre-packs/core-genre.json",
-      "updated_at": "2026-04-19T17:45:46.057Z"
-    },
-    {
-      "id": "core-time-period",
-      "name": "Core Time Periods",
-      "type": "time_period",
-      "version": "1.0.0",
-      "description": "Default Time Periods elements.",
-      "author": "Story Skins",
-      "url": "time-period-packs/core-time-period.json",
-      "updated_at": "2026-04-19T17:45:46.058Z"
-    },
-    {
-      "id": "core-color",
-      "name": "Core Colors",
-      "type": "color",
-      "version": "1.0.0",
-      "description": "Default Colors elements.",
-      "author": "Story Skins",
-      "url": "color-packs/core-color.json",
-      "updated_at": "2026-04-19T17:45:46.059Z"
-    },
-    {
-      "id": "core-aspect-ratio",
-      "name": "Core Aspect Ratios",
-      "type": "aspect_ratio",
-      "version": "1.0.0",
-      "description": "Default Aspect Ratios elements.",
-      "author": "Story Skins",
-      "url": "aspect-ratio-packs/core-aspect-ratio.json",
-      "updated_at": "2026-04-19T17:45:46.060Z"
-    },
-    {
-      "id": "core-optical-format",
-      "name": "Core Optical Formats",
-      "type": "optical_format",
-      "version": "1.0.0",
-      "description": "Default Optical Formats elements.",
-      "author": "Story Skins",
-      "url": "optical-format-packs/core-optical-format.json",
-      "updated_at": "2026-04-19T17:45:46.061Z"
-    },
-    {
-      "id": "core-format",
-      "name": "Core Formats",
-      "type": "format",
-      "version": "1.0.0",
-      "description": "Default Formats elements.",
-      "author": "Story Skins",
-      "url": "format-packs/core-format.json",
-      "updated_at": "2026-04-19T17:45:46.062Z"
-    },
-    {
-      "id": "core-int-ext",
-      "name": "Core Int/Ext",
-      "type": "int_ext",
-      "version": "1.0.0",
-      "description": "Default Int/Ext elements.",
-      "author": "Story Skins",
-      "url": "int-ext-packs/core-int-ext.json",
-      "updated_at": "2026-04-19T17:45:46.063Z"
-    },
-    {
-      "id": "core-time-of-day",
-      "name": "Core Time of Day",
-      "type": "time_of_day",
-      "version": "1.0.0",
-      "description": "Default Time of Day elements.",
-      "author": "Story Skins",
-      "url": "time-of-day-packs/core-time-of-day.json",
-      "updated_at": "2026-04-19T17:45:46.064Z"
-    },
-    {
-      "id": "core-gender",
-      "name": "Core Gender",
-      "type": "gender",
-      "version": "1.0.0",
-      "description": "Default Gender elements.",
-      "author": "Story Skins",
-      "url": "gender-packs/core-gender.json",
-      "updated_at": "2026-04-19T17:45:46.065Z"
-    },
-    {
-      "id": "core-lighting",
-      "name": "Core Lighting",
-      "type": "lighting",
-      "version": "1.0.0",
-      "description": "Default Lighting elements.",
-      "author": "Story Skins",
-      "url": "lighting-packs/core-lighting.json",
-      "updated_at": "2026-04-19T17:45:46.069Z"
-    },
-    {
-      "id": "core-lighting-type",
-      "name": "Core Lighting Types",
-      "type": "lighting_type",
-      "version": "1.0.0",
-      "description": "Default Lighting Types elements.",
-      "author": "Story Skins",
-      "url": "lighting-packs/core-lighting-type.json",
-      "updated_at": "2026-04-19T17:45:46.070Z"
-    },
-    {
-      "id": "core-bones",
-      "name": "Core AI Model BONEs",
+      "id": "character-reference-sheet",
       "type": "bone",
-      "version": "1.0.0",
-      "description": "Default BONE definitions for the most widely-used AI generation models. Includes Flux Dev, Flux Schnell, WAN 2.1, Seedance 2, and Kling v2.",
+      "name": "Character Reference Sheet",
+      "description": "AI filmmaking identity-lock sheet. Produces an 8-view reference image for character continuity across storyboards and video shots.",
+      "author": "Genlock Studio",
+      "version": "1.1",
+      "url": "bones/creative/character-reference-sheet.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.954Z",
+      "provider": "genlock",
+      "target": "custom",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "a8485f10df5ea464c453d09c1e043946515548469709a5e62e4815535fd086ea"
+    },
+    {
+      "id": "elevenlabs-music",
+      "type": "bone",
+      "name": "ElevenLabs · Music",
+      "description": "Compose an original music cue from a concise creative brief.",
       "author": "Spore",
-      "url": "bone-packs/core-bones.json",
-      "updated_at": "2026-05-03T00:00:00.000Z"
+      "version": "1.2.0",
+      "url": "bones/elevenlabs/elevenlabs-music.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.864Z",
+      "format": "bone",
+      "target": "audio",
+      "provider": "elevenlabs",
+      "capabilities": [
+        "music_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "23294a6c6bbb651325d194da1946296cf32e3820936fbfd85cc1f602784ab2dc"
+    },
+    {
+      "id": "elevenlabs-sound-effects",
+      "type": "bone",
+      "name": "ElevenLabs · Sound Effects",
+      "description": "Generate a production-ready sound effect from a concrete description.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/elevenlabs/elevenlabs-sound-effects.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.933Z",
+      "format": "bone",
+      "target": "audio",
+      "provider": "elevenlabs",
+      "capabilities": [
+        "sound_effect_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "754b59194813c58a0750b60dac9cd98d77d0a8e2f4f8f02f6034072bc7463486"
+    },
+    {
+      "id": "elevenlabs-tts",
+      "type": "bone",
+      "name": "ElevenLabs · Text to Speech",
+      "description": "Turn dialogue or narration into a project audio asset using a voice from your ElevenLabs account.",
+      "author": "Spore",
+      "version": "1.2.0",
+      "url": "bones/elevenlabs/elevenlabs-tts.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.874Z",
+      "format": "bone",
+      "target": "audio",
+      "provider": "elevenlabs",
+      "capabilities": [
+        "speech_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "bb3ef2526bac14175552cb72fb37c86512e88a555ea8dc2975e1b0a9299fd377"
+    },
+    {
+      "id": "flux-dev",
+      "type": "bone",
+      "name": "Flux Dev (Image Generation)",
+      "description": "Black Forest Labs Flux Dev model. Text-to-image with guidance, seed, and negative prompt control.",
+      "author": "Spore",
+      "version": "1.0",
+      "url": "bones/fal/flux-dev.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.911Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "fal",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "0cb01f1389ec9c84e470984aaa5ef05b638e88dd58b032b8de5db7493c35fe09"
+    },
+    {
+      "id": "genlock-image",
+      "type": "bone",
+      "name": "Genlock Image — Structured",
+      "description": "Structured image prompt in the canonical Genlock frame: subject, scene, shot, lighting, color_palette, style. Serialized to the generator's prompt (mirrors the ai_generation.prompt_components shape). Runs via Higgsfield.",
+      "author": "Genlock Studio",
+      "version": "1.2.0",
+      "url": "bones/higgsfield/genlock-image.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.954Z",
+      "provider": "higgsfield",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "830cb2f5d30851831d818722d967b79d1d38026b322cccc7521c0a660c5d74ce"
+    },
+    {
+      "id": "genlock-video",
+      "type": "bone",
+      "name": "Genlock Video — Structured (Seedance / VEO / Kling)",
+      "description": "Structured video prompt in the canonical Genlock frame: subject, action, scene, shot, camera, lighting, color_palette, style. Serialized to the target model's JSON (the SEEDANCE/VEO/KLING shape). Runs via Higgsfield.",
+      "author": "Genlock Studio",
+      "version": "1.1.0",
+      "url": "bones/higgsfield/genlock-video.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.959Z",
+      "provider": "higgsfield",
+      "target": "video",
+      "capabilities": [
+        "video_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "fc1430a3f9584f4e9d39a24c1809f36d3c2c4c56573fa90cc014e3ff4eb6d557"
+    },
+    {
+      "id": "gpt-image",
+      "type": "bone",
+      "name": "GPT Image",
+      "description": "A model-safe OpenAI GPT Image 2 instrument with exact size, quality, and background controls.",
+      "author": "Spore",
+      "version": "1.1.0",
+      "url": "bones/openai/gpt-image.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.878Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "openai",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "fc1767fc24ba6d2db9224dc2701f3176ca4d4da8709d834f6a56728969948c34"
+    },
+    {
+      "id": "grok-image",
+      "type": "bone",
+      "name": "Grok Image",
+      "description": "A model-safe xAI Grok Imagine instrument with exact aspect ratio control.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/xai/grok-image.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.935Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "xai",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "0ac28e4523e450259e693f7f79daab39826298cfe1fd5c6af2453b6d1927d124"
     },
     {
       "id": "higgsfield-generate-image",
@@ -198,32 +218,20 @@
       "description": "Generate one image request and render its result(s) in the generation widget.",
       "author": "Spore",
       "version": "1.0.0",
-      "url": "bones/providers/higgsfield-generate-image.bone.json",
+      "url": "bones/higgsfield/higgsfield-generate-image.bone.json",
       "category": "bones",
-      "updated_at": "2026-09-06T18:30:27.558Z",
+      "updated_at": "2026-09-07T17:52:59.881Z",
       "format": "bone",
       "target": "image",
       "provider": "higgsfield",
       "capabilities": [
         "image_generation"
-      ]
-    },
-    {
-      "id": "minimax-image-generation",
-      "type": "bone",
-      "name": "MiniMax · Image Generation",
-      "description": "Image Generation mapped from MiniMax's reviewed Genlock provider contract.",
-      "author": "Spore",
-      "version": "1.0.0",
-      "url": "bones/providers/minimax-image-generation.bone.json",
-      "category": "bones",
-      "updated_at": "2026-08-31T22:59:35.539Z",
-      "format": "bone",
-      "target": "image",
-      "provider": "minimax",
-      "capabilities": [
-        "image_generation"
-      ]
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "682f7c5adf6a77a2c2904d8689402f76129fb7c6ee392cf7508f3004a177731c"
     },
     {
       "id": "higgsfield-generate-video",
@@ -232,16 +240,726 @@
       "description": "Generate one direct video request and render it in the generation widget.",
       "author": "Spore",
       "version": "1.0.0",
-      "url": "bones/providers/higgsfield-generate-video.bone.json",
+      "url": "bones/higgsfield/higgsfield-generate-video.bone.json",
       "category": "bones",
-      "updated_at": "2026-09-06T18:51:29.565Z",
+      "updated_at": "2026-09-07T17:52:59.882Z",
       "format": "bone",
       "target": "video",
       "provider": "higgsfield",
       "capabilities": [
         "video_generation"
-      ]
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "7d437eced9a5e8cf1416059395387f2418d71f8d38cbfb6397f9cbad94ad2a04"
+    },
+    {
+      "id": "minimax-image-generation",
+      "type": "bone",
+      "name": "MiniMax · Image Generation",
+      "description": "Image Generation mapped from MiniMax's reviewed Genlock provider contract.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/minimax/minimax-image-generation.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.884Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "minimax",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "1a93d7ab70153ca35cee1f8259f1ebd09b22905dd7ce6fc3b4185633b84c4caf"
+    },
+    {
+      "id": "openart-gpt-image-2-image2image",
+      "type": "bone",
+      "name": "OpenArt · gpt-image-2 · image2image",
+      "description": "Submit an asynchronous image generation on OpenArt.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/openart/openart-gpt-image-2-image2image.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.952Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "openart",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "0257da4a6f98da142f508d724886bcb6b9f29d0afc2d8ecc8b46111778a4e4c5"
+    },
+    {
+      "id": "openart-gpt-image-2-text2image",
+      "type": "bone",
+      "name": "OpenArt · gpt-image-2 · text2image",
+      "description": "Submit an asynchronous image generation on OpenArt.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "bones/openart/openart-gpt-image-2-text2image.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.953Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "openart",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "ec87279b67d428af1f537e3fcd84e5629dc4f10bbe28b47fbee1bc2e967131b0"
+    },
+    {
+      "id": "openart-image",
+      "type": "bone",
+      "name": "OpenArt Image Generation",
+      "description": "Generate or edit a still image through OpenArt's live MCP catalog without freezing a model or tool schema into the BONE.",
+      "author": "Genlock Studio",
+      "version": "1.0",
+      "url": "bones/openart/openart-image.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.961Z",
+      "provider": "openart",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "d3bd1ab7d28d417c807b2de55ed3f0bbf155d65fa540f4f9d85122887e3c5bd3"
+    },
+    {
+      "id": "openart-video",
+      "type": "bone",
+      "name": "OpenArt Video Generation",
+      "description": "Generate a video take through OpenArt's live MCP catalog without freezing a model or tool schema into the BONE.",
+      "author": "Genlock Studio",
+      "version": "1.0",
+      "url": "bones/openart/openart-video.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.962Z",
+      "provider": "openart",
+      "target": "video",
+      "capabilities": [
+        "video_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "5dc4e13bc9fa795fba268de9fc3de31023a845c3556310c916e5bb3616181232"
+    },
+    {
+      "id": "runpod-image",
+      "type": "bone",
+      "name": "RunPod Image Generation",
+      "description": "Generate a still image on your own RunPod serverless endpoint. The worker's input schema is yours — Genlock passes `input` through unchanged.",
+      "author": "Genlock Studio",
+      "version": "1.1.0",
+      "url": "bones/runpod/runpod-image.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.962Z",
+      "provider": "runpod",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "2e4fa109f3fce6ff944fdb65b2efd16078b60f676b6045d7fafa1712229945bb"
+    },
+    {
+      "id": "runpod-image-generation",
+      "type": "bone",
+      "name": "RunPod · Image Generation (own endpoints)",
+      "description": "Image Generation (own endpoints) mapped from RunPod's reviewed Genlock provider contract.",
+      "author": "Spore",
+      "version": "1.1.0",
+      "url": "bones/runpod/runpod-image-generation.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.936Z",
+      "format": "bone",
+      "target": "image",
+      "provider": "runpod",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "ca1c2b52f5c8e119f2b8745077bb0269bea41a023a0029eaca22ba29c33355d9"
+    },
+    {
+      "id": "runpod-video",
+      "type": "bone",
+      "name": "RunPod Video Generation",
+      "description": "Generate a video clip on your own RunPod serverless endpoint. The worker's input schema is yours — Genlock passes `input` through unchanged.",
+      "author": "Genlock Studio",
+      "version": "1.1.0",
+      "url": "bones/runpod/runpod-video.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.963Z",
+      "provider": "runpod",
+      "target": "video",
+      "capabilities": [
+        "video_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "2b75c4f2df091dce7e2cfbeba458cfdb61bb354c9dd2b02f6bbcefc75004403e"
+    },
+    {
+      "id": "seedance-2",
+      "type": "bone",
+      "name": "Seedance 2 (Video Generation)",
+      "description": "ByteDance Seedance 2. AI filmmaking video prompts with text-only, storyboard-driven, and character-sheet-plus-storyboard reference modes.",
+      "author": "Spore",
+      "version": "1.1",
+      "url": "bones/fal/seedance-2.bone.json",
+      "category": "bones",
+      "updated_at": "2026-09-07T17:52:59.893Z",
+      "format": "bone",
+      "target": "video",
+      "provider": "fal",
+      "capabilities": [
+        "video_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "8f0b5a358c2465835bb775ab27dd42ef108b06904453337912adfb1a40411abc"
+    },
+    {
+      "id": "storyboard-grid-9",
+      "type": "bone",
+      "name": "9-Panel Cinematic Storyboard",
+      "description": "AI filmmaking storyboard sheet. Produces a 3x3 grid of nine sequential panels for one continuous scene with readable production-note strips.",
+      "author": "Genlock Studio",
+      "version": "1.1",
+      "url": "bones/creative/storyboard-grid-9.bone.json",
+      "category": "bones",
+      "format": "bone",
+      "updated_at": "2026-09-07T17:52:59.963Z",
+      "provider": "genlock",
+      "target": "custom",
+      "capabilities": [
+        "image_generation"
+      ],
+      "validation": {
+        "structural": "passed",
+        "live_execution": "unverified"
+      },
+      "content_sha256": "43bd076dd3fc5ea7a18d0fe2721de64ee2e4c4154835fde566091a935ec83d6c"
+    },
+    {
+      "id": "animation-4265051-elements",
+      "type": "mixed",
+      "name": "Animation Elements",
+      "description": "Reusable elements curated from the ShotDeck deck “Animation”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "elements/mixed/animation-4265051-elements.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.936Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg",
+      "source_category": "Animation",
+      "source_deck_id": "4265051",
+      "tags": [
+        "Animation"
+      ],
+      "format": "pack",
+      "payload": "elements",
+      "content_sha256": "7186fcc24c2f42b2628ea5d1bce65c5719fdb9aec8d915219cee029b5e6275e8"
+    },
+    {
+      "id": "core-aspect-ratio",
+      "type": "aspect_ratio",
+      "name": "Core Aspect Ratios",
+      "description": "Default Aspect Ratios elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/aspect_ratio/core-aspect-ratio.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.839Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "185b8a5bd38050d703eb70647dcd1e8ee8a52b73d7742c49e8fe80cf686a0e3a"
+    },
+    {
+      "id": "core-cameras",
+      "type": "camera",
+      "name": "Core Cinematic Cameras",
+      "description": "A flagship compilation of top-tier cinematic camera setups.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/camera/core-cameras.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:58:36.453Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "4276d842c9e7d07c1dad274d36d9b80e9ad667ff7849ffd444463834e7c9791c"
+    },
+    {
+      "id": "core-composition",
+      "type": "composition",
+      "name": "Core Compositions",
+      "description": "Default Compositions elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/composition/core-composition.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.899Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "feea9186a33a9e7e3bd779a8bd52fb11ea1e3616a03872a317682b938ea6741c"
+    },
+    {
+      "id": "core-format",
+      "type": "format",
+      "name": "Core Formats",
+      "description": "Default Formats elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/format/core-format.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.900Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "14d953718441a8f5991e2d38e7f079730085b4d6fa07605ca198a9a88ae5cda7"
+    },
+    {
+      "id": "core-frame-size",
+      "type": "frame_size",
+      "name": "Core Frame Sizes",
+      "description": "Default Frame Sizes elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/frame_size/core-frame-size.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.900Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "9adc4345e273bb685addbf7043d1b4693283e871e4da4c8da270100a4df9fc1d"
+    },
+    {
+      "id": "core-gender",
+      "type": "gender",
+      "name": "Core Gender",
+      "description": "Default Gender elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/gender/core-gender.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.904Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "aa18bc4edc50a3e86a153e1274bc13adba2434f37cfc2fabf2dc845bd7245445"
+    },
+    {
+      "id": "core-genre",
+      "type": "genre",
+      "name": "Core Genres",
+      "description": "Default Genres elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/genre/core-genre.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.905Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "63eb71dd26a0c385ba1455e06a35c81d55e31c356c5d2176dee1dbb938834e03"
+    },
+    {
+      "id": "core-int-ext",
+      "type": "int_ext",
+      "name": "Core Int/Ext",
+      "description": "Default Int/Ext elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/int_ext/core-int-ext.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.906Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "e310cdc10d3bb5e21730f27438b06b44d10b8c77a9e0f46b650eebf58396b821"
+    },
+    {
+      "id": "core-lenses",
+      "type": "lens_size",
+      "name": "Core Cinema Lenses",
+      "description": "A flagship compilation of essential cinema lenses.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/lens_size/core-lenses.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.907Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "217eb51eb9074fadd48b7ec881636dcb9b580f4b0e21f1e27ff6656d4ecc0504"
+    },
+    {
+      "id": "core-lighting",
+      "type": "lighting",
+      "name": "Core Lighting",
+      "description": "Default Lighting elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/lighting/core-lighting.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.908Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "e0ed2b6d0e0c2f8b0cf85afa2126a236f5532fa4a5421f5b109e3933e4b79ee1"
+    },
+    {
+      "id": "core-lighting-type",
+      "type": "lighting_type",
+      "name": "Core Lighting Types",
+      "description": "Default Lighting Types elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/lighting_type/core-lighting-type.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.907Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "b1f95d29844ade1525e53ff9512d6eacd93491a331231f60cb7ed879a759904c"
+    },
+    {
+      "id": "core-media-type",
+      "type": "media_type",
+      "name": "Core Media Types",
+      "description": "Default Media Types elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/media_type/core-media-type.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.908Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "4fb7d5cc24fb058fa9219aa56841851ef0bc30b3dbbe0097805a2be56297ce4f"
+    },
+    {
+      "id": "core-optical-format",
+      "type": "optical_format",
+      "name": "Core Optical Formats",
+      "description": "Default Optical Formats elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/optical_format/core-optical-format.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.909Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "f0455c5c220cf8fab66a9f0c9cb7ef30c5b8151df6a23a8e52607038c628414e"
+    },
+    {
+      "id": "core-shot-type",
+      "type": "shot_type",
+      "name": "Core Shot Types",
+      "description": "Default Shot Types elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/shot_type/core-shot-type.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.909Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "62167ddcf8b4d3c308496ca7c59bf9151fc71a94600de1fe98099b477e40c43d"
+    },
+    {
+      "id": "core-time-of-day",
+      "type": "time_of_day",
+      "name": "Core Time of Day",
+      "description": "Default Time of Day elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/time_of_day/core-time-of-day.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.910Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "7357d2c96cbe74f2d78f056b08d048133744b8461ddf299afe1930b7aeb1c268"
+    },
+    {
+      "id": "core-time-period",
+      "type": "time_period",
+      "name": "Core Time Periods",
+      "description": "Default Time Periods elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "elements/time_period/core-time-period.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.910Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "993be5588ad1a80644a6f5d4e6c69e33495a3dc3c8c07c7c49adc538a48bafed"
+    },
+    {
+      "id": "fantasy-4488555-elements",
+      "type": "mixed",
+      "name": "Fantasy Elements",
+      "description": "Reusable elements curated from the ShotDeck deck “Fantasy”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "elements/mixed/fantasy-4488555-elements.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.939Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg",
+      "source_category": "Fantasy",
+      "source_deck_id": "4488555",
+      "tags": [
+        "Fantasy"
+      ],
+      "format": "pack",
+      "payload": "elements",
+      "content_sha256": "b8dcabfe997d8f3017fd25158e7b58025b3fb6e55363e62529f30bad6191e2ce"
+    },
+    {
+      "id": "horror-4488403-elements",
+      "type": "mixed",
+      "name": "Horror Elements",
+      "description": "Reusable elements curated from the ShotDeck deck “Horror”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "elements/mixed/horror-4488403-elements.json",
+      "category": "elements",
+      "updated_at": "2026-09-07T17:52:59.941Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg",
+      "source_category": "Horror",
+      "source_deck_id": "4488403",
+      "tags": [
+        "Horror"
+      ],
+      "format": "pack",
+      "payload": "elements",
+      "content_sha256": "163aaf9791f57b595eba92d060f3b2377e191335b005fce2ae4ad82401323db9"
+    },
+    {
+      "id": "animation-4265051-recipes",
+      "type": "shot-recipe",
+      "name": "Animation Shot MUSCLEs",
+      "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Animation”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "muscles/shot-recipe/animation-4265051-recipes.json",
+      "category": "muscles",
+      "updated_at": "2026-09-07T17:52:59.949Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/3MK118WR.jpg",
+      "source_category": "Animation",
+      "source_deck_id": "4265051",
+      "tags": [
+        "Animation"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "8405f56c687e9225c235adbbf47a5f3af6a8e4213ac699396e3b9bd39c5b1a09"
+    },
+    {
+      "id": "fantasy-4488555-recipes",
+      "type": "shot-recipe",
+      "name": "Fantasy Shot MUSCLEs",
+      "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Fantasy”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "muscles/shot-recipe/fantasy-4488555-recipes.json",
+      "category": "muscles",
+      "updated_at": "2026-09-07T17:52:59.950Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/W3LZV65T.jpg",
+      "source_category": "Fantasy",
+      "source_deck_id": "4488555",
+      "tags": [
+        "Fantasy"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "dec5fd77875b51b82352cff1a85be9767bf5769402a709ffd49c9c1f1fe87386"
+    },
+    {
+      "id": "horror-4488403-recipes",
+      "type": "shot-recipe",
+      "name": "Horror Shot MUSCLEs",
+      "description": "Reusable shot MUSCLEs curated from the ShotDeck deck “Horror”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "muscles/shot-recipe/horror-4488403-recipes.json",
+      "category": "muscles",
+      "updated_at": "2026-09-07T17:52:59.951Z",
+      "thumbnail_url": "https://shotdeck.com/assets/images/stills/KLPIH2G0.jpg",
+      "source_category": "Horror",
+      "source_deck_id": "4488403",
+      "tags": [
+        "Horror"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "63290925dd2320a346ff6705826fd49b6a3e0bcd590529dafcba9216502c9a0d"
+    },
+    {
+      "id": "openmontage-skill-muscles",
+      "type": "shot-recipe",
+      "name": "OpenMontage Skill MUSCLEs",
+      "description": "161 source-traceable OpenMontage production skills packaged as Genlock MUSCLEs.",
+      "author": "OpenMontage / Spore",
+      "version": "1.0.0",
+      "url": "muscles/shot-recipe/openmontage-skill-muscles.json",
+      "category": "muscles",
+      "updated_at": "2026-09-07T17:52:59.946Z",
+      "tags": [
+        "OpenMontage",
+        "MUSCLE",
+        "production skills"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "65eaee430d2cc67db0e232f54792a778e69777b3f382f143186ccaff634a0905"
+    },
+    {
+      "id": "animation-4265051-palettes",
+      "type": "color_palette",
+      "name": "Animation Palettes",
+      "description": "Color palettes curated from the ShotDeck deck “Animation”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "palettes/color_palette/animation-4265051-palettes.json",
+      "category": "palettes",
+      "updated_at": "2026-09-07T17:52:59.943Z",
+      "thumbnail_url": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/F6W8K4P9.jpg",
+      "source_category": "Animation",
+      "source_deck_id": "4265051",
+      "tags": [
+        "Animation"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "5546192d55e5679baa8235fa485669965fa633925b4bd8f7259634f1e6d43757"
+    },
+    {
+      "id": "core-color",
+      "type": "color",
+      "name": "Core Colors",
+      "description": "Default Colors elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "palettes/color/core-color.json",
+      "category": "palettes",
+      "updated_at": "2026-09-07T17:52:59.898Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "caabe943d795d317b37d997f22f18b7f1a43d59f6480d6da506dafc87a3c4af7"
+    },
+    {
+      "id": "core-color-palette",
+      "type": "color_palette",
+      "name": "Core Color Palettes",
+      "description": "Default Color Palettes elements.",
+      "author": "Story Skins",
+      "version": "1.0.0",
+      "url": "palettes/color_palette/core-color-palette.json",
+      "category": "palettes",
+      "updated_at": "2026-09-07T17:52:59.899Z",
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "37fef39fee001d5b383d7db45a8d0c78e1ba2afcca770a2e9ae02b476f36554a"
+    },
+    {
+      "id": "fantasy-4488555-palettes",
+      "type": "color_palette",
+      "name": "Fantasy Palettes",
+      "description": "Color palettes curated from the ShotDeck deck “Fantasy”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "palettes/color_palette/fantasy-4488555-palettes.json",
+      "category": "palettes",
+      "updated_at": "2026-09-07T17:52:59.944Z",
+      "thumbnail_url": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/SGESL5IO.jpg",
+      "source_category": "Fantasy",
+      "source_deck_id": "4488555",
+      "tags": [
+        "Fantasy"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "1ad133cd1ab17b46ae304568d42b51331e349b59146e5c98c0d84a6168fc145a"
+    },
+    {
+      "id": "horror-4488403-palettes",
+      "type": "color_palette",
+      "name": "Horror Palettes",
+      "description": "Color palettes curated from the ShotDeck deck “Horror”.",
+      "author": "Spore",
+      "version": "1.0.0",
+      "url": "palettes/color_palette/horror-4488403-palettes.json",
+      "category": "palettes",
+      "updated_at": "2026-09-07T17:52:59.945Z",
+      "thumbnail_url": "https://pub-32df443b75914dcdaa4a7f07f8ce8775.r2.dev/media/shotdeck/0JS7BXGM.jpg",
+      "source_category": "Horror",
+      "source_deck_id": "4488403",
+      "tags": [
+        "Horror"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "7f60c53a07b318691868f1583b88f0601878df83329e8237073150e05a788630"
+    },
+    {
+      "id": "openart",
+      "type": "provider",
+      "name": "OpenArt",
+      "description": "OAuth MCP for image and video generation, editing, projects, uploads, account credits, and the OpenArt library.",
+      "author": "Genlock",
+      "version": "1.3",
+      "url": "providers/openart.connector.json",
+      "category": "providers",
+      "updated_at": "2026-09-07T17:52:59.945Z",
+      "format": "provider-connector",
+      "provider": "openart",
+      "reviewed": true,
+      "content_sha256": "315eeebc3234ee2cc302a2cd34d1039a5aa31b0412f94ce5ea4440b24c437fab"
+    },
+    {
+      "id": "provider-prompt-shapes",
+      "type": "prompt-pack",
+      "name": "Provider Prompt Shapes",
+      "description": "Editable prompt structures tuned to the way major image and video providers interpret prompts.",
+      "author": "Genlock Community",
+      "version": "1.1.0",
+      "url": "templates/prompt-pack/provider-prompt-shapes.json",
+      "category": "templates",
+      "updated_at": "2026-09-07T17:52:59.952Z",
+      "tags": [
+        "prompting",
+        "providers",
+        "image",
+        "video"
+      ],
+      "format": "pack",
+      "payload": "snippets",
+      "content_sha256": "f0fa7c3ad7b346f4cf1db71f362e119586c8d273e7473ac7bc64b31f0108e12f"
     }
-  ],
-  "generated_at": "2026-09-06T18:51:29.565Z"
+  ]
 }
