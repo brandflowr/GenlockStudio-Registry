@@ -1,0 +1,371 @@
+{
+  "$schema": "https://raw.githubusercontent.com/brandflowr/SKELETON-Brandflowr/v2.10.0/spec/bone.schema.json",
+  "bone_id": "higgsfield-live-flow-image",
+  "bone_version": "1.0.0",
+  "label": "Higgsfield · Generate Image",
+  "description": "Generate one image request and render its result(s) in the generation widget.",
+  "target": "image",
+  "provider": "higgsfield",
+  "attaches_to": [
+    "metadata",
+    "scene",
+    "shot"
+  ],
+  "fields": {
+    "model": {
+      "type": "string",
+      "required": true,
+      "ui": "select",
+      "label": "Model",
+      "default": "soul_2",
+      "options": [
+        {
+          "value": "soul_2",
+          "label": "Higgsfield Soul 2.0"
+        },
+        {
+          "value": "soul_cinematic",
+          "label": "Soul Cinema"
+        },
+        {
+          "value": "gpt_image_2",
+          "label": "GPT Image 2"
+        },
+        {
+          "value": "cinematic_studio_2_5",
+          "label": "Cinema Studio Image 2.5"
+        },
+        {
+          "value": "marketing_studio_image",
+          "label": "Marketing Studio Image"
+        },
+        {
+          "value": "ms_image",
+          "label": "DTC Ads"
+        },
+        {
+          "value": "image_auto",
+          "label": "Auto"
+        },
+        {
+          "value": "autosprite",
+          "label": "AutoSprite Animation"
+        },
+        {
+          "value": "soul_cast",
+          "label": "Soul Cast"
+        },
+        {
+          "value": "soul_location",
+          "label": "Soul Location"
+        },
+        {
+          "value": "soul_v2",
+          "label": "Higgsfield Soul 2.0"
+        },
+        {
+          "value": "z_image",
+          "label": "Z Image"
+        },
+        {
+          "value": "nano_banana",
+          "label": "Nano Banana"
+        },
+        {
+          "value": "nano_banana_pro",
+          "label": "Nano Banana Pro"
+        },
+        {
+          "value": "nano_banana_2_shots",
+          "label": "Nano Banana Pro"
+        },
+        {
+          "value": "nano_banana_2",
+          "label": "Nano Banana 2"
+        },
+        {
+          "value": "nano_banana_2_lite",
+          "label": "Nano Banana 2 Lite"
+        },
+        {
+          "value": "seedream_v4_5",
+          "label": "Seedream 4.5"
+        },
+        {
+          "value": "flux_2",
+          "label": "FLUX.2"
+        },
+        {
+          "value": "flux_2_pro_outpaint",
+          "label": "FLUX.2 Pro Outpaint"
+        }
+      ]
+    },
+    "prompt": {
+      "type": "string",
+      "required": true,
+      "ui": "textarea",
+      "label": "Prompt",
+      "description": "Creative instruction assembled by Genlock."
+    },
+    "count": {
+      "type": "number",
+      "required": false,
+      "ui": "slider",
+      "label": "Count",
+      "description": "Number of variants (1-4) generated from this same prompt, inputs, and settings and rendered together in one widget. Use the matching generate_*_batch tool for independent prompts or inputs. Ignored with use_unlim: an unlim request is always one generation — count is capped to 1 and the cap comes back in adjustments.",
+      "default": 1,
+      "min": 1,
+      "max": 4
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "required": false,
+      "ui": "text",
+      "label": "Aspect Ratio"
+    },
+    "medias": {
+      "type": "array",
+      "required": false,
+      "ui": "text",
+      "label": "Medias",
+      "description": "Reference media inputs."
+    },
+    "get_cost": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "Get Cost",
+      "description": "If true, return the cost in credits for this generation without submitting any job. Use to preflight cost before generating."
+    },
+    "use_unlim": {
+      "type": "boolean",
+      "required": false,
+      "ui": "toggle",
+      "label": "Use Unlim",
+      "description": "Which balance pays for this generation: the caller's free-trial unlimited generations (true) or their credits (false). OMIT IT to let the server decide — if they hold an allowance that covers the model, the tool submits nothing and returns `unlim_choice`, the question to put to the user before spending anything of theirs. Answer it by calling again with the same params plus this field; the answer is remembered for a few minutes, so a multi-step flow is asked once. true also caps count to 1. Whichever way it is set, a rejected opt-in is reported rather than quietly replaced with a charge."
+    }
+  },
+  "defaults": {
+    "model": "soul_2",
+    "count": 1
+  },
+  "prompt_assembly": {
+    "strategy": "template",
+    "template": "{{prompt}}",
+    "v_setup_injection": {
+      "enabled": true,
+      "position": "append",
+      "token_format": "natural"
+    },
+    "character_injection": {
+      "enabled": true,
+      "position": "prepend",
+      "format": "name_and_description"
+    },
+    "max_length": 4000
+  },
+  "llm_instructions": {
+    "writing_guide": "Write a concrete Higgsfield image prompt for Generate Image. Respect the discovered parameter contract and do not invent unsupported fields.",
+    "do": [
+      "Use the discovered parameter names",
+      "Keep values inside the documented constraints"
+    ],
+    "dont": [
+      "Do not place credentials in the BONE",
+      "Do not invent unsupported MCP parameters"
+    ]
+  },
+  "output": {
+    "format": "png",
+    "target": "start_frame",
+    "completion_status": "review"
+  },
+  "requires": [
+    "image_generation"
+  ],
+  "authoring_mode": "hybrid",
+  "execution_routes": [
+    {
+      "type": "mcp",
+      "label": "Higgsfield MCP · Generate Image",
+      "tool": "generate_image",
+      "operation": "image_generation",
+      "args": {
+        "params": {
+          "model": "{{model}}",
+          "prompt": "{{assembled}}",
+          "count": "{{count}}",
+          "aspect_ratio": "{{aspect_ratio}}",
+          "medias": "{{medias}}",
+          "get_cost": "{{get_cost}}",
+          "use_unlim": "{{use_unlim}}"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "server_id": "higgsfield"
+  },
+  "extensions": {
+    "x-genlock-mcp-source": {
+      "server_id": "higgsfield",
+      "tool_name": "generate_image",
+      "transport": "mcp",
+      "surface": "mcp.higgsfield.ai",
+      "discovered_at": "2026-09-07T23:39:46.933Z",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "params": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "model": {
+                    "type": "string",
+                    "description": "Model ID from the model catalog (required)."
+                  },
+                  "prompt": {
+                    "description": "Text description of what to generate.",
+                    "type": "string"
+                  },
+                  "count": {
+                    "default": 1,
+                    "description": "Number of variants (1-4) generated from this same prompt, inputs, and settings and rendered together in one widget. Use the matching generate_*_batch tool for independent prompts or inputs. Ignored with use_unlim: an unlim request is always one generation — count is capped to 1 and the cap comes back in adjustments.",
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 4
+                  },
+                  "aspect_ratio": {
+                    "type": "string"
+                  },
+                  "medias": {
+                    "description": "Reference media inputs.",
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": "string",
+                          "description": "UUID from media_upload/media_import_url or job_id from a prior generation. Do not pass https:// URLs here."
+                        },
+                        "role": {
+                          "type": "string",
+                          "description": "Role — varies by model; inspect the selected model's medias[].roles. Server may auto-coerce when unambiguous."
+                        }
+                      },
+                      "required": [
+                        "value",
+                        "role"
+                      ]
+                    }
+                  },
+                  "get_cost": {
+                    "description": "If true, return the cost in credits for this generation without submitting any job. Use to preflight cost before generating.",
+                    "type": "boolean"
+                  },
+                  "use_unlim": {
+                    "description": "Which balance pays for this generation: the caller's free-trial unlimited generations (true) or their credits (false). OMIT IT to let the server decide — if they hold an allowance that covers the model, the tool submits nothing and returns `unlim_choice`, the question to put to the user before spending anything of theirs. Answer it by calling again with the same params plus this field; the answer is remembered for a few minutes, so a multi-step flow is asked once. true also caps count to 1. Whichever way it is set, a rejected opt-in is reported rather than quietly replaced with a charge.",
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "model"
+                ],
+                "additionalProperties": {}
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "params"
+        ],
+        "$schema": "https://json-schema.org/draft/2020-12/schema"
+      }
+    },
+    "x-genlock-provider-source": {
+      "server_id": "higgsfield",
+      "operation": "image_generation",
+      "transport": "mcp",
+      "surface": "mcp.higgsfield.ai",
+      "tool_name": "generate_image"
+    },
+    "x-genlock-surface": {
+      "version": "1.0",
+      "archetype": "image-canvas",
+      "accent": "cyan",
+      "tagline": "A mapped image instrument for Generate Image.",
+      "controls": {
+        "model": {
+          "kind": "model-cards",
+          "source": "models",
+          "prominent": true
+        },
+        "prompt": {
+          "kind": "prompt-canvas",
+          "prominent": true
+        },
+        "count": {
+          "kind": "slider"
+        },
+        "aspect_ratio": {
+          "kind": "text"
+        },
+        "medias": {
+          "kind": "json-patch"
+        },
+        "get_cost": {
+          "kind": "switch"
+        },
+        "use_unlim": {
+          "kind": "switch"
+        }
+      },
+      "groups": [
+        {
+          "id": "primary",
+          "label": "Composition",
+          "role": "primary",
+          "fields": [
+            "model",
+            "prompt"
+          ]
+        },
+        {
+          "id": "performance",
+          "label": "Image treatment",
+          "role": "performance",
+          "fields": [
+            "count",
+            "get_cost",
+            "use_unlim"
+          ]
+        },
+        {
+          "id": "advanced",
+          "label": "Image tuning",
+          "role": "advanced",
+          "fields": [
+            "aspect_ratio",
+            "medias"
+          ],
+          "collapsed": true
+        }
+      ],
+      "output": {
+        "kind": "image",
+        "label": "Generated image"
+      }
+    },
+    "x-genlock-surface-authoring": {
+      "version": "1.0",
+      "tool": "marketplace-surface-workshop",
+      "revision": 1,
+      "bone_version": "1.0.0"
+    }
+  }
+}

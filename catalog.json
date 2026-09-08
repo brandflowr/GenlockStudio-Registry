@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated_at": "2026-09-07T22:40:35.895Z",
+  "generated_at": "2026-09-08T22:30:57.667Z",
   "categories": [
     "bones",
     "elements",
@@ -645,6 +645,32 @@
         "test_confirmed_at": "2026-09-07T21:09:49.558Z",
         "test_source": "user-confirmed-scp-test",
         "verified_at": "2026-09-07T22:40:35.891Z"
+      }
+    },
+    {
+      "id": "higgsfield-live-flow-image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "Higgsfield · Generate Image",
+      "description": "Generate one image request and render its result(s) in the generation widget.",
+      "author": "Skeleton Control Plane",
+      "version": "1.0.0",
+      "provider": "higgsfield",
+      "target": "image",
+      "capabilities": [
+        "image_generation"
+      ],
+      "url": "bones/higgsfield/higgsfield-live-flow-image.bone.json",
+      "updated_at": "2026-09-08T22:30:57.667Z",
+      "content_sha256": "de7d71252d998f03311262e1f9903543ad3ff3eb55967de0cde653fc4b941156",
+      "release_evidence": {
+        "status": "verified",
+        "content_sha256": "3ffabbb39308dc75a6b90c09a327ed232727f927265b8952f5d32157c11c3d74",
+        "test_id": "2c1d82a6-55ee-4427-8e1a-ebffc6615a5a",
+        "tested_at": "2026-09-07T23:52:58.462Z",
+        "test_source": "workshop-preview",
+        "verified_at": "2026-09-08T22:30:57.664Z"
       }
     }
   ]
