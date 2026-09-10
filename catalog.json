@@ -672,6 +672,19 @@
         "test_source": "workshop-preview",
         "verified_at": "2026-09-08T22:30:57.664Z"
       }
+    },
+    {
+      "id": "higgsfield-ai-generate-image",
+      "type": "bone",
+      "format": "bone",
+      "category": "bones",
+      "name": "Generate Image",
+      "version": "1.0.0",
+      "provider": "higgsfield-ai",
+      "target": "image",
+      "description": "Generate one image request and render its result(s) in the generation widget. Use count 2-4 only for variants of the same prompt, inputs, and settings; for 2-12 independent image requests with different prompts or inputs, use the headless generate_image_batch tool instead. Apps UI local file media: call `media_upload_widget`; do not ask for Claude chat attachments because remote tools cannot read them. Web media URL: call `media_import_url`, then pass returned `media_id`; `medias[].value` must be media_id/job_id, not URL. Default general image model: `gpt_image_2` — use it for ordinary generation, photorealistic images, typography, and reference-based editing unless a specialized route applies. Specialized defaults: `marketing_studio_image` for commercial/product/ads; `soul_cast` for text-only character/avatar; `soul_2`+`soul_id` for trained reusable Soul; `soul_2` for portraits/fashion/UGC/editorial. Ambiguous create-character/avatar: offer reusable Soul training (5-20 photos, ~10 min) vs one-off; do not train generic silently. Use `show_characters(action='train')` only if explicitly requested or user provides 5-20 photos. Use `models_explore` for aspect_ratios, params, medias roles. Top-level model params; apply `adjustments`. If `recovery_tool` returned, call it immediately; do not explain/ask first. `get_cost:true` preflights credits. `use_unlim` defaults false — pass true only when the user explicitly asks to use their unlimited/free-trial generations, never to save them credits on your own initiative.",
+      "url": "bones/providers/higgsfield-ai-generate-image.bone.json",
+      "content_sha256": "f9fc3235f3bf8b0fc844cb32c572470679dddbe35dbb4afd4aeb4b5213358c53"
     }
   ]
 }
