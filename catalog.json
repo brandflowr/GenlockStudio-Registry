@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "generated_at": "2026-09-08T22:30:57.667Z",
+  "generated_at": "2026-10-06T22:14:23.449Z",
   "categories": [
     "bones",
     "elements",
@@ -698,6 +698,21 @@
         "verification_basis": "Published BONE matches the complete runtime definition generated from the latest user discovery; only its original discovery timestamp is retained.",
         "genlock_execution": "unverified"
       }
+    },
+    {
+      "id": "skeleton-genre-starters",
+      "type": "prompt-pack",
+      "name": "Skeleton Genre Stories",
+      "author": "Skeleton",
+      "version": "1.0.0",
+      "description": "Eight original short stories and eight adaptable outlines: action, horror, drama, comedy, mystery, romance, science fiction, and fantasy. Prose and screenplay examples; no shots or AI required.",
+      "license": "CC0-1.0",
+      "format": "pack",
+      "payload": "snippets",
+      "category": "templates",
+      "target": "writing",
+      "url": "templates/prompt-pack/skeleton-genre-starters.json",
+      "content_sha256": "c10c4aa6ced8e6cf5fc120257dfc0bc851cc4289d289fbee2731fd1005292bf0"
     }
   ]
 }
